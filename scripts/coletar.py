@@ -5,8 +5,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "catalog.json"
 DIR = ROOT / "catalog"
-TARGET = int(os.getenv("TARGET_CANDIDATES", "1000"))
-CHECKS = int(os.getenv("MAX_METADATA_CHECKS", "160"))
+TARGET = int(os.getenv("TARGET_CANDIDATES", "2000"))
+CHECKS = int(os.getenv("MAX_METADATA_CHECKS", "2000"))
 CATS = [
  ("filmes","Filmes",'mediatype:movies AND (subject:film OR subject:cinema)'),
  ("desenhos","Desenhos",'mediatype:movies AND (subject:animation OR subject:cartoons)'),
