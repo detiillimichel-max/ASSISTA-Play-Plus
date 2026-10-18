@@ -66,8 +66,8 @@ jobs:
 
       - name: Coletar candidatos e aplicar moderação textual
         env:
-          TARGET_CANDIDATES: "1000"
-          MAX_METADATA_CHECKS: "160"
+          TARGET_CANDIDATES: "2000"
+          MAX_METADATA_CHECKS: "2000"
           PYTHONUNBUFFERED: "1"
         run: python scripts/coletar.py
 
