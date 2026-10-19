@@ -188,35 +188,47 @@ BLOCKED_FIELD_PATTERNS = [
 ]
 
 def is_family_safe(item):
-    # Examina metadados textuais e nomes dos arquivos; não faz análise visual.
-    fields = [
-        item.get("title", ""),
-        item.get("description", ""), item.get("creator", ""),
-        item.get("subject", ""), item.get("collection", ""),
-        item.get("mediatype", ""), item.get("format", ""),
-        item.get("licenseurl", ""), item.get("license", ""),
-        " ".join(text(f.get("name", "")) + " " + text(f.get("format", ""))
-                 for f in item.get("files", []) if isinstance(f, dict))
+    # Moderação por contexto: título/arquivo/coleção têm regra forte;
+    # descrição e metadados gerais só bloqueiam expressões explicitamente perigosas.
+    # Isso evita rejeitar obras legítimas porque a descrição cita um tema incidentalmente.
+    title = normalized_text(item.get("title", ""))
+    identifier = normalized_text(item.get("identifier", ""))
+    collection_value = item.get("collection", [])
+    collection_values = collection_value if isinstance(collection_value, list) else [collection_value]
+    collections = [normalized_text(v) for v in collection_values if normalized_text(v)]
+    filenames = [
+        normalized_text(f.get("name", ""))
+        for f in item.get("files", [])
+        if isinstance(f, dict) and f.get("name")
     ]
-    field_map = {k: normalized_text(item.get(k, "")) for k in ("title", "identifier", "subject", "collection")}
-    collection_values = [normalized_text(v) for v in (
-        item.get("collection", []) if isinstance(item.get("collection"), list)
-        else [item.get("collection", "")]
-    )]
-    if any(v.strip() in BLOCKED_COLLECTIONS for v in collection_values if v.strip()):
-        return False
-    # Título, ID e arquivo recebem a regra de segurança mais estrita.
-    # IDs técnicos do Archive não são conteúdo editorial. Aplicar palavras
-    # genéricas ao identifier derruba itens legítimos (ex.: nomes de bandas).
-    # Título e nome de arquivo continuam sob a regra estrita.
-    high_risk = " ".join([
-        field_map["title"],
-        " ".join(text(f.get("name", "")) for f in item.get("files", []) if isinstance(f, dict))
-    ])
+
+    # Bloqueio forte em título e nome real do arquivo reproduzido.
+    high_risk = " ".join([title, " ".join(filenames)])
     if any(p.search(high_risk) for p in BLOCKED_PATTERNS + BLOCKED_FIELD_PATTERNS):
         return False
-    all_text = normalized_text(" ".join(str(v or "") for v in fields))
-    return not any(p.search(all_text) for p in BLOCKED_PATTERNS + BLOCKED_FIELD_PATTERNS)
+
+    # Coleção é um sinal forte apenas quando corresponde a uma coleção adulta conhecida
+    # ou contém uma expressão explícita, não por conter uma palavra genérica isolada.
+    if any(v.strip() in BLOCKED_COLLECTIONS for v in collections):
+        return False
+    if any(p.search(" ".join(collections)) for p in BLOCKED_FIELD_PATTERNS):
+        return False
+
+    # O identificador técnico não é texto editorial e não deve ser usado para
+    # rejeitar conteúdo; só o verificamos contra sinais explícitos de alto risco.
+    if any(p.search(identifier) for p in BLOCKED_FIELD_PATTERNS):
+        return False
+
+    # Campos descritivos podem citar palavras ambíguas em contexto histórico,
+    # educativo ou crítico. Neles, somente frases explícitas/contextuais bloqueiam.
+    descriptive_fields = [
+        item.get("description", ""), item.get("creator", ""),
+        item.get("subject", ""), item.get("mediatype", ""),
+        item.get("format", ""), item.get("licenseurl", ""),
+        item.get("license", ""),
+    ]
+    descriptive_text = normalized_text(" ".join(text(v) for v in descriptive_fields))
+    return not any(p.search(descriptive_text) for p in BLOCKED_FIELD_PATTERNS)
 
 def search(query, page, rows):
     params = [("q",query),("fl[]","identifier"),("fl[]","title"),("fl[]","description"),("fl[]","year"),("fl[]","creator"),("fl[]","licenseurl"),("fl[]","subject"),("fl[]","collection"),("fl[]","mediatype"),("fl[]","format"),("rows",str(rows)),("page",str(page)),("output","json"),("sort[]","downloads desc")]
