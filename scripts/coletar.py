@@ -222,14 +222,27 @@ def main():
         if item["category"] not in groups: item["category"]="filmes"
         groups[item["category"]].append(item)
     now=datetime.now(timezone.utc).isoformat()
-    for key,title,_ in CATS:
-        items=sorted(groups[key],key=lambda x:x.get("title","").casefold())
-        (DIR/(key+".json")).write_text(json.dumps({"category":key,"title":title,"updatedAt":now,"count":len(items),"items":items},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     items=sorted([x for group in groups.values() for x in group],key=lambda x:(x.get("category",""),x.get("title","").casefold()))
+    # Fail closed BEFORE touching any published catalog file. Actions will restore
+    # the previous catalog if collection or moderation fails.
+    if not items:
+        raise RuntimeError(
+            "Coleta resultou em zero itens reproduzíveis. Catálogo anterior preservado; "
+            "verifique conectividade, filtros e respostas da API do Internet Archive."
+        )
+    print("Resumo por categoria:", {key: len(value) for key, value in groups.items()})
+    print("Candidatos coletados:", len(candidates), "| verificações de metadados:", checked, "| itens finais:", len(items))
     catalog={"schemaVersion":1,"source":"Internet Archive","updatedAt":now,"candidateTarget":TARGET,"candidatesCollectedThisRun":len(candidates),"metadataChecksThisRun":checked,"count":len(items),"items":items,"categories":[{"key":k,"title":t,"count":len(groups[k]),"path":"catalog/"+k+".json"} for k,t,_ in CATS],"notes":["Items are included only when a video file is found.","Check rights and licenses per item; an Archive listing is not automatically public domain.","Playback support depends on the file format and browser."]}
+    # Write the consolidated catalog atomically first; the workflow backup restores
+    # both it and category files if any later validation/moderation step fails.
     tmp=OUT.with_suffix(".tmp")
     tmp.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     tmp.replace(OUT)
+    for key,title,_ in CATS:
+        category_items=sorted(groups[key],key=lambda x:x.get("title","").casefold())
+        category_tmp=DIR/(key+".json.tmp")
+        category_tmp.write_text(json.dumps({"category":key,"title":title,"updatedAt":now,"count":len(category_items),"items":category_items},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        category_tmp.replace(DIR/(key+".json"))
     print("Saved",len(items),"validated items; metadata checks:",checked)
 
 if __name__=="__main__": main()
