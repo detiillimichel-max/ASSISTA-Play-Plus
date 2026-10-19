@@ -7,15 +7,86 @@ OUT = ROOT / "catalog.json"
 DIR = ROOT / "catalog"
 TARGET = int(os.getenv("TARGET_CANDIDATES", "2000"))
 CHECKS = int(os.getenv("MAX_METADATA_CHECKS", "2000"))
+# Categorias públicas mantidas estáveis para não quebrar catalog/*.json nem o app.
+# Cada consulta é ATÔMICA: um tema específico por busca, com sinônimos em inglês
+# porque o Internet Archive indexa muitos registros nesse idioma.
+# A coleta percorre as consultas até atingir a cota da categoria ou esgotar resultados.
 CATS = [
- ("filmes","Filmes",'mediatype:movies AND (subject:film OR subject:cinema)'),
- ("desenhos","Desenhos",'mediatype:movies AND (subject:animation OR subject:cartoons)'),
- ("series","Séries (filmes completos)",'mediatype:movies AND (subject:television OR subject:tv series OR subject:serials) NOT subject:episode'),
- ("documentarios","Documentários",'mediatype:movies AND (subject:documentary OR subject:documentaries)'),
- ("comedia","Comédia",'mediatype:movies AND (subject:comedy OR subject:humor)'),
- ("historia","História",'mediatype:movies AND (subject:history OR subject:historical)'),
- ("ciencia","Ciência e espaço",'mediatype:movies AND (subject:science OR subject:space OR subject:astronomy OR subject:nasa)'),
- ("musica","Música e shows",'mediatype:movies AND (subject:music OR subject:concerts OR subject:performance)')
+ ("filmes","Filmes",[
+  'mediatype:movies AND (title:adventure OR subject:adventure OR subject:exploration)',
+  'mediatype:movies AND (title:action OR subject:action OR subject:superhero OR subject:heroes)',
+  'mediatype:movies AND (title:romance OR subject:romance OR subject:romantic)',
+  'mediatype:movies AND (title:drama OR subject:drama OR subject:family drama)',
+  'mediatype:movies AND (title:comedy OR subject:comedy OR subject:comedies OR subject:"romantic comedy")',
+  'mediatype:movies AND (title:mystery OR subject:mystery OR subject:detective OR subject:investigation)',
+  'mediatype:movies AND (subject:suspense OR subject:thriller) NOT (subject:horror OR subject:terror)',
+  'mediatype:movies AND (subject:musical OR subject:musicals OR subject:operetta)',
+  'mediatype:movies AND (subject:"international cinema" OR subject:"world cinema" OR subject:foreign)',
+  'mediatype:movies AND (subject:"classic film" OR subject:"family film" OR subject:"classic cinema")',
+  'mediatype:movies AND (title:film OR subject:cinema) AND (subject:adventure OR subject:comedy OR subject:drama) NOT (subject:horror OR subject:western)'
+ ]),
+ ("desenhos","Desenhos",[
+  'mediatype:movies AND (subject:cartoons OR subject:"classic cartoons" OR subject:"animated shorts")',
+  'mediatype:movies AND (subject:superheroes OR subject:"super heroes" OR title:superman OR title:batman)',
+  'mediatype:movies AND (subject:"animated adventure" OR subject:"animated action" OR subject:animation)',
+  'mediatype:movies AND (subject:"cartoon comedy" OR subject:"comedy cartoons" OR subject:"classic animation")',
+  'mediatype:movies AND (subject:"educational cartoons" OR subject:"preschool" OR subject:"children animation")',
+  'mediatype:movies AND (subject:"animal cartoons" OR subject:"children stories" OR subject:"fairy tales")',
+  'mediatype:movies AND (subject:"science animation" OR subject:"space animation" OR subject:"educational animation")',
+  'mediatype:movies AND (subject:"anime adventure" OR subject:"anime comedy" OR subject:"Japanese animation")',
+  'mediatype:movies AND (subject:animation OR subject:cartoons) NOT (subject:hentai OR subject:adult OR subject:erotic)'
+ ]),
+ ("series","Séries",[
+  'mediatype:movies AND (subject:"adventure series" OR subject:"action series" OR subject:serials) NOT subject:episode',
+  'mediatype:movies AND (subject:"comedy series" OR subject:"television comedy" OR subject:sitcom) NOT subject:episode',
+  'mediatype:movies AND (subject:"drama series" OR subject:"television drama") NOT subject:episode',
+  'mediatype:movies AND (subject:"mystery series" OR subject:detective OR subject:investigation) NOT subject:episode',
+  'mediatype:movies AND (subject:"science fiction series" OR subject:"sci-fi" OR subject:"space series") NOT subject:episode',
+  'mediatype:movies AND (subject:"educational television" OR subject:"educational program" OR subject:"instructional television")',
+  'mediatype:movies AND (subject:"short films" OR subject:"television shorts" OR subject:"animated shorts")'
+ ]),
+ ("documentarios","Documentários",[
+  'mediatype:movies AND (subject:documentary OR subject:documentaries) AND (subject:education OR subject:educational)',
+  'mediatype:movies AND (subject:documentary OR subject:documentaries) AND (subject:science OR subject:scientific)',
+  'mediatype:movies AND (subject:documentary OR subject:documentaries) AND (subject:nature OR subject:animals OR subject:ocean)',
+  'mediatype:movies AND (subject:documentary OR subject:documentaries) AND (subject:history OR subject:historical)',
+  'mediatype:movies AND (subject:documentary OR subject:documentaries) AND (subject:archaeology OR subject:civilization)',
+  'mediatype:movies AND (subject:documentary OR subject:documentaries) AND (subject:biography OR subject:biographies)',
+  'mediatype:movies AND (subject:documentary OR subject:documentaries) AND (subject:geography OR subject:culture OR subject:people)'
+ ]),
+ ("comedia","Comédia",[
+  'mediatype:movies AND (subject:comedy OR subject:comedies OR subject:humor) NOT (subject:horror OR subject:adult)',
+  'mediatype:movies AND (subject:"romantic comedy" OR subject:"comedy film" OR subject:"family comedy")'
+ ]),
+ ("historia","História",[
+  'mediatype:movies AND (subject:"ancient history" OR subject:civilization OR subject:civilizations)',
+  'mediatype:movies AND (subject:Egypt OR subject:Rome OR subject:Greece) AND (subject:history OR subject:historical)',
+  'mediatype:movies AND (subject:Brazil OR subject:"Latin America") AND (subject:history OR subject:historical)',
+  'mediatype:movies AND (subject:"world history" OR subject:historical OR subject:history)',
+  'mediatype:movies AND (subject:archaeology OR subject:archaeological OR subject:discoveries)',
+  'mediatype:movies AND (subject:biography OR subject:biographies OR subject:biographical)',
+  'mediatype:movies AND (subject:museums OR subject:heritage OR subject:preservation)',
+  'mediatype:movies AND (subject:geography OR subject:ethnography OR subject:cultures)',
+  'mediatype:movies AND (subject:aviation OR subject:aircraft OR subject:transportation history)'
+ ]),
+ ("ciencia","Ciência e espaço",[
+  'mediatype:movies AND (title:NASA OR subject:NASA OR subject:"space missions")',
+  'mediatype:movies AND (subject:astronomy OR subject:planets OR subject:astrophysics)',
+  'mediatype:movies AND (subject:"solar system" OR subject:planetary OR subject:solar)',
+  'mediatype:movies AND (subject:stars OR subject:galaxies OR subject:universe OR subject:cosmology)',
+  'mediatype:movies AND (subject:Moon OR subject:Mars OR subject:"lunar exploration")',
+  'mediatype:movies AND (subject:rockets OR subject:"space station" OR subject:spaceflight)',
+  'mediatype:movies AND (subject:physics OR subject:technology OR subject:engineering)',
+  'mediatype:movies AND (subject:inventions OR subject:scientific discoveries OR subject:innovation)',
+  'mediatype:movies AND (subject:nature OR subject:ocean OR subject:animals OR subject:wildlife)',
+  'mediatype:movies AND (subject:science OR subject:scientific) AND (subject:education OR subject:educational)'
+ ]),
+ ("musica","Música e shows",[
+  'mediatype:movies AND (subject:music OR subject:musical performance OR subject:concerts)',
+  'mediatype:movies AND (subject:live music OR subject:live concert OR subject:orchestra)',
+  'mediatype:movies AND (subject:performing arts OR subject:theater OR subject:theatre)',
+  'mediatype:movies AND (subject:classical music OR subject:opera OR subject:choir)'
+ ])
 ]
 VIDEO_EXT = (".mp4",".m4v",".webm",".ogv",".mov",".mpeg",".mpg",".avi")
 
@@ -193,23 +264,36 @@ def main():
         except Exception: pass
     per=max(1,(TARGET+len(CATS)-1)//len(CATS))
     candidates=[]; seen=set()
-    for key,title,query in CATS:
-        page=1; added=0
-        while added<per:
-            payload=search(query,page,min(200,per-added))
-            docs=(payload or {}).get("response",{}).get("docs",[])
-            if not docs: break
-            for d in docs:
-                ident=text(d.get("identifier")); name=text(d.get("title"))
-                if not ident or not name or ident in seen: continue
-                if not is_family_safe({"identifier":ident,"title":name,"description":text(d.get("description")),"creator":text(d.get("creator"))}):
-                    print("BLOCKED unsafe metadata:", ident)
-                    continue
-                seen.add(ident); added+=1
-                candidates.append({"identifier":ident,"title":name,"description":text(d.get("description"))[:1200],"year":text(d.get("year")),"creator":text(d.get("creator")),"subject":text(d.get("subject")),"collection":text(d.get("collection")),"mediatype":text(d.get("mediatype")),"license":text(d.get("licenseurl")),"detailsUrl":"https://archive.org/details/"+ident,"thumbnail":"https://archive.org/services/img/"+ident,"category":key,"files":[],"playbackUrl":None})
-                if added>=per: break
-            page+=1; time.sleep(.15)
-        print(key, "candidates:",added)
+    for key,title,queries in CATS:
+        added=0
+        # Busca atômica: cada subgênero tem sua consulta e diagnóstico próprios.
+        # O orçamento é compartilhado pela categoria para evitar que um único
+        # termo popular consuma toda a cota. O conjunto seen evita duplicados.
+        for query in queries:
+            if added>=per: break
+            page=1
+            while added<per:
+                rows=min(100,per-added)
+                payload=search(query,page,rows)
+                if payload is None:
+                    print("SEARCH_ERROR",key,"query=",query,"page=",page)
+                    break
+                docs=(payload or {}).get("response",{}).get("docs",[])
+                if not docs: break
+                accepted_before=len(candidates)
+                for d in docs:
+                    ident=text(d.get("identifier")); name=text(d.get("title"))
+                    if not ident or not name or ident in seen: continue
+                    if not is_family_safe({"identifier":ident,"title":name,"description":text(d.get("description")),"creator":text(d.get("creator")),"subject":text(d.get("subject")),"collection":text(d.get("collection"))}):
+                        print("BLOCKED unsafe metadata:",ident,"category=",key)
+                        continue
+                    seen.add(ident); added+=1
+                    candidates.append({"identifier":ident,"title":name,"description":text(d.get("description"))[:1200],"year":text(d.get("year")),"creator":text(d.get("creator")),"subject":text(d.get("subject")),"collection":text(d.get("collection")),"mediatype":text(d.get("mediatype")),"license":text(d.get("licenseurl")),"detailsUrl":"https://archive.org/details/"+ident,"thumbnail":"https://archive.org/services/img/"+ident,"category":key,"files":[],"playbackUrl":None})
+                    if added>=per: break
+                print("QUERY_RESULT",key,"page=",page,"received=",len(docs),"new_candidates=",len(candidates)-accepted_before,"category_total=",added)
+                if len(docs)<rows: break
+                page+=1; time.sleep(.15)
+        print("CATEGORY_CANDIDATES",key,added,"quota=",per,"atomic_queries=",len(queries))
     print("Unique candidates:",len(candidates),"target:",TARGET)
     checked=0
     for item in candidates:
