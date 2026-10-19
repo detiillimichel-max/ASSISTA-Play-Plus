@@ -51,7 +51,7 @@ BLOCKED_TERMS = [
     "desnudo", "desnuda", "desnudos", "desnudez", "sexo explicito",
     "sexo explícito", "filme adulto", "filme erotico", "filme erótico",
     "conteudo sexual", "conteúdo sexual", "conteudo adulto", "conteúdo adulto",
-    "sexo", "sexual", "seksual", "sexuell", "erotik", "porno film",
+    "erotik", "porno film",
     "pornofilm", "pornovideo", "sexfilm", "sexvideo", "sexclip",
     "film erotique", "film pornographique", "vidéo pornographique", "glissements progressifs du plaisir", "adult only", "adults only", "uncensored", "uncut erotic", "erotic drama", "erotic thriller", "sexploitation", "nudist film", "nudism", "naturist film", "naturism",
     "pelicula pornografica", "película pornográfica", "contenido sexual",
@@ -119,7 +119,7 @@ BLOCKED_FIELD_PATTERNS = [
 def is_family_safe(item):
     # Examina metadados textuais e nomes dos arquivos; não faz análise visual.
     fields = [
-        item.get("identifier", ""), item.get("title", ""),
+        item.get("title", ""),
         item.get("description", ""), item.get("creator", ""),
         item.get("subject", ""), item.get("collection", ""),
         item.get("mediatype", ""), item.get("format", ""),
@@ -135,8 +135,11 @@ def is_family_safe(item):
     if any(v.strip() in BLOCKED_COLLECTIONS for v in collection_values if v.strip()):
         return False
     # Título, ID e arquivo recebem a regra de segurança mais estrita.
+    # IDs técnicos do Archive não são conteúdo editorial. Aplicar palavras
+    # genéricas ao identifier derruba itens legítimos (ex.: nomes de bandas).
+    # Título e nome de arquivo continuam sob a regra estrita.
     high_risk = " ".join([
-        field_map["title"], field_map["identifier"],
+        field_map["title"],
         " ".join(text(f.get("name", "")) for f in item.get("files", []) if isinstance(f, dict))
     ])
     if any(p.search(high_risk) for p in BLOCKED_PATTERNS + BLOCKED_FIELD_PATTERNS):
