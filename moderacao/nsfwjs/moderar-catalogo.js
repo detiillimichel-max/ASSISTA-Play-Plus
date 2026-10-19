@@ -57,11 +57,12 @@ async function main() {
       console.log("REJEITADO pela blocklist:", item.identifier, blockedReason);
       return { item, approved: false, reason: blockedReason };
     }
-    const imageUrl = String(item.thumbnail || item.thumb || item.cover || "").trim();
-    if (!imageUrl) {
-      console.log("REJEITADO sem capa:", item.identifier);
-      return { item, approved: false, reason: "CAPA_AUSENTE" };
-    }
+    // Archive.org oferece uma miniatura padrão pelo identifier; usa-a quando
+    // o registro não trouxer thumbnail, thumb ou cover explicitamente.
+    const imageUrl = String(
+      item.thumbnail || item.thumb || item.cover ||
+      ("https://archive.org/services/img/" + encodeURIComponent(String(item.identifier)))
+    ).trim();
     const result = await analisarUrl(imageUrl);
     if (result.approved) return { item, approved: true, reason: result.reason };
     console.log("REJEITADO pela moderação visual:", item.identifier, result.reason);
@@ -69,10 +70,23 @@ async function main() {
   });
   const approvedIds = new Set(decisions.filter(x => x.approved).map(x => String(x.item.identifier)));
   const approvedItems = unique.filter(x => approvedIds.has(String(x.identifier)));
-  if (!approvedItems.length) throw new Error("Nenhum item passou na moderação; não publicar catálogo vazio.");
+  const reasonCounts = {};
+  for (const decision of decisions) {
+    if (!decision.approved) {
+      const reason = String(decision.reason || "REJEITADO_SEM_MOTIVO");
+      reasonCounts[reason] = (reasonCounts[reason] || 0) + 1;
+    }
+  }
+  console.log("Resumo dos motivos de rejeição:", JSON.stringify(reasonCounts, null, 2));
+  if (!approvedItems.length) {
+    throw new Error(
+      "Nenhum item passou na moderação visual/textual. A publicação foi bloqueada para preservar o catálogo anterior. " +
+      "Motivos: " + JSON.stringify(reasonCounts)
+    );
+  }
   const checkedAt = new Date().toISOString();
   catalog.items = approvedItems; catalog.count = approvedItems.length;
-  catalog.visualModeration = { engine: "NSFWJS + blocklist textual", checked: decisions.length, approved: approvedItems.length, rejected: decisions.length - approvedItems.length, checkedAt, scope: "metadata-and-thumbnail-only", note: "A aprovação da capa não garante que o vídeo inteiro seja adequado." };
+  catalog.visualModeration = { engine: "NSFWJS + blocklist textual", checked: decisions.length, approved: approvedItems.length, rejected: decisions.length - approvedItems.length, rejectionReasons: reasonCounts, checkedAt, scope: "metadata-and-thumbnail-only", note: "A aprovação da capa não garante que o vídeo inteiro seja adequado." };
   if (Array.isArray(catalog.categories)) catalog.categories = catalog.categories.map(category => ({ ...category, count: approvedItems.filter(item => item.category === category.key).length }));
   await writeJson(catalogPath, catalog);
   const files = await fs.readdir(categoryDir).catch(() => []);
