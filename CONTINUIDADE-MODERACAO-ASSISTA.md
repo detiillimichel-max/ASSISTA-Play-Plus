@@ -1,6 +1,6 @@
 # CONTINUIDADE — ASSISTA+ / Internet Archive / Moderação
 
-**Atualizado em:** 2026-10-19  
+**Atualizado em:** 2026-10-20  
 **Repositório:** https://github.com/detiillimichel-max/ASSISTA-Play-Plus  
 **Branch:** main
 
@@ -138,3 +138,91 @@ As alterações foram gravadas no GitHub, mas as execuções #20 e #21 falharam.
 - Não remover a proteção contra publicação de catálogo vazio.
 - Não aprovar automaticamente itens quando NSFWJS falha; registrar motivos e investigar.
 - O objetivo é corrigir a moderação e a coleta, não reconstruir o app.
+
+
+---
+
+## 8. Continuação em 20/10/2026 — coleta diagnóstica e fileiras por gênero
+
+### Execução #23: resultado confirmado
+
+- Execução: https://github.com/detiillimichel-max/ASSISTA-Play-Plus/actions/runs/39296199801
+- Job: https://github.com/detiillimichel-max/ASSISTA-Play-Plus/actions/runs/39296199801/job/118209261094
+- Commit do coletor: `c31da7a8c7b6360cf2b714be6d9e8a6360ada908`.
+- A sintaxe de `scripts/coletar.py` passou.
+- A instalação das dependências Node terminou com sucesso (198 pacotes instalados; há avisos de dependências antigas/depreciadas, mas não foram a causa da interrupção).
+- O coletor avançou pelas oito categorias e registrou `CATEGORY_CANDIDATES` de 250 para cada categoria. O log final da coleta exibiu `Unique candidates: 2000 target: 2000`.
+- **A execução terminou como `cancelled`, não como sucesso.** A etapa de coleta foi cancelada; as etapas de pré-validação, NSFWJS, validação final e publicação foram ignoradas. Portanto, esse run não comprova que os 2.000 itens foram validados ou publicados.
+- Não atribuir a demora automaticamente a erro na linha 50: essa linha era apenas o último diagnóstico visível da coleta. O run foi cancelado antes de terminar as etapas seguintes.
+
+### Estado temporário do workflow: atenção de segurança
+
+O arquivo `.github/workflows/coletar.yml` atualmente contém estas configurações temporárias:
+
+- `ENABLE_TEXT_MODERATION: "false"` na etapa de coleta.
+- A etapa `Moderar capas com NSFWJS (desativada temporariamente)` tem `if: ${{ false }}`, portanto nunca é executada.
+- A validação de JSON e URLs ainda existe, mas ela **não equivale à moderação familiar**.
+
+Isso foi usado para diagnosticar se novas consultas do Internet Archive traziam itens reproduzíveis, mas deixa a coleta sem as duas camadas de moderação durante esse caminho. **Não considerar essa configuração apropriada para uma publicação normal nem deixar o catálogo ser atualizado sem restabelecer e verificar a moderação.** Antes de executar uma nova coleta de publicação, reativar a moderação textual e a etapa NSFWJS; manter a proteção contra catálogo vazio e a restauração do catálogo anterior. Se for necessário testar sem moderação, o teste deve ser isolado e não deve publicar `catalog.json`/ `catalog/`.
+
+### Coletor: consultas atômicas por gênero
+
+O commit `c31da7a` alterou `scripts/coletar.py` para usar consultas menores e mais específicas por categoria, com diagnósticos `SEARCH_ERROR`, `QUERY_RESULT` e `CATEGORY_CANDIDATES`. As chaves principais e os caminhos JSON foram preservados:
+
+- `filmes`
+- `desenhos`
+- `series`
+- `documentarios`
+- `comedia`
+- `historia`
+- `ciencia`
+- `musica`
+
+O log mostrou 11 consultas atômicas para filmes, 9 para desenhos, 7 para séries, 7 para documentários, 2 para comédia, 9 para história, 9 para ciência e 4 para música. Cada categoria chegou ao limite de 250 candidatos no diagnóstico. Isso comprova que a busca trouxe candidatos para análise, mas **não comprova que todos são seguros, reproduzíveis, corretamente classificados ou que devem ser publicados**.
+
+Metas a preservar: `TARGET_CANDIDATES=2000`, `MAX_METADATA_CHECKS=2000`. Não aumentar o número de execuções concorrentes enquanto uma coleta estiver em andamento ou enfileirada.
+
+### Interface atual: `index.html`
+
+O site usa um CSS escuro responsivo inspirado em serviços de streaming, ícones Lucide e navegação inferior com duas opções: Conteúdo e Playlist. A playlist usa IndexedDB no próprio navegador. O catálogo é carregado de `./catalog.json`.
+
+As fileiras de gênero já foram implementadas no frontend a partir dos metadados disponíveis:
+
+- Filmes: Aventura, Comédia, Ação, Música, Drama, Ficção científica, Romance, Filmes infantis e Cinema internacional.
+- Séries: Aventura, Comédia, Ação, Música, Drama, Ficção científica, Romance, Infantil e Internacional.
+- Desenhos: Aventura e ação, Comédia e clássicos, Infantis e educativos, Super-heróis, Anime, Mistério e ficção científica.
+- Documentários: História, Ciência e espaço, Natureza, Artes e cultura, Sociedade.
+- Também existem grupos para Audiolivros e Música em áudio, se o catálogo contiver essas chaves de categoria.
+
+A função `matchesSubcategory(item, sub)` compara termos com título, descrição, assunto, coleção e criador. É uma classificação heurística simples: pode haver falsos positivos e negativos, e a mesma obra pode aparecer em mais de uma fileira. Não inventar gêneros quando os metadados não sustentam a classificação. Quando não há correspondências, o frontend mostra uma fileira vazia com mensagem informativa — comportamento intencional enquanto o coletor não trouxer metadados melhores.
+
+Arquivo: https://github.com/detiillimichel-max/ASSISTA-Play-Plus/blob/main/index.html
+
+### Ocultar, remover e playlist — diferença importante
+
+- O botão de ocultar usa `localStorage` (`assista-plus-hidden-v1`) e oculta o identificador somente neste aparelho/navegador.
+- Ocultar pede confirmação e tenta remover o item da playlist local.
+- “Restaurar conteúdos ocultos” limpa a lista local de ocultações.
+- Remover um item da playlist apaga apenas a seleção local do IndexedDB; não apaga o item do catálogo.
+- “Limpar” apaga a playlist local inteira.
+- O carregamento remove da playlist local os itens que já não existem no catálogo atual ou que estão ocultos.
+- **Ainda não existe um botão para excluir definitivamente um título de `catalog.json` pelo site.** Isso é intencionalmente diferente de ocultar, pois uma exclusão local seria sobrescrita na próxima coleta se o identificador continuar vindo da fonte. Para excluir de forma persistente, implementar uma lista de bloqueio versionada no repositório e fazer o coletor/moderador respeitá-la; não editar o catálogo manualmente sem ajustar o pipeline.
+
+### Próximas etapas — ordem recomendada
+
+1. **Segurança primeiro:** retirar o modo diagnóstico do caminho de publicação. Reativar a moderação textual e visual; qualquer diagnóstico sem moderação deve usar uma saída temporária que não seja publicada.
+2. Consultar os logs da execução mais recente e confirmar seu estado final antes de disparar outro workflow.
+3. Validar `catalog.json` e os arquivos em `catalog/`: JSON válido, identificadores únicos, arquivos de vídeo reproduzíveis, licenças/uso permitidos e categorias compatíveis.
+4. Refinar o classificador de gênero no frontend usando metadados estruturados quando disponíveis (`subject`, `description`, tipo de mídia e campos equivalentes); evitar depender apenas de busca por substring. Manter fileiras vazias se não houver evidência suficiente.
+5. Melhorar `scripts/coletar.py` e as consultas do GitHub Actions para que as fileiras vazias possam receber candidatos reais: registrar contagens por consulta, categoria e motivo de rejeição; garantir que a busca por gênero corresponda ao conteúdo e que a validação não seja confundida com moderação.
+6. Implementar exclusão persistente por uma lista de bloqueio (por exemplo, JSON versionado no repositório), aplicada antes da gravação/publicação e respeitada por todas as categorias. Preservar backup/restauração e bloquear publicação se a coleta/moderação falhar.
+7. A tradução de títulos/descrições em outros idiomas é uma melhoria separada. Primeiro verificar se os metadados já fornecem idioma; oferecer tradução apenas como recurso de interface, sem alterar o título original nem afirmar que o vídeo tem dublagem/legendas quando isso não está nos metadados.
+8. Só considerar concluído quando os logs mostrarem todas as etapas essenciais aprovadas, inclusive moderação visual, validação final e publicação (ou confirmação explícita de que não houve mudanças válidas).
+
+### Regras adicionais para continuidade
+
+- O objetivo imediato do usuário é melhorar as fileiras reais por gênero, a organização da playlist e a capacidade de excluir/ocultar títulos impróprios, mantendo o visual atual.
+- Não reconstruir o app nem modificar o CSS visual sem pedido específico.
+- Distinguir “ocultar neste aparelho”, “remover da playlist” e “excluir permanentemente do catálogo”.
+- Não deixar a moderação textual ou NSFWJS desativadas no workflow de publicação.
+- Não afirmar que os 2.000 candidatos são 2.000 itens aprovados: são candidatos únicos antes das verificações finais.
