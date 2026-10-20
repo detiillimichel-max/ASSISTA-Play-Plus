@@ -285,8 +285,7 @@ def main():
             if added>=per: break
             page=1
             while added<per:
-                rows=min(100,per-added)
-                payload=search(query,page,rows)
+                # Sempre pedir até 100 resultados: pedir só os 4 restantes faz a API devolver 4 e o teste len(docs)<rows nunca detecta o fim da busca.\n                rows=100\n                payload=search(query,page,rows)
                 if payload is None:
                     print("SEARCH_ERROR",key,"query=",query,"page=",page)
                     break
