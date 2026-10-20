@@ -113,17 +113,7 @@ return [item.title,item.description,item.subject,item.collection,item.creator].f
 }
 function matchesSubcategory(item,sub){
 const text=metadataText(item);
-return sub.terms.some(term=>new RegExp("(^|[^a-z0-9])"+term.replace(/[.*+?^${}()|[\]\\]/g,"\\function render(){
-const q=search.value.trim().toLocaleLowerCase("pt-BR");
-let shown=0,html="";
-categories.forEach(cat=>{
-const items=allItems.filter(x=>x.category===cat.key&&!hiddenIds.has(String(x.identifier))&&(!q||[x.title,x.creator,x.description,x.year].join(" ").toLocaleLowerCase("pt-BR").includes(q)));
-if(!items.length)return;
-shown+=items.length;
-html+='<section class="category" id="categoria-'+cat.key+'"><div class="category-head"><h2><i data-lucide="'+cat.icon+'" aria-hidden="true"></i>'+cat.title+'</h2><span class="count">'+items.length+' títulos</span></div>'+(cat.description?'<p class="category-desc">'+safe(cat.description)+'</p>':'')+(cat.subcategories?'<div class="subcategory-list" aria-label="Categorias de '+safe(cat.title)+'">'+cat.subcategories.map(label=>'<span class="subcategory-pill">'+safe(label)+'</span>').join("")+'</div>':'')+'<div class="rail" aria-label="Carrossel de '+cat.title+'">'+items.map(itemCard).join("")+'</div></section>';
-});
-if(!shown)html='<div class="message">'+(q?'Nenhum título encontrado para essa busca.':'O catálogo ainda não tem títulos disponíveis.')+'</div>';
-content.innerHTML=html;")+"([^a-z0-9]|$)","i").test(text));
+return sub.terms.some(term=>text.includes(term.toLocaleLowerCase("en")));
 }
 function render(){
 const q=search.value.trim().toLocaleLowerCase("pt-BR");
