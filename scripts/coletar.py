@@ -7,6 +7,7 @@ OUT = ROOT / "catalog.json"
 DIR = ROOT / "catalog"
 TARGET = int(os.getenv("TARGET_CANDIDATES", "2000"))
 CHECKS = int(os.getenv("MAX_METADATA_CHECKS", "2000"))
+TEXT_MODERATION_ENABLED = os.getenv("ENABLE_TEXT_MODERATION", "true").strip().lower() in ("1", "true", "yes", "on")
 # Categorias públicas mantidas estáveis para não quebrar catalog/*.json nem o app.
 # Cada consulta é ATÔMICA: um tema específico por busca, com sinônimos em inglês
 # porque o Internet Archive indexa muitos registros nesse idioma.
@@ -188,6 +189,9 @@ BLOCKED_FIELD_PATTERNS = [
 ]
 
 def is_family_safe(item):
+    # Chave temporária para diagnóstico do catálogo; não representa certificação familiar.
+    if not TEXT_MODERATION_ENABLED:
+        return True
     # Moderação por contexto: título/arquivo/coleção têm regra forte;
     # descrição e metadados gerais só bloqueiam expressões explicitamente perigosas.
     # Isso evita rejeitar obras legítimas porque a descrição cita um tema incidentalmente.
