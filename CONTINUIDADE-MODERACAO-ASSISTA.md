@@ -226,3 +226,16 @@ Arquivo: https://github.com/detiillimichel-max/ASSISTA-Play-Plus/blob/main/index
 - Distinguir “ocultar neste aparelho”, “remover da playlist” e “excluir permanentemente do catálogo”.
 - Não deixar a moderação textual ou NSFWJS desativadas no workflow de publicação.
 - Não afirmar que os 2.000 candidatos são 2.000 itens aprovados: são candidatos únicos antes das verificações finais.
+
+
+## 9. Interface — playlists por categoria e tradução (20/10/2026)
+
+Commit: `d6f12bee113e8eab46139fc3bb47e35302e6da06`
+Arquivo: [`index.html`](https://github.com/detiillimichel-max/ASSISTA-Play-Plus/blob/main/index.html)
+
+- A navegação inferior agora usa **Conteúdos** e **Playlists**. Ao abrir **Playlists**, a interface esconde a introdução, a playlist pessoal de itens escolhidos, o painel de itens ocultos e o rodapé; a área fica dedicada às fileiras de categorias e gêneros, com seus cards.
+- Ao voltar para **Conteúdos**, esses painéis voltam a aparecer. O botão do cabeçalho “Minha playlist” continua levando à lista pessoal local.
+- Foi adicionado um botão com ícone Lucide `languages` nos cards e um link “Traduzir título e descrição” no player. Ambos abrem o Google Tradutor com detecção automática do idioma de origem e português como destino.
+- **Limite da tradução:** essa função traduz somente os metadados textuais enviados (título/descrição), em uma página externa. Não traduz o áudio, não cria dublagem nem legendas e depende do serviço Google Tradutor.
+- A implementação reaproveita as categorias e o catálogo existentes; não altera a estrutura de `catalog.json` nem a moderação.
+- Próxima verificação manual no celular: abrir a aba **Playlists** e confirmar que só aparecem fileiras/cards; abrir **Conteúdos** e confirmar que a playlist pessoal continua funcionando; tocar no ícone de idiomas e confirmar que o texto chega ao Google Tradutor.
