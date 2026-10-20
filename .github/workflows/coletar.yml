@@ -64,10 +64,11 @@ jobs:
         working-directory: moderacao/nsfwjs
         run: npm install --no-audit --no-fund
 
-      - name: Coletar candidatos e aplicar moderação textual
+      - name: Coletar candidatos (modo diagnóstico temporário)
         env:
           TARGET_CANDIDATES: "2000"
           MAX_METADATA_CHECKS: "2000"
+          ENABLE_TEXT_MODERATION: "false"
           PYTHONUNBUFFERED: "1"
         run: python scripts/coletar.py
 
@@ -92,7 +93,9 @@ jobs:
           print(f"Pré-validação aprovada: {len(items)} itens no catalog.json.")
           PY
 
-      - name: Moderar capas com NSFWJS
+      # Moderação visual mantida no repositório, mas temporariamente ignorada para diagnosticar a chegada de conteúdo.
+      - name: Moderar capas com NSFWJS (desativada temporariamente)
+        if: ${{ false }}
         env:
           NSFW_CONCURRENCY: "3"
         run: node moderacao/nsfwjs/moderar-catalogo.js
