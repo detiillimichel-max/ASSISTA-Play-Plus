@@ -239,3 +239,16 @@ Arquivo: [`index.html`](https://github.com/detiillimichel-max/ASSISTA-Play-Plus/
 - **Limite da tradução:** essa função traduz somente os metadados textuais enviados (título/descrição), em uma página externa. Não traduz o áudio, não cria dublagem nem legendas e depende do serviço Google Tradutor.
 - A implementação reaproveita as categorias e o catálogo existentes; não altera a estrutura de `catalog.json` nem a moderação.
 - Próxima verificação manual no celular: abrir a aba **Playlists** e confirmar que só aparecem fileiras/cards; abrir **Conteúdos** e confirmar que a playlist pessoal continua funcionando; tocar no ícone de idiomas e confirmar que o texto chega ao Google Tradutor.
+
+
+## 10. Correção de navegação: Categorias separadas de Playlists (20/10/2026)
+
+Commit: `2049a0441cebbb7b466b6742f9b8f16d06b1b46b`
+Arquivo: [`index.html`](https://github.com/detiillimichel-max/ASSISTA-Play-Plus/blob/main/index.html)
+
+- A navegação inferior passa a ter dois destinos separados: **Categorias** e **Playlists**.
+- **Categorias** mostra a introdução e as fileiras/carroceis de filmes, séries, desenhos e documentários por gênero; esconde a playlist pessoal.
+- **Playlists** mostra somente a playlist pessoal salva pelo usuário; esconde as categorias, introdução, painel de conteúdos ocultos e rodapé.
+- O botão do cabeçalho “Minha playlist” abre a aba **Playlists**.
+- A separação é apenas de interface: não apaga o catálogo, não altera os IDs das categorias, nem mexe na moderação ou nos títulos salvos.
+- Teste manual pendente no site publicado: tocar em Categorias e confirmar que não aparece a playlist pessoal; tocar em Playlists e confirmar que não aparecem os carrosséis de categorias; testar remoção individual e limpeza da playlist.
