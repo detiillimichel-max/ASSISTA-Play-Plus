@@ -323,6 +323,14 @@ def main():
     # Fontes adicionais independentes. A falha de uma fonte não interrompe as outras.
     external_items, source_metrics = collect_external_sources()
     external_added = 0
+    # Deduplicação entre fontes por identificador e URL canônica do arquivo.
+    known_urls = set()
+    for existing in old.values():
+        for file_record in existing.get("files", []) if isinstance(existing.get("files"), list) else []:
+            url = text(file_record.get("url") if isinstance(file_record, dict) else "")
+            parsed_url = urllib.parse.urlparse(url)
+            if parsed_url.scheme == "https" and parsed_url.netloc:
+                known_urls.add((parsed_url.netloc.lower(), parsed_url.path.rstrip("/")))
     for external in external_items:
         ident = text(external.get("identifier"))
         if not ident or ident in old:
@@ -338,6 +346,11 @@ def main():
         if playback.scheme != "https" or not playback.hostname:
             print("SOURCE_REJECTED invalid playback URL:", ident)
             continue
+        canonical = (playback.netloc.lower(), playback.path.rstrip("/"))
+        if canonical in known_urls:
+            print("SOURCE_DUPLICATE canonical URL:", ident)
+            continue
+        known_urls.add(canonical)
         external["validatedAt"] = datetime.now(timezone.utc).isoformat()
         old[ident] = external
         external_added += 1
