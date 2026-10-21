@@ -360,6 +360,14 @@ def main():
     for ident,item in old.items():
         item["category"]=candidate_ids.get(ident,item.get("category","filmes"))
         if item["category"] not in groups: item["category"]="filmes"
+        # Política por item: fonte confiável recebe filtros textuais; fontes
+        # abertas/UGC e Internet Archive também exigem análise visual NSFWJS.
+        source = text(item.get("source")).strip().lower()
+        if not source:
+            source = "internet-archive"
+            item["source"] = source
+        visual_sources = {"internet-archive", "internet-archive-prelinger", "prelinger", "peertube", "wikimedia-commons", "wikimedia_commons"}
+        item["moderationPolicy"] = "text+visual" if source in visual_sources or "peertube" in source else "text+trusted-source"
         groups[item["category"]].append(item)
     now=datetime.now(timezone.utc).isoformat()
     items=sorted([x for group in groups.values() for x in group],key=lambda x:(x.get("category",""),x.get("title","").casefold()))
