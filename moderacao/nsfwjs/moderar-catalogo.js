@@ -85,6 +85,16 @@ async function main() {
     }
   }
   console.log("Resumo dos motivos de rejeição:", JSON.stringify(reasonCounts, null, 2));
+  const technicalReasons = new Set(["ANALISE_INDISPONIVEL", "IMAGEM_INDISPONIVEL", "MINIATURA_AUSENTE", "IMAGEM_AUSENTE", "ERRO_ITEM"]);
+  const technicalFailures = decisions.filter(x => !x.approved && technicalReasons.has(String(x.reason || ""))).length;
+  const technicalRatio = decisions.length ? technicalFailures / decisions.length : 1;
+  console.log("Diagnóstico técnico da moderação:", JSON.stringify({ total: decisions.length, technicalFailures, technicalFailurePercent: Math.round(technicalRatio * 100) }));
+  // Uma falha técnica em massa não é evidência de conteúdo impróprio.
+  // Interrompe a publicação para o workflow restaurar o último catálogo válido.
+  const maxTechnicalRatio = Math.max(0.05, Math.min(0.5, Number(process.env.NSFW_MAX_TECHNICAL_FAILURE_RATIO || 0.2)));
+  if (technicalRatio > maxTechnicalRatio) {
+    throw new Error("Moderação inconclusiva: " + technicalFailures + "/" + decisions.length + " itens falharam tecnicamente. Publicação cancelada para preservar o catálogo anterior.");
+  }
   if (!approvedItems.length) {
     throw new Error(
       "Nenhum item passou na moderação visual/textual. A publicação foi bloqueada para preservar o catálogo anterior. " +
