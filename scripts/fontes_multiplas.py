@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 
 UA = "ASSISTA-Plus-Catalog/1.0 (public media catalog; contact: repository maintainer)"
 TIMEOUT = int(os.getenv("SOURCE_TIMEOUT_SECONDS", "15"))
-MAX_PER_SOURCE = int(os.getenv("MAX_ITEMS_PER_SOURCE", "80"))
+MAX_PER_SOURCE = max(100, int(os.getenv("MAX_ITEMS_PER_SOURCE", "120")))
 METRICS = {}
 
 def request_json(url, headers=None):
@@ -285,7 +285,7 @@ def peertube():
         return []
     def run():
         out = []
-        instances = [x.strip().rstrip("/") for x in raw.split(",") if x.strip()]
+        instances = [x.strip().rstrip("/") for x in re.split(r"[,;\\r\\n]+", raw) if x.strip()]
         for host in instances[:11]:
             try:
                 data = request_json(qurl(host + "/api/v1/videos", {"count":20,"sort":"-publishedAt","isLocal":True,"nsfw":"false"}))
@@ -299,6 +299,77 @@ def peertube():
                 print("SOURCE_INSTANCE_ERROR peertube", host, str(exc)[:140])
         return out
     return safe_call("peertube", run)
+
+def dpla():
+    key = os.getenv("DPLA_API_KEY")
+    if not key:
+        METRICS["dpla"] = {"status":"skipped_missing_credentials","required":"DPLA_API_KEY"}
+        print("SOURCE_SKIPPED dpla missing DPLA_API_KEY")
+        return []
+    def run():
+        out = []
+        for query in ("moving image science", "educational film", "historical film", "animation", "space documentary", "music performance"):
+            data = request_json(qurl("https://api.dp.la/v2/items", {"q":query,"page_size":100,"page":1,"api_key":key}))
+            for row in data.get("docs", []):
+                source = row.get("sourceResource") or {}
+                title = clean(source.get("title"))
+                obj = row.get("object") or ""
+                shown = row.get("isShownAt") or ""
+                candidates = [u for u in (obj, shown) if isinstance(u,str) and urllib.parse.urlparse(u).path.lower().endswith((".mp4",".webm",".ogv",".mov",".m4v"))]
+                if not candidates:
+                    continue
+                rights = clean(source.get("rights"))
+                out.append(item("dpla", clean(row.get("id")), title, candidates[0], obj if obj and not candidates[0] == obj else "", shown, clean(source.get("description")), clean(source.get("creator")), rights, "", "video"))
+                if len(out) >= MAX_PER_SOURCE: return out
+            time.sleep(0.5)
+        return out
+    return safe_call("dpla", run)
+
+def twitch():
+    client_id = os.getenv("TWITCH_CLIENT_ID")
+    client_secret = os.getenv("TWITCH_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        METRICS["twitch"] = {"status":"skipped_missing_credentials","required":["TWITCH_CLIENT_ID","TWITCH_CLIENT_SECRET"]}
+        print("SOURCE_SKIPPED twitch missing client credentials")
+        return []
+    def run():
+        token_data = request_json("https://id.twitch.tv/oauth2/token", headers={}) if False else None
+        body = urllib.parse.urlencode({"client_id":client_id,"client_secret":client_secret,"grant_type":"client_credentials"}).encode()
+        req = urllib.request.Request("https://id.twitch.tv/oauth2/token", data=body, headers={"User-Agent":UA,"Content-Type":"application/x-www-form-urlencoded","Accept":"application/json"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+            token_data = json.loads(response.read().decode("utf-8"))
+        token = token_data.get("access_token")
+        if not token: raise ValueError("Twitch OAuth não retornou access_token")
+        headers = {"Client-Id":client_id,"Authorization":"Bearer "+token}
+        out = []
+        for query in ("science", "space", "education", "history", "music", "animation", "nature", "documentary"):
+            data = request_json(qurl("https://api.twitch.tv/helix/search/videos", {"query":query,"first":100}), headers)
+            for v in data.get("data", []):
+                video_id = clean(v.get("id"))
+                page_url = clean(v.get("url"))
+                if not video_id or not page_url: continue
+                thumb = clean(v.get("thumbnail_url")).replace("%{width}", "640").replace("%{height}", "360")
+                out.append(item("twitch", video_id, clean(v.get("title")) or "Twitch video", page_url, thumb, page_url, clean(v.get("title")), clean(v.get("user_name")), "Twitch platform terms", "https://www.twitch.tv/p/legal/terms-of-service/", "", classify(query), "https://player.twitch.tv/?video=v"+video_id))
+                if len(out) >= MAX_PER_SOURCE: return out
+            time.sleep(0.5)
+        return out
+    return safe_call("twitch", run)
+
+def gnews():
+    # GNews indexes news articles, not a general video file catalog. Do not mislabel articles as videos.
+    METRICS["gnews"] = {"status":"skipped_not_video_source","note":"GNews fornece artigos/notícias; não há arquivo de vídeo reproduzível garantido. Não inserir artigos no catálogo de vídeos."}
+    print("SOURCE_SKIPPED gnews news articles are not playable video records")
+    return []
+
+def watchmod():
+    # The API hostname, authentication method, and request schema must be confirmed before calling it.
+    if not os.getenv("WATCHMOD_API_KEY"):
+        METRICS["watchmod"] = {"status":"skipped_missing_credentials","required":"WATCHMOD_API_KEY"}
+        print("SOURCE_SKIPPED watchmod missing WATCHMOD_API_KEY")
+    else:
+        METRICS["watchmod"] = {"status":"skipped_unverified_api_contract","note":"Secret existe, mas endpoint e esquema oficial precisam ser confirmados para não enviar a chave a um host incorreto."}
+        print("SOURCE_SKIPPED watchmod API endpoint not verified; key was not transmitted")
+    return []
 
 def mit_ocw():
     METRICS["mit_ocw"] = {"status":"skipped_no_verified_video_api","note":"Nenhuma API pública geral de vídeo foi confirmada; não fazer scraping não autorizado."}
@@ -315,7 +386,7 @@ def collect():
     adapters = [
         ("pexels", pexels), ("pixabay", pixabay), ("nasa", nasa),
         ("wikimedia_commons", wikimedia), ("europeana", europeana),
-        ("dvids", dvids), ("openverse", openverse),
+        ("dvids", dvids), ("dpla", dpla), ("twitch", twitch), ("gnews", gnews), ("watchmod", watchmod), ("openverse", openverse),
         ("library_of_congress", library_of_congress),
         ("prelinger", internet_archive_prelinger), ("peertube", peertube),
         ("mit_ocw", mit_ocw), ("dareful", dareful),
