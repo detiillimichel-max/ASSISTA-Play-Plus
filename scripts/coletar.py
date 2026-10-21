@@ -366,8 +366,9 @@ def main():
         if not source:
             source = "internet-archive"
             item["source"] = source
-        visual_sources = {"internet-archive", "internet-archive-prelinger", "prelinger", "peertube", "wikimedia-commons", "wikimedia_commons"}
-        item["moderationPolicy"] = "text+visual" if source in visual_sources or "peertube" in source else "text+trusted-source"
+        # Apenas fontes oficiais explicitamente allowlistadas podem dispensar análise visual.
+        trusted_text_only_sources = {"nasa", "dvids", "europeana"}
+        item["moderationPolicy"] = "text+trusted-source" if source in trusted_text_only_sources else "text+visual"
         groups[item["category"]].append(item)
     now=datetime.now(timezone.utc).isoformat()
     items=sorted([x for group in groups.values() for x in group],key=lambda x:(x.get("category",""),x.get("title","").casefold()))
