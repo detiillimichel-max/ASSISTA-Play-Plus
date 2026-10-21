@@ -34,7 +34,7 @@ jobs:
           python-version: "3.12"
 
       - name: Verificar sintaxe do coletor antes de executar
-        run: python -m py_compile scripts/coletar.py
+        run: python -m py_compile scripts/coletar.py scripts/fontes_multiplas.py
 
       - name: Guardar catálogo anterior para restauração integral
         shell: bash
@@ -67,8 +67,8 @@ jobs:
 
       - name: Coletar candidatos (modo diagnóstico temporário)
         env:
-          TARGET_CANDIDATES: "2000"
-          MAX_METADATA_CHECKS: "2000"
+          TARGET_CANDIDATES: "3000"
+          MAX_METADATA_CHECKS: "3000"
           ENABLE_TEXT_MODERATION: "true"
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
@@ -80,7 +80,9 @@ jobs:
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
           WATCHMOD_API_KEY: ${{ secrets.WATCHMOD_API_KEY }}
           PEERTUBE_INSTANCES: ${{ secrets.PEERTUBE_INSTANCES }}
-          MAX_ITEMS_PER_SOURCE: "120"
+          MIN_ITEMS_PER_SOURCE: "100"
+          MAX_ITEMS_PER_SOURCE: "150"
+          MAX_ITEMS_PER_PEERTUBE_INSTANCE: "100"
           SOURCE_TIMEOUT_SECONDS: "15"
           PYTHONUNBUFFERED: "1"
         run: python scripts/coletar.py
