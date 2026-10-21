@@ -8,7 +8,19 @@ function getModel() {
 }
 async function fetchImageBuffer(url, maxBytes = 8 * 1024 * 1024) {
   const parsed = new URL(url);
-  if (parsed.protocol !== "https:" || !["archive.org","www.archive.org"].includes(parsed.hostname)) throw new Error("URL de imagem fora da lista permitida");
+  const host = parsed.hostname.toLowerCase();
+  const allowedExact = new Set([
+    "archive.org", "www.archive.org", "images.pexels.com", "cdn.pixabay.com",
+    "upload.wikimedia.org", "commons.wikimedia.org", "images-assets.nasa.gov",
+    "images.nasa.gov", "loc.gov", "www.loc.gov", "europeana.eu",
+    "api.europeana.eu", "dvidshub.net", "www.dvidshub.net", "media.defense.gov"
+  ]);
+  const allowedSuffixes = [".loc.gov", ".europeana.eu", ".dvidshub.net"];
+  const peertubeHosts = String(process.env.PEERTUBE_INSTANCES || "").split(",")
+    .map(value => { try { return new URL(value.trim()).hostname.toLowerCase(); } catch { return ""; } })
+    .filter(Boolean);
+  const hostAllowed = allowedExact.has(host) || allowedSuffixes.some(suffix => host.endsWith(suffix)) || peertubeHosts.includes(host);
+  if (parsed.protocol !== "https:" || !hostAllowed) throw new Error("URL de imagem fora da lista permitida");
   const controller = new AbortController(); const timer = setTimeout(() => controller.abort(), 15000);
   try {
     const response = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "ASSISTA-Plus-Family-Moderation/1.0" } });
