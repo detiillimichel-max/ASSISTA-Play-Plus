@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive",
-  "updatedAt": "2026-10-20T16:40:15.171328+00:00",
+  "updatedAt": "2026-10-21T11:53:38.436437+00:00",
   "candidateTarget": 2000,
   "candidatesCollectedThisRun": 2000,
-  "metadataChecksThisRun": 1933,
-  "count": 2253,
+  "metadataChecksThisRun": 76,
+  "count": 2254,
   "items": [
     {
       "identifier": "Pizzagate-Primer",
@@ -26947,6 +26947,72 @@
       ],
       "playbackUrl": "https://archive.org/download/h_r_pufnstuf/pufnstuf_movie.mp4",
       "validatedAt": "2026-10-20T16:20:15.459743+00:00"
+    },
+    {
+      "identifier": "halloween-cartoon-collection_20231022",
+      "title": "Halloween Cartoon Collection",
+      "description": "<span></span><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:rgb(255,255,255);vertical-align:baseline;\">HAPPY HALLOWEEN!</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><br /></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">A collection from 1929 to 1977 of the best/scariest/funniest animated shorts for Halloween-time that were ever released by all of the major animation studios!</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><br /></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">Featuring Bugs Bunny, Mickey Mouse, Daffy and Donald Duck, The Pink Panther, Porky Pig, Tom and Jerry, Goofy, Pluto, Popeye and Betty Boop ... and one or two famous voices serving as Halloween storytellers...AND a very special Grinch-y guest...AND an appropriately rousing finale with one of the scariest animated segments ever created/released!</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><br /></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">1. The Skeleton Dance (Disney, 1929)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">2. Hell's Bells (Disney, 1929)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">3. The Haunted House (Disney, 1929)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">4. The Cuckoo Murder Case (MGM, 1930)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">5..Swing, You Sinners! (Fleischer Studios, 1930)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">6. Spooks (MGM, 1932)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">7. The Mad Scientist (Disney, 1933)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">8. Betty Boop's Halloween Party (Paramount, 1933)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">9. Shiver Me Timbers (Paramount, 1933)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">10. Pluto's Judgement Day (Disney, 1935)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">11. The Old Mill (Disney, 1937)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">12. The Case of the Stuttering Pig (Warner Bros., 1937)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">13. Lonesome Ghosts (Disney, 1937)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">14. Skeleton Frolic (U.B. Iwerks, 1937)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">15. Jeepers Creepers (Warner Brothers, 1939)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">16. \"Night on Bald Mountain\" segment from FANTASIA (Disney, 1940)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">17. Bats in the Belfrey (MGM, 1942)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">18. The Impatient Patient (Warner Bros., 1942)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">19. Who Killed Who (MGM, 1943)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">20. Donald Duck and the Gorilla (Disney, 1944)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">21. Hair-Raising Hare (Warner Bros., 1946)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">22. Birth of a Notion (Warner Bros., 1947)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">23. Scaredy Cat (Warner Bros., 1948)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">24. The Legend of Sleepy Hollow (Disney, 1949)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">25..The Wearing of the Grin (Warner Bros., 1951)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">26 Water, Water Every Hare (Warner Bros., 1952)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">27. Trick or Treat (Disney, 1952)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">28. The Tell Tale Heart (Columbia/UPA, 1953)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">29. Broom-stick Bunny (Warner Bros., 1956)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">30. The Flying Sorceress (MGM, 1956)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">31. Switchin' Kitten (MGM, 1961)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">32. Transylvania 6-5000 (Warner Bros., 1961)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">33. Pink Panic (Depatie-Freleng, 1967)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">34. Pink Plasma (DePatie-Freleng, 1975)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:'Times New Roman', serif;color:rgb(44,44,44);background-color:transparent;vertical-align:baseline;\">35. Halloween is Grinch Night (DePatie-Freleng, 1977)</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><br /></p>",
+      "year": "2023",
+      "creator": "Warner Brothers, Walt Disney Studios, MGM Studios, Fleischer Studios, Paramount Studios, DePatie-Freleng, Columbia Studios, UPA,",
+      "subject": "Halloween, Halloween cartoons, Halloween animated shorts, animated shorts, ghosts, skeletons, vampires, mad scientists, leprechauns, Bugs Bunny, Mickey Mouse, Porky Pig, Daffy Duck, Donald Duck, Popeye, Betty Boop, Tom and Jerry, Edgar Allan Poe, Washington Irving, Bing Crosby, James Mason, Chernabog",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/halloween-cartoon-collection_20231022",
+      "thumbnail": "https://archive.org/services/img/halloween-cartoon-collection_20231022",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "18-1946 - Bugs Bunny - Hair-Raising Hare.ia.mp4",
+          "format": "h.264 IA",
+          "size": 502604081,
+          "url": "https://archive.org/download/halloween-cartoon-collection_20231022/18-1946%20-%20Bugs%20Bunny%20-%20Hair-Raising%20Hare.ia.mp4"
+        },
+        {
+          "name": "19-1946 - Bugs Bunny - Hair-Raising Hare.ia.mp4",
+          "format": "h.264 IA",
+          "size": 502604081,
+          "url": "https://archive.org/download/halloween-cartoon-collection_20231022/19-1946%20-%20Bugs%20Bunny%20-%20Hair-Raising%20Hare.ia.mp4"
+        },
+        {
+          "name": "1946 - Bugs Bunny - Hair-Raising Hare.ia.mp4",
+          "format": "h.264 IA",
+          "size": 502604081,
+          "url": "https://archive.org/download/halloween-cartoon-collection_20231022/1946%20-%20Bugs%20Bunny%20-%20Hair-Raising%20Hare.ia.mp4"
+        },
+        {
+          "name": "1946 - Bugs Bunny - Hair-Raising Hare.mp4",
+          "format": "MPEG4",
+          "size": 502604081,
+          "url": "https://archive.org/download/halloween-cartoon-collection_20231022/1946%20-%20Bugs%20Bunny%20-%20Hair-Raising%20Hare.mp4"
+        },
+        {
+          "name": "1956 - Bugs Bunny - Broom-Stick Bunny.ia.mp4",
+          "format": "h.264 IA",
+          "size": 478137219,
+          "url": "https://archive.org/download/halloween-cartoon-collection_20231022/1956%20-%20Bugs%20Bunny%20-%20Broom-Stick%20Bunny.ia.mp4"
+        },
+        {
+          "name": "1956 - Bugs Bunny - Broom-Stick Bunny.mp4",
+          "format": "MPEG4",
+          "size": 478137219,
+          "url": "https://archive.org/download/halloween-cartoon-collection_20231022/1956%20-%20Bugs%20Bunny%20-%20Broom-Stick%20Bunny.mp4"
+        },
+        {
+          "name": "26-1956 - Bugs Bunny - Broom-Stick Bunny.ia.mp4",
+          "format": "h.264 IA",
+          "size": 478137219,
+          "url": "https://archive.org/download/halloween-cartoon-collection_20231022/26-1956%20-%20Bugs%20Bunny%20-%20Broom-Stick%20Bunny.ia.mp4"
+        },
+        {
+          "name": "27-1956 - Bugs Bunny - Broom-Stick Bunny.ia.mp4",
+          "format": "h.264 IA",
+          "size": 478137219,
+          "url": "https://archive.org/download/halloween-cartoon-collection_20231022/27-1956%20-%20Bugs%20Bunny%20-%20Broom-Stick%20Bunny.ia.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/halloween-cartoon-collection_20231022/18-1946%20-%20Bugs%20Bunny%20-%20Hair-Raising%20Hare.ia.mp4",
+      "validatedAt": "2026-10-21T11:52:41.758718+00:00"
     },
     {
       "identifier": "haul_in_one",
@@ -96521,7 +96587,7 @@
     {
       "key": "desenhos",
       "title": "Desenhos",
-      "count": 338,
+      "count": 339,
       "path": "catalog/desenhos.json"
     },
     {
