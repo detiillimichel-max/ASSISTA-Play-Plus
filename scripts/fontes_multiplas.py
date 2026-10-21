@@ -117,7 +117,7 @@ def pexels():
                 files = sorted(v.get("video_files", []), key=lambda f: (f.get("quality") != "hd", f.get("width", 0) < 640))
                 chosen = next((f for f in files if f.get("link") and "video" in str(f.get("file_type", "video/")).lower()), None)
                 if not chosen: continue
-                out.append(item("pexels", v.get("id"), clean(v.get("user", {}).get("name")) + " — vídeo " + str(v.get("id")), chosen["link"], "", v.get("url",""), creator=clean(v.get("user",{}).get("name")), mime=chosen.get("file_type","video/mp4")))
+                out.append(item("pexels", v.get("id"), clean(v.get("user", {}).get("name")) + " — vídeo " + str(v.get("id")), chosen["link"], clean(v.get("image")), v.get("url",""), creator=clean(v.get("user",{}).get("name")), mime=chosen.get("file_type","video/mp4"), category=classify(query)))
                 if len(out) >= MAX_PER_SOURCE: break
             if len(out) >= MAX_PER_SOURCE: break
             time.sleep(0.35)
@@ -138,7 +138,7 @@ def pixabay():
                 variants = v.get("videos", {})
                 chosen = variants.get("large") or variants.get("medium") or variants.get("small")
                 if not chosen or not chosen.get("url"): continue
-                out.append(item("pixabay", v.get("id"), clean(v.get("tags")) or "Pixabay video", chosen["url"], "", v.get("pageURL",""), creator=str(v.get("user","")), mime="video/mp4"))
+                out.append(item("pixabay", v.get("id"), clean(v.get("tags")) or "Pixabay video", chosen["url"], clean(v.get("picture")), v.get("pageURL",""), creator=str(v.get("user","")), mime="video/mp4", category=classify(query)))
                 if len(out) >= MAX_PER_SOURCE: break
             if len(out) >= MAX_PER_SOURCE: break
             time.sleep(0.35)
@@ -292,7 +292,7 @@ def peertube():
                 for v in data.get("data",[]):
                     url = clean(v.get("files", [{}])[0].get("fileUrl")) if v.get("files") else ""
                     if not url: continue
-                    out.append(item("peertube", str(host) + ":" + str(v.get("uuid") or v.get("id")), clean(v.get("name")), url, clean(v.get("thumbnailPath")), host + "/videos/watch/" + clean(v.get("uuid")), clean(v.get("description")), clean(v.get("account",{}).get("displayName")), clean(v.get("licence",{}).get("label")), "", "video", classify(clean(v.get("name")) + " " + clean(v.get("description")))))
+                    out.append(item("peertube", str(host) + ":" + str(v.get("uuid") or v.get("id")), clean(v.get("name")), url, (("https://" + urllib.parse.urlparse(host).netloc + clean(v.get("thumbnailPath"))) if clean(v.get("thumbnailPath")).startswith("/") else clean(v.get("thumbnailPath"))), host + "/videos/watch/" + clean(v.get("uuid")), clean(v.get("description")), clean(v.get("account",{}).get("displayName")), clean(v.get("licence",{}).get("label")), "", "video", classify(clean(v.get("name")) + " " + clean(v.get("description")))))
                     if len(out) >= MAX_PER_SOURCE: return out
                 time.sleep(1)
             except Exception as exc:
