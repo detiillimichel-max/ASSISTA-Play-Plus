@@ -74,7 +74,14 @@ jobs:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           EUROPEANA_API_KEY: ${{ secrets.EUROPEANA_API_KEY }}
           DVIDS_API_KEY: ${{ secrets.DVIDS_API_KEY }}
-          PEERTUBE_INSTANCES: ${{ vars.PEERTUBE_INSTANCES }}
+          DPLA_API_KEY: ${{ secrets.DPLA_API_KEY }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+          WATCHMOD_API_KEY: ${{ secrets.WATCHMOD_API_KEY }}
+          PEERTUBE_INSTANCES: ${{ secrets.PEERTUBE_INSTANCES }}
+          MAX_ITEMS_PER_SOURCE: "120"
+          SOURCE_TIMEOUT_SECONDS: "15"
           PYTHONUNBUFFERED: "1"
         run: python scripts/coletar.py
 
