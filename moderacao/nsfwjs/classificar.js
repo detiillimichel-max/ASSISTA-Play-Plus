@@ -10,7 +10,7 @@ async function fetchImageBuffer(url, maxBytes = 8 * 1024 * 1024) {
   const parsed = new URL(url);
   const host = parsed.hostname.toLowerCase();
   const allowedExact = new Set([
-    "archive.org", "www.archive.org", "images.pexels.com", "cdn.pixabay.com",
+    "archive.org", "www.archive.org", "images.pexels.com", "cdn.pixabay.com", "static-cdn.jtvnw.net", "i.vimeocdn.com",
     "upload.wikimedia.org", "commons.wikimedia.org", "images-assets.nasa.gov",
     "images.nasa.gov", "loc.gov", "www.loc.gov", "europeana.eu",
     "api.europeana.eu", "dvidshub.net", "www.dvidshub.net", "media.defense.gov"
@@ -37,9 +37,9 @@ function decide(predictions) {
   if (!Array.isArray(predictions) || !predictions.length) return { approved: false, reason: "PREDICOES_INVALIDAS" };
   const scores = Object.fromEntries(predictions.map(p => [p.className, Number(p.probability)]));
   for (const p of predictions) if (!Number.isFinite(Number(p.probability)) || p.probability < 0 || p.probability > 1) return { approved: false, reason: "PREDICAO_INVALIDA", scores };
-  const isBad = (scores.Porn ?? 0) > 0.3 || (scores.Sexy ?? 0) > 0.6 || (scores.Hentai ?? 0) > 0.3;
+  const isBad = (scores.Porn ?? 0) > 0.25 || (scores.Sexy ?? 0) > 0.5 || (scores.Hentai ?? 0) > 0.25;
   if (isBad) {
-    const reason = (scores.Porn ?? 0) > 0.3 ? "PORN" : (scores.Sexy ?? 0) > 0.6 ? "SEXY" : "HENTAI";
+    const reason = (scores.Porn ?? 0) > 0.25 ? "PORN" : (scores.Sexy ?? 0) > 0.5 ? "SEXY" : "HENTAI";
     return { approved: false, reason, scores };
   }
   return { approved: true, reason: "PASSOU_LIMIARES", scores };

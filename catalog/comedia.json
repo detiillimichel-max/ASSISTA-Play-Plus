@@ -2,7 +2,7 @@
   "category": "comedia",
   "title": "Comédia",
   "updatedAt": "2026-10-21T11:53:38.436437+00:00",
-  "count": 250,
+  "count": 245,
   "items": [
     {
       "identifier": "2A.M.InTheSubway1905",
@@ -2435,36 +2435,6 @@
       "validatedAt": "2026-10-20T16:29:10.804116+00:00"
     },
     {
-      "identifier": "erotic-and-wacky-tunnel-of-time-1983",
-      "title": "Erotic And Wacky Tunnel Of Time 1983",
-      "description": "<div>A nerd working in his home creates a time machine that sends him back to various eras where apparently there are women just waiting for some time traveler to have sex with. We are not talking about a plot driven movie here and there are more than a few anachronisms. Still that is not why anyone would want to watch this movie.</div><div><br /></div><div>Resolution is okay, there is a logo burned in and I could not find subtitles. </div>",
-      "year": "1983",
-      "creator": "Jose A. Rodriguez",
-      "subject": "El erotico y loco tunel del tiempo, Erotic and Wacky Tunnel of Time, 1983, Paco Maldonado, Alicia Príncipe, Elena Álvarez, Rocío Freixas, Gingers Brown, Carol Day, Rosa Suances, Jose A. Rodriguez, Sex Comedy, Spanish Sex Comedy",
-      "collection": "Comedy_Films, feature_films, moviesandfilms",
-      "mediatype": "movies",
-      "license": "",
-      "detailsUrl": "https://archive.org/details/erotic-and-wacky-tunnel-of-time-1983",
-      "thumbnail": "https://archive.org/services/img/erotic-and-wacky-tunnel-of-time-1983",
-      "category": "comedia",
-      "files": [
-        {
-          "name": "Erotic and Wacky Tunnel of Time - 1983.mp4",
-          "format": "h.264",
-          "size": 463879831,
-          "url": "https://archive.org/download/erotic-and-wacky-tunnel-of-time-1983/Erotic%20and%20Wacky%20Tunnel%20of%20Time%20-%201983.mp4"
-        },
-        {
-          "name": "Erotic and Wacky Tunnel of Time - 1983.avi",
-          "format": "Cinepack",
-          "size": 1270997745,
-          "url": "https://archive.org/download/erotic-and-wacky-tunnel-of-time-1983/Erotic%20and%20Wacky%20Tunnel%20of%20Time%20-%201983.avi"
-        }
-      ],
-      "playbackUrl": "https://archive.org/download/erotic-and-wacky-tunnel-of-time-1983/Erotic%20and%20Wacky%20Tunnel%20of%20Time%20-%201983.mp4",
-      "validatedAt": "2026-10-20T16:30:07.801493+00:00"
-    },
-    {
       "identifier": "eternally_yours_ipod",
       "title": "Eternally Yours",
       "description": "When a magician's act takes precedent over his marriage, his wife gives him trouble. Stars Loretta Young and David Niven.\nOriginally uploaded by <a href=\"http://www.k-otic.com/\" rel=\"ugc nofollow\">kotic</a>\n\nThere is some cool footage of the Trylon and Perisphere from the 1939-1940 worlds fair.",
@@ -3028,66 +2998,6 @@
       ],
       "playbackUrl": "https://archive.org/download/HereComesTrouble1948/Here-Comes-Trouble-1948.mp4",
       "validatedAt": "2026-10-20T16:30:05.222517+00:00"
-    },
-    {
-      "identifier": "high-on-sex-episode-3",
-      "title": "High On Sex Episode 3",
-      "description": "Vivamax",
-      "year": "",
-      "creator": "",
-      "subject": "Comedy",
-      "collection": "adultfilm, deemphasize, no-preview",
-      "mediatype": "movies",
-      "license": "",
-      "detailsUrl": "https://archive.org/details/high-on-sex-episode-3",
-      "thumbnail": "https://archive.org/services/img/high-on-sex-episode-3",
-      "category": "comedia",
-      "files": [
-        {
-          "name": "High on Sex Episode 3.ia.mp4",
-          "format": "h.264 IA",
-          "size": 2701176857,
-          "url": "https://archive.org/download/high-on-sex-episode-3/High%20on%20Sex%20Episode%203.ia.mp4"
-        },
-        {
-          "name": "High on Sex Episode 3.mp4",
-          "format": "MPEG4",
-          "size": 2701176857,
-          "url": "https://archive.org/download/high-on-sex-episode-3/High%20on%20Sex%20Episode%203.mp4"
-        }
-      ],
-      "playbackUrl": "https://archive.org/download/high-on-sex-episode-3/High%20on%20Sex%20Episode%203.ia.mp4",
-      "validatedAt": "2026-10-20T16:29:04.961064+00:00"
-    },
-    {
-      "identifier": "high-on-sex-episode-5",
-      "title": "High On Sex Episode 5",
-      "description": "Vivamax",
-      "year": "",
-      "creator": "",
-      "subject": "Comedy",
-      "collection": "adultfilm, deemphasize, no-preview",
-      "mediatype": "movies",
-      "license": "",
-      "detailsUrl": "https://archive.org/details/high-on-sex-episode-5",
-      "thumbnail": "https://archive.org/services/img/high-on-sex-episode-5",
-      "category": "comedia",
-      "files": [
-        {
-          "name": "High on Sex Episode 5.ia.mp4",
-          "format": "h.264 IA",
-          "size": 3202978828,
-          "url": "https://archive.org/download/high-on-sex-episode-5/High%20on%20Sex%20Episode%205.ia.mp4"
-        },
-        {
-          "name": "High on Sex Episode 5.mp4",
-          "format": "MPEG4",
-          "size": 3202978828,
-          "url": "https://archive.org/download/high-on-sex-episode-5/High%20on%20Sex%20Episode%205.mp4"
-        }
-      ],
-      "playbackUrl": "https://archive.org/download/high-on-sex-episode-5/High%20on%20Sex%20Episode%205.ia.mp4",
-      "validatedAt": "2026-10-20T16:28:58.837291+00:00"
     },
     {
       "identifier": "his_double_life",
@@ -6713,36 +6623,6 @@
       "validatedAt": "2026-10-16T03:51:24.066625+00:00"
     },
     {
-      "identifier": "school-for-sex-1969-pal-vhs",
-      "title": "School for Sex (1969) (PAL VHS)",
-      "description": "<div><font color=\"#e8e6e3\" face=\"Roboto, Noto, sans-serif\"><span style=\"font-size:15px;white-space:pre-wrap;background-color:rgb(30,33,34);\">\"Lord Wingate, aquitted after appearing in court for fraud, starts up a 'finishing school' for girls. He enlists the help of the Duchess of Burwood and Hector. The first batch of pupils come from Holloway prison. - <a href=\"https://www.imdb.com/title/tt0063564/\" rel=\"ugc nofollow\">IMDb</a></span></font></div><div><font color=\"#e8e6e3\" face=\"Roboto, Noto, sans-serif\"><span style=\"font-size:15px;white-space:pre-wrap;background-color:rgb(30,33,34);\"><br /></span></font></div><div><font color=\"#e8e6e3\" face=\"Roboto, Noto, sans-serif\"><span style=\"font-size:15px;white-space:pre-wrap;background-color:rgb(30,33,34);\">This film cost me £15 and it is probably the most degraded video tapes I have had the displeasure of digitising. </span></font></div><div><font color=\"#e8e6e3\" face=\"Roboto, Noto, sans-serif\"><span style=\"font-size:15px;white-space:pre-wrap;background-color:rgb(30,33,34);\"><br /></span></font></div><div><font color=\"#e8e6e3\" face=\"Roboto, Noto, sans-serif\"><span style=\"font-size:15px;white-space:pre-wrap;background-color:rgb(30,33,34);\">But, I think the added creepiness of the low-quality that's prevalent through this recording definitely adds to the the original sleaziness of the whole film. </span></font></div><div><font color=\"#e8e6e3\" face=\"Roboto, Noto, sans-serif\"><span style=\"font-size:15px;white-space:pre-wrap;background-color:rgb(30,33,34);\"><br /></span></font></div><div><font color=\"#e8e6e3\" face=\"Roboto, Noto, sans-serif\"><span style=\"font-size:15px;white-space:pre-wrap;background-color:rgb(30,33,34);\">If you want to watch the film in higher quality, please look somewhere else because I want nothing to do with this film. </span></font></div>",
-      "year": "1969",
-      "creator": "",
-      "subject": "bad movies, mockbuster, bad films, direct to video, low-budget movies, low-budget films, so bad it's good movies, so bad it's good films, sexploitation movies, bad pornos, titty movies, bad sex movies, 1960s sex comedies, creepy recordings, vhs, pal vhs, low quality vhs recordings, vhs tape, titty flick, sex exploitation movies, bad films, really bad films",
-      "collection": "adultvhs",
-      "mediatype": "movies",
-      "license": "",
-      "detailsUrl": "https://archive.org/details/school-for-sex-1969-pal-vhs",
-      "thumbnail": "https://archive.org/services/img/school-for-sex-1969-pal-vhs",
-      "category": "comedia",
-      "files": [
-        {
-          "name": "WIN_20220610_18_11_16_Pro.mp4",
-          "format": "MPEG4",
-          "size": 7011088225,
-          "url": "https://archive.org/download/school-for-sex-1969-pal-vhs/WIN_20220610_18_11_16_Pro.mp4"
-        },
-        {
-          "name": "WIN_20220610_18_11_16_Pro.ia.mp4",
-          "format": "h.264 IA",
-          "size": 466761896,
-          "url": "https://archive.org/download/school-for-sex-1969-pal-vhs/WIN_20220610_18_11_16_Pro.ia.mp4"
-        }
-      ],
-      "playbackUrl": "https://archive.org/download/school-for-sex-1969-pal-vhs/WIN_20220610_18_11_16_Pro.mp4",
-      "validatedAt": "2026-10-20T16:29:59.465184+00:00"
-    },
-    {
       "identifier": "bliptv-20131014-132853-Brittanitaylor-SEXYREBELMusicVideoOriginal735",
       "title": "SEXY REBEL! --Music Video-- (Original)",
       "description": "Be a rebel! Be yourself!--XoXo--BLT If you visit JewelMint at http://jmnt.co/uJXTCH and use the secret code BRITTANI before 11/12/11 you will get 70 percent off one piece of jewelry on your first order, if you are a new customer!! YEAH!! :D SHOP the ROCKER Look! http://jmnt.co/uJXTCH SHOP the BOHEMIAN Look! http://jmnt.co/uJXTCH SHOP the ELEGANT Look! http://jmnt.co/uJXTCH SHOP the CLASSIC Look! http://jmnt.co/uJXTCH SHOP the RUNWAY Look! http://jmnt.co/uJXTCH BRITTANI SET Savoy Bracelet http://jmnt.co/vq9ysz Pin Up Necklace http://jmnt.co/uZrbX6 FACEBOOK CONTEST http://on.fb.me/JewelmintContest BLOOPERS http://www.youtube.com/watch?v=RqW2DpPbYGQ&feature=channel_video_title DOWNLOAD “Rebel” HERE! http://tinyurl.com/4xwaofa STARRING/DIRECTED/EDITED/LYRICS/VOCALS BY Brittani Taylor FILMED BY Joey Anderton http://www.bambamjoey MUSIC PRODUCED BY Brent Morgan http://www.youtube.com/brentmorganmusic STARRING/MUSIC MIXED BY Ricky Rebel http://www.youtube.com/rickyrebeltv ALSO STARRING Alexander Fost http://www.alexanderfost.com Ricky Ficarelli http://www.youtube.com/rickyficarelli Deacon Tyler http://www.dtyler-photography.com SPECIAL HELPERS Jordan Brade http://www.youtube.com/blackfedorah Chris B. http://www.youtube.com/chrisislame90 Amanda Campbell http://www.twitter.com/amanduhcampbell Julie http://www.youtube.com/pokinthegoldfish THANK YOU to everyone that came out to Las Palmas nightclub! I couldn’t have done it without you guys! <3 POSTER http://tinyurl.com/3gegoga SHIRTS http://www.brittanilouisetaylor.spreadshirt.com FACEBOOK http://www.facebook.com/brittanitaylorfans MAIN CHANNEL http://www.youtube.com/brittanilouisetaylor BONUS VIDEOS http://www.youtube.com/brittani TWITTER http://www.twitter.com/brittanitaylor WEBSITE http://www.brittanilouisetaylor.com GOOGLE+ https://plus.google.com/114516649244445618938/posts ADDITIONAL MUSIC Easy Going http://www.musicloops.com/music_download/easy-going-3026/",
@@ -8057,72 +7937,6 @@
       "playbackUrl": "https://archive.org/download/the-benny-hill-show/54%20-%20Benny%20Hill.mp4",
       "format": "4:3",
       "validatedAt": "2026-10-20T16:28:52.837139+00:00"
-    },
-    {
-      "identifier": "The-Best-of-Bizarre-Uncensored",
-      "title": "The Best of Bizarre (Uncensored)",
-      "description": "<div>The Best of Bizarre (Uncensored) - Volume 0. Bizarre is a Canadian sketch comedy television series that aired from 1980 to 1986. The show was hosted by John Byner, and produced by CTV at the CFTO's Glen Warren Studios in the Toronto suburb of Scarborough, Ontario for first-run airing in Canada on CTV and in the United States on the Showtime premium cable network.</div><div><br /></div>",
-      "year": "",
-      "creator": "",
-      "subject": "Bizarre, sketch comedy, John Byner, CTV, Showtime, Super Dave Osborne, Super Dave",
-      "collection": "television_inbox, television",
-      "mediatype": "movies",
-      "license": "",
-      "detailsUrl": "https://archive.org/details/The-Best-of-Bizarre-Uncensored",
-      "thumbnail": "https://archive.org/services/img/The-Best-of-Bizarre-Uncensored",
-      "category": "comedia",
-      "files": [
-        {
-          "name": "The Best of Bizarre (Uncensored)/The Best of Bizarre (Uncensored) - Volume 01/Episode 1.mp4",
-          "format": "h.264",
-          "size": 163229840,
-          "url": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2001/Episode%201.mp4"
-        },
-        {
-          "name": "The Best of Bizarre (Uncensored)/The Best of Bizarre (Uncensored) - Volume 01/Episode 2.mp4",
-          "format": "h.264",
-          "size": 162039702,
-          "url": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2001/Episode%202.mp4"
-        },
-        {
-          "name": "The Best of Bizarre (Uncensored)/The Best of Bizarre (Uncensored) - Volume 06/Episode 7.mp4",
-          "format": "h.264",
-          "size": 154936226,
-          "url": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2006/Episode%207.mp4"
-        },
-        {
-          "name": "The Best of Bizarre (Uncensored)/The Best of Bizarre (Uncensored) - Volume 03/Episode 6.mp4",
-          "format": "h.264",
-          "size": 151407097,
-          "url": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2003/Episode%206.mp4"
-        },
-        {
-          "name": "The Best of Bizarre (Uncensored)/The Best of Bizarre (Uncensored) - Volume 06/Episode 1.mp4",
-          "format": "h.264",
-          "size": 151209243,
-          "url": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2006/Episode%201.mp4"
-        },
-        {
-          "name": "The Best of Bizarre (Uncensored)/The Best of Bizarre (Uncensored) - Volume 02/Episode 1.mp4",
-          "format": "h.264",
-          "size": 149602664,
-          "url": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2002/Episode%201.mp4"
-        },
-        {
-          "name": "The Best of Bizarre (Uncensored)/The Best of Bizarre (Uncensored) - Volume 09/episode 5.mp4",
-          "format": "h.264",
-          "size": 148263088,
-          "url": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2009/episode%205.mp4"
-        },
-        {
-          "name": "The Best of Bizarre (Uncensored)/The Best of Bizarre (Uncensored) - Volume 03/Episode 7.mp4",
-          "format": "h.264",
-          "size": 147762840,
-          "url": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2003/Episode%207.mp4"
-        }
-      ],
-      "playbackUrl": "https://archive.org/download/The-Best-of-Bizarre-Uncensored/The%20Best%20of%20Bizarre%20%28Uncensored%29/The%20Best%20of%20Bizarre%20%28Uncensored%29%20-%20Volume%2001/Episode%201.mp4",
-      "validatedAt": "2026-10-20T16:30:01.818835+00:00"
     },
     {
       "identifier": "The_Curious_Adventures_of_Mr._Wonderbird",

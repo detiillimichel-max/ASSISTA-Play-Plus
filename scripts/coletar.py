@@ -1,4 +1,4 @@
-import json, os, time, urllib.parse, urllib.request
+import json, os, time, urllib.parse, urllib.request, re
 from fontes_multiplas import collect as collect_external_sources
 from datetime import datetime, timezone
 from pathlib import Path
@@ -6,9 +6,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "catalog.json"
 DIR = ROOT / "catalog"
+MODERATION_DIR = ROOT / "moderacao"
+BLOCKLIST_PATH = MODERATION_DIR / "blocklist.json"
+POLICY_PATH = MODERATION_DIR / "politica.json"
 TARGET = int(os.getenv("TARGET_CANDIDATES", "2000"))
 CHECKS = int(os.getenv("MAX_METADATA_CHECKS", "2000"))
 TEXT_MODERATION_ENABLED = os.getenv("ENABLE_TEXT_MODERATION", "true").strip().lower() in ("1", "true", "yes", "on")
+try:
+    BLOCKLIST = json.loads(BLOCKLIST_PATH.read_text(encoding="utf-8"))
+except Exception:
+    BLOCKLIST = {"items": []}
+BLOCKED_IDS = {str(x.get("identifier")) for x in BLOCKLIST.get("items", []) if isinstance(x, dict) and x.get("identifier")}
+try:
+    MODERATION_POLICY = json.loads(POLICY_PATH.read_text(encoding="utf-8"))
+except Exception:
+    MODERATION_POLICY = {"version": "unknown", "blockedTermsInTitleIdentifierFilenameCollection": []}
+POLICY_TERMS = tuple(str(x).casefold() for x in MODERATION_POLICY.get("blockedTermsInTitleIdentifierFilenameCollection", []))
 # Categorias públicas mantidas estáveis para não quebrar catalog/*.json nem o app.
 # Cada consulta é ATÔMICA: um tema específico por busca, com sinônimos em inglês
 # porque o Internet Archive indexa muitos registros nesse idioma.
@@ -189,8 +202,18 @@ BLOCKED_FIELD_PATTERNS = [
     for term in BLOCKED_FIELD_TERMS
 ]
 
+def is_persistently_blocked(item):
+    identifier = str(item.get("identifier", ""))
+    if identifier in BLOCKED_IDS:
+        return True
+    high_risk = " ".join(str(item.get(key, "")) for key in ("title", "identifier", "collection"))
+    normalized = normalized_text(high_risk)
+    return any(term in normalized for term in POLICY_TERMS)
+
 def is_family_safe(item):
     # Chave temporária para diagnóstico do catálogo; não representa certificação familiar.
+    if is_persistently_blocked(item):
+        return False
     if not TEXT_MODERATION_ENABLED:
         return True
     # Moderação por contexto: título/arquivo/coleção têm regra forte;

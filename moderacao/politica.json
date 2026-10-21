@@ -1,0 +1,25 @@
+{
+  "version": "2026-10-21.1",
+  "profile": "family-strict",
+  "cacheTtlDays": 5,
+  "apiRateBudgetRatio": 0.3,
+  "states": ["approved", "review", "blocked", "technical_failure"],
+  "blockedTermsInTitleIdentifierFilenameCollection": [
+    "nsfw", "nsfl", "porn", "porno", "pornography", "hentai", "adult", "adults only",
+    "erotic", "erotica", "xxx", "uncensored", "stripper", "striptease", "fetish",
+    "sexploitation", "nudist", "nude", "topless", "sexual content", "school for sex",
+    "18+", "forbidden cinema", "stag film", "naked dancing", "bare asses"
+  ],
+  "childCategoryRequiresPositiveTerms": [
+    "children", "childrens", "preschool", "kids", "educational cartoon", "children animation",
+    "fairy tale", "family film", "juvenile"
+  ],
+  "neverInferChildFromTerms": ["animation", "animated", "cartoon", "anime", "manga"],
+  "visualPolicy": {
+    "porn": 0.25,
+    "hentai": 0.25,
+    "sexy": 0.5,
+    "missingThumbnail": "review",
+    "technicalFailure": "technical_failure"
+  }
+}

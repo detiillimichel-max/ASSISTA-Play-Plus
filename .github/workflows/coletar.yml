@@ -5,6 +5,9 @@ on:
     paths:
       - "scripts/coletar.py"
       - "scripts/fontes_multiplas.py"
+      - "scripts/cache.py"
+      - "moderacao/politica.json"
+      - "moderacao/blocklist.json"
       - "moderacao/nsfwjs/**"
       - ".github/workflows/coletar.yml"
   workflow_dispatch:
@@ -32,6 +35,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Definir janela de cache de cinco dias
+        run: echo "CACHE_BUCKET=$(($(date -u +%s) / 432000))" >> "$GITHUB_ENV"
+
+      - name: Restaurar cache das APIs
+        uses: actions/cache@v4
+        with:
+          path: .cache/api
+          key: assista-api-cache-v1-${{ env.CACHE_BUCKET }}
+          restore-keys: assista-api-cache-v1-
 
       - name: Verificar sintaxe do coletor antes de executar
         run: python -m py_compile scripts/coletar.py scripts/fontes_multiplas.py
@@ -80,6 +93,9 @@ jobs:
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
           WATCHMOD_API_KEY: ${{ secrets.WATCHMOD_API_KEY }}
           PEERTUBE_INSTANCES: ${{ secrets.PEERTUBE_INSTANCES }}
+          API_CACHE_TTL_SECONDS: "432000"
+          API_CACHE_DIR: ".cache/api"
+          API_RATE_BUDGET_RATIO: "0.30"
           MIN_ITEMS_PER_SOURCE: "100"
           MAX_ITEMS_PER_SOURCE: "150"
           MAX_ITEMS_PER_PEERTUBE_INSTANCE: "100"

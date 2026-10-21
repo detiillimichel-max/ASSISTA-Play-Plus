@@ -10,6 +10,7 @@ import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
+from cache import load as cache_load, save as cache_save, clear_expired
 
 UA = "ASSISTA-Plus-Catalog/1.0 (public media catalog; contact: repository maintainer)"
 TIMEOUT = int(os.getenv("SOURCE_TIMEOUT_SECONDS", "15"))
@@ -17,8 +18,51 @@ MIN_PER_SOURCE = max(100, int(os.getenv("MIN_ITEMS_PER_SOURCE", "100")))
 MAX_PER_SOURCE = max(MIN_PER_SOURCE, int(os.getenv("MAX_ITEMS_PER_SOURCE", "150")))
 MAX_PER_PEERTUBE_INSTANCE = max(100, int(os.getenv("MAX_ITEMS_PER_PEERTUBE_INSTANCE", str(MIN_PER_SOURCE))))
 METRICS = {}
+CACHE_HITS = 0
+CACHE_MISSES = 0
+REQUEST_COUNTS = {}
+API_RATE_LIMITS = {
+    "pexels": 200, "pixabay": 100, "europeana": 1000, "dvids": 1000,
+    "dpla": 1000, "twitch": 800, "nasa": 1000, "wikimedia_commons": 1000,
+    "library_of_congress": 1000, "internet_archive": 1000, "peertube": 1000
+}
+API_BUDGET_RATIO = min(0.30, max(0.01, float(os.getenv("API_RATE_BUDGET_RATIO", "0.30"))))
+
+def _source_for_url(url):
+    host = urllib.parse.urlparse(url).netloc.lower()
+    if "pexels" in host: return "pexels"
+    if "pixabay" in host: return "pixabay"
+    if "europeana" in host: return "europeana"
+    if "dvidshub" in host or "defense.gov" in host: return "dvids"
+    if "dp.la" in host: return "dpla"
+    if "twitch.tv" in host: return "twitch"
+    if "nasa.gov" in host: return "nasa"
+    if "wikimedia.org" in host or "commons.wikimedia" in host: return "wikimedia_commons"
+    if "loc.gov" in host: return "library_of_congress"
+    if "archive.org" in host: return "internet_archive"
+    return "other"
+
+def _consume_budget(url):
+    source = _source_for_url(url)
+    limit = API_RATE_LIMITS.get(source)
+    if not limit:
+        return source
+    budget = max(1, int(limit * API_BUDGET_RATIO))
+    used = REQUEST_COUNTS.get(source, 0)
+    if used >= budget:
+        raise RuntimeError(f"orçamento de 30% da API excedido para {source}: {used}/{budget}")
+    REQUEST_COUNTS[source] = used + 1
+    return source
 
 def request_json(url, headers=None):
+    global CACHE_HITS, CACHE_MISSES
+    clear_expired()
+    cached = cache_load(url)
+    if cached is not None:
+        CACHE_HITS += 1
+        return cached
+    CACHE_MISSES += 1
+    _consume_budget(url)
     req_headers = {"User-Agent": UA, "Accept": "application/json"}
     req_headers.update(headers or {})
     req = urllib.request.Request(url, headers=req_headers)
@@ -29,7 +73,9 @@ def request_json(url, headers=None):
             raise ValueError("resposta excedeu 5 MB")
         if "json" not in content_type and not body.lstrip().startswith((b"{", b"[")):
             raise ValueError("resposta não é JSON")
-        return json.loads(body.decode("utf-8"))
+        payload = json.loads(body.decode("utf-8"))
+        cache_save(url, payload)
+        return payload
 
 def qurl(base, params):
     return base + "?" + urllib.parse.urlencode(params, doseq=True)
@@ -74,7 +120,7 @@ def item(source, source_id, title, video_url, thumbnail="", page_url="", descrip
         "mediaType": "embed" if embed_url else "video",
         "mimeType": mime, "collectedAt": datetime.now(timezone.utc).isoformat(),
         "files": [{"name": title[:240], "format": mime or "external video", "size": 0, "url": video_url}],
-        "playbackUrl": video_url,
+        "playbackUrl": embed_url or video_url,
     }
     if embed_url:
         record["embedUrl"] = embed_url
@@ -414,6 +460,7 @@ def dareful():
     return []
 
 def collect():
+    clear_expired()
     all_items = []
     adapters = [
         ("pexels", pexels), ("pixabay", pixabay), ("nasa", nasa),
@@ -432,5 +479,13 @@ def collect():
         except Exception as exc:
             METRICS[name] = {"status":"error","errors":1,"error":str(exc)[:220]}
             print("SOURCE_ERROR", name, type(exc).__name__, str(exc)[:180])
+    METRICS["_runtime"] = {
+        "cacheTtlDays": 5,
+        "cacheHits": CACHE_HITS,
+        "cacheMisses": CACHE_MISSES,
+        "apiRateBudgetRatio": API_BUDGET_RATIO,
+        "apiRequests": REQUEST_COUNTS,
+        "apiBudgets": {source: max(1, int(limit * API_BUDGET_RATIO)) for source, limit in API_RATE_LIMITS.items()}
+    }
     print("MULTISOURCE_METRICS", json.dumps(METRICS, ensure_ascii=False, sort_keys=True))
     return all_items, METRICS

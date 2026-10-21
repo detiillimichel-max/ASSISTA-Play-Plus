@@ -5,8 +5,12 @@ const { analisarUrl } = require("./classificar");
 const root = path.resolve(__dirname, "../..");
 const catalogPath = path.join(root, "catalog.json");
 const categoryDir = path.join(root, "catalog");
+const policyPath = path.join(root, "moderacao", "politica.json");
+const blocklistPath = path.join(root, "moderacao", "blocklist.json");
 const requestedConcurrency = Number(process.env.NSFW_CONCURRENCY) || 3;
 const concurrency = Math.max(1, Math.min(4, requestedConcurrency));
+let policy = { version: "unknown", visualPolicy: {} };
+let persistentBlocklist = new Set();
 const BLOCKED_COLLECTIONS = ["forbidden-cinema","forbidden_cinema","adults-only","adult_films","erotica","pinup","pin-up","burlesque","playboy","hustler","sexploitation","nudist","adults_only"];
 const BLOCKED_PATTERNS = [
   /\\b(?:porn|porno|pornography|pornographic|xxx|hentai)\\b/i,
@@ -24,6 +28,7 @@ function metadataText(item) {
     .flatMap(value => Array.isArray(value) ? value : [value]).filter(value => value != null).join(" ");
 }
 function blockedByMetadata(item) {
+  if (persistentBlocklist.has(String(item.identifier || ""))) return "BLOCKLIST_PERSISTENTE";
   const normalized = " " + normalize(metadataText(item)) + " ";
   const collections = [item.collection,item.collections,item.identifier]
     .flatMap(value => Array.isArray(value) ? value : [value]).filter(Boolean).map(normalize);
@@ -50,6 +55,11 @@ async function mapLimit(items, limit, fn) {
   return results;
 }
 async function main() {
+  try { policy = JSON.parse(await fs.readFile(policyPath, "utf8")); } catch {}
+  try {
+    const data = JSON.parse(await fs.readFile(blocklistPath, "utf8"));
+    persistentBlocklist = new Set((data.items || []).map(item => String(item.identifier)).filter(Boolean));
+  } catch {}
   const catalog = await readJson(catalogPath);
   if (!catalog || !Array.isArray(catalog.items) || !catalog.items.length) throw new Error("catalog.json ausente, inválido ou vazio; moderação cancelada.");
   const seen = new Set();
@@ -70,18 +80,7 @@ async function main() {
     const isArchiveItem = !item.source || String(item.source).toLowerCase().includes("archive");
     // Fail-closed: apenas allowlist explícita pode dispensar análise visual.
     // moderationPolicy enviada pelo coletor é validada, nunca aceita cegamente.
-    const source = String(item.source || "internet-archive").trim().toLowerCase();
-    const trustedTextOnlySources = new Set(["nasa", "dvids", "europeana"]);
-    const requestedPolicy = String(item.moderationPolicy || "").trim().toLowerCase();
-    const knownPolicies = new Set(["text+visual", "text+trusted-source"]);
-    const validRequestedPolicy = knownPolicies.has(requestedPolicy) ? requestedPolicy : null;
-    const maySkipVisual = trustedTextOnlySources.has(source) &&
-      validRequestedPolicy === "text+trusted-source";
-    if (maySkipVisual) {
-      console.log("APROVADO após blocklist textual de fonte allowlist:", item.identifier, "source=", source);
-      return { item, approved: true, reason: "FONTE_ALLOWLIST_TEXTO_OK" };
-    }
-    // Para qualquer outra fonte, a análise visual é obrigatória.
+    // No perfil familiar estrito, fonte institucional não dispensa a análise visual.
     const suppliedThumbnail = item.thumbnail || item.thumb || item.cover;
     const imageUrl = String(
       suppliedThumbnail || (isArchiveItem
@@ -122,8 +121,14 @@ async function main() {
     );
   }
   const checkedAt = new Date().toISOString();
+  for (const item of approvedItems) {
+    item.safety = "approved";
+    item.ageRating = "family";
+    item.moderationPolicyVersion = policy.version || "unknown";
+    item.moderatedAt = checkedAt;
+  }
   catalog.items = approvedItems; catalog.count = approvedItems.length;
-  catalog.visualModeration = { engine: "NSFWJS + blocklist textual", checked: decisions.length, approved: approvedItems.length, rejected: decisions.length - approvedItems.length, rejectionReasons: reasonCounts, checkedAt, scope: "metadata-and-thumbnail-only", note: "A aprovação da capa não garante que o vídeo inteiro seja adequado." };
+  catalog.visualModeration = { engine: "NSFWJS + blocklist textual", policyVersion: policy.version || "unknown", checked: decisions.length, approved: approvedItems.length, rejected: decisions.length - approvedItems.length, rejectionReasons: reasonCounts, checkedAt, scope: "metadata-and-thumbnail-only", note: "A aprovação da capa não garante que o vídeo inteiro seja adequado." };
   if (Array.isArray(catalog.categories)) catalog.categories = catalog.categories.map(category => ({ ...category, count: approvedItems.filter(item => item.category === category.key).length }));
   await writeJson(catalogPath, catalog);
   const files = await fs.readdir(categoryDir).catch(() => []);
