@@ -1,11 +1,11 @@
 {
-  "version": "2026-10-21.1",
+  "version": "2026-10-21.2",
   "profile": "family-strict",
   "cacheTtlDays": 5,
   "apiRateBudgetRatio": 0.3,
   "states": ["approved", "review", "blocked", "technical_failure"],
-  "blockedTermsInTitleIdentifierFilenameCollection": [
-    "nsfw", "nsfl", "porn", "porno", "pornography", "hentai", "adult", "adults only",
+  "hardBlockTermsInTitleCollection": [
+    "nsfw", "nsfl", "porn", "porno", "pornography", "hentai", "adults only",
     "erotic", "erotica", "xxx", "uncensored", "stripper", "striptease", "fetish",
     "sexploitation", "nudist", "nude", "topless", "sexual content", "school for sex",
     "18+", "forbidden cinema", "stag film", "naked dancing", "bare asses"

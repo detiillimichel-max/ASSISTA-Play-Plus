@@ -21,7 +21,8 @@ try:
     MODERATION_POLICY = json.loads(POLICY_PATH.read_text(encoding="utf-8"))
 except Exception:
     MODERATION_POLICY = {"version": "unknown", "blockedTermsInTitleIdentifierFilenameCollection": []}
-POLICY_TERMS = tuple(str(x).casefold() for x in MODERATION_POLICY.get("blockedTermsInTitleIdentifierFilenameCollection", []))
+POLICY_TERMS = tuple(str(x).casefold() for x in MODERATION_POLICY.get("hardBlockTermsInTitleCollection", []))
+POLICY_PATTERNS = []
 # Categorias públicas mantidas estáveis para não quebrar catalog/*.json nem o app.
 # Cada consulta é ATÔMICA: um tema específico por busca, com sinônimos em inglês
 # porque o Internet Archive indexa muitos registros nesse idioma.
@@ -173,6 +174,11 @@ def normalized_text(value):
     value = value.casefold().replace("_", " ").replace("-", " ")
     return re.sub(r"[^a-z0-9\s\u3400-\u9fff\u3040-\u30ff\uac00-\ud7af]", " ", value)
 
+POLICY_PATTERNS = [
+    re.compile(r"(?<![a-z0-9])" + re.escape(normalized_text(term)).replace(r"\ ", r"\s+") + r"(?![a-z0-9])")
+    for term in POLICY_TERMS
+]
+
 BLOCKED_PATTERNS = [
     re.compile(r"(?<![a-z0-9])" + re.escape(normalized_text(term)).replace(r"\ ", r"\s+") + r"(?![a-z0-9])")
     for term in BLOCKED_TERMS
@@ -206,9 +212,9 @@ def is_persistently_blocked(item):
     identifier = str(item.get("identifier", ""))
     if identifier in BLOCKED_IDS:
         return True
-    high_risk = " ".join(str(item.get(key, "")) for key in ("title", "identifier", "collection"))
+    high_risk = " ".join(str(item.get(key, "")) for key in ("title", "collection"))
     normalized = normalized_text(high_risk)
-    return any(term in normalized for term in POLICY_TERMS)
+    return any(pattern.search(normalized) for pattern in POLICY_PATTERNS)
 
 def is_family_safe(item):
     # Chave temporária para diagnóstico do catálogo; não representa certificação familiar.
@@ -326,7 +332,7 @@ def main():
                     ident=text(d.get("identifier")); name=text(d.get("title"))
                     if not ident or not name or ident in seen: continue
                     if not is_family_safe({"identifier":ident,"title":name,"description":text(d.get("description")),"creator":text(d.get("creator")),"subject":text(d.get("subject")),"collection":text(d.get("collection"))}):
-                        print("BLOCKED unsafe metadata:",ident,"category=",key)
+                        print("FILTERED metadata policy:",ident,"category=",key)
                         continue
                     seen.add(ident); added+=1
                     candidates.append({"identifier":ident,"title":name,"description":text(d.get("description"))[:1200],"year":text(d.get("year")),"creator":text(d.get("creator")),"subject":text(d.get("subject")),"collection":text(d.get("collection")),"mediatype":text(d.get("mediatype")),"license":text(d.get("licenseurl")),"detailsUrl":"https://archive.org/details/"+ident,"thumbnail":"https://archive.org/services/img/"+ident,"category":key,"files":[],"playbackUrl":None})

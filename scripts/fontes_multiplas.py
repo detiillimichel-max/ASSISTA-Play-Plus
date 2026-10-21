@@ -21,6 +21,7 @@ METRICS = {}
 CACHE_HITS = 0
 CACHE_MISSES = 0
 REQUEST_COUNTS = {}
+REQUEST_ERRORS = {}
 API_RATE_LIMITS = {
     "pexels": 200, "pixabay": 100, "europeana": 1000, "dvids": 1000,
     "dpla": 1000, "twitch": 800, "nasa": 1000, "wikimedia_commons": 1000,
@@ -62,20 +63,31 @@ def request_json(url, headers=None):
         CACHE_HITS += 1
         return cached
     CACHE_MISSES += 1
-    _consume_budget(url)
+    source = _source_for_url(url)
+    try:
+        _consume_budget(url)
+    except Exception as exc:
+        REQUEST_ERRORS.setdefault(source, []).append({"type": "budget", "error": str(exc)[:180]})
+        print("API_REQUEST_SKIPPED", source, "budget", str(exc)[:150])
+        return {}
     req_headers = {"User-Agent": UA, "Accept": "application/json"}
     req_headers.update(headers or {})
     req = urllib.request.Request(url, headers=req_headers)
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
-        content_type = (response.headers.get("Content-Type") or "").lower()
-        body = response.read(5 * 1024 * 1024 + 1)
-        if len(body) > 5 * 1024 * 1024:
-            raise ValueError("resposta excedeu 5 MB")
-        if "json" not in content_type and not body.lstrip().startswith((b"{", b"[")):
-            raise ValueError("resposta não é JSON")
-        payload = json.loads(body.decode("utf-8"))
-        cache_save(url, payload)
-        return payload
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+            content_type = (response.headers.get("Content-Type") or "").lower()
+            body = response.read(5 * 1024 * 1024 + 1)
+            if len(body) > 5 * 1024 * 1024:
+                raise ValueError("resposta excedeu 5 MB")
+            if "json" not in content_type and not body.lstrip().startswith((b"{", b"[")):
+                raise ValueError("resposta não é JSON")
+            payload = json.loads(body.decode("utf-8"))
+            cache_save(url, payload)
+            return payload
+    except Exception as exc:
+        REQUEST_ERRORS.setdefault(source, []).append({"type": "request", "error": str(exc)[:180]})
+        print("API_REQUEST_SKIPPED", source, type(exc).__name__, str(exc)[:150])
+        return {}
 
 def qurl(base, params):
     return base + "?" + urllib.parse.urlencode(params, doseq=True)
@@ -128,7 +140,7 @@ def item(source, source_id, title, video_url, thumbnail="", page_url="", descrip
     return record
 
 def safe_call(name, fn):
-    stats = {"requests": 0, "found": 0, "accepted": 0, "errors": 0, "status": "ok"}
+    stats = {"requests": 0, "found": 0, "accepted": 0, "errors": 0, "status": "ok", "partialResultsKept": True}
     METRICS[name] = stats
     try:
         stats["requests"] += 1
@@ -143,12 +155,22 @@ def safe_call(name, fn):
             if len(result) >= MAX_PER_SOURCE:
                 break
         stats["accepted"] = len(result)
+        source_errors = REQUEST_ERRORS.get(name, [])
+        if source_errors and result:
+            stats["status"] = "partial_results"
+            stats["requestErrors"] = len(source_errors)
+        elif source_errors and not result:
+            stats["status"] = "unavailable"
+            stats["requestErrors"] = len(source_errors)
+        elif not result:
+            stats["status"] = "no_results"
         return result
     except Exception as exc:
         stats["errors"] += 1
-        stats["status"] = "error"
-        stats["error"] = str(exc)[:220]
-        print("SOURCE_ERROR", name, type(exc).__name__, str(exc)[:180])
+        message = str(exc)
+        stats["status"] = "unavailable" if any(code in message for code in ("403", "404", "410", "429")) else "error"
+        stats["error"] = message[:220]
+        print("SOURCE_UNAVAILABLE" if stats["status"] == "unavailable" else "SOURCE_ERROR", name, type(exc).__name__, message[:180])
         return []
 
 def pexels():
@@ -290,9 +312,14 @@ def library_of_congress():
             data = request_json(qurl("https://www.loc.gov/film-and-videos/", {"fo":"json","q":query,"c":30}))
             for r in data.get("results",[]):
                 resources = r.get("resources") or []
+                if isinstance(resources, dict): resources = [resources]
+                if not isinstance(resources, list): resources = []
                 candidates = []
                 for res in resources:
-                    for f in res.get("files",[]) if isinstance(res,dict) else []:
+                    files = res.get("files", []) if isinstance(res, dict) else []
+                    if isinstance(files, dict): files = [files]
+                    if not isinstance(files, list): files = []
+                    for f in files:
                         u = clean(f.get("url") if isinstance(f,dict) else "")
                         if u.lower().split("?")[0].endswith((".mp4",".webm",".mov",".ogv")): candidates.append(u)
                 if not candidates: continue
@@ -485,7 +512,8 @@ def collect():
         "cacheMisses": CACHE_MISSES,
         "apiRateBudgetRatio": API_BUDGET_RATIO,
         "apiRequests": REQUEST_COUNTS,
-        "apiBudgets": {source: max(1, int(limit * API_BUDGET_RATIO)) for source, limit in API_RATE_LIMITS.items()}
+        "apiBudgets": {source: max(1, int(limit * API_BUDGET_RATIO)) for source, limit in API_RATE_LIMITS.items()},
+        "requestErrors": REQUEST_ERRORS
     }
     print("MULTISOURCE_METRICS", json.dumps(METRICS, ensure_ascii=False, sort_keys=True))
     return all_items, METRICS
