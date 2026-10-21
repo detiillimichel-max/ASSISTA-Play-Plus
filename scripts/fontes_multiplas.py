@@ -333,7 +333,6 @@ def twitch():
         print("SOURCE_SKIPPED twitch missing client credentials")
         return []
     def run():
-        token_data = request_json("https://id.twitch.tv/oauth2/token", headers={}) if False else None
         body = urllib.parse.urlencode({"client_id":client_id,"client_secret":client_secret,"grant_type":"client_credentials"}).encode()
         req = urllib.request.Request("https://id.twitch.tv/oauth2/token", data=body, headers={"User-Agent":UA,"Content-Type":"application/x-www-form-urlencoded","Accept":"application/json"})
         with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
