@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/coletar.py"
+      - "scripts/fontes_multiplas.py"
       - "moderacao/nsfwjs/**"
       - ".github/workflows/coletar.yml"
   workflow_dispatch:
@@ -68,7 +69,12 @@ jobs:
         env:
           TARGET_CANDIDATES: "2000"
           MAX_METADATA_CHECKS: "2000"
-          ENABLE_TEXT_MODERATION: "false"
+          ENABLE_TEXT_MODERATION: "true"
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          EUROPEANA_API_KEY: ${{ secrets.EUROPEANA_API_KEY }}
+          DVIDS_API_KEY: ${{ secrets.DVIDS_API_KEY }}
+          PEERTUBE_INSTANCES: ${{ vars.PEERTUBE_INSTANCES }}
           PYTHONUNBUFFERED: "1"
         run: python scripts/coletar.py
 
@@ -93,9 +99,7 @@ jobs:
           print(f"Pré-validação aprovada: {len(items)} itens no catalog.json.")
           PY
 
-      # Moderação visual mantida no repositório, mas temporariamente ignorada para diagnosticar a chegada de conteúdo.
-      - name: Moderar capas com NSFWJS (desativada temporariamente)
-        if: ${{ false }}
+      - name: Moderar capas com NSFWJS
         env:
           NSFW_CONCURRENCY: "3"
         run: node moderacao/nsfwjs/moderar-catalogo.js
@@ -128,11 +132,17 @@ jobs:
               files = item.get("files")
               if not isinstance(files, list) or not files:
                   raise SystemExit(f"ERRO: item {item.get('identifier')} sem arquivos.")
-              if not any(
+              playback = str(item.get("playbackUrl") or "")
+              source = str(item.get("source") or "internet-archive")
+              if not playback.startswith("https://"):
+                  raise SystemExit(f"ERRO: item {item.get('identifier')} sem playbackUrl HTTPS.")
+              if not any(isinstance(f, dict) and str(f.get("url", "")).startswith("https://") for f in files):
+                  raise SystemExit(f"ERRO: item {item.get('identifier')} sem arquivo HTTPS reproduzível.")
+              if source == "internet-archive" and not any(
                   isinstance(f, dict) and str(f.get("url", "")).startswith("https://archive.org/download/")
                   for f in files
               ):
-                  raise SystemExit(f"ERRO: item {item.get('identifier')} sem URL reproduzível do Archive.org.")
+                  raise SystemExit(f"ERRO: item Archive.org {item.get('identifier')} sem URL de download válida.")
 
           print(f"Catálogo validado: {len(items)} itens com metadados e arquivos.")
           PY
