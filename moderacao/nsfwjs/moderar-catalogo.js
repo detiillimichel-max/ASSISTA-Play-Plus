@@ -5,14 +5,22 @@ const { analisarUrl } = require("./classificar");
 const root = path.resolve(__dirname, "../..");
 const catalogPath = path.join(root, "catalog.json");
 const categoryDir = path.join(root, "catalog");
-const concurrency = Math.max(1, Math.min(4, Number(process.env.NSFW_CONCURRENCY || 3)));
+const requestedConcurrency = Number(process.env.NSFW_CONCURRENCY) || 3;
+const concurrency = Math.max(1, Math.min(4, requestedConcurrency));
 const BLOCKED_COLLECTIONS = ["forbidden-cinema","forbidden_cinema","adults-only","adult_films","erotica","pinup","pin-up","burlesque","playboy","hustler","sexploitation","nudist","adults_only"];
-const BLOCKED_TERMS = ["forbidden cinema","adults only","erotica","erotic","burlesque","pinup","pin-up","nude","nudist","striptease"];
+const BLOCKED_PATTERNS = [
+  /\\b(?:porn|porno|pornography|pornographic|xxx|hentai)\\b/i,
+  /\\b(?:nudes?|nudity|naked|topless|nudist|nudism|naturist)\\b/i,
+  /\\b(?:erotic|erotica|erotism|fetish|bdsm|bondage|sexploitation|stag film)\\b/i,
+  /\\b(?:burlesque|pin[ -]?up|striptease|adults? only|hardcore|softcore)\\b/i,
+  /\\b(?:sexo|er[oó]tic[oa]s?|pelad[oa]s?|pornografia|pornogr[aá]fic[oa]s?|nudez|conte[uú]do sexual|conte[uú]do adulto)\\b/i,
+  /\\b(?:sex tape|sex film|sex video|sexual content|explicit sex|adult film)\\b/i
+];
 function normalize(value) {
   return String(value ?? "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[_-]+/g, " ").replace(/[^a-z0-9]+/g, " ").trim();
 }
 function metadataText(item) {
-  return [item.title,item.name,item.description,item.creator,item.collection,item.collections,item.subject,item.identifier,item.source,item.publisher,item.notes]
+  return [item.title,item.name,item.description,item.creator,item.collection,item.collections,item.subject,item.tags,item.keywords,item.identifier,item.source,item.publisher,item.notes]
     .flatMap(value => Array.isArray(value) ? value : [value]).filter(value => value != null).join(" ");
 }
 function blockedByMetadata(item) {
@@ -20,8 +28,8 @@ function blockedByMetadata(item) {
   const collections = [item.collection,item.collections,item.identifier]
     .flatMap(value => Array.isArray(value) ? value : [value]).filter(Boolean).map(normalize);
   if (collections.some(value => BLOCKED_COLLECTIONS.some(term => value.includes(normalize(term))))) return "BLOCKLIST_COLECAO";
-  const term = BLOCKED_TERMS.find(value => normalized.includes(" " + normalize(value) + " "));
-  return term ? "BLOCKLIST_TEXTO:" + term : null;
+  const term = BLOCKED_PATTERNS.find(pattern => pattern.test(metadataText(item)));
+  return term ? "BLOCKLIST_TEXTO:" + term.source : null;
 }
 async function readJson(file) { return JSON.parse(await fs.readFile(file, "utf8")); }
 async function writeJson(file, data) { await fs.writeFile(file, JSON.stringify(data, null, 2) + "\n", "utf8"); }
@@ -60,16 +68,20 @@ async function main() {
     // Archive.org oferece uma miniatura padrão pelo identifier; usa-a quando
     // o registro não trouxer thumbnail, thumb ou cover explicitamente.
     const isArchiveItem = !item.source || String(item.source).toLowerCase().includes("archive");
-    // A política vem do coletor e acompanha cada registro.
-    const source = String(item.source || "internet-archive").toLowerCase();
-    const policy = String(item.moderationPolicy || (
-      ["internet-archive", "internet-archive-prelinger", "prelinger", "peertube", "wikimedia-commons", "wikimedia_commons"].includes(source) || source.includes("peertube")
-        ? "text+visual" : "text+trusted-source"
-    ));
-    if (!policy.includes("visual")) {
-      console.log("APROVADO por política de fonte confiável após moderação textual:", item.identifier, "source=", source);
-      return { item, approved: true, reason: "FONTE_CONFIAVEL_TEXTO_OK" };
+    // Fail-closed: apenas allowlist explícita pode dispensar análise visual.
+    // moderationPolicy enviada pelo coletor é validada, nunca aceita cegamente.
+    const source = String(item.source || "internet-archive").trim().toLowerCase();
+    const trustedTextOnlySources = new Set(["nasa", "dvids", "europeana"]);
+    const requestedPolicy = String(item.moderationPolicy || "").trim().toLowerCase();
+    const knownPolicies = new Set(["text+visual", "text+trusted-source"]);
+    const validRequestedPolicy = knownPolicies.has(requestedPolicy) ? requestedPolicy : null;
+    const maySkipVisual = trustedTextOnlySources.has(source) &&
+      validRequestedPolicy === "text+trusted-source";
+    if (maySkipVisual) {
+      console.log("APROVADO após blocklist textual de fonte allowlist:", item.identifier, "source=", source);
+      return { item, approved: true, reason: "FONTE_ALLOWLIST_TEXTO_OK" };
     }
+    // Para qualquer outra fonte, a análise visual é obrigatória.
     const suppliedThumbnail = item.thumbnail || item.thumb || item.cover;
     const imageUrl = String(
       suppliedThumbnail || (isArchiveItem
@@ -95,13 +107,14 @@ async function main() {
     }
   }
   console.log("Resumo dos motivos de rejeição:", JSON.stringify(reasonCounts, null, 2));
-  const technicalReasons = new Set(["ANALISE_INDISPONIVEL", "IMAGEM_INDISPONIVEL", "MINIATURA_AUSENTE", "IMAGEM_AUSENTE", "ERRO_ITEM"]);
+  const technicalReasons = new Set(["ANALISE_INDISPONIVEL", "IMAGEM_INDISPONIVEL", "ERRO_ITEM"]);
   const technicalFailures = decisions.filter(x => !x.approved && technicalReasons.has(String(x.reason || ""))).length;
   const technicalRatio = decisions.length ? technicalFailures / decisions.length : 1;
   console.log("Diagnóstico técnico da moderação:", JSON.stringify({ total: decisions.length, technicalFailures, technicalFailurePercent: Math.round(technicalRatio * 100) }));
-  // Falhas técnicas afetam somente o item cuja política exige análise visual.
-  // Itens de fontes confiáveis continuam avaliados individualmente pela blocklist.
-  // Se nenhum item puder ser aprovado, o guard abaixo impede publicação e o workflow restaura o catálogo anterior.
+  const maxTechnicalRatio = Math.max(0, Math.min(1, Number(process.env.NSFW_MAX_TECHNICAL_FAILURE_RATIO) || 0.30));
+  if (technicalRatio > maxTechnicalRatio) {
+    throw new Error("Falhas técnicas de moderação acima do limite: " + Math.round(technicalRatio * 100) + "% > " + Math.round(maxTechnicalRatio * 100) + "%. Catálogo anterior preservado.");
+  }
   if (!approvedItems.length) {
     throw new Error(
       "Nenhum item passou na moderação visual/textual. A publicação foi bloqueada para preservar o catálogo anterior. " +
