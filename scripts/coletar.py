@@ -1,4 +1,5 @@
 import json, os, time, urllib.parse, urllib.request
+from fontes_multiplas import collect as collect_external_sources
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -319,6 +320,28 @@ def main():
         valid=validate(item)
         if valid: old[valid["identifier"]]=valid
         time.sleep(.2)
+    # Fontes adicionais independentes. A falha de uma fonte não interrompe as outras.
+    external_items, source_metrics = collect_external_sources()
+    external_added = 0
+    for external in external_items:
+        ident = text(external.get("identifier"))
+        if not ident or ident in old:
+            continue
+        if not external.get("title") or not external.get("playbackUrl") or not external.get("files"):
+            print("SOURCE_REJECTED invalid normalized record:", ident)
+            continue
+        if not is_family_safe(external):
+            print("SOURCE_REJECTED unsafe metadata:", ident, "source=", external.get("source"))
+            continue
+        # URL de reprodução precisa ser HTTPS e apontar para uma mídia reconhecível.
+        playback = urllib.parse.urlparse(text(external.get("playbackUrl")))
+        if playback.scheme != "https" or not playback.hostname:
+            print("SOURCE_REJECTED invalid playback URL:", ident)
+            continue
+        external["validatedAt"] = datetime.now(timezone.utc).isoformat()
+        old[ident] = external
+        external_added += 1
+    print("MULTISOURCE_ACCEPTED_AFTER_TEXT_MODERATION", external_added)
     groups={key:[] for key,_,_ in CATS}
     candidate_ids={x["identifier"]:x["category"] for x in candidates}
     for ident,item in old.items():
@@ -336,7 +359,7 @@ def main():
         )
     print("Resumo por categoria:", {key: len(value) for key, value in groups.items()})
     print("Candidatos coletados:", len(candidates), "| verificações de metadados:", checked, "| itens finais:", len(items))
-    catalog={"schemaVersion":1,"source":"Internet Archive","updatedAt":now,"candidateTarget":TARGET,"candidatesCollectedThisRun":len(candidates),"metadataChecksThisRun":checked,"count":len(items),"items":items,"categories":[{"key":k,"title":t,"count":len(groups[k]),"path":"catalog/"+k+".json"} for k,t,_ in CATS],"notes":["Items are included only when a video file is found.","Check rights and licenses per item; an Archive listing is not automatically public domain.","Playback support depends on the file format and browser."]}
+    catalog={"schemaVersion":1,"source":"Internet Archive","updatedAt":now,"candidateTarget":TARGET,"candidatesCollectedThisRun":len(candidates),"metadataChecksThisRun":checked,"multiSourceAcceptedThisRun":external_added,"sourceMetrics":source_metrics,"count":len(items),"items":items,"categories":[{"key":k,"title":t,"count":len(groups[k]),"path":"catalog/"+k+".json"} for k,t,_ in CATS],"notes":["Items are included only when a video file is found.","Check rights and licenses per item; an Archive listing is not automatically public domain.","Playback support depends on the file format and browser."]}
     # Write the consolidated catalog atomically first; the workflow backup restores
     # both it and category files if any later validation/moderation step fails.
     tmp=OUT.with_suffix(".tmp")
