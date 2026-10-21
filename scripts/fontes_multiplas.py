@@ -13,7 +13,9 @@ from datetime import datetime, timezone
 
 UA = "ASSISTA-Plus-Catalog/1.0 (public media catalog; contact: repository maintainer)"
 TIMEOUT = int(os.getenv("SOURCE_TIMEOUT_SECONDS", "15"))
-MAX_PER_SOURCE = max(100, int(os.getenv("MAX_ITEMS_PER_SOURCE", "120")))
+MIN_PER_SOURCE = max(100, int(os.getenv("MIN_ITEMS_PER_SOURCE", "100")))
+MAX_PER_SOURCE = max(MIN_PER_SOURCE, int(os.getenv("MAX_ITEMS_PER_SOURCE", "150")))
+MAX_PER_PEERTUBE_INSTANCE = max(100, int(os.getenv("MAX_ITEMS_PER_PEERTUBE_INSTANCE", str(MIN_PER_SOURCE))))
 METRICS = {}
 
 def request_json(url, headers=None):
@@ -277,28 +279,59 @@ def internet_archive_prelinger():
     return safe_call("prelinger", run)
 
 def peertube():
-    # No instance list exists in the inspected repository; do not invent or replace the user's 11 instances.
+    # Cada instância tem orçamento e métricas próprios; falhas ficam isoladas.
     raw = os.getenv("PEERTUBE_INSTANCES", "").strip()
     if not raw:
-        METRICS["peertube"] = {"status":"skipped_missing_instance_list","note":"Nenhuma lista das 11 instâncias foi encontrada no repositório; definir PEERTUBE_INSTANCES após recuperar a lista original."}
-        print("SOURCE_SKIPPED peertube no existing 11-instance list found; no instances invented")
+        METRICS["peertube"] = {"status":"skipped_missing_instance_list","note":"Defina PEERTUBE_INSTANCES com as URLs das instâncias já aprovadas."}
+        print("SOURCE_SKIPPED peertube missing PEERTUBE_INSTANCES")
         return []
-    def run():
-        out = []
-        instances = list(dict.fromkeys(x.strip().rstrip("/") for x in raw.replace(",", "\n").replace(";", "\n").split() if x.strip()))
-        for host in instances[:11]:
-            try:
-                data = request_json(qurl(host + "/api/v1/videos", {"count":20,"sort":"-publishedAt","isLocal":True,"nsfw":"false"}))
-                for v in data.get("data",[]):
-                    url = clean(v.get("files", [{}])[0].get("fileUrl")) if v.get("files") else ""
-                    if not url: continue
-                    out.append(item("peertube", str(host) + ":" + str(v.get("uuid") or v.get("id")), clean(v.get("name")), url, (("https://" + urllib.parse.urlparse(host).netloc + clean(v.get("thumbnailPath"))) if clean(v.get("thumbnailPath")).startswith("/") else clean(v.get("thumbnailPath"))), host + "/videos/watch/" + clean(v.get("uuid")), clean(v.get("description")), clean(v.get("account",{}).get("displayName")), clean(v.get("licence",{}).get("label")), "", "video", classify(clean(v.get("name")) + " " + clean(v.get("description")))))
-                    if len(out) >= MAX_PER_SOURCE: return out
-                time.sleep(1)
-            except Exception as exc:
-                print("SOURCE_INSTANCE_ERROR peertube", host, str(exc)[:140])
-        return out
-    return safe_call("peertube", run)
+    instances = list(dict.fromkeys(x.strip().rstrip("/") for x in raw.replace(",", "\\n").replace(";", "\\n").split() if x.strip()))[:11]
+    all_out = []
+    for host in instances:
+        name = "peertube:" + urllib.parse.urlparse(host).netloc
+        stats = {"requests":0,"found":0,"accepted":0,"errors":0,"status":"ok","target":MIN_PER_SOURCE}
+        METRICS[name] = stats
+        local, seen, start = [], set(), 0
+        try:
+            while len(local) < MAX_PER_PEERTUBE_INSTANCE:
+                params = {"count": min(50, MAX_PER_PEERTUBE_INSTANCE-len(local)), "sort":"-publishedAt", "isLocal":True, "nsfw":"false", "start":start}
+                stats["requests"] += 1
+                data = request_json(qurl(host + "/api/v1/videos", params))
+                rows = data.get("data", [])
+                stats["found"] += len(rows)
+                if not rows: break
+                for v in rows:
+                    vid = clean(v.get("uuid") or v.get("id"))
+                    files = v.get("files") or []
+                    url = clean(files[0].get("fileUrl")) if files and isinstance(files[0],dict) else ""
+                    if not url:
+                        playlists = v.get("streamingPlaylists") or []
+                        url = clean(playlists[0].get("playlistUrl")) if playlists and isinstance(playlists[0],dict) else ""
+                    if not vid or not url or urllib.parse.urlparse(url).scheme != "https" or vid in seen:
+                        continue
+                    seen.add(vid)
+                    thumb_path = clean(v.get("thumbnailPath"))
+                    thumb = urllib.parse.urljoin(host + "/", thumb_path) if thumb_path else ""
+                    lic = v.get("licence", {})
+                    lic = clean(lic.get("label") if isinstance(lic,dict) else lic)
+                    rec = item("peertube", urllib.parse.urlparse(host).netloc + ":" + vid, clean(v.get("name")), url, thumb, host + "/videos/watch/" + vid, clean(v.get("description")), clean((v.get("account") or {}).get("displayName")), lic, "", "video", classify(clean(v.get("name")) + " " + clean(v.get("description"))))
+                    if rec: local.append(rec)
+                    if len(local) >= MAX_PER_PEERTUBE_INSTANCE: break
+                start += len(rows)
+                if len(rows) < params["count"]: break
+                time.sleep(0.5)
+            stats["accepted"] = len(local)
+            if len(local) < MIN_PER_SOURCE:
+                stats["status"] = "below_target_or_insufficient_results"
+            print("PEERTUBE_INSTANCE_METRICS", name, json.dumps(stats, ensure_ascii=False))
+            all_out.extend(local)
+        except Exception as exc:
+            stats["errors"] += 1
+            stats["status"] = "error"
+            stats["error"] = str(exc)[:180]
+            print("SOURCE_INSTANCE_ERROR", name, type(exc).__name__, str(exc)[:140])
+    METRICS["peertube"] = {"status":"ok","instances_configured":len(instances),"accepted_total":len(all_out),"target_per_instance":MIN_PER_SOURCE}
+    return all_out
 
 def dpla():
     key = os.getenv("DPLA_API_KEY")
