@@ -59,10 +59,17 @@ async function main() {
     }
     // Archive.org oferece uma miniatura padrão pelo identifier; usa-a quando
     // o registro não trouxer thumbnail, thumb ou cover explicitamente.
+    const isArchiveItem = !item.source || String(item.source).toLowerCase().includes("archive");
+    const suppliedThumbnail = item.thumbnail || item.thumb || item.cover;
     const imageUrl = String(
-      item.thumbnail || item.thumb || item.cover ||
-      ("https://archive.org/services/img/" + encodeURIComponent(String(item.identifier)))
+      suppliedThumbnail || (isArchiveItem
+        ? ("https://archive.org/services/img/" + encodeURIComponent(String(item.source_id || item.identifier).replace(/^internet-archive:/, "")))
+        : "")
     ).trim();
+    if (!imageUrl) {
+      console.log("REJEITADO pela moderação visual:", item.identifier, "MINIATURA_AUSENTE");
+      return { item, approved: false, reason: "MINIATURA_AUSENTE" };
+    }
     const result = await analisarUrl(imageUrl);
     if (result.approved) return { item, approved: true, reason: result.reason };
     console.log("REJEITADO pela moderação visual:", item.identifier, result.reason);
