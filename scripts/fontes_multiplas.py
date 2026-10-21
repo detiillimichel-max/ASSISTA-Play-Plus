@@ -285,7 +285,7 @@ def peertube():
         return []
     def run():
         out = []
-        instances = list(dict.fromkeys(x.strip().rstrip("/") for x in raw.replace("\\r", "\\n").replace(";", "\\n").replace(",", "\\n").splitlines() if x.strip()))
+        instances = list(dict.fromkeys(x.strip().rstrip("/") for x in raw.replace(",", "\n").replace(";", "\n").split() if x.strip()))
         for host in instances[:11]:
             try:
                 data = request_json(qurl(host + "/api/v1/videos", {"count":20,"sort":"-publishedAt","isLocal":True,"nsfw":"false"}))
