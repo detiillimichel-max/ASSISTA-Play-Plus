@@ -55,6 +55,10 @@ async function mapLimit(items, limit, fn) {
   return results;
 }
 async function main() {
+  if (String(process.env.PAUSE_MODERATION || "").toLowerCase() === "true") {
+    console.log("MODERATION_PAUSED: NSFWJS não será executado nesta coleta.");
+    return;
+  }
   try { policy = JSON.parse(await fs.readFile(policyPath, "utf8")); } catch {}
   try {
     const data = JSON.parse(await fs.readFile(blocklistPath, "utf8"));

@@ -12,6 +12,7 @@ POLICY_PATH = MODERATION_DIR / "politica.json"
 TARGET = int(os.getenv("TARGET_CANDIDATES", "2000"))
 CHECKS = int(os.getenv("MAX_METADATA_CHECKS", "2000"))
 TEXT_MODERATION_ENABLED = os.getenv("ENABLE_TEXT_MODERATION", "true").strip().lower() in ("1", "true", "yes", "on")
+MODERATION_PAUSED = os.getenv("PAUSE_MODERATION", "false").strip().lower() in ("1", "true", "yes", "on")
 try:
     BLOCKLIST = json.loads(BLOCKLIST_PATH.read_text(encoding="utf-8"))
 except Exception:
@@ -218,6 +219,8 @@ def is_persistently_blocked(item):
 
 def is_family_safe(item):
     # Chave temporária para diagnóstico do catálogo; não representa certificação familiar.
+    if MODERATION_PAUSED:
+        return True
     if is_persistently_blocked(item):
         return False
     if not TEXT_MODERATION_ENABLED:
@@ -397,7 +400,7 @@ def main():
             item["source"] = source
         # Apenas fontes oficiais explicitamente allowlistadas podem dispensar análise visual.
         trusted_text_only_sources = {"nasa", "dvids", "europeana"}
-        item["moderationPolicy"] = "text+trusted-source" if source in trusted_text_only_sources else "text+visual"
+        item["moderationPolicy"] = "paused" if MODERATION_PAUSED else ("text+trusted-source" if source in trusted_text_only_sources else "text+visual")
         groups[item["category"]].append(item)
     now=datetime.now(timezone.utc).isoformat()
     items=sorted([x for group in groups.values() for x in group],key=lambda x:(x.get("category",""),x.get("title","").casefold()))
@@ -410,7 +413,7 @@ def main():
         )
     print("Resumo por categoria:", {key: len(value) for key, value in groups.items()})
     print("Candidatos coletados:", len(candidates), "| verificações de metadados:", checked, "| itens finais:", len(items))
-    catalog={"schemaVersion":1,"source":"Internet Archive","updatedAt":now,"candidateTarget":TARGET,"candidatesCollectedThisRun":len(candidates),"metadataChecksThisRun":checked,"multiSourceAcceptedThisRun":external_added,"sourceMetrics":source_metrics,"count":len(items),"items":items,"categories":[{"key":k,"title":t,"count":len(groups[k]),"path":"catalog/"+k+".json"} for k,t,_ in CATS],"notes":["Items are included only when a video file is found.","Check rights and licenses per item; an Archive listing is not automatically public domain.","Playback support depends on the file format and browser."]}
+    catalog={"schemaVersion":1,"source":"Internet Archive + fontes públicas configuradas","updatedAt":now,"candidateTarget":TARGET,"candidatesCollectedThisRun":len(candidates),"metadataChecksThisRun":checked,"multiSourceAcceptedThisRun":external_added,"sourceMetrics":source_metrics,"moderation":{"status":"paused" if MODERATION_PAUSED else "active","textEnabled":TEXT_MODERATION_ENABLED},"count":len(items),"items":items,"categories":[{"key":k,"title":t,"count":len(groups[k]),"path":"catalog/"+k+".json"} for k,t,_ in CATS],"notes":["Moderation is paused for this run; items are not safety-certified.","Items are included only when a video file is found.","Check rights and licenses per item; an Archive listing is not automatically public domain.","Playback support depends on the file format and browser."]}
     # Write the consolidated catalog atomically first; the workflow backup restores
     # both it and category files if any later validation/moderation step fails.
     tmp=OUT.with_suffix(".tmp")

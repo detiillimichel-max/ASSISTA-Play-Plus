@@ -26,6 +26,8 @@ jobs:
     name: Coletar, moderar e validar catálogo
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      PAUSE_MODERATION: "true"
 
     steps:
       - name: Baixar repositório
@@ -70,11 +72,13 @@ jobs:
           echo "BACKUP_PATH=$BACKUP_DIR" >> "$GITHUB_ENV"
 
       - name: Preparar Node para NSFWJS
+        if: env.PAUSE_MODERATION != 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
       - name: Instalar dependências de moderação visual
+        if: env.PAUSE_MODERATION != 'true'
         working-directory: moderacao/nsfwjs
         run: npm install --no-audit --no-fund
 
@@ -82,7 +86,8 @@ jobs:
         env:
           TARGET_CANDIDATES: "3000"
           MAX_METADATA_CHECKS: "3000"
-          ENABLE_TEXT_MODERATION: "true"
+          ENABLE_TEXT_MODERATION: "false"
+          PAUSE_MODERATION: "true"
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           EUROPEANA_API_KEY: ${{ secrets.EUROPEANA_API_KEY }}
@@ -103,7 +108,7 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python scripts/coletar.py
 
-      - name: Verificar catálogo gerado antes da moderação visual
+      - name: Verificar catálogo gerado antes da publicação
         shell: bash
         run: |
           set -euo pipefail
@@ -113,18 +118,19 @@ jobs:
 
           path = Path("catalog.json")
           if not path.is_file():
-              raise SystemExit("ERRO: o coletor não gerou catalog.json; NSFWJS não será executado.")
+              raise SystemExit("ERRO: o coletor não gerou catalog.json.")
           try:
               data = json.loads(path.read_text(encoding="utf-8"))
           except Exception as exc:
-              raise SystemExit(f"ERRO: o coletor gerou JSON inválido; NSFWJS não será executado: {exc}")
+              raise SystemExit(f"ERRO: o coletor gerou JSON inválido: {exc}")
           items = data.get("items") if isinstance(data, dict) else None
           if not isinstance(items, list) or not items:
-              raise SystemExit("ERRO: catálogo vazio ou campo items inválido; NSFWJS não será executado.")
+              raise SystemExit("ERRO: catálogo vazio ou campo items inválido.")
           print(f"Pré-validação aprovada: {len(items)} itens no catalog.json.")
           PY
 
       - name: Moderar capas com NSFWJS
+        if: env.PAUSE_MODERATION != 'true'
         env:
           NSFW_CONCURRENCY: "3"
         run: node moderacao/nsfwjs/moderar-catalogo.js

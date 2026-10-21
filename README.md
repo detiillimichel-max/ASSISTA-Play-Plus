@@ -22,6 +22,6 @@ O workflow pesquisa candidatos distribuídos entre oito categorias e fontes adic
 ## Fonte e direitos
 A existência de um arquivo em qualquer fonte não significa que seja de domínio público nem que possa ser redistribuído. Confira os direitos e a licença de cada item antes de usá-lo.
 
-Secrets são usados somente no GitHub Actions e nunca são enviados ao GitHub Pages ou gravados no catálogo. A moderação combina blocklist persistente, filtro textual e NSFWJS; a aprovação de uma miniatura não certifica o conteúdo completo do vídeo.
+Secrets são usados somente no GitHub Actions e nunca são enviados ao GitHub Pages ou gravados no catálogo. A moderação está temporariamente pausada no workflow (`PAUSE_MODERATION=true`) para diagnosticar a coleta de fontes; durante esse período, o catálogo não é certificado como familiar.
 
 A playlist é armazenada localmente no navegador. A atualização do catálogo não remove nem renova automaticamente os itens salvos; o usuário decide quando remover uma entrada indisponível.
