@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-10-21T19:48:33.489221+00:00",
-  "count": 438,
+  "updatedAt": "2026-10-22T12:00:16.133182+00:00",
+  "count": 439,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -4398,6 +4398,33 @@
       "playbackUrl": "https://archive.org/download/dcm22/dcm22.mp4",
       "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
       "validatedAt": "2026-10-21T19:45:03.054197+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "dcm30",
+      "title": "Deep Core Magic #30 (NSFW)",
+      "description": "This episode starts with the continuing from the last episode of the hot erotic dance of Linda, Kirsten and me from one of my performances at the University of California Berkeley.   Then we switch to my performance at the Harbin Hot Springs. Actually this was extremely controversial! The guy who booked me had had me do a ten minute piece for his Berkeley show. Unfortunately he showed a Harbin administer a tape of the piece I did in Berkeley. The Harbin administer freaked out! \"TOO EROTIC! TOO NUDE!\" I was then told I could only read my poems BUT NO NUDITY, EROTICISM OR DANCING! I did not commit to this! Now, Harbin is a clothing optional pickup site, with people fucking in the bushes! So it was obviously my particular body which was the real problem! So you can see what I did to subvert that! Unfortunately we didn't video the much more explicit erotic after hours performance requested by Tami [who played Julie in FEISTO] who just happened to be in the audience!   This episode ends with another hot UCB dance! <br /><br />Intimate Experiments in Deep Core Magic, June 27, 2003 : <a href=\"https://archive.org/details/intimateexperiments-2003-06-27\" rel=\"ugc nofollow\">https://archive.org/details/intimateexperiments-2003-06-27</a><br />Intimate Experiments in Deep Core Magic, August 1, 2003 : <a href=\"https://archive.org/details/intimateexperiments-2003-08-01\" rel=\"ugc nofollow\">https://archive.org/details/intimateexperiments-2003-08-01</a>",
+      "year": "2003",
+      "creator": "Frank Moore",
+      "subject": "DEEP CORE MAGIC, philosophy, sex magic, Frank Moore, performance art, dance, sexy, erotic, ritual, nude, naked, nudity, conversation, improvisation, live, trance, shamanism, play, hot",
+      "collection": "frank-moore-archives, additional_collections_video",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/dcm30",
+      "thumbnail": "https://archive.org/services/img/dcm30",
+      "category": "musica",
+      "files": [
+        {
+          "name": "dcm30.mp4",
+          "format": "MPEG4",
+          "size": 1010475434,
+          "url": "https://archive.org/download/dcm30/dcm30.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/dcm30/dcm30.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "validatedAt": "2026-10-22T11:58:31.074735+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

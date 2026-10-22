@@ -1,8 +1,8 @@
 {
   "category": "documentarios",
   "title": "Documentários",
-  "updatedAt": "2026-10-21T19:48:33.489221+00:00",
-  "count": 383,
+  "updatedAt": "2026-10-22T12:00:16.133182+00:00",
+  "count": 384,
   "items": [
     {
       "identifier": "silverlake-life-ovid-on-vimeo",
@@ -2659,6 +2659,39 @@
       "playbackUrl": "https://archive.org/download/DatelineToCatchAPredator5FortMeyersFlorida1X264_201811/Dateline%20-%20To%20Catch%20a%20Predator%20-%205%20-%20Fort%20Meyers%2C%20Florida%20-%201_x264.mp4",
       "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
       "validatedAt": "2026-10-21T19:40:14.748144+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "DatelineToCatchAPredator5FortMeyersFlorida1X264",
+      "title": "Dateline To Catch A Predator 5 Fort Meyers, Florida 1 X 264",
+      "description": "<div>The Dangerous Web is a place filled with predators of many kinds.  This focuses on the sexual predators who seek to fulfill their disgusting needs by seeking out children.  They have many things in common and their grooming techniques are exposed.  Parents, children, and members of society in general need to be aware of the red flags that are depicted here.  Furthermore, trusting people with your children due to their statuses in the community is very dangerous.  Watch Chris Hansen make fools of these fools.</div><div><br /></div>",
+      "year": "",
+      "creator": "",
+      "subject": "tcap, to catch a predator, internet sexual predators, educational, documentary",
+      "collection": "opensource_movies, community",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/DatelineToCatchAPredator5FortMeyersFlorida1X264",
+      "thumbnail": "https://archive.org/services/img/DatelineToCatchAPredator5FortMeyersFlorida1X264",
+      "category": "documentarios",
+      "files": [
+        {
+          "name": "Dateline - To Catch a Predator - 5 - Fort Meyers, Florida - 1_x264.mp4",
+          "format": "MPEG4",
+          "size": 673580051,
+          "url": "https://archive.org/download/DatelineToCatchAPredator5FortMeyersFlorida1X264/Dateline%20-%20To%20Catch%20a%20Predator%20-%205%20-%20Fort%20Meyers%2C%20Florida%20-%201_x264.mp4"
+        },
+        {
+          "name": "Dateline - To Catch a Predator - 5 - Fort Meyers, Florida - 1_x264.ogv",
+          "format": "Ogg Video",
+          "size": 196945109,
+          "url": "https://archive.org/download/DatelineToCatchAPredator5FortMeyersFlorida1X264/Dateline%20-%20To%20Catch%20a%20Predator%20-%205%20-%20Fort%20Meyers%2C%20Florida%20-%201_x264.ogv"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/DatelineToCatchAPredator5FortMeyersFlorida1X264/Dateline%20-%20To%20Catch%20a%20Predator%20-%205%20-%20Fort%20Meyers%2C%20Florida%20-%201_x264.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-10-22T11:56:53.331796+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

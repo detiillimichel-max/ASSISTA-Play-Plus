@@ -1,8 +1,8 @@
 {
   "category": "filmes",
   "title": "Filmes",
-  "updatedAt": "2026-10-21T19:48:33.489221+00:00",
-  "count": 607,
+  "updatedAt": "2026-10-22T12:00:16.133182+00:00",
+  "count": 608,
   "items": [
     {
       "identifier": "cannibal-holocaust-1980-720p",
@@ -9615,6 +9615,39 @@
       "playbackUrl": "https://archive.org/download/jjba93/Jojo%27s%20Bizarre%20Adventure%20%281993%29.ia.mp4",
       "licenseurl": "http://creativecommons.org/publicdomain/zero/1.0/",
       "validatedAt": "2026-10-21T19:37:04.593104+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "1608949544415-8185",
+      "title": "JoJo's Bizarre Adventure: Heritage for the Future: (US) JewsRapeKids vs(VE) KillerNigger420 - 2020-12-26 02:25:44",
+      "description": "(US) JewsRapeKids vs (VE) KillerNigger420 - 2020-12-26 02:25:44\nFightcade replay id: 1608949544415-8185\n#fightcade\n#jojobanr1\n#JewsRapeKids\n#KillerNigger420\nFor more videos check out: https://fightcadevids.com",
+      "year": "",
+      "creator": "Gino Lisignoli",
+      "subject": "video, fightcade",
+      "collection": "Fightcade-Archive, gamevideos",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0",
+      "detailsUrl": "https://archive.org/details/1608949544415-8185",
+      "thumbnail": "https://archive.org/services/img/1608949544415-8185",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "1608949544415-8185.mp4",
+          "format": "MPEG4",
+          "size": 382842734,
+          "url": "https://archive.org/download/1608949544415-8185/1608949544415-8185.mp4"
+        },
+        {
+          "name": "1608949544415-8185.ia.mp4",
+          "format": "h.264 IA",
+          "size": 380917772,
+          "url": "https://archive.org/download/1608949544415-8185/1608949544415-8185.ia.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/1608949544415-8185/1608949544415-8185.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/zero/1.0",
+      "validatedAt": "2026-10-22T11:56:31.191164+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

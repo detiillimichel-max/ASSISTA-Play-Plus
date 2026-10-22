@@ -1,8 +1,8 @@
 {
   "category": "historia",
   "title": "História",
-  "updatedAt": "2026-10-21T19:48:33.489221+00:00",
-  "count": 411,
+  "updatedAt": "2026-10-22T12:00:16.133182+00:00",
+  "count": 412,
   "items": [
     {
       "identifier": "32892WingsToGuatemala",
@@ -10217,6 +10217,44 @@
       ],
       "playbackUrl": "https://archive.org/download/RogueValleyMetaphysicalLibrary/2004-RogueValleyMetaphysicalLibrary-HarameinNassim.mp4",
       "validatedAt": "2026-10-20T16:33:24.769203+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "romers-egypt-1-of-3",
+      "title": "Romer's Egypt (1982)",
+      "description": "Romer's Egypt (1982)",
+      "year": "1982",
+      "creator": "Brother Elias",
+      "subject": "Romer's Egypt, 1982, Anceint Egypt, Ancient History",
+      "collection": "culturalandacademicfilms",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/romers-egypt-1-of-3",
+      "thumbnail": "https://archive.org/services/img/romers-egypt-1-of-3",
+      "category": "historia",
+      "files": [
+        {
+          "name": "Romer's Egypt 1 of 3.mp4",
+          "format": "MPEG4",
+          "size": 186174521,
+          "url": "https://archive.org/download/romers-egypt-1-of-3/Romer%27s%20Egypt%201%20of%203.mp4"
+        },
+        {
+          "name": "Romer's Egypt 2 of 3.mp4",
+          "format": "MPEG4",
+          "size": 161070028,
+          "url": "https://archive.org/download/romers-egypt-1-of-3/Romer%27s%20Egypt%202%20of%203.mp4"
+        },
+        {
+          "name": "Romer's Egypt 3 of 3.mp4",
+          "format": "MPEG4",
+          "size": 135188575,
+          "url": "https://archive.org/download/romers-egypt-1-of-3/Romer%27s%20Egypt%203%20of%203.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/romers-egypt-1-of-3/Romer%27s%20Egypt%201%20of%203.mp4",
+      "validatedAt": "2026-10-22T11:57:10.858992+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

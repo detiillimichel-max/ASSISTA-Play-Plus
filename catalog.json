@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-10-21T19:48:33.489221+00:00",
+  "updatedAt": "2026-10-22T12:00:16.133182+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 1100,
-  "multiSourceAcceptedThisRun": 410,
+  "metadataChecksThisRun": 118,
+  "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 4
+      "requestErrors": 2
     },
     "prelinger": {
       "requests": 1,
@@ -191,20 +191,14 @@
     },
     "_runtime": {
       "cacheTtlDays": 5,
-      "cacheHits": 1,
-      "cacheMisses": 248,
+      "cacheHits": 225,
+      "cacheMisses": 24,
       "apiRateBudgetRatio": 0.3,
       "apiRequests": {
-        "pexels": 8,
-        "pixabay": 8,
-        "nasa": 134,
-        "wikimedia_commons": 7,
-        "europeana": 5,
         "dvids": 5,
         "dpla": 6,
         "twitch": 8,
-        "library_of_congress": 5,
-        "internet_archive": 1
+        "library_of_congress": 4
       },
       "apiBudgets": {
         "pexels": 60,
@@ -305,19 +299,11 @@
         "library_of_congress": [
           {
             "type": "request",
-            "error": "HTTP Error 503: Service Unavailable"
+            "error": "The read operation timed out"
           },
           {
             "type": "request",
-            "error": "HTTP Error 503: Service Unavailable"
-          },
-          {
-            "type": "request",
-            "error": "HTTP Error 500: Internal Server Error"
-          },
-          {
-            "type": "request",
-            "error": "HTTP Error 503: Service Unavailable"
+            "error": "The read operation timed out"
           }
         ],
         "other": [
@@ -333,7 +319,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3619,
+  "count": 3623,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -61969,6 +61955,39 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "DatelineToCatchAPredator5FortMeyersFlorida1X264",
+      "title": "Dateline To Catch A Predator 5 Fort Meyers, Florida 1 X 264",
+      "description": "<div>The Dangerous Web is a place filled with predators of many kinds.  This focuses on the sexual predators who seek to fulfill their disgusting needs by seeking out children.  They have many things in common and their grooming techniques are exposed.  Parents, children, and members of society in general need to be aware of the red flags that are depicted here.  Furthermore, trusting people with your children due to their statuses in the community is very dangerous.  Watch Chris Hansen make fools of these fools.</div><div><br /></div>",
+      "year": "",
+      "creator": "",
+      "subject": "tcap, to catch a predator, internet sexual predators, educational, documentary",
+      "collection": "opensource_movies, community",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/DatelineToCatchAPredator5FortMeyersFlorida1X264",
+      "thumbnail": "https://archive.org/services/img/DatelineToCatchAPredator5FortMeyersFlorida1X264",
+      "category": "documentarios",
+      "files": [
+        {
+          "name": "Dateline - To Catch a Predator - 5 - Fort Meyers, Florida - 1_x264.mp4",
+          "format": "MPEG4",
+          "size": 673580051,
+          "url": "https://archive.org/download/DatelineToCatchAPredator5FortMeyersFlorida1X264/Dateline%20-%20To%20Catch%20a%20Predator%20-%205%20-%20Fort%20Meyers%2C%20Florida%20-%201_x264.mp4"
+        },
+        {
+          "name": "Dateline - To Catch a Predator - 5 - Fort Meyers, Florida - 1_x264.ogv",
+          "format": "Ogg Video",
+          "size": 196945109,
+          "url": "https://archive.org/download/DatelineToCatchAPredator5FortMeyersFlorida1X264/Dateline%20-%20To%20Catch%20a%20Predator%20-%205%20-%20Fort%20Meyers%2C%20Florida%20-%201_x264.ogv"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/DatelineToCatchAPredator5FortMeyersFlorida1X264/Dateline%20-%20To%20Catch%20a%20Predator%20-%205%20-%20Fort%20Meyers%2C%20Florida%20-%201_x264.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-10-22T11:56:53.331796+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "DatelineToCatchAPredator5FortMeyersFlorida2X264",
       "title": "Dateline To Catch A Predator 5 Fort Meyers, Florida 2 X 264",
       "description": "<div>The Dangerous Web is a place filled with predators of many kinds.  This focuses on the sexual predators who seek to fulfill their disgusting needs by seeking out children.  They have many things in common and their grooming techniques are exposed.  Parents, children, and members of society in general need to be aware of the red flags that are depicted here.  Furthermore, trusting people with your children due to their statuses in the community is very dangerous.  Watch Chris Hansen make fools of these fools.</div><div><br /></div>",
@@ -84516,6 +84535,39 @@
       "playbackUrl": "https://archive.org/download/jjba93/Jojo%27s%20Bizarre%20Adventure%20%281993%29.ia.mp4",
       "licenseurl": "http://creativecommons.org/publicdomain/zero/1.0/",
       "validatedAt": "2026-10-21T19:37:04.593104+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "1608949544415-8185",
+      "title": "JoJo's Bizarre Adventure: Heritage for the Future: (US) JewsRapeKids vs(VE) KillerNigger420 - 2020-12-26 02:25:44",
+      "description": "(US) JewsRapeKids vs (VE) KillerNigger420 - 2020-12-26 02:25:44\nFightcade replay id: 1608949544415-8185\n#fightcade\n#jojobanr1\n#JewsRapeKids\n#KillerNigger420\nFor more videos check out: https://fightcadevids.com",
+      "year": "",
+      "creator": "Gino Lisignoli",
+      "subject": "video, fightcade",
+      "collection": "Fightcade-Archive, gamevideos",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0",
+      "detailsUrl": "https://archive.org/details/1608949544415-8185",
+      "thumbnail": "https://archive.org/services/img/1608949544415-8185",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "1608949544415-8185.mp4",
+          "format": "MPEG4",
+          "size": 382842734,
+          "url": "https://archive.org/download/1608949544415-8185/1608949544415-8185.mp4"
+        },
+        {
+          "name": "1608949544415-8185.ia.mp4",
+          "format": "h.264 IA",
+          "size": 380917772,
+          "url": "https://archive.org/download/1608949544415-8185/1608949544415-8185.ia.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/1608949544415-8185/1608949544415-8185.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/zero/1.0",
+      "validatedAt": "2026-10-22T11:56:31.191164+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -108894,6 +108946,44 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "romers-egypt-1-of-3",
+      "title": "Romer's Egypt (1982)",
+      "description": "Romer's Egypt (1982)",
+      "year": "1982",
+      "creator": "Brother Elias",
+      "subject": "Romer's Egypt, 1982, Anceint Egypt, Ancient History",
+      "collection": "culturalandacademicfilms",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/romers-egypt-1-of-3",
+      "thumbnail": "https://archive.org/services/img/romers-egypt-1-of-3",
+      "category": "historia",
+      "files": [
+        {
+          "name": "Romer's Egypt 1 of 3.mp4",
+          "format": "MPEG4",
+          "size": 186174521,
+          "url": "https://archive.org/download/romers-egypt-1-of-3/Romer%27s%20Egypt%201%20of%203.mp4"
+        },
+        {
+          "name": "Romer's Egypt 2 of 3.mp4",
+          "format": "MPEG4",
+          "size": 161070028,
+          "url": "https://archive.org/download/romers-egypt-1-of-3/Romer%27s%20Egypt%202%20of%203.mp4"
+        },
+        {
+          "name": "Romer's Egypt 3 of 3.mp4",
+          "format": "MPEG4",
+          "size": 135188575,
+          "url": "https://archive.org/download/romers-egypt-1-of-3/Romer%27s%20Egypt%203%20of%203.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/romers-egypt-1-of-3/Romer%27s%20Egypt%201%20of%203.mp4",
+      "validatedAt": "2026-10-22T11:57:10.858992+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "S.A.MannBrand1933.ENG",
       "title": "S. A. Mann Brand 1933. English subtitles (Google)",
       "description": "S.A.-Mann Brand 1933.<br /><br />English subtitles (Google, from Estonian subs)<br /><br />Poor quality<br />\n\nDOWNLOAD THE \"MATROSHKA\" MKV file to see the subtitles!",
@@ -119027,6 +119117,33 @@
       "playbackUrl": "https://archive.org/download/dcm22/dcm22.mp4",
       "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
       "validatedAt": "2026-10-21T19:45:03.054197+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "dcm30",
+      "title": "Deep Core Magic #30 (NSFW)",
+      "description": "This episode starts with the continuing from the last episode of the hot erotic dance of Linda, Kirsten and me from one of my performances at the University of California Berkeley.   Then we switch to my performance at the Harbin Hot Springs. Actually this was extremely controversial! The guy who booked me had had me do a ten minute piece for his Berkeley show. Unfortunately he showed a Harbin administer a tape of the piece I did in Berkeley. The Harbin administer freaked out! \"TOO EROTIC! TOO NUDE!\" I was then told I could only read my poems BUT NO NUDITY, EROTICISM OR DANCING! I did not commit to this! Now, Harbin is a clothing optional pickup site, with people fucking in the bushes! So it was obviously my particular body which was the real problem! So you can see what I did to subvert that! Unfortunately we didn't video the much more explicit erotic after hours performance requested by Tami [who played Julie in FEISTO] who just happened to be in the audience!   This episode ends with another hot UCB dance! <br /><br />Intimate Experiments in Deep Core Magic, June 27, 2003 : <a href=\"https://archive.org/details/intimateexperiments-2003-06-27\" rel=\"ugc nofollow\">https://archive.org/details/intimateexperiments-2003-06-27</a><br />Intimate Experiments in Deep Core Magic, August 1, 2003 : <a href=\"https://archive.org/details/intimateexperiments-2003-08-01\" rel=\"ugc nofollow\">https://archive.org/details/intimateexperiments-2003-08-01</a>",
+      "year": "2003",
+      "creator": "Frank Moore",
+      "subject": "DEEP CORE MAGIC, philosophy, sex magic, Frank Moore, performance art, dance, sexy, erotic, ritual, nude, naked, nudity, conversation, improvisation, live, trance, shamanism, play, hot",
+      "collection": "frank-moore-archives, additional_collections_video",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/dcm30",
+      "thumbnail": "https://archive.org/services/img/dcm30",
+      "category": "musica",
+      "files": [
+        {
+          "name": "dcm30.mp4",
+          "format": "MPEG4",
+          "size": 1010475434,
+          "url": "https://archive.org/download/dcm30/dcm30.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/dcm30/dcm30.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "validatedAt": "2026-10-22T11:58:31.074735+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -153537,7 +153654,7 @@
     {
       "key": "filmes",
       "title": "Filmes",
-      "count": 607,
+      "count": 608,
       "path": "catalog/filmes.json"
     },
     {
@@ -153555,7 +153672,7 @@
     {
       "key": "documentarios",
       "title": "Documentários",
-      "count": 383,
+      "count": 384,
       "path": "catalog/documentarios.json"
     },
     {
@@ -153567,7 +153684,7 @@
     {
       "key": "historia",
       "title": "História",
-      "count": 411,
+      "count": 412,
       "path": "catalog/historia.json"
     },
     {
@@ -153579,7 +153696,7 @@
     {
       "key": "musica",
       "title": "Música e shows",
-      "count": 438,
+      "count": 439,
       "path": "catalog/musica.json"
     }
   ],
