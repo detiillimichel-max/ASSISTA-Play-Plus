@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-10-22T12:00:16.133182+00:00",
+  "updatedAt": "2026-10-23T11:45:53.378334+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 118,
+  "metadataChecksThisRun": 114,
   "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
@@ -91,9 +91,8 @@
       "found": 0,
       "accepted": 0,
       "errors": 0,
-      "status": "unavailable",
-      "partialResultsKept": true,
-      "requestErrors": 2
+      "status": "no_results",
+      "partialResultsKept": true
     },
     "prelinger": {
       "requests": 1,
@@ -296,16 +295,6 @@
             "error": "HTTP Error 404: Not Found"
           }
         ],
-        "library_of_congress": [
-          {
-            "type": "request",
-            "error": "The read operation timed out"
-          },
-          {
-            "type": "request",
-            "error": "The read operation timed out"
-          }
-        ],
         "other": [
           {
             "type": "request",
@@ -319,7 +308,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3623,
+  "count": 3624,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -137732,6 +137721,74 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "dzivokli-latvijas-serials",
+      "title": "Dzīvoklis Latvijas seriāls",
+      "description": "",
+      "year": "",
+      "creator": "",
+      "subject": "seriāls latviski",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/dzivokli-latvijas-serials",
+      "thumbnail": "https://archive.org/services/img/dzivokli-latvijas-serials",
+      "category": "series",
+      "files": [
+        {
+          "name": "Dzivoklis 91. serija.mp4",
+          "format": "h.264",
+          "size": 151235467,
+          "url": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%2091.%20serija.mp4"
+        },
+        {
+          "name": "Dzivoklis 96. serija SD.mp4",
+          "format": "h.264",
+          "size": 148298218,
+          "url": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%2096.%20serija%20SD.mp4"
+        },
+        {
+          "name": "Dzivoklis 209. serija.mp4",
+          "format": "h.264",
+          "size": 146126854,
+          "url": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%20209.%20serija.mp4"
+        },
+        {
+          "name": "Dzivoklis 95. serija.mp4",
+          "format": "h.264",
+          "size": 145418243,
+          "url": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%2095.%20serija.mp4"
+        },
+        {
+          "name": "Dzivoklis 83. serija.mp4",
+          "format": "h.264",
+          "size": 142352823,
+          "url": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%2083.%20serija.mp4"
+        },
+        {
+          "name": "Dzivoklis 213. serija.mp4",
+          "format": "h.264",
+          "size": 140329928,
+          "url": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%20213.%20serija.mp4"
+        },
+        {
+          "name": "Dzivoklis 93. serija.mp4",
+          "format": "h.264",
+          "size": 139788779,
+          "url": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%2093.%20serija.mp4"
+        },
+        {
+          "name": "Dzivoklis 212. serija.mp4",
+          "format": "h.264",
+          "size": 139618434,
+          "url": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%20212.%20serija.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/dzivokli-latvijas-serials/Dzivoklis%2091.%20serija.mp4",
+      "validatedAt": "2026-10-23T11:43:13.763063+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "dzumandzi-anim-ser-latviski",
       "title": "Džumandži animācijas seriāls latviski",
       "description": "animācijas seriāls Džumandži (Jumanji) 1996 latviski.",
@@ -153666,7 +153723,7 @@
     {
       "key": "series",
       "title": "Séries",
-      "count": 464,
+      "count": 465,
       "path": "catalog/series.json"
     },
     {
