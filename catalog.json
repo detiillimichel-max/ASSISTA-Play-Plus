@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-10-23T11:45:53.378334+00:00",
+  "updatedAt": "2026-10-24T11:07:44.457755+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 114,
+  "metadataChecksThisRun": 113,
   "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
@@ -91,8 +91,9 @@
       "found": 0,
       "accepted": 0,
       "errors": 0,
-      "status": "no_results",
-      "partialResultsKept": true
+      "status": "unavailable",
+      "partialResultsKept": true,
+      "requestErrors": 1
     },
     "prelinger": {
       "requests": 1,
@@ -293,6 +294,12 @@
           {
             "type": "request",
             "error": "HTTP Error 404: Not Found"
+          }
+        ],
+        "library_of_congress": [
+          {
+            "type": "request",
+            "error": "The read operation timed out"
           }
         ],
         "other": [
