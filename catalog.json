@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-10-24T11:07:44.457755+00:00",
+  "updatedAt": "2026-10-25T11:35:26.612012+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 113,
@@ -91,9 +91,8 @@
       "found": 0,
       "accepted": 0,
       "errors": 0,
-      "status": "unavailable",
-      "partialResultsKept": true,
-      "requestErrors": 1
+      "status": "no_results",
+      "partialResultsKept": true
     },
     "prelinger": {
       "requests": 1,
@@ -191,14 +190,14 @@
     },
     "_runtime": {
       "cacheTtlDays": 5,
-      "cacheHits": 225,
-      "cacheMisses": 24,
+      "cacheHits": 228,
+      "cacheMisses": 21,
       "apiRateBudgetRatio": 0.3,
       "apiRequests": {
         "dvids": 5,
         "dpla": 6,
         "twitch": 8,
-        "library_of_congress": 4
+        "library_of_congress": 1
       },
       "apiBudgets": {
         "pexels": 60,
@@ -294,12 +293,6 @@
           {
             "type": "request",
             "error": "HTTP Error 404: Not Found"
-          }
-        ],
-        "library_of_congress": [
-          {
-            "type": "request",
-            "error": "The read operation timed out"
           }
         ],
         "other": [
