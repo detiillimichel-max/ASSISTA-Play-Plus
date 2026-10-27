@@ -1,8 +1,8 @@
 {
   "category": "historia",
   "title": "História",
-  "updatedAt": "2026-10-26T13:09:42.124397+00:00",
-  "count": 412,
+  "updatedAt": "2026-10-27T12:20:12.888264+00:00",
+  "count": 413,
   "items": [
     {
       "identifier": "32892WingsToGuatemala",
@@ -8269,6 +8269,34 @@
       "playbackUrl": "https://archive.org/download/roman-empire-part-1/Meet%20the%20Romans%20with%20Mary%20Beard%201%20of%203.mp4",
       "validatedAt": "2026-10-20T16:32:18.528389+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:22200",
+      "source": "pixabay",
+      "source_id": "22200",
+      "title": "mexico, pyramid, pyramids, people, traditions, battery, native, the history, culture, historical, tenayuca",
+      "description": "",
+      "creator": "MarandaP",
+      "category": "historia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-22200/",
+      "sourceUrl": "https://pixabay.com/videos/id-22200/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:58.143900+00:00",
+      "files": [
+        {
+          "name": "mexico, pyramid, pyramids, people, traditions, battery, native, the history, culture, historical, tenayuca",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2019/03/21/22200-326050748_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2019/03/21/22200-326050748_large.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885368+00:00",
       "moderationPolicy": "paused"
     },
     {

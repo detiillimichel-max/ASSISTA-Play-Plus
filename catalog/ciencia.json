@@ -1,8 +1,8 @@
 {
   "category": "ciencia",
   "title": "Ciência e espaço",
-  "updatedAt": "2026-10-26T13:09:42.124397+00:00",
-  "count": 441,
+  "updatedAt": "2026-10-27T12:20:12.888264+00:00",
+  "count": 447,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -2294,6 +2294,62 @@
       "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
       "validatedAt": "2026-10-20T16:36:44.589817+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:211791",
+      "source": "pixabay",
+      "source_id": "211791",
+      "title": "city, ufo, alienable, space, ufo space",
+      "description": "",
+      "creator": "UniverseUnique",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-211791/",
+      "sourceUrl": "https://pixabay.com/videos/id-211791/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:55.927984+00:00",
+      "files": [
+        {
+          "name": "city, ufo, alienable, space, ufo space",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/05/13/211791_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/05/13/211791_large.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885296+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "wikimedia-commons:79935902",
+      "source": "wikimedia-commons",
+      "source_id": "79935902",
+      "title": "Claudia Göbel @ Open Science Bar Camp 2019.webm",
+      "description": "",
+      "creator": "Wikimedia Deutschland e. V.",
+      "category": "ciencia",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Claudia_G%C3%B6bel_%40_Open_Science_Bar_Camp_2019.webm/500px--Claudia_G%C3%B6bel_%40_Open_Science_Bar_Camp_2019.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3AClaudia_G%C3%B6bel_%40_Open_Science_Bar_Camp_2019.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClaudia_G%C3%B6bel_%40_Open_Science_Bar_Camp_2019.webm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-10-27T12:17:38.914532+00:00",
+      "files": [
+        {
+          "name": "Claudia Göbel @ Open Science Bar Camp 2019.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Claudia_G%C3%B6bel_%40_Open_Science_Bar_Camp_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Claudia_G%C3%B6bel_%40_Open_Science_Bar_Camp_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-10-27T12:20:12.885410+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -6857,6 +6913,34 @@
       "playbackUrl": "https://archive.org/download/MercurygeminiapolloOverview/Jsc1030rMercury_gemini_apolloOverview.mp4",
       "validatedAt": "2026-10-20T16:35:43.652636+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:8852659",
+      "source": "pexels",
+      "source_id": "8852659",
+      "title": "Mikhail Nilov — vídeo 8852659",
+      "description": "",
+      "creator": "Mikhail Nilov",
+      "category": "ciencia",
+      "thumbnail": "https://images.pexels.com/videos/8852659/pexels-photo-8852659.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/close-up-video-of-a-microscope-8852659/",
+      "sourceUrl": "https://www.pexels.com/video/close-up-video-of-a-microscope-8852659/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:48.657794+00:00",
+      "files": [
+        {
+          "name": "Mikhail Nilov — vídeo 8852659",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/8852659/8852659-hd_1280_720_60fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/8852659/8852659-hd_1280_720_60fps.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885139+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -13926,6 +14010,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pexels:854229",
+      "source": "pexels",
+      "source_id": "854229",
+      "title": "Pixabay — vídeo 854229",
+      "description": "",
+      "creator": "Pixabay",
+      "category": "ciencia",
+      "thumbnail": "https://images.pexels.com/videos/854229/free-video-854229.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/cg-animation-of-outerspace-854229/",
+      "sourceUrl": "https://www.pexels.com/video/cg-animation-of-outerspace-854229/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:49.480699+00:00",
+      "files": [
+        {
+          "name": "Pixabay — vídeo 854229",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/854229/854229-hd_1280_720_29fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/854229/854229-hd_1280_720_29fps.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885153+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pexels:3735783",
       "source": "pexels",
       "source_id": "3735783",
@@ -16531,6 +16643,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:215694",
+      "source": "pixabay",
+      "source_id": "215694",
+      "title": "space, stars, universe, nebula, galaxy, fantasy",
+      "description": "",
+      "creator": "olenchic",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-215694/",
+      "sourceUrl": "https://pixabay.com/videos/id-215694/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:55.927995+00:00",
+      "files": [
+        {
+          "name": "space, stars, universe, nebula, galaxy, fantasy",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/06/07/215694_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/06/07/215694_large.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885303+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pixabay:175323",
       "source": "pixabay",
       "source_id": "175323",
@@ -16556,6 +16696,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2023/08/09/175323-853193719_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483549+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:171682",
+      "source": "pixabay",
+      "source_id": "171682",
+      "title": "space, universe, explosion, energy, galaxy",
+      "description": "",
+      "creator": "olenchic",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-171682/",
+      "sourceUrl": "https://pixabay.com/videos/id-171682/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:55.927974+00:00",
+      "files": [
+        {
+          "name": "space, universe, explosion, energy, galaxy",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/07/15/171682-845775813_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/07/15/171682-845775813_large.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885289+00:00",
       "moderationPolicy": "paused"
     },
     {

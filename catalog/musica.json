@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-10-26T13:09:42.124397+00:00",
-  "count": 439,
+  "updatedAt": "2026-10-27T12:20:12.888264+00:00",
+  "count": 442,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -7428,6 +7428,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:175594",
+      "source": "pixabay",
+      "source_id": "175594",
+      "title": "headphones, sound, music, audio, listen",
+      "description": "",
+      "creator": "olenchic",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-175594/",
+      "sourceUrl": "https://pixabay.com/videos/id-175594/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:57.586757+00:00",
+      "files": [
+        {
+          "name": "headphones, sound, music, audio, listen",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/08/11/175594-853887904_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/08/11/175594-853887904_large.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885351+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "Helaku_IndianIndianWhatDidYouDieFor",
       "title": "Helaku - Indian, Indian What Did You Die For?",
       "description": "<div><b>Helaku - Indian, Indian What Did You Die For?</b></div><div><b><br /></b></div><div><b>01. Introclassic</b></div><div><b>02. Indian, Indian What Did You Die For?</b></div><div><b>03. Budub 1</b></div><div><b>04. Sullon Solomu Päässä</b></div><div><b>05. Breaktracker 120</b></div><div><b>06. The Solution</b></div><div><b>07. Demoviritys</b></div><div><b>08. 2015 Happy</b></div><div><b>09. Budub 2</b></div><div><b>10. 140 Drumnbazee</b></div><div><b>11. 160 Drumnbaze</b></div><div><b>12. Elevatormusic (On Acid)</b></div><div><b>13. Ring Them Bells</b></div><div><b>14. Another Painkiller \n15. 2015 Happy (Official Music Video)</b></div><div><b><br /></b></div><div><b>2015 cOmaRecOrdz (CR#86) </b></div><div><b><br /></b></div><div><b><br /></b></div><div><b>Oh ye who think or declare me to be selfish, inconsiderate and misanthropical, how unjust you are, and how little you know the secret cause of what appears thus to you! Born with a passionate and excitable temperament, keenly susceptible to the pleasures of society, I was yet obliged early in life to isolate myself, and to pass my existence in solitude.</b></div><div><b><br /></b></div><div><b>Forgive me therefore when you see me withdraw from you with whom I would so gladly mingle. My misfortune is doubly severe from causing me to be misunderstood. No longer can I enjoy recreation in social intercourse, refined conversation, or mutual outpourings of thought. Completely isolated, I only enter society when compelled to do so. I must live like an exile.</b></div><div><b><br /></b></div><div><b><br /></b></div><div><b>The story of this album is that sOuL_sCientiSt asked me if I make any non-mashup core songs, so I had to make few just to show off and feed my cute little ego. All tracks made with Renoise tracker, except track twelve. Thanks to Julma Henri and Eazy-E for the only mashup elements on this album.</b></div><div><b><br /></b></div><div><b>The video was made quite quickly from stock footage just to keep my \"skills\" up to date. No HD coz my slow and hot computer can't render them without overheating. Major greetings and whole lotta love to Kaaosradio.fi and all you technoheadz out there. Peace... Evolve...</b></div><div><b><br /></b></div><div><b><br /></b></div><div><b>http://www.comarecordz.com</b></div><div><b><br /></b></div><div><b>http://helaku.bandcamp.com</b></div><div><b><br /></b></div><div><b>https://soundcloud.com/helaku</b></div><div><b><br /></b></div><div><b>https://twitter.com/Helaku1</b></div><div><b><br /></b></div><div><b>https://www.facebook.com/Helaku </b></div><div><b><br /></b></div><div><b><br /></b></div><div><b>RELEASE DATE: February 2, 2015</b></div><div><b>GENRE: Breakcore, Dubstep </b></div>",
@@ -10742,6 +10770,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2023/08/14/175995-854496228_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.484289+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:175864",
+      "source": "pixabay",
+      "source_id": "175864",
+      "title": "music, notes, music theory, melody, beautiful wallpaper, musical, context, background",
+      "description": "",
+      "creator": "Nova2000",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-175864/",
+      "sourceUrl": "https://pixabay.com/videos/id-175864/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:57.586723+00:00",
+      "files": [
+        {
+          "name": "music, notes, music theory, melody, beautiful wallpaper, musical, context, background",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/08/13/175864-854230209_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/08/13/175864-854230209_large.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885344+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -18501,6 +18557,34 @@
       "playbackUrl": "https://archive.org/download/youtube-CumXofq7EHY/CumXofq7EHY.webm",
       "validatedAt": "2026-10-20T16:38:07.286004+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:6695082",
+      "source": "pexels",
+      "source_id": "6695082",
+      "title": "Антон Леонардович Варфоломеев — vídeo 6695082",
+      "description": "",
+      "creator": "Антон Леонардович Варфоломеев",
+      "category": "musica",
+      "thumbnail": "https://images.pexels.com/videos/6695082/pexels-photo-6695082.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/keyboard-and-mixer-close-up-6695082/",
+      "sourceUrl": "https://www.pexels.com/video/keyboard-and-mixer-close-up-6695082/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:52.154357+00:00",
+      "files": [
+        {
+          "name": "Антон Леонардович Варфоломеев — vídeo 6695082",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/6695082/6695082-hd_1920_1080_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/6695082/6695082-hd_1920_1080_30fps.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885200+00:00",
       "moderationPolicy": "paused"
     },
     {

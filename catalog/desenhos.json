@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-10-26T13:09:42.124397+00:00",
-  "count": 501,
+  "updatedAt": "2026-10-27T12:20:12.888264+00:00",
+  "count": 504,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -1629,6 +1629,34 @@
       ],
       "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Animation_of_the_anatomy_and_physiology_of_the_human_brain_AS.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "validatedAt": "2026-10-21T19:48:33.485514+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "wikimedia-commons:113627335",
+      "source": "wikimedia-commons",
+      "source_id": "113627335",
+      "title": "Animation Of Webb's Orbit.webm",
+      "description": "",
+      "creator": "NASA's Goddard Space Flight Center",
+      "category": "desenhos",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Animation_Of_Webb%27s_Orbit.webm/500px--Animation_Of_Webb%27s_Orbit.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3AAnimation_Of_Webb%27s_Orbit.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnimation_Of_Webb%27s_Orbit.webm",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-10-27T12:17:42.145351+00:00",
+      "files": [
+        {
+          "name": "Animation Of Webb's Orbit.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Animation_Of_Webb%27s_Orbit.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Animation_Of_Webb%27s_Orbit.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-10-27T12:20:12.885451+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -4395,6 +4423,34 @@
       "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
       "validatedAt": "2026-10-20T16:19:11.519707+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:3260",
+      "source": "pixabay",
+      "source_id": "3260",
+      "title": "bullet, ring, reflection, tracking shot, flight, ball, shape, round, circle, move, rotation, light, render, computer graphics, computer animation, animation, 3d",
+      "description": "",
+      "creator": "849356",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-3260/",
+      "sourceUrl": "https://pixabay.com/videos/id-3260/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-27T12:16:58.685978+00:00",
+      "files": [
+        {
+          "name": "bullet, ring, reflection, tracking shot, flight, ball, shape, round, circle, move, rotation, light, render, computer graphics, computer animation, animation, 3d",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2016/05/22/3260-167695252_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2016/05/22/3260-167695252_large.mp4",
+      "validatedAt": "2026-10-27T12:20:12.885379+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -14777,6 +14833,50 @@
       ],
       "playbackUrl": "https://archive.org/download/Pingu_Season_1to6/aaf-pingu.special.pingu.at.the.wedding.party.dvdrip.xvid.mp4",
       "validatedAt": "2026-10-16T11:38:23.700082+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "PlanetaU",
+      "title": "Planeta U on WFDC (November 11, 2023)",
+      "description": "Yet another \"Blockive\" (Programming block archive). This time of Spanish children's block Planeta U on Univision (occasionally, it airs on Sunday, which I did also record). I should also add that this is the only commercial Saturday Morning cartoon block (aside from MeTV and PBS) to air here in the US.<div><br /></div><div>Recorded on Saturday, November 11, 2023 on WFDC 14.</div><div><br /></div><div>Cuts short during the last segment of the block (Franklin and Friends at the very end).</div>",
+      "year": "2023",
+      "creator": "Sabbatical Entertainment, Víctor M. Rivera, Nelvana",
+      "subject": "Planeta U, Franklin and Friends, Atención Atención, Planeta de Niños, Univision, TV recordings, Saturday Morning Cartoons",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/PlanetaU",
+      "thumbnail": "https://archive.org/services/img/PlanetaU",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "VTS_01_2.mp4",
+          "format": "h.264",
+          "size": 284900574,
+          "url": "https://archive.org/download/PlanetaU/VTS_01_2.mp4"
+        },
+        {
+          "name": "VTS_01_1.mp4",
+          "format": "h.264",
+          "size": 278650653,
+          "url": "https://archive.org/download/PlanetaU/VTS_01_1.mp4"
+        },
+        {
+          "name": "VTS_01_3.mp4",
+          "format": "h.264",
+          "size": 275716307,
+          "url": "https://archive.org/download/PlanetaU/VTS_01_3.mp4"
+        },
+        {
+          "name": "VTS_01_4.mp4",
+          "format": "h.264",
+          "size": 243075975,
+          "url": "https://archive.org/download/PlanetaU/VTS_01_4.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/PlanetaU/VTS_01_2.mp4",
+      "validatedAt": "2026-10-27T12:15:29.187782+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
