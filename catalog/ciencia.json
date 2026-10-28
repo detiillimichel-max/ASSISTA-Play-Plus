@@ -1,8 +1,8 @@
 {
   "category": "ciencia",
   "title": "Ciência e espaço",
-  "updatedAt": "2026-10-27T12:20:12.888264+00:00",
-  "count": 447,
+  "updatedAt": "2026-10-28T13:03:14.623270+00:00",
+  "count": 448,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -16391,6 +16391,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2015/08/07/4-135665514_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483801+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:216339",
+      "source": "pixabay",
+      "source_id": "216339",
+      "title": "space station, astronaut, space travel, space, universe, planet, science, earth, future, science fiction",
+      "description": "",
+      "creator": "AdisResic",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-216339/",
+      "sourceUrl": "https://pixabay.com/videos/id-216339/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-28T12:59:50.760793+00:00",
+      "files": [
+        {
+          "name": "space station, astronaut, space travel, space, universe, planet, science, earth, future, science fiction",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/06/11/216339_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/06/11/216339_large.mp4",
+      "validatedAt": "2026-10-28T13:03:14.619633+00:00",
       "moderationPolicy": "paused"
     },
     {

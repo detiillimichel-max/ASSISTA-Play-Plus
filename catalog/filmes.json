@@ -1,8 +1,8 @@
 {
   "category": "filmes",
   "title": "Filmes",
-  "updatedAt": "2026-10-27T12:20:12.888264+00:00",
-  "count": 624,
+  "updatedAt": "2026-10-28T13:03:14.623270+00:00",
+  "count": 631,
   "items": [
     {
       "identifier": "cannibal-holocaust-1980-720p",
@@ -5819,6 +5819,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pexels:31937213",
+      "source": "pexels",
+      "source_id": "31937213",
+      "title": "Doctor Unface — vídeo 31937213",
+      "description": "",
+      "creator": "Doctor Unface",
+      "category": "filmes",
+      "thumbnail": "https://images.pexels.com/videos/31937213/pexels-photo-31937213.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/looking-up-at-tranquil-forest-canopy-31937213/",
+      "sourceUrl": "https://www.pexels.com/video/looking-up-at-tranquil-forest-canopy-31937213/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-28T12:59:43.580163+00:00",
+      "files": [
+        {
+          "name": "Doctor Unface — vídeo 31937213",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/31937213/13604127_640_360_60fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/31937213/13604127_640_360_60fps.mp4",
+      "validatedAt": "2026-10-28T13:03:14.619471+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pixabay:251873",
       "source": "pixabay",
       "source_id": "251873",
@@ -6840,6 +6868,34 @@
       "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
       "validatedAt": "2026-10-21T19:37:09.850372+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:109017",
+      "source": "pixabay",
+      "source_id": "109017",
+      "title": "flamingo, flamingo bird, birds, animals, wild animal, farm animals",
+      "description": "",
+      "creator": "Eaktas06",
+      "category": "filmes",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-109017/",
+      "sourceUrl": "https://pixabay.com/videos/id-109017/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-28T12:59:51.913296+00:00",
+      "files": [
+        {
+          "name": "flamingo, flamingo bird, birds, animals, wild animal, farm animals",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2022/02/27/109017-683077126_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2022/02/27/109017-683077126_large.mp4",
+      "validatedAt": "2026-10-28T13:03:14.619664+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -8332,6 +8388,34 @@
       "playbackUrl": "https://archive.org/download/01halloweenhorror1978donaldpleasenceengsubs720ph264mp4/01_Halloween___Horror_1978_Donald_Pleasence_Eng_Subs_720p_H264_mp4.mp4",
       "validatedAt": "2026-10-16T03:51:45.824190+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:32160875",
+      "source": "pexels",
+      "source_id": "32160875",
+      "title": "Hanifi Sarıkaya — vídeo 32160875",
+      "description": "",
+      "creator": "Hanifi Sarıkaya",
+      "category": "filmes",
+      "thumbnail": "https://images.pexels.com/videos/32160875/nature-silhouette-spica-sunset-32160875.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=630",
+      "detailsUrl": "https://www.pexels.com/video/serene-sunset-over-grassy-fields-32160875/",
+      "sourceUrl": "https://www.pexels.com/video/serene-sunset-over-grassy-fields-32160875/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-28T12:59:43.580142+00:00",
+      "files": [
+        {
+          "name": "Hanifi Sarıkaya — vídeo 32160875",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/32160875/13713326_720_1280_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/32160875/13713326_720_1280_30fps.mp4",
+      "validatedAt": "2026-10-28T13:03:14.619458+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -10041,6 +10125,34 @@
       ],
       "playbackUrl": "https://videos.pexels.com/video-files/36511266/15481537_720_540_30fps.mp4",
       "validatedAt": "2026-10-27T12:20:12.885095+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:30248342",
+      "source": "pexels",
+      "source_id": "30248342",
+      "title": "Joolsmagools  ®️ — vídeo 30248342",
+      "description": "",
+      "creator": "Joolsmagools  ®️",
+      "category": "filmes",
+      "thumbnail": "https://images.pexels.com/videos/30248342/african-wildlife-animal-behaviour-antelope-antelopes-30248342.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/nyala-antelopes-grazing-in-savanna-woodlands-30248342/",
+      "sourceUrl": "https://www.pexels.com/video/nyala-antelopes-grazing-in-savanna-woodlands-30248342/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-28T12:59:46.148506+00:00",
+      "files": [
+        {
+          "name": "Joolsmagools  ®️ — vídeo 30248342",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/30248342/12967392_640_360_60fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/30248342/12967392_640_360_60fps.mp4",
+      "validatedAt": "2026-10-28T13:03:14.619560+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -14477,6 +14589,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pexels:32590118",
+      "source": "pexels",
+      "source_id": "32590118",
+      "title": "Ranjeet  Chauhan — vídeo 32590118",
+      "description": "",
+      "creator": "Ranjeet  Chauhan",
+      "category": "filmes",
+      "thumbnail": "https://images.pexels.com/videos/32590118/pexels-photo-32590118.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/hiker-walking-on-rocky-trail-at-dusk-32590118/",
+      "sourceUrl": "https://www.pexels.com/video/hiker-walking-on-rocky-trail-at-dusk-32590118/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-28T12:59:43.580095+00:00",
+      "files": [
+        {
+          "name": "Ranjeet  Chauhan — vídeo 32590118",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/32590118/13898042_640_360_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/32590118/13898042_640_360_30fps.mp4",
+      "validatedAt": "2026-10-28T13:03:14.619427+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "RareTitanicFilm",
       "title": "Rare Titanic Film",
       "description": "I found this in one of my file boxes. I either recovered it from one of my encrypted drives or someone sent it to me. The film preservations society said it was very, very rare. Here is a link to another rare Titanic Film. It is one of the passengers on board the ship. http://www.youtube.com/watch?v=xPBlHCC61uc",
@@ -14580,6 +14720,34 @@
       "licenseurl": "http://creativecommons.org/licenses/by/3.0/",
       "validatedAt": "2026-10-20T16:18:48.889620+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:8552253",
+      "source": "pexels",
+      "source_id": "8552253",
+      "title": "RDNE Stock project — vídeo 8552253",
+      "description": "",
+      "creator": "RDNE Stock project",
+      "category": "filmes",
+      "thumbnail": "https://images.pexels.com/videos/8552253/animal-antler-barbaric-bird-8552253.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=630",
+      "detailsUrl": "https://www.pexels.com/video/close-up-footage-of-a-deer-looking-for-food-8552253/",
+      "sourceUrl": "https://www.pexels.com/video/close-up-footage-of-a-deer-looking-for-food-8552253/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-28T12:59:46.148483+00:00",
+      "files": [
+        {
+          "name": "RDNE Stock project — vídeo 8552253",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/8552253/8552253-hd_1080_1920_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/8552253/8552253-hd_1080_1920_30fps.mp4",
+      "validatedAt": "2026-10-28T13:03:14.619548+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -23036,6 +23204,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2024/12/15/246856_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483409+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:169249",
+      "source": "pixabay",
+      "source_id": "169249",
+      "title": "waterfall, stream, river, mountains, nature, park, water, tourism, trees, mossy, landscape",
+      "description": "",
+      "creator": "Leolo212",
+      "category": "filmes",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-169249/",
+      "sourceUrl": "https://pixabay.com/videos/id-169249/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-28T12:59:50.157778+00:00",
+      "files": [
+        {
+          "name": "waterfall, stream, river, mountains, nature, park, water, tourism, trees, mossy, landscape",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/06/28/169249-840702546_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/06/28/169249-840702546_large.mp4",
+      "validatedAt": "2026-10-28T13:03:14.619613+00:00",
       "moderationPolicy": "paused"
     },
     {

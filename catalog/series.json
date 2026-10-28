@@ -1,8 +1,8 @@
 {
   "category": "series",
   "title": "Séries",
-  "updatedAt": "2026-10-27T12:20:12.888264+00:00",
-  "count": 465,
+  "updatedAt": "2026-10-28T13:03:14.623270+00:00",
+  "count": 466,
   "items": [
     {
       "identifier": "cvvo8T7hAc31jvkxuVHPZMz26JKKOu",
@@ -15708,6 +15708,75 @@
       ],
       "playbackUrl": "https://archive.org/download/TexRittrerCollection/TexRidesWithTheBoyScouts1937.mp4",
       "validatedAt": "2026-10-17T06:16:30.408665+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "ThatsMyBush",
+      "title": "That's My Bush!",
+      "description": "Broadcast recordings of a TV sitcom from Trey Parker and Matt Stone, about the then newly elected president George W. Bush. <br />",
+      "year": "2001",
+      "creator": "",
+      "subject": "thats my bush, george w bush, sitcom, tv, vhs",
+      "collection": "vhstvshows, vhsvault",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/ThatsMyBush",
+      "thumbnail": "https://archive.org/services/img/ThatsMyBush",
+      "category": "series",
+      "files": [
+        {
+          "name": "S1-08 - 05-23-01 - That's My Bush! - Fare Thee Welfare.mp4",
+          "format": "MPEG4",
+          "size": 164754587,
+          "url": "https://archive.org/download/ThatsMyBush/S1-08%20-%2005-23-01%20-%20That%27s%20My%20Bush%21%20-%20Fare%20Thee%20Welfare.mp4"
+        },
+        {
+          "name": "S1-05 - 05-02-01 - That's My Bush! - The First Lady's Persqueeter.mp4",
+          "format": "MPEG4",
+          "size": 163868351,
+          "url": "https://archive.org/download/ThatsMyBush/S1-05%20-%2005-02-01%20-%20That%27s%20My%20Bush%21%20-%20The%20First%20Lady%27s%20Persqueeter.mp4"
+        },
+        {
+          "name": "S1-06 - 05-09-01 - That's My Bush! - Mom 'E' DEA Arrest.mp4",
+          "format": "MPEG4",
+          "size": 163362084,
+          "url": "https://archive.org/download/ThatsMyBush/S1-06%20-%2005-09-01%20-%20That%27s%20My%20Bush%21%20-%20Mom%20%27E%27%20DEA%20Arrest.mp4"
+        },
+        {
+          "name": "S1-04 - 04-25-01 - That's My Bush! - SDI Aye Aye!.mp4",
+          "format": "MPEG4",
+          "size": 160645827,
+          "url": "https://archive.org/download/ThatsMyBush/S1-04%20-%2004-25-01%20-%20That%27s%20My%20Bush%21%20-%20SDI%20Aye%20Aye%21.mp4"
+        },
+        {
+          "name": "S1-02 - 04-11-01 - That's My Bush! - A Poorly Executed Plan.mp4",
+          "format": "MPEG4",
+          "size": 159729003,
+          "url": "https://archive.org/download/ThatsMyBush/S1-02%20-%2004-11-01%20-%20That%27s%20My%20Bush%21%20-%20A%20Poorly%20Executed%20Plan.mp4"
+        },
+        {
+          "name": "S1-01 - 04-04-01 - That's My Bush! - An Aborted Dinner Date.mp4",
+          "format": "MPEG4",
+          "size": 159287341,
+          "url": "https://archive.org/download/ThatsMyBush/S1-01%20-%2004-04-01%20-%20That%27s%20My%20Bush%21%20-%20An%20Aborted%20Dinner%20Date.mp4"
+        },
+        {
+          "name": "S1-03 - 04-18-01 - That's My Bush! - Eenie, Meenie, Miney, Murder.mp4",
+          "format": "MPEG4",
+          "size": 156947732,
+          "url": "https://archive.org/download/ThatsMyBush/S1-03%20-%2004-18-01%20-%20That%27s%20My%20Bush%21%20-%20Eenie%2C%20Meenie%2C%20Miney%2C%20Murder.mp4"
+        },
+        {
+          "name": "S1-07 - 05-16-01 - That's My Bush! - Trapped In a Small Environment.mp4",
+          "format": "MPEG4",
+          "size": 154017833,
+          "url": "https://archive.org/download/ThatsMyBush/S1-07%20-%2005-16-01%20-%20That%27s%20My%20Bush%21%20-%20Trapped%20In%20a%20Small%20Environment.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/ThatsMyBush/S1-08%20-%2005-23-01%20-%20That%27s%20My%20Bush%21%20-%20Fare%20Thee%20Welfare.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-10-28T12:58:31.111332+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
