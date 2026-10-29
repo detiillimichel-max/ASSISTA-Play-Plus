@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-10-28T13:03:14.623270+00:00",
-  "count": 504,
+  "updatedAt": "2026-10-29T13:10:18.230158+00:00",
+  "count": 505,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -10668,6 +10668,34 @@
       "playbackUrl": "https://archive.org/download/HUNKYSPUNKYOscarNominatedCartoon/HUNKY%20%26%20SPUNKY%20Oscar%20Nominated%20Cartoon%21.MP4",
       "validatedAt": "2026-10-20T16:21:03.055405+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:14562775",
+      "source": "pexels",
+      "source_id": "14562775",
+      "title": "Hưng Gia — vídeo 14562775",
+      "description": "",
+      "creator": "Hưng Gia",
+      "category": "desenhos",
+      "thumbnail": "https://images.pexels.com/videos/14562775/pexels-photo-14562775.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=630",
+      "detailsUrl": "https://www.pexels.com/video/puppy-playing-with-hand-14562775/",
+      "sourceUrl": "https://www.pexels.com/video/puppy-playing-with-hand-14562775/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:53.600473+00:00",
+      "files": [
+        {
+          "name": "Hưng Gia — vídeo 14562775",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/14562775/14562775-hd_720_1280_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/14562775/14562775-hd_720_1280_30fps.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226465+00:00",
       "moderationPolicy": "paused"
     },
     {

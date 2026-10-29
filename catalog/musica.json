@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-10-28T13:03:14.623270+00:00",
-  "count": 442,
+  "updatedAt": "2026-10-29T13:10:18.230158+00:00",
+  "count": 444,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -11108,6 +11108,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:13203",
+      "source": "pixabay",
+      "source_id": "13203",
+      "title": "notes, music, his, composition color, partition, eighth note, scope, composition",
+      "description": "",
+      "creator": "Jacques_Barrette",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-13203/",
+      "sourceUrl": "https://pixabay.com/videos/id-13203/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:56.646957+00:00",
+      "files": [
+        {
+          "name": "notes, music, his, composition color, partition, eighth note, scope, composition",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2017/12/04/13203-246463959_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2017/12/04/13203-246463959_large.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226582+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pixabay:55755",
       "source": "pixabay",
       "source_id": "55755",
@@ -17414,6 +17442,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2017/01/15/7350-199627510_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.484270+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:148746",
+      "source": "pixabay",
+      "source_id": "148746",
+      "title": "turntable, music, audio, sound, retro, break",
+      "description": "",
+      "creator": "YS-Park",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-148746/",
+      "sourceUrl": "https://pixabay.com/videos/id-148746/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:56.646910+00:00",
+      "files": [
+        {
+          "name": "turntable, music, audio, sound, retro, break",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/01/31/148746-794599341_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/01/31/148746-794599341_large.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226570+00:00",
       "moderationPolicy": "paused"
     },
     {

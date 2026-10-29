@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-10-28T13:03:14.623270+00:00",
+  "updatedAt": "2026-10-29T13:10:18.230158+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 114,
-  "multiSourceAcceptedThisRun": 8,
+  "metadataChecksThisRun": 113,
+  "multiSourceAcceptedThisRun": 7,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -33,8 +33,8 @@
     },
     "wikimedia_commons": {
       "requests": 1,
-      "found": 101,
-      "accepted": 101,
+      "found": 117,
+      "accepted": 116,
       "errors": 0,
       "status": "ok",
       "partialResultsKept": true
@@ -91,8 +91,9 @@
       "found": 0,
       "accepted": 0,
       "errors": 0,
-      "status": "no_results",
-      "partialResultsKept": true
+      "status": "unavailable",
+      "partialResultsKept": true,
+      "requestErrors": 2
     },
     "prelinger": {
       "requests": 1,
@@ -190,8 +191,8 @@
     },
     "_runtime": {
       "cacheTtlDays": 5,
-      "cacheHits": 4,
-      "cacheMisses": 245,
+      "cacheHits": 1,
+      "cacheMisses": 248,
       "apiRateBudgetRatio": 0.3,
       "apiRequests": {
         "pexels": 8,
@@ -202,7 +203,7 @@
         "dvids": 5,
         "dpla": 6,
         "twitch": 8,
-        "library_of_congress": 2,
+        "library_of_congress": 5,
         "internet_archive": 1
       },
       "apiBudgets": {
@@ -301,6 +302,16 @@
             "error": "HTTP Error 404: Not Found"
           }
         ],
+        "library_of_congress": [
+          {
+            "type": "request",
+            "error": "The read operation timed out"
+          },
+          {
+            "type": "request",
+            "error": "The read operation timed out"
+          }
+        ],
         "other": [
           {
             "type": "request",
@@ -314,7 +325,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3662,
+  "count": 3669,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -2513,6 +2524,34 @@
       "playbackUrl": "https://archive.org/download/brendonoconnell/22.%20%20TRUMP%20IMPEACHMENT%20_%20CERN%20SOLEIMANI%20CRYPTO%20WW3%20A%20DRUG%20DEAL%20%26%20A%20SWISS%20BANKER%20-%20PART%201.mp4",
       "validatedAt": "2026-10-21T19:43:43.335908+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "wikimedia-commons:81781675",
+      "source": "wikimedia-commons",
+      "source_id": "81781675",
+      "title": "Bucharest-471-eng-How Open is Revolutionizing Science webm-hd.webm",
+      "description": "",
+      "creator": "Matthew Hanson",
+      "category": "ciencia",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm/500px--Bucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3ABucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-10-29T13:07:22.907742+00:00",
+      "files": [
+        {
+          "name": "Bucharest-471-eng-How Open is Revolutionizing Science webm-hd.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Bucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Bucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-10-29T13:10:18.226630+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -18375,6 +18414,34 @@
       ],
       "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Transverse_Wave_Motion_inside_Science_City.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "validatedAt": "2026-10-21T19:48:33.485199+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:227155",
+      "source": "pixabay",
+      "source_id": "227155",
+      "title": "tunnel, futuristic, science fiction, fantasy, loop",
+      "description": "",
+      "creator": "AdisResic",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-227155/",
+      "sourceUrl": "https://pixabay.com/videos/id-227155/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:54.750340+00:00",
+      "files": [
+        {
+          "name": "tunnel, futuristic, science fiction, fantasy, loop",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227155_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/08/18/227155_large.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226512+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -46026,6 +46093,34 @@
       "playbackUrl": "https://archive.org/download/HUNKYSPUNKYOscarNominatedCartoon/HUNKY%20%26%20SPUNKY%20Oscar%20Nominated%20Cartoon%21.MP4",
       "validatedAt": "2026-10-20T16:21:03.055405+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:14562775",
+      "source": "pexels",
+      "source_id": "14562775",
+      "title": "Hưng Gia — vídeo 14562775",
+      "description": "",
+      "creator": "Hưng Gia",
+      "category": "desenhos",
+      "thumbnail": "https://images.pexels.com/videos/14562775/pexels-photo-14562775.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=630",
+      "detailsUrl": "https://www.pexels.com/video/puppy-playing-with-hand-14562775/",
+      "sourceUrl": "https://www.pexels.com/video/puppy-playing-with-hand-14562775/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:53.600473+00:00",
+      "files": [
+        {
+          "name": "Hưng Gia — vídeo 14562775",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/14562775/14562775-hd_720_1280_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/14562775/14562775-hd_720_1280_30fps.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226465+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -79460,6 +79555,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "wikimedia-commons:128562317",
+      "source": "wikimedia-commons",
+      "source_id": "128562317",
+      "title": "Comment diminuer notre impact environnemental ? Partie 4-Accueillir la vie sauvage.webm",
+      "description": "",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Graineahumus\" title=\"User:Graineahumus\">Graineahumus</a>",
+      "category": "filmes",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Comment_diminuer_notre_impact_environnemental_%3F_Partie_4-Accueillir_la_vie_sauvage.webm/500px--Comment_diminuer_notre_impact_environnemental_%3F_Partie_4-Accueillir_la_vie_sauvage.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3AComment_diminuer_notre_impact_environnemental_%3F_Partie_4-Accueillir_la_vie_sauvage.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AComment_diminuer_notre_impact_environnemental_%3F_Partie_4-Accueillir_la_vie_sauvage.webm",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-10-29T13:07:25.709405+00:00",
+      "files": [
+        {
+          "name": "Comment diminuer notre impact environnemental ? Partie 4-Accueillir la vie sauvage.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Comment_diminuer_notre_impact_environnemental_%3F_Partie_4-Accueillir_la_vie_sauvage.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Comment_diminuer_notre_impact_environnemental_%3F_Partie_4-Accueillir_la_vie_sauvage.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-10-29T13:10:18.226658+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "wikimedia-commons:94860445",
       "source": "wikimedia-commons",
       "source_id": "94860445",
@@ -86678,6 +86801,34 @@
       "playbackUrl": "https://archive.org/download/018598/018598_512kb.mp4",
       "validatedAt": "2026-10-21T19:37:18.212753+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:221469",
+      "source": "pixabay",
+      "source_id": "221469",
+      "title": "lions, predators, animals",
+      "description": "",
+      "creator": "u_7ifvkc4oku",
+      "category": "filmes",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-221469/",
+      "sourceUrl": "https://pixabay.com/videos/id-221469/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:55.679189+00:00",
+      "files": [
+        {
+          "name": "lions, predators, animals",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/07/16/221469_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/07/16/221469_large.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226542+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -126790,6 +126941,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:13203",
+      "source": "pixabay",
+      "source_id": "13203",
+      "title": "notes, music, his, composition color, partition, eighth note, scope, composition",
+      "description": "",
+      "creator": "Jacques_Barrette",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-13203/",
+      "sourceUrl": "https://pixabay.com/videos/id-13203/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:56.646957+00:00",
+      "files": [
+        {
+          "name": "notes, music, his, composition color, partition, eighth note, scope, composition",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2017/12/04/13203-246463959_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2017/12/04/13203-246463959_large.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226582+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pixabay:55755",
       "source": "pixabay",
       "source_id": "55755",
@@ -133096,6 +133275,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2017/01/15/7350-199627510_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.484270+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:148746",
+      "source": "pixabay",
+      "source_id": "148746",
+      "title": "turntable, music, audio, sound, retro, break",
+      "description": "",
+      "creator": "YS-Park",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-148746/",
+      "sourceUrl": "https://pixabay.com/videos/id-148746/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:56.646910+00:00",
+      "files": [
+        {
+          "name": "turntable, music, audio, sound, retro, break",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/01/31/148746-794599341_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/01/31/148746-794599341_large.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226570+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -154838,13 +155045,13 @@
     {
       "key": "filmes",
       "title": "Filmes",
-      "count": 631,
+      "count": 633,
       "path": "catalog/filmes.json"
     },
     {
       "key": "desenhos",
       "title": "Desenhos",
-      "count": 504,
+      "count": 505,
       "path": "catalog/desenhos.json"
     },
     {
@@ -154874,13 +155081,13 @@
     {
       "key": "ciencia",
       "title": "Ciência e espaço",
-      "count": 448,
+      "count": 450,
       "path": "catalog/ciencia.json"
     },
     {
       "key": "musica",
       "title": "Música e shows",
-      "count": 442,
+      "count": 444,
       "path": "catalog/musica.json"
     }
   ],

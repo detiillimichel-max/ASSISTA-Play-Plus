@@ -1,8 +1,8 @@
 {
   "category": "ciencia",
   "title": "Ciência e espaço",
-  "updatedAt": "2026-10-28T13:03:14.623270+00:00",
-  "count": 448,
+  "updatedAt": "2026-10-29T13:10:18.230158+00:00",
+  "count": 450,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -2201,6 +2201,34 @@
       "playbackUrl": "https://archive.org/download/brendonoconnell/22.%20%20TRUMP%20IMPEACHMENT%20_%20CERN%20SOLEIMANI%20CRYPTO%20WW3%20A%20DRUG%20DEAL%20%26%20A%20SWISS%20BANKER%20-%20PART%201.mp4",
       "validatedAt": "2026-10-21T19:43:43.335908+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "wikimedia-commons:81781675",
+      "source": "wikimedia-commons",
+      "source_id": "81781675",
+      "title": "Bucharest-471-eng-How Open is Revolutionizing Science webm-hd.webm",
+      "description": "",
+      "creator": "Matthew Hanson",
+      "category": "ciencia",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm/500px--Bucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3ABucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-10-29T13:07:22.907742+00:00",
+      "files": [
+        {
+          "name": "Bucharest-471-eng-How Open is Revolutionizing Science webm-hd.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Bucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Bucharest-471-eng-How_Open_is_Revolutionizing_Science_webm-hd.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-10-29T13:10:18.226630+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -18063,6 +18091,34 @@
       ],
       "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Transverse_Wave_Motion_inside_Science_City.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "validatedAt": "2026-10-21T19:48:33.485199+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:227155",
+      "source": "pixabay",
+      "source_id": "227155",
+      "title": "tunnel, futuristic, science fiction, fantasy, loop",
+      "description": "",
+      "creator": "AdisResic",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-227155/",
+      "sourceUrl": "https://pixabay.com/videos/id-227155/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-10-29T13:06:54.750340+00:00",
+      "files": [
+        {
+          "name": "tunnel, futuristic, science fiction, fantasy, loop",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227155_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/08/18/227155_large.mp4",
+      "validatedAt": "2026-10-29T13:10:18.226512+00:00",
       "moderationPolicy": "paused"
     },
     {
