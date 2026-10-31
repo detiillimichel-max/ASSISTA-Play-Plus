@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-10-30T13:00:52.367273+00:00",
+  "updatedAt": "2026-10-31T12:38:02.765878+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 113,
@@ -91,8 +91,9 @@
       "found": 0,
       "accepted": 0,
       "errors": 0,
-      "status": "no_results",
-      "partialResultsKept": true
+      "status": "unavailable",
+      "partialResultsKept": true,
+      "requestErrors": 1
     },
     "prelinger": {
       "requests": 1,
@@ -295,10 +296,16 @@
             "error": "HTTP Error 404: Not Found"
           }
         ],
+        "library_of_congress": [
+          {
+            "type": "request",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        ],
         "other": [
           {
             "type": "request",
-            "error": "HTTP Error 502: Bad Gateway"
+            "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
           }
         ]
       }
