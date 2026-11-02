@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-01T13:31:20.312251+00:00",
+  "updatedAt": "2026-11-02T16:03:25.473563+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 113,
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 2
+      "requestErrors": 1
     },
     "prelinger": {
       "requests": 1,
@@ -299,11 +299,7 @@
         "library_of_congress": [
           {
             "type": "request",
-            "error": "HTTP Error 403: Forbidden"
-          },
-          {
-            "type": "request",
-            "error": "HTTP Error 403: Forbidden"
+            "error": "HTTP Error 429: Too Many Requests"
           }
         ],
         "other": [
