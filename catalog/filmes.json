@@ -1,8 +1,8 @@
 {
   "category": "filmes",
   "title": "Filmes",
-  "updatedAt": "2026-11-02T16:03:25.473563+00:00",
-  "count": 633,
+  "updatedAt": "2026-11-03T14:23:04.935086+00:00",
+  "count": 637,
   "items": [
     {
       "identifier": "cannibal-holocaust-1980-720p",
@@ -4305,6 +4305,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:298103",
+      "source": "pixabay",
+      "source_id": "298103",
+      "title": "cow, cattle, nature, animal, livestock, beef, agriculture, horns",
+      "description": "",
+      "creator": "Matthias_Groeneveld",
+      "category": "filmes",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-298103/",
+      "sourceUrl": "https://pixabay.com/videos/id-298103/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-03T14:19:47.183533+00:00",
+      "files": [
+        {
+          "name": "cow, cattle, nature, animal, livestock, beef, agriculture, horns",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2025/08/18/298103_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2025/08/18/298103_large.mp4",
+      "validatedAt": "2026-11-03T14:23:04.931024+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "CurseOfTheAztecMummylaMaldicionDeLaMomiaAzteca1957-English",
       "title": "Curse of the Aztec Mummy (La Maldicion De La Momia Azteca) 1957 - English",
       "description": "Second in the Aztec/Mayan mummy series about the walking dead Popoca.\nHere we also have mobsters led by a tough guy called The Bat and his enemy a \nmasked superhero wrestler called The Angel. This is the most rarely seen of the\nPopoca series\nThis film is known to be available from home video distributors that deal\nexclusively in public domain properties. No rights implied.",
@@ -6382,6 +6410,34 @@
       ],
       "playbackUrl": "https://videos.pexels.com/video-files/857042/857042-hd_1280_720_30fps.mp4",
       "validatedAt": "2026-10-21T19:48:33.482156+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:32990116",
+      "source": "pexels",
+      "source_id": "32990116",
+      "title": "Engin Akyurt — vídeo 32990116",
+      "description": "",
+      "creator": "Engin Akyurt",
+      "category": "filmes",
+      "thumbnail": "https://images.pexels.com/videos/32990116/background-beautiful-beauty-calming-32990116.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/tranquil-waterfall-with-lush-green-foliage-32990116/",
+      "sourceUrl": "https://www.pexels.com/video/tranquil-waterfall-with-lush-green-foliage-32990116/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-03T14:19:39.176123+00:00",
+      "files": [
+        {
+          "name": "Engin Akyurt — vídeo 32990116",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/32990116/14059554_682_360_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/32990116/14059554_682_360_30fps.mp4",
+      "validatedAt": "2026-11-03T14:23:04.930845+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -14393,6 +14449,34 @@
       "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
       "validatedAt": "2026-10-20T16:18:35.894634+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "wikimedia-commons:198166953",
+      "source": "wikimedia-commons",
+      "source_id": "198166953",
+      "title": "Pélican blanc à Lambaréné.webm",
+      "description": "",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:DiHM\" title=\"User:DiHM\">DiHM</a>",
+      "category": "filmes",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/P%C3%A9lican_blanc_%C3%A0_Lambar%C3%A9n%C3%A9.webm/330px--P%C3%A9lican_blanc_%C3%A0_Lambar%C3%A9n%C3%A9.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9lican_blanc_%C3%A0_Lambar%C3%A9n%C3%A9.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9lican_blanc_%C3%A0_Lambar%C3%A9n%C3%A9.webm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-11-03T14:20:32.714848+00:00",
+      "files": [
+        {
+          "name": "Pélican blanc à Lambaréné.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/P%C3%A9lican_blanc_%C3%A0_Lambar%C3%A9n%C3%A9.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/P%C3%A9lican_blanc_%C3%A0_Lambar%C3%A9n%C3%A9.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-11-03T14:23:04.931139+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -23442,6 +23526,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2025/03/16/265271_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483978+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:307864",
+      "source": "pixabay",
+      "source_id": "307864",
+      "title": "wind, electricity, windpower, rice, vietnam, nature, farming, green, sunset",
+      "description": "",
+      "creator": "Ponnguyenduy",
+      "category": "filmes",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-307864/",
+      "sourceUrl": "https://pixabay.com/videos/id-307864/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-03T14:19:45.467006+00:00",
+      "files": [
+        {
+          "name": "wind, electricity, windpower, rice, vietnam, nature, farming, green, sunset",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2025/10/04/307864_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2025/10/04/307864_large.mp4",
+      "validatedAt": "2026-11-03T14:23:04.930973+00:00",
       "moderationPolicy": "paused"
     },
     {
