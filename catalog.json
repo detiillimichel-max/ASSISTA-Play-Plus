@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-03T14:23:04.935086+00:00",
+  "updatedAt": "2026-11-04T14:38:10.626443+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 113,
-  "multiSourceAcceptedThisRun": 4,
+  "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 3
+      "requestErrors": 1
     },
     "prelinger": {
       "requests": 1,
@@ -191,20 +191,14 @@
     },
     "_runtime": {
       "cacheTtlDays": 5,
-      "cacheHits": 1,
-      "cacheMisses": 248,
+      "cacheHits": 226,
+      "cacheMisses": 23,
       "apiRateBudgetRatio": 0.3,
       "apiRequests": {
-        "pexels": 8,
-        "pixabay": 8,
-        "nasa": 134,
-        "wikimedia_commons": 7,
-        "europeana": 5,
         "dvids": 5,
         "dpla": 6,
         "twitch": 8,
-        "library_of_congress": 5,
-        "internet_archive": 1
+        "library_of_congress": 3
       },
       "apiBudgets": {
         "pexels": 60,
@@ -303,14 +297,6 @@
           }
         ],
         "library_of_congress": [
-          {
-            "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
-          },
-          {
-            "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
-          },
           {
             "type": "request",
             "error": "HTTP Error 429: Too Many Requests"
