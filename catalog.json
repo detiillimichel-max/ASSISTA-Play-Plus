@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-04T14:38:10.626443+00:00",
+  "updatedAt": "2026-11-05T14:45:17.246146+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 113,
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 1
+      "requestErrors": 2
     },
     "prelinger": {
       "requests": 1,
@@ -297,6 +297,10 @@
           }
         ],
         "library_of_congress": [
+          {
+            "type": "request",
+            "error": "HTTP Error 429: Too Many Requests"
+          },
           {
             "type": "request",
             "error": "HTTP Error 429: Too Many Requests"
