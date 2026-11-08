@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-07T13:07:56.614646+00:00",
+  "updatedAt": "2026-11-08T13:29:38.748394+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 113,
+  "metadataChecksThisRun": 114,
   "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
@@ -319,7 +319,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3673,
+  "count": 3674,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -137057,6 +137057,39 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17",
+      "title": "Bittersweet Relationship Dealbreaker Hot In Cleveland Season 4 Episode 17",
+      "description": "The selected region shows meteorologist Danielle Vollmar reporting the weather on WCVB Channel 5 Boston wearing a magenta-purple dress during a broadcast segment.",
+      "year": "2026",
+      "creator": "Suzanne Martin",
+      "subject": "Live action series",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "detailsUrl": "https://archive.org/details/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17",
+      "thumbnail": "https://archive.org/services/img/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17",
+      "category": "series",
+      "files": [
+        {
+          "name": "Bittersweet Relationship Dealbreaker  Hot in Cleveland  Season 4 Episode 17.ia.mp4",
+          "format": "h.264 IA",
+          "size": 317339148,
+          "url": "https://archive.org/download/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17/Bittersweet%20Relationship%20Dealbreaker%20%20Hot%20in%20Cleveland%20%20Season%204%20Episode%2017.ia.mp4"
+        },
+        {
+          "name": "Bittersweet Relationship Dealbreaker  Hot in Cleveland  Season 4 Episode 17.mp4",
+          "format": "MPEG4",
+          "size": 317339148,
+          "url": "https://archive.org/download/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17/Bittersweet%20Relationship%20Dealbreaker%20%20Hot%20in%20Cleveland%20%20Season%204%20Episode%2017.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17/Bittersweet%20Relationship%20Dealbreaker%20%20Hot%20in%20Cleveland%20%20Season%204%20Episode%2017.ia.mp4",
+      "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "validatedAt": "2026-11-08T13:27:44.150289+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "black-sails-s-02-e-02-blu-ray-720p-english-aac-5.1-x-264-esub-mkv-cinemas",
       "title": "Black Sails Season 2 720p (HD Quality)",
       "description": "<p>This folder contains <strong>all episodes of <em>Black Sails</em> Season 2</strong>, the gritty, action-packed pirate drama from Starz. Set as a prequel to Robert Louis Stevenson’s <em>Treasure Island</em>, this season continues the intense saga of <strong>Captain Flint</strong>, <strong>Long John Silver</strong>, and the ruthless pirates of New Providence Island.</p>\n<p>With its gripping storylines, brilliant character development, and high production value, <strong>Season 2</strong> digs deeper into betrayals, buried treasure, and the birth of legends. Download or stream in high-quality <strong>WEB-DL 720p/1080p</strong> with <strong>English audio and subtitles</strong> for the best viewing experience.</p>\n<p>🎬 <strong>Series Info:</strong></p>\n<ul>\n<li>\n<p>Series: <em>Black Sails</em> (Season 2)</p>\n</li>\n<li>\n<p>Total Episodes: 10</p>\n</li>\n<li>\n<p>Language: English (Original Audio)</p>\n</li>\n<li>\n<p>Quality: 720p / 1080p WEB-DL</p>\n</li>\n<li>\n<p>Format: MP4 / MKV</p>\n</li>\n<li>\n<p>Subtitles: Yes (Softcoded)</p>\n</li>\n<li>\n<p>Genre: Action, Adventure, Drama, History, Pirates</p>\n</li>\n<li>\n<p>Release Year: 2015</p>\n</li>\n</ul>\n<p>🔥 <strong>Trending Keywords:</strong><br />\nblack sails season 2 all episodes, black sails season 2 download, black sails s02 full season, black sails hd episodes, black sails 720p download, black sails season 2 1080p, black sails season 2 english subtitles, black sails season 2 mkv, black sails pirate series, black sails flint long john silver, black sails full series download, black sails season 2 torrent, black sails starz series, historical pirate drama series, treasure island prequel show, black sails season 2 direct download, black sails season 2 full hd, black sails tv series 2015</p>\n<p>⚔️ <strong>Perfect for fans of:</strong><br />\n<em>Treasure Island</em>, <em>Vikings</em>, <em>Game of Thrones</em>, <em>The Last Kingdom</em>, pirate shows, historical fiction, and intense drama series.</p>\n<p>Whether you're discovering this legendary pirate epic for the first time or revisiting the chaos of the high seas, this complete season is ready to set sail.</p>\n<p><strong>Please support the original creators by watching the show on official platforms if available in your region.</strong></p>",
@@ -155163,7 +155196,7 @@
     {
       "key": "series",
       "title": "Séries",
-      "count": 466,
+      "count": 467,
       "path": "catalog/series.json"
     },
     {

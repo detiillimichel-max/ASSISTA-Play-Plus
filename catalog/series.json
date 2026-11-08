@@ -1,8 +1,8 @@
 {
   "category": "series",
   "title": "Séries",
-  "updatedAt": "2026-11-07T13:07:56.614646+00:00",
-  "count": 466,
+  "updatedAt": "2026-11-08T13:29:38.748394+00:00",
+  "count": 467,
   "items": [
     {
       "identifier": "cvvo8T7hAc31jvkxuVHPZMz26JKKOu",
@@ -2362,6 +2362,39 @@
       ],
       "playbackUrl": "https://archive.org/download/i-am-not-afraid-090220/I%20Am%20Not%20Afraid_090220.mp4",
       "validatedAt": "2026-10-20T16:24:34.270033+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17",
+      "title": "Bittersweet Relationship Dealbreaker Hot In Cleveland Season 4 Episode 17",
+      "description": "The selected region shows meteorologist Danielle Vollmar reporting the weather on WCVB Channel 5 Boston wearing a magenta-purple dress during a broadcast segment.",
+      "year": "2026",
+      "creator": "Suzanne Martin",
+      "subject": "Live action series",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "detailsUrl": "https://archive.org/details/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17",
+      "thumbnail": "https://archive.org/services/img/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17",
+      "category": "series",
+      "files": [
+        {
+          "name": "Bittersweet Relationship Dealbreaker  Hot in Cleveland  Season 4 Episode 17.ia.mp4",
+          "format": "h.264 IA",
+          "size": 317339148,
+          "url": "https://archive.org/download/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17/Bittersweet%20Relationship%20Dealbreaker%20%20Hot%20in%20Cleveland%20%20Season%204%20Episode%2017.ia.mp4"
+        },
+        {
+          "name": "Bittersweet Relationship Dealbreaker  Hot in Cleveland  Season 4 Episode 17.mp4",
+          "format": "MPEG4",
+          "size": 317339148,
+          "url": "https://archive.org/download/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17/Bittersweet%20Relationship%20Dealbreaker%20%20Hot%20in%20Cleveland%20%20Season%204%20Episode%2017.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/bittersweet-relationship-dealbreaker-hot-in-cleveland-season-4-episode-17/Bittersweet%20Relationship%20Dealbreaker%20%20Hot%20in%20Cleveland%20%20Season%204%20Episode%2017.ia.mp4",
+      "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "validatedAt": "2026-11-08T13:27:44.150289+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
