@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-11-08T13:29:38.748394+00:00",
-  "count": 505,
+  "updatedAt": "2026-11-09T16:29:11.559221+00:00",
+  "count": 507,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -10854,6 +10854,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:170080",
+      "source": "pixabay",
+      "source_id": "170080",
+      "title": "intro, circles, particles, animation, start",
+      "description": "",
+      "creator": "olenchic",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-170080/",
+      "sourceUrl": "https://pixabay.com/videos/id-170080/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:26:02.094972+00:00",
+      "files": [
+        {
+          "name": "intro, circles, particles, animation, start",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/07/04/170080-842720194_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/07/04/170080-842720194_large.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555600+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "ItsEvery1954",
       "title": "It's Everybody's Business",
       "description": "Corporate Cold War-era cartoon linking Bill of Rights to free-enterprise ideology.",
@@ -16599,6 +16627,34 @@
       "playbackUrl": "https://archive.org/download/soup-or-sonic/Road%20Runner/soup-or-sonic.mp4",
       "validatedAt": "2026-10-16T11:38:40.453379+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:3975",
+      "source": "pixabay",
+      "source_id": "3975",
+      "title": "robot, animation, technology, machine, industry, rendering, sequence, motion study, micro assembly, 3d, 3d concept, design, draft and design",
+      "description": "",
+      "creator": "PIRO4D",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-3975/",
+      "sourceUrl": "https://pixabay.com/videos/id-3975/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:26:02.094962+00:00",
+      "files": [
+        {
+          "name": "robot, animation, technology, machine, industry, rendering, sequence, motion study, micro assembly, 3d, 3d concept, design, draft and design",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2016/07/23/3975-176000797_medium.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2016/07/23/3975-176000797_medium.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555592+00:00",
       "moderationPolicy": "paused"
     },
     {

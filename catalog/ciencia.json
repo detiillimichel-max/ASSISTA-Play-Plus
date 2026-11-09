@@ -1,8 +1,8 @@
 {
   "category": "ciencia",
   "title": "Ciência e espaço",
-  "updatedAt": "2026-11-08T13:29:38.748394+00:00",
-  "count": 450,
+  "updatedAt": "2026-11-09T16:29:11.559221+00:00",
+  "count": 452,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -864,6 +864,34 @@
       "playbackUrl": "https://archive.org/download/WorldSaf.1/World%20Saf%202.mp4",
       "validatedAt": "2026-10-21T19:43:14.334453+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:35773924",
+      "source": "pexels",
+      "source_id": "35773924",
+      "title": "Altaf Shah — vídeo 35773924",
+      "description": "",
+      "creator": "Altaf Shah",
+      "category": "ciencia",
+      "thumbnail": "https://images.pexels.com/videos/35773924/pexels-photo-35773924.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/aerial-view-of-urban-landscape-and-green-spaces-35773924/",
+      "sourceUrl": "https://www.pexels.com/video/aerial-view-of-urban-landscape-and-green-spaces-35773924/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:25:51.474353+00:00",
+      "files": [
+        {
+          "name": "Altaf Shah — vídeo 35773924",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/35773924/15166909_640_360_60fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/35773924/15166909_640_360_60fps.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555374+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -3052,6 +3080,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2017/05/03/8947-215890483_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483614+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:135988",
+      "source": "pixabay",
+      "source_id": "135988",
+      "title": "earth, earth seen from space, earth from space, earth in space, our planet, spaceship",
+      "description": "",
+      "creator": "AiVreaSaStii",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-135988/",
+      "sourceUrl": "https://pixabay.com/videos/id-135988/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:25:58.858668+00:00",
+      "files": [
+        {
+          "name": "earth, earth seen from space, earth from space, earth in space, our planet, spaceship",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2022/10/22/135988-764371107_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2022/10/22/135988-764371107_large.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555513+00:00",
       "moderationPolicy": "paused"
     },
     {

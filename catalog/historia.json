@@ -1,8 +1,8 @@
 {
   "category": "historia",
   "title": "História",
-  "updatedAt": "2026-11-08T13:29:38.748394+00:00",
-  "count": 413,
+  "updatedAt": "2026-11-09T16:29:11.559221+00:00",
+  "count": 415,
   "items": [
     {
       "identifier": "32892WingsToGuatemala",
@@ -2807,6 +2807,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:173361",
+      "source": "pixabay",
+      "source_id": "173361",
+      "title": "church, basilica di santa maria maggiore, rome, basilica, bergamo, architecture, italy, old, travel, history, ancient",
+      "description": "",
+      "creator": "OleksandrPidvalnyi",
+      "category": "historia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-173361/",
+      "sourceUrl": "https://pixabay.com/videos/id-173361/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:26:01.556794+00:00",
+      "files": [
+        {
+          "name": "church, basilica di santa maria maggiore, rome, basilica, bergamo, architecture, italy, old, travel, history, ancient",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/07/26/173361-849202633_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/07/26/173361-849202633_large.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555578+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pixabay:173348",
       "source": "pixabay",
       "source_id": "173348",
@@ -2860,6 +2888,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2024/04/30/210104_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.484400+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:46347",
+      "source": "pixabay",
+      "source_id": "46347",
+      "title": "church, stone, castle, wall, carving, religion, ancient, tomb, archaeology, ruin, europe, medieval, cathedral, knight, history, relic, templar, germany, travel, tourism, munich, rome",
+      "description": "",
+      "creator": "caelan",
+      "category": "historia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-46347/",
+      "sourceUrl": "https://pixabay.com/videos/id-46347/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:26:01.556772+00:00",
+      "files": [
+        {
+          "name": "church, stone, castle, wall, carving, religion, ancient, tomb, archaeology, ruin, europe, medieval, cathedral, knight, history, relic, templar, germany, travel, tourism, munich, rome",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2020/08/04/46347-447447986_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2020/08/04/46347-447447986_large.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555569+00:00",
       "moderationPolicy": "paused"
     },
     {

@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-08T13:29:38.748394+00:00",
+  "updatedAt": "2026-11-09T16:29:11.559221+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 114,
-  "multiSourceAcceptedThisRun": 0,
+  "metadataChecksThisRun": 113,
+  "multiSourceAcceptedThisRun": 9,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -18,7 +18,7 @@
     "pixabay": {
       "requests": 1,
       "found": 150,
-      "accepted": 148,
+      "accepted": 147,
       "errors": 0,
       "status": "ok",
       "partialResultsKept": true
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 2
+      "requestErrors": 3
     },
     "prelinger": {
       "requests": 1,
@@ -145,7 +145,7 @@
     },
     "peertube:video.blender.org": {
       "requests": 25,
-      "found": 1234,
+      "found": 1235,
       "accepted": 0,
       "errors": 0,
       "status": "below_target_or_insufficient_results",
@@ -191,14 +191,20 @@
     },
     "_runtime": {
       "cacheTtlDays": 5,
-      "cacheHits": 226,
-      "cacheMisses": 23,
+      "cacheHits": 2,
+      "cacheMisses": 247,
       "apiRateBudgetRatio": 0.3,
       "apiRequests": {
+        "pexels": 8,
+        "pixabay": 8,
+        "nasa": 134,
+        "wikimedia_commons": 7,
+        "europeana": 5,
         "dvids": 5,
         "dpla": 6,
         "twitch": 8,
-        "library_of_congress": 3
+        "library_of_congress": 4,
+        "internet_archive": 1
       },
       "apiBudgets": {
         "pexels": 60,
@@ -304,6 +310,10 @@
           {
             "type": "request",
             "error": "HTTP Error 429: Too Many Requests"
+          },
+          {
+            "type": "request",
+            "error": "HTTP Error 429: Too Many Requests"
           }
         ],
         "other": [
@@ -319,7 +329,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3674,
+  "count": 3683,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -1181,6 +1191,34 @@
       "playbackUrl": "https://archive.org/download/WorldSaf.1/World%20Saf%202.mp4",
       "validatedAt": "2026-10-21T19:43:14.334453+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:35773924",
+      "source": "pexels",
+      "source_id": "35773924",
+      "title": "Altaf Shah — vídeo 35773924",
+      "description": "",
+      "creator": "Altaf Shah",
+      "category": "ciencia",
+      "thumbnail": "https://images.pexels.com/videos/35773924/pexels-photo-35773924.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/aerial-view-of-urban-landscape-and-green-spaces-35773924/",
+      "sourceUrl": "https://www.pexels.com/video/aerial-view-of-urban-landscape-and-green-spaces-35773924/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:25:51.474353+00:00",
+      "files": [
+        {
+          "name": "Altaf Shah — vídeo 35773924",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/35773924/15166909_640_360_60fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/35773924/15166909_640_360_60fps.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555374+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -3369,6 +3407,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2017/05/03/8947-215890483_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483614+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:135988",
+      "source": "pixabay",
+      "source_id": "135988",
+      "title": "earth, earth seen from space, earth from space, earth in space, our planet, spaceship",
+      "description": "",
+      "creator": "AiVreaSaStii",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-135988/",
+      "sourceUrl": "https://pixabay.com/videos/id-135988/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:25:58.858668+00:00",
+      "files": [
+        {
+          "name": "earth, earth seen from space, earth from space, earth in space, our planet, spaceship",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2022/10/22/135988-764371107_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2022/10/22/135988-764371107_large.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555513+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -46273,6 +46339,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:170080",
+      "source": "pixabay",
+      "source_id": "170080",
+      "title": "intro, circles, particles, animation, start",
+      "description": "",
+      "creator": "olenchic",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-170080/",
+      "sourceUrl": "https://pixabay.com/videos/id-170080/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:26:02.094972+00:00",
+      "files": [
+        {
+          "name": "intro, circles, particles, animation, start",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/07/04/170080-842720194_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/07/04/170080-842720194_large.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555600+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "ItsEvery1954",
       "title": "It's Everybody's Business",
       "description": "Corporate Cold War-era cartoon linking Bill of Rights to free-enterprise ideology.",
@@ -52018,6 +52112,34 @@
       "playbackUrl": "https://archive.org/download/soup-or-sonic/Road%20Runner/soup-or-sonic.mp4",
       "validatedAt": "2026-10-16T11:38:40.453379+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:3975",
+      "source": "pixabay",
+      "source_id": "3975",
+      "title": "robot, animation, technology, machine, industry, rendering, sequence, motion study, micro assembly, 3d, 3d concept, design, draft and design",
+      "description": "",
+      "creator": "PIRO4D",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-3975/",
+      "sourceUrl": "https://pixabay.com/videos/id-3975/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:26:02.094962+00:00",
+      "files": [
+        {
+          "name": "robot, animation, technology, machine, industry, rendering, sequence, motion study, micro assembly, 3d, 3d concept, design, draft and design",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2016/07/23/3975-176000797_medium.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2016/07/23/3975-176000797_medium.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555592+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -79577,6 +79699,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "wikimedia-commons:163221861",
+      "source": "wikimedia-commons",
+      "source_id": "163221861",
+      "title": "Comparsa bailando, tocando y cantando en el Carnaval de Villa Rivero. 02.webm",
+      "description": "",
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Erejota99&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Erejota99 (page does not exist)\">Erejota99</a>",
+      "category": "filmes",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Comparsa_bailando%2C_tocando_y_cantando_en_el_Carnaval_de_Villa_Rivero._02.webm/500px--Comparsa_bailando%2C_tocando_y_cantando_en_el_Carnaval_de_Villa_Rivero._02.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3AComparsa_bailando%2C_tocando_y_cantando_en_el_Carnaval_de_Villa_Rivero._02.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AComparsa_bailando%2C_tocando_y_cantando_en_el_Carnaval_de_Villa_Rivero._02.webm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-11-09T16:26:43.829960+00:00",
+      "files": [
+        {
+          "name": "Comparsa bailando, tocando y cantando en el Carnaval de Villa Rivero. 02.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Comparsa_bailando%2C_tocando_y_cantando_en_el_Carnaval_de_Villa_Rivero._02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Comparsa_bailando%2C_tocando_y_cantando_en_el_Carnaval_de_Villa_Rivero._02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-11-09T16:29:11.555700+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "wikimedia-commons:94860445",
       "source": "wikimedia-commons",
       "source_id": "94860445",
@@ -89198,6 +89348,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "wikimedia-commons:202780925",
+      "source": "wikimedia-commons",
+      "source_id": "202780925",
+      "title": "Open Knowledge Maps, Bridging scientific knowledge gaps in Wikimedia projects – Lightning Talks — Wikimania 2018 in Cape Town, South Africa.webm",
+      "description": "",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Fuzheado\" title=\"User:Fuzheado\">User:Fuzheado</a> through his <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/@fuzheado\">YouTube channel</a>",
+      "category": "filmes",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Open_Knowledge_Maps%2C_Bridging_scientific_knowledge_gaps_in_Wikimedia_projects_%E2%80%93_Lightning_Talks_%E2%80%94_Wikimania_2018_in_Cape_Town%2C_South_Africa.webm/500px--Open_Knowledge_Maps%2C_Bridging_scientific_knowledge_gaps_in_Wikimedia_projects_%E2%80%93_Lightning_Talks_%E2%80%94_Wikimania_2018_in_Cape_Town%2C_South_Africa.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3AOpen_Knowledge_Maps%2C_Bridging_scientific_knowledge_gaps_in_Wikimedia_projects_%E2%80%93_Lightning_Talks_%E2%80%94_Wikimania_2018_in_Cape_Town%2C_South_Africa.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOpen_Knowledge_Maps%2C_Bridging_scientific_knowledge_gaps_in_Wikimedia_projects_%E2%80%93_Lightning_Talks_%E2%80%94_Wikimania_2018_in_Cape_Town%2C_South_Africa.webm",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-11-09T16:26:39.863613+00:00",
+      "files": [
+        {
+          "name": "Open Knowledge Maps, Bridging scientific knowledge gaps in Wikimedia projects – Lightning Talks — Wikimania 2018 in Cape Town, South Africa.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Open_Knowledge_Maps%2C_Bridging_scientific_knowledge_gaps_in_Wikimedia_projects_%E2%80%93_Lightning_Talks_%E2%80%94_Wikimania_2018_in_Cape_Town%2C_South_Africa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Open_Knowledge_Maps%2C_Bridging_scientific_knowledge_gaps_in_Wikimedia_projects_%E2%80%93_Lightning_Talks_%E2%80%94_Wikimania_2018_in_Cape_Town%2C_South_Africa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-11-09T16:29:11.555640+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "OurWorldJournalingInSpace",
       "title": "Our World: Journaling in Space",
       "description": "Learn how famous explorers, scientists and even NASA use journals and science notebooks to record observations about Our World. See why journaling is important on the International Space Station to record how the astronauts react to living in space.",
@@ -98199,6 +98377,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "wikimedia-commons:196553815",
+      "source": "wikimedia-commons",
+      "source_id": "196553815",
+      "title": "Video of squirrel.webm",
+      "description": "",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Victor_abiose\" title=\"User:Victor abiose\">Victor abiose</a>",
+      "category": "filmes",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Video_of_squirrel.webm/500px--Video_of_squirrel.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3AVideo_of_squirrel.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVideo_of_squirrel.webm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-11-09T16:26:41.839020+00:00",
+      "files": [
+        {
+          "name": "Video of squirrel.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Video_of_squirrel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Video_of_squirrel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-11-09T16:29:11.555677+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "virgin.-witch.-1972.1080p.-blu-ray.-h-264.-aac-rarbg",
       "title": "Virgin Witch(1972) 1080p BD RIP",
       "description": "BD RIP NOW IN HD FOR ADULTS ONLY! 18+ A pair of miniskirted birds who travel to a remote castle in order to land a contract in the modeling agency of the mysterious lesbian Sybil Waite",
@@ -102724,6 +102930,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:173361",
+      "source": "pixabay",
+      "source_id": "173361",
+      "title": "church, basilica di santa maria maggiore, rome, basilica, bergamo, architecture, italy, old, travel, history, ancient",
+      "description": "",
+      "creator": "OleksandrPidvalnyi",
+      "category": "historia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-173361/",
+      "sourceUrl": "https://pixabay.com/videos/id-173361/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:26:01.556794+00:00",
+      "files": [
+        {
+          "name": "church, basilica di santa maria maggiore, rome, basilica, bergamo, architecture, italy, old, travel, history, ancient",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/07/26/173361-849202633_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/07/26/173361-849202633_large.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555578+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pixabay:173348",
       "source": "pixabay",
       "source_id": "173348",
@@ -102777,6 +103011,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2024/04/30/210104_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.484400+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:46347",
+      "source": "pixabay",
+      "source_id": "46347",
+      "title": "church, stone, castle, wall, carving, religion, ancient, tomb, archaeology, ruin, europe, medieval, cathedral, knight, history, relic, templar, germany, travel, tourism, munich, rome",
+      "description": "",
+      "creator": "caelan",
+      "category": "historia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-46347/",
+      "sourceUrl": "https://pixabay.com/videos/id-46347/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-09T16:26:01.556772+00:00",
+      "files": [
+        {
+          "name": "church, stone, castle, wall, carving, religion, ancient, tomb, archaeology, ruin, europe, medieval, cathedral, knight, history, relic, templar, germany, travel, tourism, munich, rome",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2020/08/04/46347-447447986_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2020/08/04/46347-447447986_large.mp4",
+      "validatedAt": "2026-11-09T16:29:11.555569+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -155184,13 +155446,13 @@
     {
       "key": "filmes",
       "title": "Filmes",
-      "count": 637,
+      "count": 640,
       "path": "catalog/filmes.json"
     },
     {
       "key": "desenhos",
       "title": "Desenhos",
-      "count": 505,
+      "count": 507,
       "path": "catalog/desenhos.json"
     },
     {
@@ -155214,13 +155476,13 @@
     {
       "key": "historia",
       "title": "História",
-      "count": 413,
+      "count": 415,
       "path": "catalog/historia.json"
     },
     {
       "key": "ciencia",
       "title": "Ciência e espaço",
-      "count": 450,
+      "count": 452,
       "path": "catalog/ciencia.json"
     },
     {
