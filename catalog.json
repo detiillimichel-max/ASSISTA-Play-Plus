@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-09T16:29:11.559221+00:00",
+  "updatedAt": "2026-11-10T15:00:58.838548+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 113,
-  "multiSourceAcceptedThisRun": 9,
+  "multiSourceAcceptedThisRun": 2,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -305,11 +305,11 @@
         "library_of_congress": [
           {
             "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
+            "error": "The read operation timed out"
           },
           {
             "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
+            "error": "The read operation timed out"
           },
           {
             "type": "request",
@@ -329,7 +329,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3683,
+  "count": 3685,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -79671,6 +79671,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "wikimedia-commons:128562470",
+      "source": "wikimedia-commons",
+      "source_id": "128562470",
+      "title": "Comment diminuer notre impact environnemental ? Partie 2-La renaturation.webm",
+      "description": "",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Graineahumus\" title=\"User:Graineahumus\">Graineahumus</a>",
+      "category": "filmes",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Comment_diminuer_notre_impact_environnemental_%3F_Partie_2-La_renaturation.webm/500px--Comment_diminuer_notre_impact_environnemental_%3F_Partie_2-La_renaturation.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3AComment_diminuer_notre_impact_environnemental_%3F_Partie_2-La_renaturation.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AComment_diminuer_notre_impact_environnemental_%3F_Partie_2-La_renaturation.webm",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-11-10T14:58:17.858456+00:00",
+      "files": [
+        {
+          "name": "Comment diminuer notre impact environnemental ? Partie 2-La renaturation.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Comment_diminuer_notre_impact_environnemental_%3F_Partie_2-La_renaturation.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Comment_diminuer_notre_impact_environnemental_%3F_Partie_2-La_renaturation.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-11-10T15:00:58.834202+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "wikimedia-commons:128562317",
       "source": "wikimedia-commons",
       "source_id": "128562317",
@@ -111277,6 +111305,34 @@
       "playbackUrl": "https://archive.org/download/TheForgingOfANewWorld/Nature.S15E11.Spirits.of.the.Jaguar.The.Forging.of.a.New.World.1997.VHSRip.AAC2.0.x264-rattera.mp4",
       "validatedAt": "2026-10-20T16:32:47.715290+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:37857",
+      "source": "pixabay",
+      "source_id": "37857",
+      "title": "statue, horse, reiter, copper, castle, castle arcades, monument, sculpture, artwork, history, historically, equestrian statue, figure",
+      "description": "",
+      "creator": "PascalBeckmann",
+      "category": "historia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-37857/",
+      "sourceUrl": "https://pixabay.com/videos/id-37857/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-10T14:57:53.924130+00:00",
+      "files": [
+        {
+          "name": "statue, horse, reiter, copper, castle, castle arcades, monument, sculpture, artwork, history, historically, equestrian statue, figure",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2020/05/02/37857-415200822_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2020/05/02/37857-415200822_large.mp4",
+      "validatedAt": "2026-11-10T15:00:58.834097+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -155446,7 +155502,7 @@
     {
       "key": "filmes",
       "title": "Filmes",
-      "count": 640,
+      "count": 641,
       "path": "catalog/filmes.json"
     },
     {
@@ -155476,7 +155532,7 @@
     {
       "key": "historia",
       "title": "História",
-      "count": 415,
+      "count": 416,
       "path": "catalog/historia.json"
     },
     {

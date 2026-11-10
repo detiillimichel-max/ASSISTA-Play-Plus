@@ -1,8 +1,8 @@
 {
   "category": "historia",
   "title": "História",
-  "updatedAt": "2026-11-09T16:29:11.559221+00:00",
-  "count": 415,
+  "updatedAt": "2026-11-10T15:00:58.838548+00:00",
+  "count": 416,
   "items": [
     {
       "identifier": "32892WingsToGuatemala",
@@ -11154,6 +11154,34 @@
       "playbackUrl": "https://archive.org/download/TheForgingOfANewWorld/Nature.S15E11.Spirits.of.the.Jaguar.The.Forging.of.a.New.World.1997.VHSRip.AAC2.0.x264-rattera.mp4",
       "validatedAt": "2026-10-20T16:32:47.715290+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:37857",
+      "source": "pixabay",
+      "source_id": "37857",
+      "title": "statue, horse, reiter, copper, castle, castle arcades, monument, sculpture, artwork, history, historically, equestrian statue, figure",
+      "description": "",
+      "creator": "PascalBeckmann",
+      "category": "historia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-37857/",
+      "sourceUrl": "https://pixabay.com/videos/id-37857/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-10T14:57:53.924130+00:00",
+      "files": [
+        {
+          "name": "statue, horse, reiter, copper, castle, castle arcades, monument, sculpture, artwork, history, historically, equestrian statue, figure",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2020/05/02/37857-415200822_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2020/05/02/37857-415200822_large.mp4",
+      "validatedAt": "2026-11-10T15:00:58.834097+00:00",
       "moderationPolicy": "paused"
     },
     {
