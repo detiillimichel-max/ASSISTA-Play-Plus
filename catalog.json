@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-10T15:00:58.838548+00:00",
+  "updatedAt": "2026-11-11T14:32:46.530585+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 113,
-  "multiSourceAcceptedThisRun": 2,
+  "multiSourceAcceptedThisRun": 4,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 3
+      "requestErrors": 4
     },
     "prelinger": {
       "requests": 1,
@@ -145,7 +145,7 @@
     },
     "peertube:video.blender.org": {
       "requests": 25,
-      "found": 1235,
+      "found": 1236,
       "accepted": 0,
       "errors": 0,
       "status": "below_target_or_insufficient_results",
@@ -313,7 +313,11 @@
           },
           {
             "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
+            "error": "The read operation timed out"
+          },
+          {
+            "type": "request",
+            "error": "The read operation timed out"
           }
         ],
         "other": [
@@ -329,7 +333,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3685,
+  "count": 3689,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -3240,6 +3244,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2024/05/18/212508_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.484166+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:36492194",
+      "source": "pexels",
+      "source_id": "36492194",
+      "title": "Dr Photographer — vídeo 36492194",
+      "description": "",
+      "creator": "Dr Photographer",
+      "category": "ciencia",
+      "thumbnail": "https://images.pexels.com/videos/36492194/pexels-photo-36492194.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/crescent-moon-in-night-sky-36492194/",
+      "sourceUrl": "https://www.pexels.com/video/crescent-moon-in-night-sky-36492194/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-11T14:28:51.208269+00:00",
+      "files": [
+        {
+          "name": "Dr Photographer — vídeo 36492194",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/36492194/15473872_640_360_60fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/36492194/15473872_640_360_60fps.mp4",
+      "validatedAt": "2026-11-11T14:32:46.527023+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -12684,6 +12716,34 @@
       ],
       "playbackUrl": "https://videos.pexels.com/video-files/39790266/16968839_640_360_30fps.mp4",
       "validatedAt": "2026-10-21T19:48:33.482467+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:39802825",
+      "source": "pexels",
+      "source_id": "39802825",
+      "title": "Nicola Narracci — vídeo 39802825",
+      "description": "",
+      "creator": "Nicola Narracci",
+      "category": "ciencia",
+      "thumbnail": "https://images.pexels.com/videos/39802825/pexels-photo-39802825.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/stunning-purple-black-hole-in-deep-space-39802825/",
+      "sourceUrl": "https://www.pexels.com/video/stunning-purple-black-hole-in-deep-space-39802825/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-11T14:28:51.208257+00:00",
+      "files": [
+        {
+          "name": "Nicola Narracci — vídeo 39802825",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/39802825/16974329_640_360_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/39802825/16974329_640_360_30fps.mp4",
+      "validatedAt": "2026-11-11T14:32:46.527013+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -88185,6 +88245,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:254787",
+      "source": "pixabay",
+      "source_id": "254787",
+      "title": "mountain, evening adventure, clouds, sky, enjoying nature, amazing nature, hike, wanderlust, beautiful, mountain air, outdoors, bavaria, eibsee, upper bavaria, alpine panorama, landscape",
+      "description": "",
+      "creator": "nirjharbasakuet",
+      "category": "filmes",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-254787/",
+      "sourceUrl": "https://pixabay.com/videos/id-254787/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-11T14:28:55.240141+00:00",
+      "files": [
+        {
+          "name": "mountain, evening adventure, clouds, sky, enjoying nature, amazing nature, hike, wanderlust, beautiful, mountain air, outdoors, bavaria, eibsee, upper bavaria, alpine panorama, landscape",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2025/01/26/254787_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2025/01/26/254787_large.mp4",
+      "validatedAt": "2026-11-11T14:32:46.527093+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "youtube-jDFCGbOSXoY",
       "title": "Mountains Camping Adventure",
       "description": "",
@@ -99477,6 +99565,34 @@
       "playbackUrl": "https://archive.org/download/Zelda2_SS_NewGamePlus_4654/Zelda2_SS_NewGamePlus_4654_HQ_512kb.mp4",
       "validatedAt": "2026-10-20T16:18:08.418033+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:39416950",
+      "source": "pexels",
+      "source_id": "39416950",
+      "title": "Zmaysq — vídeo 39416950",
+      "description": "",
+      "creator": "Zmaysq",
+      "category": "filmes",
+      "thumbnail": "https://images.pexels.com/videos/39416950/pexels-photo-39416950.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/serene-mountain-landscape-at-twilight-39416950/",
+      "sourceUrl": "https://www.pexels.com/video/serene-mountain-landscape-at-twilight-39416950/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-11T14:28:49.400494+00:00",
+      "files": [
+        {
+          "name": "Zmaysq — vídeo 39416950",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/39416950/16783381_640_360_30fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/39416950/16783381_640_360_30fps.mp4",
+      "validatedAt": "2026-11-11T14:32:46.526954+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -155502,7 +155618,7 @@
     {
       "key": "filmes",
       "title": "Filmes",
-      "count": 641,
+      "count": 643,
       "path": "catalog/filmes.json"
     },
     {
@@ -155538,7 +155654,7 @@
     {
       "key": "ciencia",
       "title": "Ciência e espaço",
-      "count": 452,
+      "count": 454,
       "path": "catalog/ciencia.json"
     },
     {
