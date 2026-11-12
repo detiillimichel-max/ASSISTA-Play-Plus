@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-11-11T14:32:46.530585+00:00",
-  "count": 507,
+  "updatedAt": "2026-11-12T15:23:48.944504+00:00",
+  "count": 508,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -8293,6 +8293,34 @@
       "playbackUrl": "https://archive.org/download/sims_evolved_virtual_creatures_1994/sims_evolved_virtual_creatures_1994_512kb.mp4",
       "validatedAt": "2026-10-16T11:38:33.080586+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:129987",
+      "source": "pixabay",
+      "source_id": "129987",
+      "title": "fairy, wings, fantasy, forest, lights, butterfly, animation, beautiful, beauty, animated illustration, love, heart, cherry tree",
+      "description": "",
+      "creator": "Eartvideos",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-129987/",
+      "sourceUrl": "https://pixabay.com/videos/id-129987/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-12T15:20:07.156427+00:00",
+      "files": [
+        {
+          "name": "fairy, wings, fantasy, forest, lights, butterfly, animation, beautiful, beauty, animated illustration, love, heart, cherry tree",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2022/09/02/129987-745930682_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2022/09/02/129987-745930682_large.mp4",
+      "validatedAt": "2026-11-12T15:23:48.940182+00:00",
       "moderationPolicy": "paused"
     },
     {

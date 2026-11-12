@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-11T14:32:46.530585+00:00",
+  "updatedAt": "2026-11-12T15:23:48.944504+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 113,
-  "multiSourceAcceptedThisRun": 4,
+  "multiSourceAcceptedThisRun": 2,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -333,7 +333,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3689,
+  "count": 3691,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -43838,6 +43838,34 @@
       "playbackUrl": "https://archive.org/download/sims_evolved_virtual_creatures_1994/sims_evolved_virtual_creatures_1994_512kb.mp4",
       "validatedAt": "2026-10-16T11:38:33.080586+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:129987",
+      "source": "pixabay",
+      "source_id": "129987",
+      "title": "fairy, wings, fantasy, forest, lights, butterfly, animation, beautiful, beauty, animated illustration, love, heart, cherry tree",
+      "description": "",
+      "creator": "Eartvideos",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-129987/",
+      "sourceUrl": "https://pixabay.com/videos/id-129987/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-12T15:20:07.156427+00:00",
+      "files": [
+        {
+          "name": "fairy, wings, fantasy, forest, lights, butterfly, animation, beautiful, beauty, animated illustration, love, heart, cherry tree",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2022/09/02/129987-745930682_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2022/09/02/129987-745930682_large.mp4",
+      "validatedAt": "2026-11-12T15:23:48.940182+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -125869,6 +125897,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:145761",
+      "source": "pixabay",
+      "source_id": "145761",
+      "title": "man, radiohead, boombox, breakdancer, music",
+      "description": "",
+      "creator": "djvibe419",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-145761/",
+      "sourceUrl": "https://pixabay.com/videos/id-145761/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-12T15:20:05.752623+00:00",
+      "files": [
+        {
+          "name": "man, radiohead, boombox, breakdancer, music",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/01/08/145761-787427592_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/01/08/145761-787427592_large.mp4",
+      "validatedAt": "2026-11-12T15:23:48.940127+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "Maniac1934",
       "title": "Maniac",
       "description": "Notorious film from early exploitation king Dwain Esper, who brought us such classic early titles as \"Sex Madness,\" \"Narcotic,\" \"Reefer Madness,\" \"How To Undress In Front Of Your Husband,\" and \"Marihuana.\" Film's IMDb page: http://www.imdb.com/title/tt0025465/",
@@ -155624,7 +155680,7 @@
     {
       "key": "desenhos",
       "title": "Desenhos",
-      "count": 507,
+      "count": 508,
       "path": "catalog/desenhos.json"
     },
     {
@@ -155660,7 +155716,7 @@
     {
       "key": "musica",
       "title": "Música e shows",
-      "count": 444,
+      "count": 445,
       "path": "catalog/musica.json"
     }
   ],

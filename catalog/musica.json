@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-11-11T14:32:46.530585+00:00",
-  "count": 444,
+  "updatedAt": "2026-11-12T15:23:48.944504+00:00",
+  "count": 445,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -9493,6 +9493,34 @@
       "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
       "validatedAt": "2026-10-21T19:44:44.870839+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:145761",
+      "source": "pixabay",
+      "source_id": "145761",
+      "title": "man, radiohead, boombox, breakdancer, music",
+      "description": "",
+      "creator": "djvibe419",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-145761/",
+      "sourceUrl": "https://pixabay.com/videos/id-145761/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-12T15:20:05.752623+00:00",
+      "files": [
+        {
+          "name": "man, radiohead, boombox, breakdancer, music",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/01/08/145761-787427592_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/01/08/145761-787427592_large.mp4",
+      "validatedAt": "2026-11-12T15:23:48.940127+00:00",
       "moderationPolicy": "paused"
     },
     {
