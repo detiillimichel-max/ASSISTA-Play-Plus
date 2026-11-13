@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-11-12T15:23:48.944504+00:00",
-  "count": 508,
+  "updatedAt": "2026-11-13T14:44:37.146929+00:00",
+  "count": 509,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -14962,6 +14962,34 @@
       "playbackUrl": "https://archive.org/download/PlanetaU/VTS_01_2.mp4",
       "validatedAt": "2026-10-27T12:15:29.187782+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:1469",
+      "source": "pixabay",
+      "source_id": "1469",
+      "title": "plasma, smoke, toxic, pollution, animation, animated, motion graphic, background, effect, fog, mist, thick, beautiful wallpaper, cloudy, smog, motion",
+      "description": "",
+      "creator": "Prawny",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-1469/",
+      "sourceUrl": "https://pixabay.com/videos/id-1469/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:11.522414+00:00",
+      "files": [
+        {
+          "name": "plasma, smoke, toxic, pollution, animation, animated, motion graphic, background, effect, fog, mist, thick, beautiful wallpaper, cloudy, smog, motion",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2015/11/30/1469-147538044_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2015/11/30/1469-147538044_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142937+00:00",
       "moderationPolicy": "paused"
     },
     {

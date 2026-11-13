@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-12T15:23:48.944504+00:00",
+  "updatedAt": "2026-11-13T14:44:37.146929+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 113,
-  "multiSourceAcceptedThisRun": 2,
+  "metadataChecksThisRun": 114,
+  "multiSourceAcceptedThisRun": 9,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -18,7 +18,7 @@
     "pixabay": {
       "requests": 1,
       "found": 150,
-      "accepted": 147,
+      "accepted": 148,
       "errors": 0,
       "status": "ok",
       "partialResultsKept": true
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 4
+      "requestErrors": 5
     },
     "prelinger": {
       "requests": 1,
@@ -191,8 +191,8 @@
     },
     "_runtime": {
       "cacheTtlDays": 5,
-      "cacheHits": 2,
-      "cacheMisses": 247,
+      "cacheHits": 1,
+      "cacheMisses": 248,
       "apiRateBudgetRatio": 0.3,
       "apiRequests": {
         "pexels": 8,
@@ -203,7 +203,7 @@
         "dvids": 5,
         "dpla": 6,
         "twitch": 8,
-        "library_of_congress": 4,
+        "library_of_congress": 5,
         "internet_archive": 1
       },
       "apiBudgets": {
@@ -318,6 +318,10 @@
           {
             "type": "request",
             "error": "The read operation timed out"
+          },
+          {
+            "type": "request",
+            "error": "The read operation timed out"
           }
         ],
         "other": [
@@ -333,7 +337,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3691,
+  "count": 3701,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -2283,6 +2287,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:226200",
+      "source": "pixabay",
+      "source_id": "226200",
+      "title": "astronaut, universe, science, galaxy, astronautics, cosmos, astronomy, research",
+      "description": "",
+      "creator": "UniverseUnique",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-226200/",
+      "sourceUrl": "https://pixabay.com/videos/id-226200/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:02.410197+00:00",
+      "files": [
+        {
+          "name": "astronaut, universe, science, galaxy, astronautics, cosmos, astronomy, research",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/08/13/226200_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/08/13/226200_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142804+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "Avatar_3",
       "title": "Avatar Director Cameron: NASA Watches Planet's Health",
       "description": "Here on Earth, our species is learning how to care for our home. NASA's eyes in space enable unparalleled insights into our planet's health.",
@@ -2740,6 +2772,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pexels:27394420",
+      "source": "pexels",
+      "source_id": "27394420",
+      "title": "Colin Jones — vídeo 27394420",
+      "description": "",
+      "creator": "Colin Jones",
+      "category": "ciencia",
+      "thumbnail": "https://images.pexels.com/videos/27394420/abstract-background-cg-cg-art-fantasy-27394420.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "detailsUrl": "https://www.pexels.com/video/the-stars-are-in-the-sky-and-the-moon-is-in-the-foreground-27394420/",
+      "sourceUrl": "https://www.pexels.com/video/the-stars-are-in-the-sky-and-the-moon-is-in-the-foreground-27394420/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:39:55.762751+00:00",
+      "files": [
+        {
+          "name": "Colin Jones — vídeo 27394420",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/27394420/12133353_640_360_24fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/27394420/12133353_640_360_24fps.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142682+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pexels:34257457",
       "source": "pexels",
       "source_id": "34257457",
@@ -3184,6 +3244,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2022/12/02/141412-777708076_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483511+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:218955",
+      "source": "pixabay",
+      "source_id": "218955",
+      "title": "dna, science, biology, genetics, health, research, medicine, chromosome",
+      "description": "",
+      "creator": "xBriantcx",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-218955/",
+      "sourceUrl": "https://pixabay.com/videos/id-218955/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:02.410214+00:00",
+      "files": [
+        {
+          "name": "dna, science, biology, genetics, health, research, medicine, chromosome",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/07/01/218955_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/07/01/218955_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142815+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -6988,6 +7076,34 @@
       "playbackUrl": "https://archive.org/download/NASA_Lauchpad_Wave_Motion_HD/NASA_Lauchpad_Wave_Motion_cropped_Med.mp4",
       "validatedAt": "2026-10-20T16:35:27.912487+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:49375",
+      "source": "pixabay",
+      "source_id": "49375",
+      "title": "library, books, corridor, reading, education, knowledge",
+      "description": "",
+      "creator": "IlyaKulik",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-49375/",
+      "sourceUrl": "https://pixabay.com/videos/id-49375/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:06.789581+00:00",
+      "files": [
+        {
+          "name": "library, books, corridor, reading, education, knowledge",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2020/09/08/49375-459436752_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2020/09/08/49375-459436752_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142895+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -15851,6 +15967,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:197483",
+      "source": "pixabay",
+      "source_id": "197483",
+      "title": "sample, laboratory, quality, science, medicine, chemistry, liquid, yellow",
+      "description": "",
+      "creator": "Roque_dg",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-197483/",
+      "sourceUrl": "https://pixabay.com/videos/id-197483/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:02.410095+00:00",
+      "files": [
+        {
+          "name": "sample, laboratory, quality, science, medicine, chemistry, liquid, yellow",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/01/20/197483-905015011_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/01/20/197483-905015011_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142787+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "satellites_202003",
       "title": "SATELLITES MANNED AND UNMANNED INTERPLANETARY VEHICLES",
       "description": "<div>SATELLITE HISTORY</div><div><br /></div><div>\"SPUTNIK\" WAS NOT THE FIRST, MERELY THE FIRST CIVIL DISCLOSURE LEADING INTO THE COLD WAR WITH IMPERIAL CAPITALIST US INTERESTS SEEKING TO DOMINATE AND CONTROL POPULATIONS UTILIZING TECHNOLOGICAL APPLICATIONS. SOVIET PUBLIC DISCLOSURE HERE AS WELL AS AROUND MAGNETOELECTRIC MOTOR-GENERATORS, ZERO POINT ENERGY DEVICES AS WELL AS GRAVITICS WERE THE TRUE MOTIVATIONS FOR A COLD WAR... A WAR AROUND KNOWN TECHNOLOGICAL CAPABILITIES AND THE INTERESTS OF THE PUBLIC OR THE INTERESTS OF \"CAPITALIST\" AND PRIVATE PROFIT.</div><div><br /></div><div>*Due to increased factioning with U.S. and Soviet intelligence agencies in 2020 it is no longer clear and nearly impossible to attain certainty as to the motivations or intent on any number of interactions one may hear reported on either side.</div><div><br /></div><div>*ONE THING I CAN SAY WITH CERTAINTY AND DOCUMENTED IN ANOTHER OF MY UPLOADS IS THAT AT NO TIME WAS THE U.S. AND RUSSIA NOT COLLABORATING AROUND HUMANITIES MOST ADVANCED ASTRONAUTIC AND PHYSICS RESEARCH AT THE HIGHEST LEVELS, WHILE ENCOURAGING CONTINUED CONFLICT AND UNCERTAINTY PUBLICALLY ON BOTH SIDES!</div><div><br /></div><div>As an example let's examine the Cuban Missile Crisis... Little known publically and certainly never mentioned in network programming is that Russia had, had missiles in Cuba with a compliment of personal for operational maintenence for decades. Many small countries prefer to lease military assets from larger nations as opposed to making the investment and resources into essentially \"reinventing the wheel\". The U.S. having been in negotiations with Cuba around underbidding the existing Soviet contract, finding themselves unsuccessful essentially much as children threw a temper tantrum creating an international incedent. When in reality not a damn thing had changed!</div><div><br /></div><div>Given the above one may then be inspired to inquire as to precicely what countries as well as what military assets their nation is selling or purchasing and at what price or how much profit? Followed by how those \"investments\" offset or increase overall national debt or reserves? (While I could list this here, some things are best left for individual discovery) However, I will say the people will never see a damn red cent under the current shit show we find ourselves waking up to.</div> <div><br /></div><div><br /></div><div><br /></div><div> </div>",
@@ -16076,6 +16220,34 @@
       ],
       "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Science_Summary_for_October_2020.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "validatedAt": "2026-10-21T19:48:33.485178+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:22313",
+      "source": "pixabay",
+      "source_id": "22313",
+      "title": "science, cells, space, cosmos",
+      "description": "",
+      "creator": "Jacques_Barrette",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-22313/",
+      "sourceUrl": "https://pixabay.com/videos/id-22313/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:02.410261+00:00",
+      "files": [
+        {
+          "name": "science, cells, space, cosmos",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2019/03/25/22313-326722800_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2019/03/25/22313-326722800_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142827+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -17139,6 +17311,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2016/09/06/4968-181688475_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483736+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:222274",
+      "source": "pixabay",
+      "source_id": "222274",
+      "title": "space, galaxy, universe, stars, sky, planet, constellations, nebula, astronautics, science, fantasy",
+      "description": "",
+      "creator": "AndreyС",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-222274/",
+      "sourceUrl": "https://pixabay.com/videos/id-222274/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:02.410307+00:00",
+      "files": [
+        {
+          "name": "space, galaxy, universe, stars, sky, planet, constellations, nebula, astronautics, science, fantasy",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/07/21/222274_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/07/21/222274_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142849+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -18618,6 +18818,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2024/06/15/216826_large.mp4",
       "validatedAt": "2026-10-21T19:48:33.483502+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:232098",
+      "source": "pixabay",
+      "source_id": "232098",
+      "title": "tunnel, science fiction, perspective, futuristic, loop",
+      "description": "",
+      "creator": "AdisResic",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-232098/",
+      "sourceUrl": "https://pixabay.com/videos/id-232098/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:02.410292+00:00",
+      "files": [
+        {
+          "name": "tunnel, science fiction, perspective, futuristic, loop",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2024/09/18/232098_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2024/09/18/232098_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142838+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -50507,6 +50735,34 @@
       "playbackUrl": "https://archive.org/download/PlanetaU/VTS_01_2.mp4",
       "validatedAt": "2026-10-27T12:15:29.187782+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:1469",
+      "source": "pixabay",
+      "source_id": "1469",
+      "title": "plasma, smoke, toxic, pollution, animation, animated, motion graphic, background, effect, fog, mist, thick, beautiful wallpaper, cloudy, smog, motion",
+      "description": "",
+      "creator": "Prawny",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-1469/",
+      "sourceUrl": "https://pixabay.com/videos/id-1469/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-13T14:40:11.522414+00:00",
+      "files": [
+        {
+          "name": "plasma, smoke, toxic, pollution, animation, animated, motion graphic, background, effect, fog, mist, thick, beautiful wallpaper, cloudy, smog, motion",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2015/11/30/1469-147538044_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2015/11/30/1469-147538044_large.mp4",
+      "validatedAt": "2026-11-13T14:44:37.142937+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -152886,6 +153142,74 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "10-the-ape-man",
+      "title": "The Trail of the Octopus (Duke Worne, 1919)",
+      "description": "Directed by Duke Worne.<br /><br />Carter Holmes, master criminologist, must help Ruth Stanhope find the 9 daggers that will unlock the secret of the cursed Devil's Trademark.<br />(via IMDb)<br /><br />Cast:<br />Ben F. Wilson as Carter Holmes<br />Neva Gerber as Ruth Stanhope<br />William Dyer as Sandy MacNab<br />Howard Crampton as Dr. Reid Stanhope<br />William A. Carroll as Omar<br />Marie Pavis as Mlle. Zora Rularde<br />Al Ernest Garcia (as Allen Garcia) as Jan Al-Kasim<br />Al Ernest Garcia (as E(a)rnest Garcia) as Wang Foo",
+      "year": "1919",
+      "creator": "Duke Worne",
+      "subject": "1910s serials",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/10-the-ape-man",
+      "thumbnail": "https://archive.org/services/img/10-the-ape-man",
+      "category": "series",
+      "files": [
+        {
+          "name": "10_The_Ape_Man.mp4",
+          "format": "MPEG4",
+          "size": 83211815,
+          "url": "https://archive.org/download/10-the-ape-man/10_The_Ape_Man.mp4"
+        },
+        {
+          "name": "08_Satan's_Soulmate.mp4",
+          "format": "MPEG4",
+          "size": 82873848,
+          "url": "https://archive.org/download/10-the-ape-man/08_Satan%27s_Soulmate.mp4"
+        },
+        {
+          "name": "07_The_Dance_of_Death.mp4",
+          "format": "MPEG4",
+          "size": 81305506,
+          "url": "https://archive.org/download/10-the-ape-man/07_The_Dance_of_Death.mp4"
+        },
+        {
+          "name": "02_The_Purple_Dagger.mp4",
+          "format": "MPEG4",
+          "size": 80345808,
+          "url": "https://archive.org/download/10-the-ape-man/02_The_Purple_Dagger.mp4"
+        },
+        {
+          "name": "06_Behind_the_Mask.mp4",
+          "format": "MPEG4",
+          "size": 79783279,
+          "url": "https://archive.org/download/10-the-ape-man/06_Behind_the_Mask.mp4"
+        },
+        {
+          "name": "12_The_Poisoned_Talon.mp4",
+          "format": "MPEG4",
+          "size": 75512303,
+          "url": "https://archive.org/download/10-the-ape-man/12_The_Poisoned_Talon.mp4"
+        },
+        {
+          "name": "11_The_Red_Death.mp4",
+          "format": "MPEG4",
+          "size": 74471246,
+          "url": "https://archive.org/download/10-the-ape-man/11_The_Red_Death.mp4"
+        },
+        {
+          "name": "03_Face_to_Face.mp4",
+          "format": "MPEG4",
+          "size": 69885090,
+          "url": "https://archive.org/download/10-the-ape-man/03_Face_to_Face.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/10-the-ape-man/10_The_Ape_Man.mp4",
+      "validatedAt": "2026-11-13T14:38:27.008111+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "TheUnderseaKingdomTrailer",
       "title": "THE UNDERSEA KINGDOM trailer",
       "description": "Republic Serial",
@@ -155680,13 +156004,13 @@
     {
       "key": "desenhos",
       "title": "Desenhos",
-      "count": 508,
+      "count": 509,
       "path": "catalog/desenhos.json"
     },
     {
       "key": "series",
       "title": "Séries",
-      "count": 467,
+      "count": 468,
       "path": "catalog/series.json"
     },
     {
@@ -155710,7 +156034,7 @@
     {
       "key": "ciencia",
       "title": "Ciência e espaço",
-      "count": 454,
+      "count": 462,
       "path": "catalog/ciencia.json"
     },
     {

@@ -1,8 +1,8 @@
 {
   "category": "series",
   "title": "Séries",
-  "updatedAt": "2026-11-12T15:23:48.944504+00:00",
-  "count": 467,
+  "updatedAt": "2026-11-13T14:44:37.146929+00:00",
+  "count": 468,
   "items": [
     {
       "identifier": "cvvo8T7hAc31jvkxuVHPZMz26JKKOu",
@@ -17701,6 +17701,74 @@
       ],
       "playbackUrl": "https://archive.org/download/youtube-_ZSnOKfAxuU/_ZSnOKfAxuU.mp4",
       "validatedAt": "2026-10-20T16:24:33.551631+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "10-the-ape-man",
+      "title": "The Trail of the Octopus (Duke Worne, 1919)",
+      "description": "Directed by Duke Worne.<br /><br />Carter Holmes, master criminologist, must help Ruth Stanhope find the 9 daggers that will unlock the secret of the cursed Devil's Trademark.<br />(via IMDb)<br /><br />Cast:<br />Ben F. Wilson as Carter Holmes<br />Neva Gerber as Ruth Stanhope<br />William Dyer as Sandy MacNab<br />Howard Crampton as Dr. Reid Stanhope<br />William A. Carroll as Omar<br />Marie Pavis as Mlle. Zora Rularde<br />Al Ernest Garcia (as Allen Garcia) as Jan Al-Kasim<br />Al Ernest Garcia (as E(a)rnest Garcia) as Wang Foo",
+      "year": "1919",
+      "creator": "Duke Worne",
+      "subject": "1910s serials",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/10-the-ape-man",
+      "thumbnail": "https://archive.org/services/img/10-the-ape-man",
+      "category": "series",
+      "files": [
+        {
+          "name": "10_The_Ape_Man.mp4",
+          "format": "MPEG4",
+          "size": 83211815,
+          "url": "https://archive.org/download/10-the-ape-man/10_The_Ape_Man.mp4"
+        },
+        {
+          "name": "08_Satan's_Soulmate.mp4",
+          "format": "MPEG4",
+          "size": 82873848,
+          "url": "https://archive.org/download/10-the-ape-man/08_Satan%27s_Soulmate.mp4"
+        },
+        {
+          "name": "07_The_Dance_of_Death.mp4",
+          "format": "MPEG4",
+          "size": 81305506,
+          "url": "https://archive.org/download/10-the-ape-man/07_The_Dance_of_Death.mp4"
+        },
+        {
+          "name": "02_The_Purple_Dagger.mp4",
+          "format": "MPEG4",
+          "size": 80345808,
+          "url": "https://archive.org/download/10-the-ape-man/02_The_Purple_Dagger.mp4"
+        },
+        {
+          "name": "06_Behind_the_Mask.mp4",
+          "format": "MPEG4",
+          "size": 79783279,
+          "url": "https://archive.org/download/10-the-ape-man/06_Behind_the_Mask.mp4"
+        },
+        {
+          "name": "12_The_Poisoned_Talon.mp4",
+          "format": "MPEG4",
+          "size": 75512303,
+          "url": "https://archive.org/download/10-the-ape-man/12_The_Poisoned_Talon.mp4"
+        },
+        {
+          "name": "11_The_Red_Death.mp4",
+          "format": "MPEG4",
+          "size": 74471246,
+          "url": "https://archive.org/download/10-the-ape-man/11_The_Red_Death.mp4"
+        },
+        {
+          "name": "03_Face_to_Face.mp4",
+          "format": "MPEG4",
+          "size": 69885090,
+          "url": "https://archive.org/download/10-the-ape-man/03_Face_to_Face.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/10-the-ape-man/10_The_Ape_Man.mp4",
+      "validatedAt": "2026-11-13T14:38:27.008111+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
