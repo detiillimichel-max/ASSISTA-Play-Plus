@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-13T14:44:37.146929+00:00",
+  "updatedAt": "2026-11-14T13:37:02.656815+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
   "metadataChecksThisRun": 114,
-  "multiSourceAcceptedThisRun": 9,
+  "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
       "requests": 1,
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 5
+      "requestErrors": 4
     },
     "prelinger": {
       "requests": 1,
@@ -191,20 +191,14 @@
     },
     "_runtime": {
       "cacheTtlDays": 5,
-      "cacheHits": 1,
-      "cacheMisses": 248,
+      "cacheHits": 224,
+      "cacheMisses": 25,
       "apiRateBudgetRatio": 0.3,
       "apiRequests": {
-        "pexels": 8,
-        "pixabay": 8,
-        "nasa": 134,
-        "wikimedia_commons": 7,
-        "europeana": 5,
         "dvids": 5,
         "dpla": 6,
         "twitch": 8,
-        "library_of_congress": 5,
-        "internet_archive": 1
+        "library_of_congress": 5
       },
       "apiBudgets": {
         "pexels": 60,
@@ -305,23 +299,19 @@
         "library_of_congress": [
           {
             "type": "request",
-            "error": "The read operation timed out"
+            "error": "HTTP Error 429: Too Many Requests"
           },
           {
             "type": "request",
-            "error": "The read operation timed out"
+            "error": "HTTP Error 429: Too Many Requests"
           },
           {
             "type": "request",
-            "error": "The read operation timed out"
+            "error": "HTTP Error 429: Too Many Requests"
           },
           {
             "type": "request",
-            "error": "The read operation timed out"
-          },
-          {
-            "type": "request",
-            "error": "The read operation timed out"
+            "error": "HTTP Error 429: Too Many Requests"
           }
         ],
         "other": [
@@ -337,7 +327,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3701,
+  "count": 3702,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -23982,6 +23972,74 @@
       ],
       "playbackUrl": "https://archive.org/download/evenstevensclips/Specials%20%282003%29/EVEN%20STEVENS%20-%20S00%20E01%20-%20THE%20Even%20Stevens%20MOVIE%2C%20with%20Commentary%20%282003%20-%20480p%20DVDRip%29.mp4",
       "validatedAt": "2026-10-20T16:29:27.596723+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "familymatters_202507",
+      "title": "Family Matters complete series",
+      "description": "<div>Family Matters is an American television sitcom that originally aired on ABC for eight seasons from September 22, 1989, to May 9, 1997, then moved to CBS for its ninth and final season from September 19, 1997, to July 17, 1998. A spin-off of Perfect Strangers, the series was created by William Bickley and Michael Warren, and revolves around the Winslow family, a Black middle class family living in Chicago, Illinois. Midway through the first season, the show introduced the Winslows' nerdy neighbor Steve Urkel (Jaleel White), originally as a one-time appearance. However, he quickly became the show's breakout character (and eventually the main character), joining the main cast.[3]</div><div><br /></div><div>Running for 215 episodes over nine seasons, Family Matters is the third-longest-running live action American sitcom with a predominantly African American cast, behind The Jeffersons with 253 episodes over 11 seasons and Tyler Perry's House of Payne with 355 episodes as of 2023. Family Matters was the last live-action scripted primetime show that debuted in the 1980s to end its run; the only scripted show that started in the 1980s and lasts longer in continuous production is The Simpsons.</div>",
+      "year": "1989",
+      "creator": "William Bickley and Michael Warren",
+      "subject": "familymatters, family matters, tgif, classic tv, classic, did i do that?, urkel, winslows, steve urkel, steveurkle, jaleel white, sitcom, comedy, tv, television, black, series, 90s, sci fi, family, scifi, robots, space, black family, family sitcom, chicago",
+      "collection": "classic_tv_1980s, classic_tv, television",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/familymatters_202507",
+      "thumbnail": "https://archive.org/services/img/familymatters_202507",
+      "category": "comedia",
+      "files": [
+        {
+          "name": "Season 4/Family Matters - 4x13 - The Way the Ball Bounces (TV-DVDRip Hå®T)(1).mp4",
+          "format": "h.264",
+          "size": 147335569,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x13%20-%20The%20Way%20the%20Ball%20Bounces%20%28TV-DVDRip%20H%C3%A5%C2%AET%29%281%29.mp4"
+        },
+        {
+          "name": "season 5/Family Matters - 5x05 - Money Out the Window (TV-DVDRip Hå®T).mp4",
+          "format": "h.264",
+          "size": 135199936,
+          "url": "https://archive.org/download/familymatters_202507/season%205/Family%20Matters%20-%205x05%20-%20Money%20Out%20the%20Window%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x19 - Mama's Wedding (TV-DVDRip Hå®T).mp4",
+          "format": "h.264",
+          "size": 133951324,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x19%20-%20Mama%27s%20Wedding%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x07 - An Officer and a Waldo.mp4",
+          "format": "h.264",
+          "size": 133582747,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x07%20-%20An%20Officer%20and%20a%20Waldo.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x09 - The Oddest Couple.mp4",
+          "format": "h.264",
+          "size": 132975122,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x09%20-%20The%20Oddest%20Couple.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x18 - Higher Anxiety (TV-DVDRip Hå®T).mp4",
+          "format": "h.264",
+          "size": 132553823,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x18%20-%20Higher%20Anxiety%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
+        },
+        {
+          "name": "season 5/Family Matters - 5x03 - Saved by the Urkel (TV-DVDRip Hå®T).mp4",
+          "format": "h.264",
+          "size": 132142570,
+          "url": "https://archive.org/download/familymatters_202507/season%205/Family%20Matters%20-%205x03%20-%20Saved%20by%20the%20Urkel%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x10 - It's Beginning to Look a Lot Like Urkel.mp4",
+          "format": "h.264",
+          "size": 131983994,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x10%20-%20It%27s%20Beginning%20to%20Look%20a%20Lot%20Like%20Urkel.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x13%20-%20The%20Way%20the%20Ball%20Bounces%20%28TV-DVDRip%20H%C3%A5%C2%AET%29%281%29.mp4",
+      "validatedAt": "2026-10-21T19:39:26.288503+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -140116,6 +140174,62 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "el-automovil-gris-1919-prt-1",
+      "title": "El automóvil gris (Enrique Rosas, 1919)",
+      "description": "Directed by Enrique Rosas. Has hardcoded English subtitles.<br /><br />A gang terrorises Mexico City's high society. Murder, kidnapping and robbery are their trademarks. Police inspector Cabrera follows the gang's crimes.<br />(via IMDb)<br /><br />Cast:<br />Joaquín Coss as Don Vicente González<br />Juan de Homs as Higinio Granda<br />Manuel de los Ríos as Ángel García Chao<br />María Teresa Montoya as Risco's wife<br />Dora Vila as Ernestina",
+      "year": "1919",
+      "creator": "Enrique Rosas",
+      "subject": "1910s serials",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/el-automovil-gris-1919-prt-1",
+      "thumbnail": "https://archive.org/services/img/el-automovil-gris-1919-prt-1",
+      "category": "series",
+      "files": [
+        {
+          "name": "El_automóvil_gris_1919_prt1.ia.mp4",
+          "format": "h.264 IA",
+          "size": 487210467,
+          "url": "https://archive.org/download/el-automovil-gris-1919-prt-1/El_autom%C3%B3vil_gris_1919_prt1.ia.mp4"
+        },
+        {
+          "name": "El_automóvil_gris_1919_prt3.ia.mp4",
+          "format": "h.264 IA",
+          "size": 482854774,
+          "url": "https://archive.org/download/el-automovil-gris-1919-prt-1/El_autom%C3%B3vil_gris_1919_prt3.ia.mp4"
+        },
+        {
+          "name": "El_automóvil_gris_1919_prt2.ia.mp4",
+          "format": "h.264 IA",
+          "size": 381363084,
+          "url": "https://archive.org/download/el-automovil-gris-1919-prt-1/El_autom%C3%B3vil_gris_1919_prt2.ia.mp4"
+        },
+        {
+          "name": "El_automóvil_gris_1919_prt1.mp4",
+          "format": "MPEG4",
+          "size": 368479699,
+          "url": "https://archive.org/download/el-automovil-gris-1919-prt-1/El_autom%C3%B3vil_gris_1919_prt1.mp4"
+        },
+        {
+          "name": "El_automóvil_gris_1919_prt3.mp4",
+          "format": "MPEG4",
+          "size": 329498784,
+          "url": "https://archive.org/download/el-automovil-gris-1919-prt-1/El_autom%C3%B3vil_gris_1919_prt3.mp4"
+        },
+        {
+          "name": "El_automóvil_gris_1919_prt2.mp4",
+          "format": "MPEG4",
+          "size": 300392274,
+          "url": "https://archive.org/download/el-automovil-gris-1919-prt-1/El_autom%C3%B3vil_gris_1919_prt2.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/el-automovil-gris-1919-prt-1/El_autom%C3%B3vil_gris_1919_prt1.ia.mp4",
+      "validatedAt": "2026-11-14T13:34:43.602687+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "ernests-un-selestina-anim-ser-latviski",
       "title": "Ernests un Selestīna (Ernest et Célestine, la collection) 2017 animācijas seriāls latviski",
       "description": "Ernests un Selestina (Ernest et Célestine, la collection) 2017 S01-2  HD LAV",
@@ -140389,74 +140503,6 @@
       ],
       "playbackUrl": "https://archive.org/download/youtube-0kQ8i2FpRDk/0kQ8i2FpRDk.mp4",
       "validatedAt": "2026-10-21T19:38:41.516064+00:00",
-      "source": "internet-archive",
-      "moderationPolicy": "paused"
-    },
-    {
-      "identifier": "familymatters_202507",
-      "title": "Family Matters complete series",
-      "description": "<div>Family Matters is an American television sitcom that originally aired on ABC for eight seasons from September 22, 1989, to May 9, 1997, then moved to CBS for its ninth and final season from September 19, 1997, to July 17, 1998. A spin-off of Perfect Strangers, the series was created by William Bickley and Michael Warren, and revolves around the Winslow family, a Black middle class family living in Chicago, Illinois. Midway through the first season, the show introduced the Winslows' nerdy neighbor Steve Urkel (Jaleel White), originally as a one-time appearance. However, he quickly became the show's breakout character (and eventually the main character), joining the main cast.[3]</div><div><br /></div><div>Running for 215 episodes over nine seasons, Family Matters is the third-longest-running live action American sitcom with a predominantly African American cast, behind The Jeffersons with 253 episodes over 11 seasons and Tyler Perry's House of Payne with 355 episodes as of 2023. Family Matters was the last live-action scripted primetime show that debuted in the 1980s to end its run; the only scripted show that started in the 1980s and lasts longer in continuous production is The Simpsons.</div>",
-      "year": "1989",
-      "creator": "William Bickley and Michael Warren",
-      "subject": "familymatters, family matters, tgif, classic tv, classic, did i do that?, urkel, winslows, steve urkel, steveurkle, jaleel white, sitcom, comedy, tv, television, black, series, 90s, sci fi, family, scifi, robots, space, black family, family sitcom, chicago",
-      "collection": "classic_tv_1980s, classic_tv, television",
-      "mediatype": "movies",
-      "license": "",
-      "detailsUrl": "https://archive.org/details/familymatters_202507",
-      "thumbnail": "https://archive.org/services/img/familymatters_202507",
-      "category": "series",
-      "files": [
-        {
-          "name": "Season 4/Family Matters - 4x13 - The Way the Ball Bounces (TV-DVDRip Hå®T)(1).mp4",
-          "format": "h.264",
-          "size": 147335569,
-          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x13%20-%20The%20Way%20the%20Ball%20Bounces%20%28TV-DVDRip%20H%C3%A5%C2%AET%29%281%29.mp4"
-        },
-        {
-          "name": "season 5/Family Matters - 5x05 - Money Out the Window (TV-DVDRip Hå®T).mp4",
-          "format": "h.264",
-          "size": 135199936,
-          "url": "https://archive.org/download/familymatters_202507/season%205/Family%20Matters%20-%205x05%20-%20Money%20Out%20the%20Window%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
-        },
-        {
-          "name": "Season 4/Family Matters - 4x19 - Mama's Wedding (TV-DVDRip Hå®T).mp4",
-          "format": "h.264",
-          "size": 133951324,
-          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x19%20-%20Mama%27s%20Wedding%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
-        },
-        {
-          "name": "Season 4/Family Matters - 4x07 - An Officer and a Waldo.mp4",
-          "format": "h.264",
-          "size": 133582747,
-          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x07%20-%20An%20Officer%20and%20a%20Waldo.mp4"
-        },
-        {
-          "name": "Season 4/Family Matters - 4x09 - The Oddest Couple.mp4",
-          "format": "h.264",
-          "size": 132975122,
-          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x09%20-%20The%20Oddest%20Couple.mp4"
-        },
-        {
-          "name": "Season 4/Family Matters - 4x18 - Higher Anxiety (TV-DVDRip Hå®T).mp4",
-          "format": "h.264",
-          "size": 132553823,
-          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x18%20-%20Higher%20Anxiety%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
-        },
-        {
-          "name": "season 5/Family Matters - 5x03 - Saved by the Urkel (TV-DVDRip Hå®T).mp4",
-          "format": "h.264",
-          "size": 132142570,
-          "url": "https://archive.org/download/familymatters_202507/season%205/Family%20Matters%20-%205x03%20-%20Saved%20by%20the%20Urkel%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
-        },
-        {
-          "name": "Season 4/Family Matters - 4x10 - It's Beginning to Look a Lot Like Urkel.mp4",
-          "format": "h.264",
-          "size": 131983994,
-          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x10%20-%20It%27s%20Beginning%20to%20Look%20a%20Lot%20Like%20Urkel.mp4"
-        }
-      ],
-      "playbackUrl": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x13%20-%20The%20Way%20the%20Ball%20Bounces%20%28TV-DVDRip%20H%C3%A5%C2%AET%29%281%29.mp4",
-      "validatedAt": "2026-10-21T19:39:26.288503+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -156022,7 +156068,7 @@
     {
       "key": "comedia",
       "title": "Comédia",
-      "count": 374,
+      "count": 375,
       "path": "catalog/comedia.json"
     },
     {

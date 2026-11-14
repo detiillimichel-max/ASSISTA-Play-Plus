@@ -1,8 +1,8 @@
 {
   "category": "comedia",
   "title": "Comédia",
-  "updatedAt": "2026-11-13T14:44:37.146929+00:00",
-  "count": 374,
+  "updatedAt": "2026-11-14T13:37:02.656815+00:00",
+  "count": 375,
   "items": [
     {
       "identifier": "2A.M.InTheSubway1905",
@@ -4410,6 +4410,74 @@
       ],
       "playbackUrl": "https://archive.org/download/evenstevensclips/Specials%20%282003%29/EVEN%20STEVENS%20-%20S00%20E01%20-%20THE%20Even%20Stevens%20MOVIE%2C%20with%20Commentary%20%282003%20-%20480p%20DVDRip%29.mp4",
       "validatedAt": "2026-10-20T16:29:27.596723+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "familymatters_202507",
+      "title": "Family Matters complete series",
+      "description": "<div>Family Matters is an American television sitcom that originally aired on ABC for eight seasons from September 22, 1989, to May 9, 1997, then moved to CBS for its ninth and final season from September 19, 1997, to July 17, 1998. A spin-off of Perfect Strangers, the series was created by William Bickley and Michael Warren, and revolves around the Winslow family, a Black middle class family living in Chicago, Illinois. Midway through the first season, the show introduced the Winslows' nerdy neighbor Steve Urkel (Jaleel White), originally as a one-time appearance. However, he quickly became the show's breakout character (and eventually the main character), joining the main cast.[3]</div><div><br /></div><div>Running for 215 episodes over nine seasons, Family Matters is the third-longest-running live action American sitcom with a predominantly African American cast, behind The Jeffersons with 253 episodes over 11 seasons and Tyler Perry's House of Payne with 355 episodes as of 2023. Family Matters was the last live-action scripted primetime show that debuted in the 1980s to end its run; the only scripted show that started in the 1980s and lasts longer in continuous production is The Simpsons.</div>",
+      "year": "1989",
+      "creator": "William Bickley and Michael Warren",
+      "subject": "familymatters, family matters, tgif, classic tv, classic, did i do that?, urkel, winslows, steve urkel, steveurkle, jaleel white, sitcom, comedy, tv, television, black, series, 90s, sci fi, family, scifi, robots, space, black family, family sitcom, chicago",
+      "collection": "classic_tv_1980s, classic_tv, television",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/familymatters_202507",
+      "thumbnail": "https://archive.org/services/img/familymatters_202507",
+      "category": "comedia",
+      "files": [
+        {
+          "name": "Season 4/Family Matters - 4x13 - The Way the Ball Bounces (TV-DVDRip Hå®T)(1).mp4",
+          "format": "h.264",
+          "size": 147335569,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x13%20-%20The%20Way%20the%20Ball%20Bounces%20%28TV-DVDRip%20H%C3%A5%C2%AET%29%281%29.mp4"
+        },
+        {
+          "name": "season 5/Family Matters - 5x05 - Money Out the Window (TV-DVDRip Hå®T).mp4",
+          "format": "h.264",
+          "size": 135199936,
+          "url": "https://archive.org/download/familymatters_202507/season%205/Family%20Matters%20-%205x05%20-%20Money%20Out%20the%20Window%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x19 - Mama's Wedding (TV-DVDRip Hå®T).mp4",
+          "format": "h.264",
+          "size": 133951324,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x19%20-%20Mama%27s%20Wedding%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x07 - An Officer and a Waldo.mp4",
+          "format": "h.264",
+          "size": 133582747,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x07%20-%20An%20Officer%20and%20a%20Waldo.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x09 - The Oddest Couple.mp4",
+          "format": "h.264",
+          "size": 132975122,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x09%20-%20The%20Oddest%20Couple.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x18 - Higher Anxiety (TV-DVDRip Hå®T).mp4",
+          "format": "h.264",
+          "size": 132553823,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x18%20-%20Higher%20Anxiety%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
+        },
+        {
+          "name": "season 5/Family Matters - 5x03 - Saved by the Urkel (TV-DVDRip Hå®T).mp4",
+          "format": "h.264",
+          "size": 132142570,
+          "url": "https://archive.org/download/familymatters_202507/season%205/Family%20Matters%20-%205x03%20-%20Saved%20by%20the%20Urkel%20%28TV-DVDRip%20H%C3%A5%C2%AET%29.mp4"
+        },
+        {
+          "name": "Season 4/Family Matters - 4x10 - It's Beginning to Look a Lot Like Urkel.mp4",
+          "format": "h.264",
+          "size": 131983994,
+          "url": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x10%20-%20It%27s%20Beginning%20to%20Look%20a%20Lot%20Like%20Urkel.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/familymatters_202507/Season%204/Family%20Matters%20-%204x13%20-%20The%20Way%20the%20Ball%20Bounces%20%28TV-DVDRip%20H%C3%A5%C2%AET%29%281%29.mp4",
+      "validatedAt": "2026-10-21T19:39:26.288503+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
