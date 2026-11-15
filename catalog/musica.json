@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-11-14T13:37:02.656815+00:00",
-  "count": 445,
+  "updatedAt": "2026-11-15T14:01:00.106301+00:00",
+  "count": 446,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -10912,6 +10912,74 @@
       ],
       "playbackUrl": "https://archive.org/download/nbc200109110831-0912/V08546-02_512kb.mp4",
       "validatedAt": "2026-10-20T16:38:37.148252+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "dvd-video-recording-title-1-2",
+      "title": "Nick Jr. DVD Video Recordings",
+      "description": "<p class=\"p1\" style=\"margin:0px;font-size:17px;line-height:normal;\"><span class=\"s1\" style=\"font-family:UICTFontTextStyleBody;\">I do NOT Own These, All of these Belong to Cam Effect</span></p>",
+      "year": "2012",
+      "creator": "Cam Effect",
+      "subject": "Nick Jr., Wonder Pets!, Wow! Wow! Wubbzy!, Tickety Toc, Franklin and Friends, The Backyardigans, Mike the Knight, Go, Diego, Go!, Max & Ruby, Team Umizoomi, Dora the Explorer, Little Bill, Little Bear, Ni Hao, Kai-Lan, Peppa Pig, Miss Spider's Sunny Patch Friends, Olivia, Franklin, Pocoyo, Yo Gabba Gabba!, Dino Dan, Oswald, Jack's Big Music Show, Oobi, Blue's Clues, The Fresh Beat Band, Bubble Guppies, Peter Rabbit, Nickelodeon, NickMom",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/dvd-video-recording-title-1-2",
+      "thumbnail": "https://archive.org/services/img/dvd-video-recording-title-1-2",
+      "category": "musica",
+      "files": [
+        {
+          "name": "DVD Video Recording_Title1 2.mp4",
+          "format": "MPEG4",
+          "size": 2362642034,
+          "url": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1%202.mp4"
+        },
+        {
+          "name": "DVD Video Recording_Title1_2.mp4",
+          "format": "MPEG4",
+          "size": 2159642883,
+          "url": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1_2.mp4"
+        },
+        {
+          "name": "DVD Video Recording_Title1_1 3.mp4",
+          "format": "MPEG4",
+          "size": 2002893715,
+          "url": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1_1%203.mp4"
+        },
+        {
+          "name": "DVD Video Recording_Title1 4.mp4",
+          "format": "MPEG4",
+          "size": 1876563389,
+          "url": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1%204.mp4"
+        },
+        {
+          "name": "DVD Video Recording_Title1_3.mp4",
+          "format": "MPEG4",
+          "size": 1874274646,
+          "url": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1_3.mp4"
+        },
+        {
+          "name": "DVD Video Recording_Title1 (1).mp4",
+          "format": "MPEG4",
+          "size": 1696034009,
+          "url": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1%20%281%29.mp4"
+        },
+        {
+          "name": "DVD Video Recording_Title1_1 (1).mp4",
+          "format": "MPEG4",
+          "size": 1692941832,
+          "url": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1_1%20%281%29.mp4"
+        },
+        {
+          "name": "DVD Video Recording_Title1.mp4",
+          "format": "MPEG4",
+          "size": 1512309892,
+          "url": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/dvd-video-recording-title-1-2/DVD%20Video%20Recording_Title1%202.mp4",
+      "validatedAt": "2026-11-15T13:59:56.802699+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
