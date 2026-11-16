@@ -1,8 +1,8 @@
 {
   "category": "filmes",
   "title": "Filmes",
-  "updatedAt": "2026-11-15T14:01:00.106301+00:00",
-  "count": 643,
+  "updatedAt": "2026-11-16T15:53:13.309303+00:00",
+  "count": 645,
   "items": [
     {
       "identifier": "cannibal-holocaust-1980-720p",
@@ -8216,6 +8216,33 @@
       ],
       "playbackUrl": "https://archive.org/download/gammera/gamera.mp4",
       "validatedAt": "2026-10-17T06:15:33.768664+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "halloween-cartoons-1985",
+      "title": "Garfield's Halloween Adventure and It's the Great Pumpkin, Charlie Brown (CBS WOC)",
+      "description": "VHS rip. CBS broadcast of Garfield's Halloween Adventure and It's the Great Pumpkin, Charlie Brown from 1985, with commercials.<br />",
+      "year": "1985",
+      "creator": "",
+      "subject": "vhs, woc, cbs, garfield, charlie brown, great pumpkin, halloween, broadcast, cartoon, animation, holiday, 1980s, 1985",
+      "collection": "vhskids, vhsvault",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/halloween-cartoons-1985",
+      "thumbnail": "https://archive.org/services/img/halloween-cartoons-1985",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "Halloween Cartoons 1985.mp4",
+          "format": "MPEG4",
+          "size": 367832311,
+          "url": "https://archive.org/download/halloween-cartoons-1985/Halloween%20Cartoons%201985.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/halloween-cartoons-1985/Halloween%20Cartoons%201985.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-11-16T15:51:10.977808+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -21101,6 +21128,33 @@
       "playbackUrl": "https://archive.org/download/The_Three_Musketeers/TheThreeMusketeers.mp4",
       "licenseurl": "http://creativecommons.org/licenses/by/3.0/",
       "validatedAt": "2026-10-20T16:18:08.875508+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "the.-time.-travelers.-1964",
+      "title": "The Time Travelers (1964)",
+      "description": "<div><em>The Time Travelers</em> follows a group of scientists who \nsuccessfully develop a time machine. Led by Dr. B.P. Hume, they embark \non a journey to the distant future, specifically to the year 2070. \nHowever, their adventure takes a dark turn when they arrive in a \npost-apocalyptic world, ravaged by war and filled with mutants.</div><div>The film begins with the scientists demonstrating their time travel \ntechnology. Their excitement is palpable, but there are underlying \nconcerns about the consequences of their journey.Upon arriving in 2070, \nthey quickly realize that civilization has collapsed. They encounter \nstrange creatures known as \"mutants,\" who are hostile and dangerous.The \nscientists must navigate this perilous new world while searching for a \nway back to their own time. Tensions rise as they face the mutants and \nthe implications of their time travel.The film explores themes of \ntechnological advancement, the potential for destruction, and the \nunforeseen consequences of scientific exploration. Ultimately, the \nsurvivors face a race against time to return to their original timeline,\n grappling with their experiences in a world that reflects the darker \npossibilities of humanity's future.</div>",
+      "year": "1964",
+      "creator": "Ib Melchior",
+      "subject": "science fiction, scifi, film, adventure, dystopia, time travel, post-apocalyptic",
+      "collection": "film_scifi, feature_films, moviesandfilms",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/the.-time.-travelers.-1964",
+      "thumbnail": "https://archive.org/services/img/the.-time.-travelers.-1964",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "The Time Travelers (1964)/mp4/The.Time.Travelers.1964.mp4",
+          "format": "MPEG4",
+          "size": 1494787418,
+          "url": "https://archive.org/download/the.-time.-travelers.-1964/The%20Time%20Travelers%20%281964%29/mp4/The.Time.Travelers.1964.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/the.-time.-travelers.-1964/The%20Time%20Travelers%20%281964%29/mp4/The.Time.Travelers.1964.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "validatedAt": "2026-11-16T15:51:10.561652+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

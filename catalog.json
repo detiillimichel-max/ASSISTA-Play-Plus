@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-15T14:01:00.106301+00:00",
+  "updatedAt": "2026-11-16T15:53:13.309303+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 114,
+  "metadataChecksThisRun": 117,
   "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
@@ -327,7 +327,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3703,
+  "count": 3707,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -21772,6 +21772,32 @@
       ],
       "playbackUrl": "https://archive.org/download/beyond.-the.-valley.-of.-the.-dolls.-1970.1080p.-blu-ray.x-264-yts.-ag/Beyond.The.Valley.Of.The.Dolls.1970.1080p.BluRay.x264-%5BYTS.AG%5D.mp4",
       "validatedAt": "2026-10-16T03:51:44.976300+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052",
+      "title": "Big Bad Mama ( 1974)",
+      "description": "<span style=\"color:rgb(255,255,255);font-family:Roboto, Helvetica, Arial, sans-serif;font-size:16px;letter-spacing:0.5px;background-color:rgb(31,31,31);\">A tough single mother and her two daughters are forced by circumstances into a life of crime, and quickly become outlaws on the run, picking up partners along the way, and traveling to different states, pursued by the law.</span>",
+      "year": "1974",
+      "creator": "Steve Carver",
+      "subject": "Roger Corman, William Shatner, Angie Dickinson, Susan Sennett, Tom Skerritt, Robbie Lee, Noble Willingham, Dick Miller, Joan Prather, Tom Signorelli, Michael Talbott, Sally Kirkland, action, crime, comedy, 1970s, 1974, exploitation film, grindhouse film",
+      "collection": "Comedy_Films, feature_films, moviesandfilms",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052",
+      "thumbnail": "https://archive.org/services/img/y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052",
+      "category": "comedia",
+      "files": [
+        {
+          "name": "Y2Mate.is - Big Bad Mama (1974)-6zNA1z6Ta94-720p-1629087198052.mp4",
+          "format": "MPEG4",
+          "size": 1227864489,
+          "url": "https://archive.org/download/y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052/Y2Mate.is%20-%20Big%20Bad%20Mama%20%281974%29-6zNA1z6Ta94-720p-1629087198052.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052/Y2Mate.is%20-%20Big%20Bad%20Mama%20%281974%29-6zNA1z6Ta94-720p-1629087198052.mp4",
+      "validatedAt": "2026-11-16T15:51:27.315318+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -83976,6 +84002,33 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "halloween-cartoons-1985",
+      "title": "Garfield's Halloween Adventure and It's the Great Pumpkin, Charlie Brown (CBS WOC)",
+      "description": "VHS rip. CBS broadcast of Garfield's Halloween Adventure and It's the Great Pumpkin, Charlie Brown from 1985, with commercials.<br />",
+      "year": "1985",
+      "creator": "",
+      "subject": "vhs, woc, cbs, garfield, charlie brown, great pumpkin, halloween, broadcast, cartoon, animation, holiday, 1980s, 1985",
+      "collection": "vhskids, vhsvault",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/halloween-cartoons-1985",
+      "thumbnail": "https://archive.org/services/img/halloween-cartoons-1985",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "Halloween Cartoons 1985.mp4",
+          "format": "MPEG4",
+          "size": 367832311,
+          "url": "https://archive.org/download/halloween-cartoons-1985/Halloween%20Cartoons%201985.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/halloween-cartoons-1985/Halloween%20Cartoons%201985.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-11-16T15:51:10.977808+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "Gasbags_",
       "title": "Gasbags",
       "description": "This wartime farce concerns the Crazy Gang who get involved in World War Two, which for them means running a fish and chips shop off a barrage balloon, floating accidentally into Germany, being interned in a concentration camp, acting as Hitler doubles and escaping.\nThe Crazy Gang starred in something short of a dozen movies in the late 1930s and early 1940s, a sort of all-star supporting comics' series.",
@@ -96861,6 +96914,33 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "the.-time.-travelers.-1964",
+      "title": "The Time Travelers (1964)",
+      "description": "<div><em>The Time Travelers</em> follows a group of scientists who \nsuccessfully develop a time machine. Led by Dr. B.P. Hume, they embark \non a journey to the distant future, specifically to the year 2070. \nHowever, their adventure takes a dark turn when they arrive in a \npost-apocalyptic world, ravaged by war and filled with mutants.</div><div>The film begins with the scientists demonstrating their time travel \ntechnology. Their excitement is palpable, but there are underlying \nconcerns about the consequences of their journey.Upon arriving in 2070, \nthey quickly realize that civilization has collapsed. They encounter \nstrange creatures known as \"mutants,\" who are hostile and dangerous.The \nscientists must navigate this perilous new world while searching for a \nway back to their own time. Tensions rise as they face the mutants and \nthe implications of their time travel.The film explores themes of \ntechnological advancement, the potential for destruction, and the \nunforeseen consequences of scientific exploration. Ultimately, the \nsurvivors face a race against time to return to their original timeline,\n grappling with their experiences in a world that reflects the darker \npossibilities of humanity's future.</div>",
+      "year": "1964",
+      "creator": "Ib Melchior",
+      "subject": "science fiction, scifi, film, adventure, dystopia, time travel, post-apocalyptic",
+      "collection": "film_scifi, feature_films, moviesandfilms",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/the.-time.-travelers.-1964",
+      "thumbnail": "https://archive.org/services/img/the.-time.-travelers.-1964",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "The Time Travelers (1964)/mp4/The.Time.Travelers.1964.mp4",
+          "format": "MPEG4",
+          "size": 1494787418,
+          "url": "https://archive.org/download/the.-time.-travelers.-1964/The%20Time%20Travelers%20%281964%29/mp4/The.Time.Travelers.1964.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/the.-time.-travelers.-1964/The%20Time%20Travelers%20%281964%29/mp4/The.Time.Travelers.1964.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "validatedAt": "2026-11-16T15:51:10.561652+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "the-time-tunnel-complete-series-1966",
       "title": "The Time Tunnel - Complete Series 1966",
       "description": "<i style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"><b>The Time Tunnel</b></i><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"> is an American </span><a href=\"https://en.wikipedia.org/wiki/Color_television\" title=\"Color television\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">color</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"> </span><a href=\"https://en.wikipedia.org/wiki/List_of_science_fiction_television_programs\" title=\"List of science fiction television programs\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">science-fiction</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"> television series written around a theme of </span><a href=\"https://en.wikipedia.org/wiki/Time_travel\" title=\"Time travel\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">time travel</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"> adventure; it starred </span><a href=\"https://en.wikipedia.org/wiki/James_Darren\" title=\"James Darren\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">James Darren</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"> and </span><a href=\"https://en.wikipedia.org/wiki/Robert_Colbert\" title=\"Robert Colbert\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">Robert Colbert</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">. The show was creator-producer </span><a href=\"https://en.wikipedia.org/wiki/Irwin_Allen\" title=\"Irwin Allen\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">Irwin Allen</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">'s third </span><a href=\"https://en.wikipedia.org/wiki/Science-fiction\" class=\"mw-redirect\" title=\"Science-fiction\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">science-fiction</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"> television series and was released by </span><a href=\"https://en.wikipedia.org/wiki/20th_Television\" title=\"20th Television\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">20th Century Fox Television</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"> and broadcast on </span><a href=\"https://en.wikipedia.org/wiki/American_Broadcasting_Company\" title=\"American Broadcasting Company\" style=\"color:rgb(51,102,204);background:rgb(255,255,255) none;font-family:sans-serif;font-size:16px;\" rel=\"ugc nofollow\">ABC</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">. The show ran for one season of 30 episodes from 1966 to 1967. A new pilot was produced in 2002, but failed to proceed to a series.</span><div><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"><br /></span></div><div><p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">Project Tic-Toc is a top-secret U.S. government effort to build an experimental <a href=\"https://en.wikipedia.org/wiki/Time_travel\" title=\"\" style=\"color:rgb(48,86,169);background:none;\" rel=\"ugc nofollow\">time machine</a>, known as \"The Time Tunnel\" due to its appearance as an elliptical passageway. The base for Project Tic-Toc is a huge, hidden underground complex in <a href=\"https://en.wikipedia.org/wiki/Arizona\" title=\"Arizona\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Arizona</a>, 800 floors deep and employing more than 12,000 specialized personnel.<sup class=\"reference\" style=\"line-height:1;font-size:12.8px;\"><a href=\"https://en.wikipedia.org/wiki/The_Time_Tunnel#cite_note-1\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> The directors of the project are Dr. Douglas Phillips (Colbert), Dr. Anthony Newman (Darren), and Lt. General Heywood Kirk (<a href=\"https://en.wikipedia.org/wiki/Whit_Bissell\" title=\"Whit Bissell\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Whit Bissell</a>). The specialists assisting them are Dr. Raymond Swain (<a href=\"https://en.wikipedia.org/wiki/John_Zaremba\" title=\"John Zaremba\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">John Zaremba</a>), a foremost expert in <a href=\"https://en.wikipedia.org/wiki/Electronics\" title=\"Electronics\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">electronics</a>, and Dr. Ann MacGregor (<a href=\"https://en.wikipedia.org/wiki/Lee_Meriwether\" title=\"Lee Meriwether\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Lee Meriwether</a>), an electrobiologist supervising the unit that determines how much <a href=\"https://en.wikipedia.org/wiki/Force\" title=\"Force\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">force</a> and <a href=\"https://en.wikipedia.org/wiki/Heat\" title=\"Heat\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">heat</a> a time traveler is able to withstand. The series is set in 1968, two years into the future from the actual broadcast season, 1966–1967.</p><p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">Project Tic-Toc is in its 10th year when United States Senator Leroy Clark (<a href=\"https://en.wikipedia.org/wiki/Gary_Merrill\" title=\"Gary Merrill\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Gary Merrill</a>) comes to investigate to determine whether the project, which has cost $7.5 billion (equivalent to $68 billion in 2024), is worth continuing. Senator Clark feels the project is a waste of government funds. When speaking to Phillips, Kirk, and Newman in front of the Time Tunnel, he delivers an ultimatum – either they send someone into time and return him during the course of his visit or their funding will cease. Tony volunteers for this endeavor, but he is turned down by project director Doug Phillips. Defying this decision, Tony sends himself into time. Doug follows shortly after to rescue him, but they both continue to be lost in time. Senator Clark returns to Washington with the promise that funding will not be cut off to the project, leaving General Kirk in charge.</p><p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">The stage is set for the progress of the series as Tony and Doug are now \"switched\" from one period in history to another, allowing episodes to be set in the past and future. Episodes two through 23 begin with the following narration (voiced by <a href=\"https://en.wikipedia.org/wiki/Dick_Tufeld\" title=\"Dick Tufeld\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Dick Tufeld</a>):</p><blockquote class=\"templatequote\" style=\"margin:1em 0px;padding:0px 32px;border-left:none;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"><p style=\"margin:0px;\">Two American scientists are lost in the swirling maze of past and future ages, during the first experiments on America's greatest and most secret project, the Time Tunnel. Tony Newman and Doug Phillips now tumble helplessly toward a new fantastic adventure, somewhere along the infinite corridors of time.</p></blockquote><p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">Tony and Doug become participants in past events such as the <a href=\"https://en.wikipedia.org/wiki/Sinking_of_the_RMS_Titanic\" class=\"mw-redirect\" title=\"Sinking of the RMS Titanic\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">sinking of the <i>Titanic</i></a>, the <a href=\"https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor\" title=\"Attack on Pearl Harbor\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">attack on Pearl Harbor</a>, the <a href=\"https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa\" title=\"1883 eruption of Krakatoa\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">eruption of Krakatoa</a>, <a href=\"https://en.wikipedia.org/wiki/Battle_of_the_Little_Bighorn\" title=\"Battle of the Little Bighorn\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Custer's Last Stand</a>, and the <a href=\"https://en.wikipedia.org/wiki/Battle_of_the_Alamo\" title=\"Battle of the Alamo\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Battle of the Alamo</a>, among others. General Kirk, Ray, and Ann in the control room are able to locate them in time and space, observe them, occasionally communicate with them through voice contact, and send help. The series was abruptly cancelled in the summer of 1967 by ABC, before they were able to film the episode in which Tony and Doug are safely returned to the Time Tunnel complex.</p><p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"><br /></p></div>",
@@ -104535,6 +104615,44 @@
       ],
       "playbackUrl": "https://archive.org/download/documenting.-deutschland.-completed.-version.-10.10.2022/Documenting.Deutschland.Completed.Version.10.10.2022.ia.mp4",
       "validatedAt": "2026-10-20T16:34:06.234003+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "doraemon-1983",
+      "title": "Doraemon: Nobita and the Castle of the Undersea Devil (1983) [DVD Preservation Edition]",
+      "description": "This item contains Doraemon: Nobita and the Castle of the Undersea Devil (1983). The adventure begins when Doraemon and his friends travel beneath the ocean and discover a hidden underwater civilization. As tensions rise between the underwater world and humanity, the group becomes involved in a conflict that could affect the future of both societies. Known for its imaginative underwater setting and environmental themes, this film is one of the most distinctive entries in the franchise.",
+      "year": "1983",
+      "creator": "Fujiko F. Fujio",
+      "subject": "Doraemon;Castle of the Undersea Devil;Underwater Adventure;Ocean Civilization;Sea Exploration;Science Fiction;Anime Film;Japanese Animation;Fujiko F. Fujio;Classic Doraemon",
+      "collection": "dvdtray_inbox, dvdtray",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/doraemon-1983",
+      "thumbnail": "https://archive.org/services/img/doraemon-1983",
+      "category": "historia",
+      "files": [
+        {
+          "name": "04 1983 DVD Doraemon Nobita and the Castle of the Undersea Devil3.mp4",
+          "format": "h.264",
+          "size": 572332649,
+          "url": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil3.mp4"
+        },
+        {
+          "name": "04 1983 DVD Doraemon Nobita and the Castle of the Undersea Devil.mp4",
+          "format": "h.264",
+          "size": 569226111,
+          "url": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil.mp4"
+        },
+        {
+          "name": "04 1983 DVD Doraemon Nobita and the Castle of the Undersea Devil2.mp4",
+          "format": "h.264",
+          "size": 7386671,
+          "url": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil2.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil3.mp4",
+      "validatedAt": "2026-11-16T15:51:32.139301+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -156112,7 +156230,7 @@
     {
       "key": "filmes",
       "title": "Filmes",
-      "count": 643,
+      "count": 645,
       "path": "catalog/filmes.json"
     },
     {
@@ -156136,13 +156254,13 @@
     {
       "key": "comedia",
       "title": "Comédia",
-      "count": 374,
+      "count": 375,
       "path": "catalog/comedia.json"
     },
     {
       "key": "historia",
       "title": "História",
-      "count": 416,
+      "count": 417,
       "path": "catalog/historia.json"
     },
     {

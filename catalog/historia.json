@@ -1,8 +1,8 @@
 {
   "category": "historia",
   "title": "História",
-  "updatedAt": "2026-11-15T14:01:00.106301+00:00",
-  "count": 416,
+  "updatedAt": "2026-11-16T15:53:13.309303+00:00",
+  "count": 417,
   "items": [
     {
       "identifier": "32892WingsToGuatemala",
@@ -3994,6 +3994,44 @@
       ],
       "playbackUrl": "https://archive.org/download/documenting.-deutschland.-completed.-version.-10.10.2022/Documenting.Deutschland.Completed.Version.10.10.2022.ia.mp4",
       "validatedAt": "2026-10-20T16:34:06.234003+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "doraemon-1983",
+      "title": "Doraemon: Nobita and the Castle of the Undersea Devil (1983) [DVD Preservation Edition]",
+      "description": "This item contains Doraemon: Nobita and the Castle of the Undersea Devil (1983). The adventure begins when Doraemon and his friends travel beneath the ocean and discover a hidden underwater civilization. As tensions rise between the underwater world and humanity, the group becomes involved in a conflict that could affect the future of both societies. Known for its imaginative underwater setting and environmental themes, this film is one of the most distinctive entries in the franchise.",
+      "year": "1983",
+      "creator": "Fujiko F. Fujio",
+      "subject": "Doraemon;Castle of the Undersea Devil;Underwater Adventure;Ocean Civilization;Sea Exploration;Science Fiction;Anime Film;Japanese Animation;Fujiko F. Fujio;Classic Doraemon",
+      "collection": "dvdtray_inbox, dvdtray",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/doraemon-1983",
+      "thumbnail": "https://archive.org/services/img/doraemon-1983",
+      "category": "historia",
+      "files": [
+        {
+          "name": "04 1983 DVD Doraemon Nobita and the Castle of the Undersea Devil3.mp4",
+          "format": "h.264",
+          "size": 572332649,
+          "url": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil3.mp4"
+        },
+        {
+          "name": "04 1983 DVD Doraemon Nobita and the Castle of the Undersea Devil.mp4",
+          "format": "h.264",
+          "size": 569226111,
+          "url": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil.mp4"
+        },
+        {
+          "name": "04 1983 DVD Doraemon Nobita and the Castle of the Undersea Devil2.mp4",
+          "format": "h.264",
+          "size": 7386671,
+          "url": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil2.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil3.mp4",
+      "validatedAt": "2026-11-16T15:51:32.139301+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

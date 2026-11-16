@@ -1,8 +1,8 @@
 {
   "category": "comedia",
   "title": "Comédia",
-  "updatedAt": "2026-11-15T14:01:00.106301+00:00",
-  "count": 374,
+  "updatedAt": "2026-11-16T15:53:13.309303+00:00",
+  "count": 375,
   "items": [
     {
       "identifier": "2A.M.InTheSubway1905",
@@ -2210,6 +2210,32 @@
       ],
       "playbackUrl": "https://archive.org/download/beyond.-the.-valley.-of.-the.-dolls.-1970.1080p.-blu-ray.x-264-yts.-ag/Beyond.The.Valley.Of.The.Dolls.1970.1080p.BluRay.x264-%5BYTS.AG%5D.mp4",
       "validatedAt": "2026-10-16T03:51:44.976300+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052",
+      "title": "Big Bad Mama ( 1974)",
+      "description": "<span style=\"color:rgb(255,255,255);font-family:Roboto, Helvetica, Arial, sans-serif;font-size:16px;letter-spacing:0.5px;background-color:rgb(31,31,31);\">A tough single mother and her two daughters are forced by circumstances into a life of crime, and quickly become outlaws on the run, picking up partners along the way, and traveling to different states, pursued by the law.</span>",
+      "year": "1974",
+      "creator": "Steve Carver",
+      "subject": "Roger Corman, William Shatner, Angie Dickinson, Susan Sennett, Tom Skerritt, Robbie Lee, Noble Willingham, Dick Miller, Joan Prather, Tom Signorelli, Michael Talbott, Sally Kirkland, action, crime, comedy, 1970s, 1974, exploitation film, grindhouse film",
+      "collection": "Comedy_Films, feature_films, moviesandfilms",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052",
+      "thumbnail": "https://archive.org/services/img/y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052",
+      "category": "comedia",
+      "files": [
+        {
+          "name": "Y2Mate.is - Big Bad Mama (1974)-6zNA1z6Ta94-720p-1629087198052.mp4",
+          "format": "MPEG4",
+          "size": 1227864489,
+          "url": "https://archive.org/download/y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052/Y2Mate.is%20-%20Big%20Bad%20Mama%20%281974%29-6zNA1z6Ta94-720p-1629087198052.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/y-2-mate.is-big-bad-mama-1974-6z-na-1z-6-ta-94-720p-1629087198052/Y2Mate.is%20-%20Big%20Bad%20Mama%20%281974%29-6zNA1z6Ta94-720p-1629087198052.mp4",
+      "validatedAt": "2026-11-16T15:51:27.315318+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
