@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-11-16T15:53:13.309303+00:00",
-  "count": 446,
+  "updatedAt": "2026-11-17T16:06:26.661674+00:00",
+  "count": 447,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -9773,6 +9773,39 @@
       ],
       "playbackUrl": "https://archive.org/download/masterchef-india-1/Masterchef%20India%20S6E23.mp4",
       "validatedAt": "2026-10-20T16:38:09.003744+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "youtube-RHg7SfUu1O0",
+      "title": "McCollum’s CLUTCH Game 7 Performance Leads Portland | #NBATogetherLive Classic Game",
+      "description": "In this #NBATogetherLive​ Classic Game we look back to last season when CJ McCollum guided the Portland Trail Blazers with 37 PTS to a Game 7 W!<div><br /></div><div>Subscribe to the NBA: https://on.nba.com/2JX5gSN</div><div><br /></div><div>Full Game Highlights Playlist: https://on.nba.com/2rjGMge</div><div><br /></div><div>For news, stories, highlights and more, go to our official website at https://nba_webonly.app.link/nbasite</div><div><br /></div><div>Get NBA LEAGUE PASS: https://nba.app.link/nbaleaguepass5</div>",
+      "year": "2020",
+      "creator": "NBA",
+      "subject": "NBA;NBA Playoffs;2019 NBA Playoffs;Western Conference Semifinals;WCSF; 2019 WCSF; Game 7; Portland Trail Blazers;Denver Nuggets;CJ McCollum",
+      "collection": "mirrortube, social-media-video, deemphasize",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "detailsUrl": "https://archive.org/details/youtube-RHg7SfUu1O0",
+      "thumbnail": "https://archive.org/services/img/youtube-RHg7SfUu1O0",
+      "category": "musica",
+      "files": [
+        {
+          "name": "RHg7SfUu1O0.ia.mp4",
+          "format": "h.264 IA",
+          "size": 3046662540,
+          "url": "https://archive.org/download/youtube-RHg7SfUu1O0/RHg7SfUu1O0.ia.mp4"
+        },
+        {
+          "name": "RHg7SfUu1O0.mp4",
+          "format": "MPEG4",
+          "size": 3046662540,
+          "url": "https://archive.org/download/youtube-RHg7SfUu1O0/RHg7SfUu1O0.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/youtube-RHg7SfUu1O0/RHg7SfUu1O0.ia.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
+      "validatedAt": "2026-11-17T16:04:47.377912+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
