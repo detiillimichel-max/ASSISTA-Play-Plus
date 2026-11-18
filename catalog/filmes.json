@@ -1,8 +1,8 @@
 {
   "category": "filmes",
   "title": "Filmes",
-  "updatedAt": "2026-11-17T16:06:26.661674+00:00",
-  "count": 646,
+  "updatedAt": "2026-11-18T15:49:01.925459+00:00",
+  "count": 650,
   "items": [
     {
       "identifier": "cannibal-holocaust-1980-720p",
@@ -4975,6 +4975,44 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "DeepCreekFinal",
+      "title": "Deep Creek Final",
+      "description": "<span style=\"color:rgb(113,118,122);font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:21px;background-color:rgb(244,245,247);\">Follow a group of people armed with GoPro's and 5D's as they explore Deep Creek Hot Springs . This is a pilot for the upcoming adventure show \" CFI On Location\" which will showcase the worlds best clothing optional locations from an immersive and adventurous perspective.</span>",
+      "year": "2014",
+      "creator": "Blue Turtle Productions",
+      "subject": "naturism, body freedom, freedom, selfexpression, art, outdoors, hotsprings, deepcreek, beautiful, girl, girls, happy, canon5d, music, pilot, travel, show, adventure, naked",
+      "collection": "opensource_movies, community",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/DeepCreekFinal",
+      "thumbnail": "https://archive.org/services/img/DeepCreekFinal",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "Deep Creek Final.m4v",
+          "format": "MPEG4",
+          "size": 376035658,
+          "url": "https://archive.org/download/DeepCreekFinal/Deep%20Creek%20Final.m4v"
+        },
+        {
+          "name": "Deep Creek Final.mp4",
+          "format": "h.264",
+          "size": 32021937,
+          "url": "https://archive.org/download/DeepCreekFinal/Deep%20Creek%20Final.mp4"
+        },
+        {
+          "name": "Deep Creek Final.ogv",
+          "format": "Ogg Video",
+          "size": 24379664,
+          "url": "https://archive.org/download/DeepCreekFinal/Deep%20Creek%20Final.ogv"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/DeepCreekFinal/Deep%20Creek%20Final.m4v",
+      "validatedAt": "2026-11-18T15:43:04.330564+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "defenders-of-the-earth-s-01-",
       "title": "Defenders Of The Earth Season 1",
       "description": "<i style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:14px;background-color:rgb(255,255,255);\"><b>Defenders of the Earth</b></i><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:14px;background-color:rgb(255,255,255);\"> is an American animated television series produced in 1986, featuring characters from three comic strips distributed by </span><a href=\"https://en.wikipedia.org/wiki/King_Features_Syndicate\" title=\"King Features Syndicate\" style=\"color:rgb(6,69,173);background:rgb(255,255,255) none;font-family:sans-serif;font-size:14px;\" rel=\"ugc nofollow\">King Features Syndicate</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:14px;background-color:rgb(255,255,255);\">—</span><a href=\"https://en.wikipedia.org/wiki/Flash_Gordon\" title=\"Flash Gordon\" style=\"color:rgb(6,69,173);background:rgb(255,255,255) none;font-family:sans-serif;font-size:14px;\" rel=\"ugc nofollow\">Flash Gordon</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:14px;background-color:rgb(255,255,255);\">, </span><a href=\"https://en.wikipedia.org/wiki/The_Phantom\" title=\"The Phantom\" style=\"color:rgb(6,69,173);background:rgb(255,255,255) none;font-family:sans-serif;font-size:14px;\" rel=\"ugc nofollow\">The Phantom</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:14px;background-color:rgb(255,255,255);\">, </span><a href=\"https://en.wikipedia.org/wiki/Mandrake_the_Magician\" title=\"Mandrake the Magician\" style=\"color:rgb(6,69,173);background:rgb(255,255,255) none;font-family:sans-serif;font-size:14px;\" rel=\"ugc nofollow\">Mandrake the Magician</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:14px;background-color:rgb(255,255,255);\">, and Mandrake's assistant Lothar—opposing </span><a href=\"https://en.wikipedia.org/wiki/Ming_the_Merciless\" title=\"Ming the Merciless\" style=\"color:rgb(6,69,173);background:rgb(255,255,255) none;font-family:sans-serif;font-size:14px;\" rel=\"ugc nofollow\">Ming the Merciless</a><span style=\"color:rgb(32,33,34);font-family:sans-serif;font-size:14px;background-color:rgb(255,255,255);\"> in the year 2015. Supporting characters include their children Rick Gordon (son of Flash), L.J. (son of Lothar), Kshin (adopted son of Mandrake), and Jedda Walker (daughter of the Phantom).</span><sup class=\"reference\" style=\"line-height:1;white-space:nowrap;font-size:11.2px;color:rgb(32,33,34);font-family:sans-serif;background-color:rgb(255,255,255);\"><a href=\"https://en.wikipedia.org/wiki/Defenders_of_the_Earth#cite_note-1\" style=\"color:rgb(6,69,173);background:none;\" rel=\"ugc nofollow\">[1</a></sup>",
@@ -8357,6 +8395,34 @@
       "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
       "validatedAt": "2026-10-21T19:36:48.410017+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:307130",
+      "source": "pixabay",
+      "source_id": "307130",
+      "title": "geology, nature, landscape, canyon, cliff, volcano, travel, iceland, river, sky, clouds, glacier, green, volcanism, volcanic, icelandic nature",
+      "description": "",
+      "creator": "Gylfi",
+      "category": "filmes",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-307130/",
+      "sourceUrl": "https://pixabay.com/videos/id-307130/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-18T15:45:12.776325+00:00",
+      "files": [
+        {
+          "name": "geology, nature, landscape, canyon, cliff, volcano, travel, iceland, river, sky, clouds, glacier, green, volcanism, volcanic, icelandic nature",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2025/09/29/307130_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2025/09/29/307130_large.mp4",
+      "validatedAt": "2026-11-18T15:49:01.921618+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -12017,6 +12083,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "wikimedia-commons:106127379",
+      "source": "wikimedia-commons",
+      "source_id": "106127379",
+      "title": "Luthierra eta biolina.webm",
+      "description": "",
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Andreus_III&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Andreus III (page does not exist)\">Andreus III</a>",
+      "category": "filmes",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Luthierra_eta_biolina.webm/500px--Luthierra_eta_biolina.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "detailsUrl": "https://commons.wikimedia.org/wiki/File%3ALuthierra_eta_biolina.webm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuthierra_eta_biolina.webm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "mediaType": "video",
+      "mimeType": "video/webm",
+      "collectedAt": "2026-11-18T15:45:40.256376+00:00",
+      "files": [
+        {
+          "name": "Luthierra eta biolina.webm",
+          "format": "video/webm",
+          "size": 0,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Luthierra_eta_biolina.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+        }
+      ],
+      "playbackUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Luthierra_eta_biolina.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "validatedAt": "2026-11-18T15:49:01.921848+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "pexels:14171186",
       "source": "pexels",
       "source_id": "14171186",
@@ -15478,6 +15572,34 @@
       "playbackUrl": "https://archive.org/download/Reign_of_the_Fallen/Reign_of_the_Fallen_sor3.mp4",
       "validatedAt": "2026-10-16T03:51:47.555017+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:384550",
+      "source": "pixabay",
+      "source_id": "384550",
+      "title": "republic of korea, nature, landscape, wind",
+      "description": "",
+      "creator": "KIMDAEJEUNG",
+      "category": "filmes",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-384550/",
+      "sourceUrl": "https://pixabay.com/videos/id-384550/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-18T15:45:12.776364+00:00",
+      "files": [
+        {
+          "name": "republic of korea, nature, landscape, wind",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2026/10/22/384550_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2026/10/22/384550_large.mp4",
+      "validatedAt": "2026-11-18T15:49:01.921653+00:00",
       "moderationPolicy": "paused"
     },
     {

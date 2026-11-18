@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-11-17T16:06:26.661674+00:00",
-  "count": 509,
+  "updatedAt": "2026-11-18T15:49:01.925459+00:00",
+  "count": 510,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -1038,6 +1038,75 @@
       "playbackUrl": "https://archive.org/download/adventures-of-sonic-the-hedgehog-the-complete-collection/Adventures%20of%20S.T.H%20%28AoStH%29%20-%20Ep.%2037%20-%20The%20Magic%20Hassle%20%28720p%20WebRip%29.mp4",
       "licenseurl": "http://creativecommons.org/publicdomain/zero/1.0/",
       "validatedAt": "2026-10-20T16:19:39.245646+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "AesopsSoundFablesStageStruckPathDistributorsDecember231928",
+      "title": "Aesop's Sound Fables Cartoon Collection [compiled by Jordan Rios]",
+      "description": "A collection of Aesop's Fables cartoons created by Paul Terry and produced by the Van Beuren Studios.",
+      "year": "1928",
+      "creator": "Van Beuren Studios, Pathé Exchange, RKO-Pathé Distributing Corp., RKO Radio Pictures",
+      "subject": "cartoons, classic, funny, animals",
+      "collection": "opensource_movies, community",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/AesopsSoundFablesStageStruckPathDistributorsDecember231928",
+      "thumbnail": "https://archive.org/services/img/AesopsSoundFablesStageStruckPathDistributorsDecember231928",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "Aesop's Sound Fables - Stage Struck [Pathé Distributors; December 23, 1928].mp4",
+          "format": "MPEG4",
+          "size": 78356874,
+          "url": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20Stage%20Struck%20%5BPath%C3%A9%20Distributors%3B%20December%2023%2C%201928%5D.mp4"
+        },
+        {
+          "name": "Aesop's Sound Fables - Radio Racket [RKO-Pathé Distributing Corp.; March 1, 1931].mp4",
+          "format": "MPEG4",
+          "size": 69034874,
+          "url": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20Radio%20Racket%20%5BRKO-Path%C3%A9%20Distributing%20Corp.%3B%20March%201%2C%201931%5D.mp4"
+        },
+        {
+          "name": "Aesop's Sound Fables - Circus Capers [Pathé Exchange; September 28, 1930].mp4",
+          "format": "MPEG4",
+          "size": 68128392,
+          "url": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20Circus%20Capers%20%5BPath%C3%A9%20Exchange%3B%20September%2028%2C%201930%5D.mp4"
+        },
+        {
+          "name": "Aesop's Sound Fables - Stone Age Stunts [Pathé Exchange; December 7, 1930].mp4",
+          "format": "MPEG4",
+          "size": 66905190,
+          "url": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20Stone%20Age%20Stunts%20%5BPath%C3%A9%20Exchange%3B%20December%207%2C%201930%5D.mp4"
+        },
+        {
+          "name": "Aesop's Sound Fables - A Toytown Tale [Pathé Exchange; January 4, 1931].mp4",
+          "format": "MPEG4",
+          "size": 65003159,
+          "url": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20A%20Toytown%20Tale%20%5BPath%C3%A9%20Exchange%3B%20January%204%2C%201931%5D.mp4"
+        },
+        {
+          "name": "Aesop's Sound Fables - The Office Boy [Pathé Exchange; November 23, 1930].mp4",
+          "format": "MPEG4",
+          "size": 64211913,
+          "url": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20The%20Office%20Boy%20%5BPath%C3%A9%20Exchange%3B%20November%2023%2C%201930%5D.mp4"
+        },
+        {
+          "name": "Aesop's Sound Fables - The Fly Guy [RKO-Pathé Distributing Corp.; May 10, 1931].mp4",
+          "format": "MPEG4",
+          "size": 64135664,
+          "url": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20The%20Fly%20Guy%20%5BRKO-Path%C3%A9%20Distributing%20Corp.%3B%20May%2010%2C%201931%5D.mp4"
+        },
+        {
+          "name": "Aesop's Sound Fables - Frozen Frolics [Pathé Exchange; August 31, 1930].mp4",
+          "format": "MPEG4",
+          "size": 63788389,
+          "url": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20Frozen%20Frolics%20%5BPath%C3%A9%20Exchange%3B%20August%2031%2C%201930%5D.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/AesopsSoundFablesStageStruckPathDistributorsDecember231928/Aesop%27s%20Sound%20Fables%20-%20Stage%20Struck%20%5BPath%C3%A9%20Distributors%3B%20December%2023%2C%201928%5D.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-11-18T15:43:05.969162+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

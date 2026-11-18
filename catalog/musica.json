@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-11-17T16:06:26.661674+00:00",
-  "count": 447,
+  "updatedAt": "2026-11-18T15:49:01.925459+00:00",
+  "count": 449,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -7456,6 +7456,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:158275",
+      "source": "pixabay",
+      "source_id": "158275",
+      "title": "headphones, speakers, music, audio, sound, loop, endless",
+      "description": "",
+      "creator": "olenchic",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-158275/",
+      "sourceUrl": "https://pixabay.com/videos/id-158275/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-18T15:45:15.314769+00:00",
+      "files": [
+        {
+          "name": "headphones, speakers, music, audio, sound, loop, endless",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/04/10/158275-816359561_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/04/10/158275-816359561_large.mp4",
+      "validatedAt": "2026-11-18T15:49:01.921733+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "Helaku_IndianIndianWhatDidYouDieFor",
       "title": "Helaku - Indian, Indian What Did You Die For?",
       "description": "<div><b>Helaku - Indian, Indian What Did You Die For?</b></div><div><b><br /></b></div><div><b>01. Introclassic</b></div><div><b>02. Indian, Indian What Did You Die For?</b></div><div><b>03. Budub 1</b></div><div><b>04. Sullon Solomu Päässä</b></div><div><b>05. Breaktracker 120</b></div><div><b>06. The Solution</b></div><div><b>07. Demoviritys</b></div><div><b>08. 2015 Happy</b></div><div><b>09. Budub 2</b></div><div><b>10. 140 Drumnbazee</b></div><div><b>11. 160 Drumnbaze</b></div><div><b>12. Elevatormusic (On Acid)</b></div><div><b>13. Ring Them Bells</b></div><div><b>14. Another Painkiller \n15. 2015 Happy (Official Music Video)</b></div><div><b><br /></b></div><div><b>2015 cOmaRecOrdz (CR#86) </b></div><div><b><br /></b></div><div><b><br /></b></div><div><b>Oh ye who think or declare me to be selfish, inconsiderate and misanthropical, how unjust you are, and how little you know the secret cause of what appears thus to you! Born with a passionate and excitable temperament, keenly susceptible to the pleasures of society, I was yet obliged early in life to isolate myself, and to pass my existence in solitude.</b></div><div><b><br /></b></div><div><b>Forgive me therefore when you see me withdraw from you with whom I would so gladly mingle. My misfortune is doubly severe from causing me to be misunderstood. No longer can I enjoy recreation in social intercourse, refined conversation, or mutual outpourings of thought. Completely isolated, I only enter society when compelled to do so. I must live like an exile.</b></div><div><b><br /></b></div><div><b><br /></b></div><div><b>The story of this album is that sOuL_sCientiSt asked me if I make any non-mashup core songs, so I had to make few just to show off and feed my cute little ego. All tracks made with Renoise tracker, except track twelve. Thanks to Julma Henri and Eazy-E for the only mashup elements on this album.</b></div><div><b><br /></b></div><div><b>The video was made quite quickly from stock footage just to keep my \"skills\" up to date. No HD coz my slow and hot computer can't render them without overheating. Major greetings and whole lotta love to Kaaosradio.fi and all you technoheadz out there. Peace... Evolve...</b></div><div><b><br /></b></div><div><b><br /></b></div><div><b>http://www.comarecordz.com</b></div><div><b><br /></b></div><div><b>http://helaku.bandcamp.com</b></div><div><b><br /></b></div><div><b>https://soundcloud.com/helaku</b></div><div><b><br /></b></div><div><b>https://twitter.com/Helaku1</b></div><div><b><br /></b></div><div><b>https://www.facebook.com/Helaku </b></div><div><b><br /></b></div><div><b><br /></b></div><div><b>RELEASE DATE: February 2, 2015</b></div><div><b>GENRE: Breakcore, Dubstep </b></div>",
@@ -12621,6 +12649,34 @@
       "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
       "validatedAt": "2026-10-20T16:39:20.436781+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:43638",
+      "source": "pixabay",
+      "source_id": "43638",
+      "title": "rhythm, music, audio, audio waves, music waves, musical waves",
+      "description": "",
+      "creator": "jorono",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-43638/",
+      "sourceUrl": "https://pixabay.com/videos/id-43638/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-18T15:45:15.314671+00:00",
+      "files": [
+        {
+          "name": "rhythm, music, audio, audio waves, music waves, musical waves",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2020/07/02/43638-436237669_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2020/07/02/43638-436237669_large.mp4",
+      "validatedAt": "2026-11-18T15:49:01.921720+00:00",
       "moderationPolicy": "paused"
     },
     {
