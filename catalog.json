@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-19T15:50:41.333926+00:00",
+  "updatedAt": "2026-11-20T15:32:57.100789+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 115,
+  "metadataChecksThisRun": 114,
   "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
@@ -307,7 +307,7 @@
           },
           {
             "type": "request",
-            "error": "The read operation timed out"
+            "error": "HTTP Error 429: Too Many Requests"
           }
         ],
         "other": [
