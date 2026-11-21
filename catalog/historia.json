@@ -1,8 +1,8 @@
 {
   "category": "historia",
   "title": "História",
-  "updatedAt": "2026-11-20T15:32:57.100789+00:00",
-  "count": 417,
+  "updatedAt": "2026-11-21T14:44:15.699781+00:00",
+  "count": 419,
   "items": [
     {
       "identifier": "32892WingsToGuatemala",
@@ -3998,6 +3998,44 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "doraemon-1989_202606",
+      "title": "Doraemon: Nobita and the Birth of Japan (1989) [DVD Preservation Edition]",
+      "description": "This item contains Doraemon: Nobita and the Birth of Japan (1989). Frustrated with modern life, Nobita and his friends travel back to prehistoric Japan to create their own ideal society. Their peaceful plans are interrupted when they encounter a mysterious tyrant threatening the ancient world. Blending history, adventure, and fantasy, the film remains one of the most popular and influential entries in the Doraemon movie series.",
+      "year": "1989",
+      "creator": "Fujiko F. Fujio",
+      "subject": "Doraemon;Birth of Japan;Ancient Japan;Time Travel;Prehistoric Adventure;Civilization;Anime Film;Japanese Animation;Fujiko F. Fujio;Classic Doraemon",
+      "collection": "dvdtray_inbox, dvdtray",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/doraemon-1989_202606",
+      "thumbnail": "https://archive.org/services/img/doraemon-1989_202606",
+      "category": "historia",
+      "files": [
+        {
+          "name": "10 1989 DVD Nobita and the Birth of Japan3.mp4",
+          "format": "h.264",
+          "size": 615097289,
+          "url": "https://archive.org/download/doraemon-1989_202606/10%201989%20DVD%20Nobita%20and%20the%20Birth%20of%20Japan3.mp4"
+        },
+        {
+          "name": "10 1989 DVD Nobita and the Birth of Japan.mp4",
+          "format": "h.264",
+          "size": 611971365,
+          "url": "https://archive.org/download/doraemon-1989_202606/10%201989%20DVD%20Nobita%20and%20the%20Birth%20of%20Japan.mp4"
+        },
+        {
+          "name": "10 1989 DVD Nobita and the Birth of Japan2.mp4",
+          "format": "h.264",
+          "size": 5663740,
+          "url": "https://archive.org/download/doraemon-1989_202606/10%201989%20DVD%20Nobita%20and%20the%20Birth%20of%20Japan2.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/doraemon-1989_202606/10%201989%20DVD%20Nobita%20and%20the%20Birth%20of%20Japan3.mp4",
+      "validatedAt": "2026-11-21T14:41:55.225226+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "doraemon-1983",
       "title": "Doraemon: Nobita and the Castle of the Undersea Devil (1983) [DVD Preservation Edition]",
       "description": "This item contains Doraemon: Nobita and the Castle of the Undersea Devil (1983). The adventure begins when Doraemon and his friends travel beneath the ocean and discover a hidden underwater civilization. As tensions rise between the underwater world and humanity, the group becomes involved in a conflict that could affect the future of both societies. Known for its imaginative underwater setting and environmental themes, this film is one of the most distinctive entries in the franchise.",
@@ -4032,6 +4070,44 @@
       ],
       "playbackUrl": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil3.mp4",
       "validatedAt": "2026-11-16T15:51:32.139301+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "doraemon-1993",
+      "title": "Doraemon: Nobita and the Tin Labyrinth (1993) [DVD Preservation Edition]",
+      "description": "This item contains Doraemon: Nobita and the Tin Labyrinth (1993). A mysterious invitation leads the group to an unusual resort connected to a highly advanced robotic civilization. As secrets surrounding the labyrinth are revealed, Doraemon and his friends become involved in a struggle that could affect multiple worlds. The film combines mystery, science fiction, and adventure in a memorable story.",
+      "year": "1993",
+      "creator": "Fujiko F. Fujio",
+      "subject": "Doraemon;Tin Labyrinth;Labyrinth;Robot Civilization;Mystery Adventure;Science Fiction;Anime Film;Japanese Animation;Fujiko F. Fujio;Classic Doraemon",
+      "collection": "dvdtray_inbox, dvdtray",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/doraemon-1993",
+      "thumbnail": "https://archive.org/services/img/doraemon-1993",
+      "category": "historia",
+      "files": [
+        {
+          "name": "14 1993 DVD Nobita and the Tin Labyrinth3.mp4",
+          "format": "h.264",
+          "size": 607060049,
+          "url": "https://archive.org/download/doraemon-1993/14%201993%20DVD%20Nobita%20and%20the%20Tin%20Labyrinth3.mp4"
+        },
+        {
+          "name": "14 1993 DVD Nobita and the Tin Labyrinth.mp4",
+          "format": "h.264",
+          "size": 603999862,
+          "url": "https://archive.org/download/doraemon-1993/14%201993%20DVD%20Nobita%20and%20the%20Tin%20Labyrinth.mp4"
+        },
+        {
+          "name": "14 1993 DVD Nobita and the Tin Labyrinth2.mp4",
+          "format": "h.264",
+          "size": 5804779,
+          "url": "https://archive.org/download/doraemon-1993/14%201993%20DVD%20Nobita%20and%20the%20Tin%20Labyrinth2.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/doraemon-1993/14%201993%20DVD%20Nobita%20and%20the%20Tin%20Labyrinth3.mp4",
+      "validatedAt": "2026-11-21T14:41:57.088422+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
