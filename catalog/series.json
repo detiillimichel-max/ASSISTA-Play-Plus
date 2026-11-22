@@ -1,8 +1,8 @@
 {
   "category": "series",
   "title": "Séries",
-  "updatedAt": "2026-11-21T14:44:15.699781+00:00",
-  "count": 468,
+  "updatedAt": "2026-11-22T14:42:03.491695+00:00",
+  "count": 469,
   "items": [
     {
       "identifier": "cvvo8T7hAc31jvkxuVHPZMz26JKKOu",
@@ -7113,6 +7113,74 @@
       ],
       "playbackUrl": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill.mp4",
       "validatedAt": "2026-10-16T11:38:49.686210+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new",
+      "title": "I topi grigi (Emilio Ghione, 1918)",
+      "description": "Directed by Emilio Ghione. One of the many serials starring Ghione as his anti-hero character Za-la-Mort. In this serial, he fights off against the Grey Rats, taking him all over the globe.<br /><br />Cast:<br />Emilio Ghioni as Za-la-Mort<br />Kally Sambucini as Za-la-Vie<br />Albert-Francis Bertoni as Grigione<br />H. Fiorin as Musoduro<br />Alfredo Martinelli as Leo",
+      "year": "1918",
+      "creator": "Emilio Ghione",
+      "subject": "1910s serials",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new",
+      "thumbnail": "https://archive.org/services/img/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new",
+      "category": "series",
+      "files": [
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 2 (1918) [English subtitles] [7clhm0JUgq4]_new.ia.mp4",
+          "format": "h.264 IA",
+          "size": 767692677,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%202%20%281918%29%20%5BEnglish%20subtitles%5D%20%5B7clhm0JUgq4%5D_new.ia.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 2 (1918) [English subtitles] [7clhm0JUgq4]_new.mp4",
+          "format": "MPEG4",
+          "size": 767692677,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%202%20%281918%29%20%5BEnglish%20subtitles%5D%20%5B7clhm0JUgq4%5D_new.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 6 (1918) [English subtitles] [YOLsen9XtPc]_new.ia.mp4",
+          "format": "h.264 IA",
+          "size": 701545999,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%206%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BYOLsen9XtPc%5D_new.ia.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 6 (1918) [English subtitles] [YOLsen9XtPc]_new.mp4",
+          "format": "MPEG4",
+          "size": 701545999,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%206%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BYOLsen9XtPc%5D_new.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 5 (1918) [English subtitles] [Ky2nhMSm7ho]_new.ia.mp4",
+          "format": "h.264 IA",
+          "size": 654379596,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%205%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BKy2nhMSm7ho%5D_new.ia.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 5 (1918) [English subtitles] [Ky2nhMSm7ho]_new.mp4",
+          "format": "MPEG4",
+          "size": 654379596,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%205%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BKy2nhMSm7ho%5D_new.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 3 (1918) [English subtitles] [DSrH3FoHmVQ]_new.ia.mp4",
+          "format": "h.264 IA",
+          "size": 561996111,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%203%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BDSrH3FoHmVQ%5D_new.ia.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 3 (1918) [English subtitles] [DSrH3FoHmVQ]_new.mp4",
+          "format": "MPEG4",
+          "size": 561996111,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%203%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BDSrH3FoHmVQ%5D_new.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%202%20%281918%29%20%5BEnglish%20subtitles%5D%20%5B7clhm0JUgq4%5D_new.ia.mp4",
+      "validatedAt": "2026-11-22T14:38:25.787639+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

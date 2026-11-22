@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-21T14:44:15.699781+00:00",
+  "updatedAt": "2026-11-22T14:42:03.491695+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 119,
+  "metadataChecksThisRun": 115,
   "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 3
+      "requestErrors": 4
     },
     "prelinger": {
       "requests": 1,
@@ -303,17 +303,21 @@
           },
           {
             "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
+            "error": "The read operation timed out"
           },
           {
             "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
+            "error": "The read operation timed out"
+          },
+          {
+            "type": "request",
+            "error": "The read operation timed out"
           }
         ],
         "other": [
           {
             "type": "request",
-            "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+            "error": "HTTP Error 502: Bad Gateway"
           }
         ]
       }
@@ -323,7 +327,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3722,
+  "count": 3723,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -143420,6 +143424,74 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new",
+      "title": "I topi grigi (Emilio Ghione, 1918)",
+      "description": "Directed by Emilio Ghione. One of the many serials starring Ghione as his anti-hero character Za-la-Mort. In this serial, he fights off against the Grey Rats, taking him all over the globe.<br /><br />Cast:<br />Emilio Ghioni as Za-la-Mort<br />Kally Sambucini as Za-la-Vie<br />Albert-Francis Bertoni as Grigione<br />H. Fiorin as Musoduro<br />Alfredo Martinelli as Leo",
+      "year": "1918",
+      "creator": "Emilio Ghione",
+      "subject": "1910s serials",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new",
+      "thumbnail": "https://archive.org/services/img/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new",
+      "category": "series",
+      "files": [
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 2 (1918) [English subtitles] [7clhm0JUgq4]_new.ia.mp4",
+          "format": "h.264 IA",
+          "size": 767692677,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%202%20%281918%29%20%5BEnglish%20subtitles%5D%20%5B7clhm0JUgq4%5D_new.ia.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 2 (1918) [English subtitles] [7clhm0JUgq4]_new.mp4",
+          "format": "MPEG4",
+          "size": 767692677,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%202%20%281918%29%20%5BEnglish%20subtitles%5D%20%5B7clhm0JUgq4%5D_new.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 6 (1918) [English subtitles] [YOLsen9XtPc]_new.ia.mp4",
+          "format": "h.264 IA",
+          "size": 701545999,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%206%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BYOLsen9XtPc%5D_new.ia.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 6 (1918) [English subtitles] [YOLsen9XtPc]_new.mp4",
+          "format": "MPEG4",
+          "size": 701545999,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%206%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BYOLsen9XtPc%5D_new.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 5 (1918) [English subtitles] [Ky2nhMSm7ho]_new.ia.mp4",
+          "format": "h.264 IA",
+          "size": 654379596,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%205%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BKy2nhMSm7ho%5D_new.ia.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 5 (1918) [English subtitles] [Ky2nhMSm7ho]_new.mp4",
+          "format": "MPEG4",
+          "size": 654379596,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%205%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BKy2nhMSm7ho%5D_new.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 3 (1918) [English subtitles] [DSrH3FoHmVQ]_new.ia.mp4",
+          "format": "h.264 IA",
+          "size": 561996111,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%203%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BDSrH3FoHmVQ%5D_new.ia.mp4"
+        },
+        {
+          "name": "I Topi Grigi ⧸ The Grey Rats： Episode 3 (1918) [English subtitles] [DSrH3FoHmVQ]_new.mp4",
+          "format": "MPEG4",
+          "size": 561996111,
+          "url": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%203%20%281918%29%20%5BEnglish%20subtitles%5D%20%5BDSrH3FoHmVQ%5D_new.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/i-topi-grigi-the-grey-rats-episode-2-1918-english-subtitles-7clhm-0-jugq-4-new/I%20Topi%20Grigi%20%E2%A7%B8%20The%20Grey%20Rats%EF%BC%9A%20Episode%202%20%281918%29%20%5BEnglish%20subtitles%5D%20%5B7clhm0JUgq4%5D_new.ia.mp4",
+      "validatedAt": "2026-11-22T14:38:25.787639+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "InSidePintosRoomWhatIsHappening",
       "title": "in side Pintos Room What is happening?",
       "description": "<p class=\"MsoNormal\" style=\"margin-bottom:0.0001pt;line-height:normal;background:#ffffff;\"><span style=\"font-size:10pt;color:#222222;\"><a href=\"https://www.youtube.com/watch?v=eFYGgT-9WPk\" rel=\"ugc nofollow\">in side Pintos Room What is happening?</a></span></p><p></p>\n\n<p class=\"MsoNormal\" style=\"margin-bottom:0.0001pt;line-height:normal;\"><br /></p>\n\n<p class=\"MsoNormal\" style=\"margin-bottom:0.0001pt;line-height:normal;\"><span style=\"font-size:10pt;color:#222222;background:#ffffff;\">Through the story of Libro, the bommi and the pinto have always realized that they should not be afraid, but to be confident. Then the friends of the bommi come out of the book Libro. In the hall, Pintu's uncle asks Ganesh's father an idea to find out who  Bommi is. Then Pintu's mummy and his grandmother came and talked about Ganesh's father's story. As a result, Ganesh's grandfather is trying to get out of the house. Knowing this, Ganesh runs out and pushes his father to the house. In Pinto's room, the only laughter is loud enough, Pinto's uncle looks to her mother and sister. These three people search for the keys of Pinto's breeze in three directions. The key to the room gets pinto's grandmother. When his uncle tried to open Pintu's room, the pinto knows that he wants his friends to go to Libro. Finally, everyone goes inside the book. The three who opened the door open to the pinto and ask the rumor. Pintu managed to get away with the passion and moved away from that place.</span><span style=\"font-size:10pt;\"></span></p><p></p>\n\n<p class=\"MsoNormal\" style=\"margin-bottom:0.0001pt;line-height:normal;\"><span style=\"font-size:10pt;\"></span></p><p> </p>\n\n<p class=\"MsoNormal\" style=\"margin-bottom:0.0001pt;line-height:normal;\"><span style=\"font-size:10pt;color:#222222;background:#ffffff;\">Bommi and Friends Live action series is about Bommi's adventure in the real world. Bommi and Friends comes to Pintu's home. Where the adventure begins with Pintu and his Family and Friends. Pintu and make everything possible in their adventure with Bommi and Friends.</span><span style=\"font-size:10pt;\"></span></p><p></p>",
@@ -156864,7 +156936,7 @@
     {
       "key": "series",
       "title": "Séries",
-      "count": 468,
+      "count": 469,
       "path": "catalog/series.json"
     },
     {
