@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-11-22T14:42:03.491695+00:00",
-  "count": 513,
+  "updatedAt": "2026-11-23T18:18:53.873478+00:00",
+  "count": 516,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -5521,6 +5521,34 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "pixabay:56375",
+      "source": "pixabay",
+      "source_id": "56375",
+      "title": "cat, cartoon, animal, kawaii, anime, character, beautiful wallpaper, walking, pet, toy, education, presentation, background, drawn, funny, cute, loop, funny cat, animation, lion, tiger, dog, manga, wild",
+      "description": "",
+      "creator": "wodokolor",
+      "category": "desenhos",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-56375/",
+      "sourceUrl": "https://pixabay.com/videos/id-56375/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-23T18:15:28.841383+00:00",
+      "files": [
+        {
+          "name": "cat, cartoon, animal, kawaii, anime, character, beautiful wallpaper, walking, pet, toy, education, presentation, background, drawn, funny, cute, loop, funny cat, animation, lion, tiger, dog, manga, wild",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2020/11/14/56375-479358459_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2020/11/14/56375-479358459_large.mp4",
+      "validatedAt": "2026-11-23T18:18:53.870077+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "CavemanInki",
       "title": "Caveman Inki",
       "description": "The last time I saw this one was on Saturday morning cartoons. I believe the ending had been cut from this one. The uploader will look through his cartoons to find another. It is a funny hunting trip in which the hunter is hunting a bird.",
@@ -6167,6 +6195,34 @@
       "playbackUrl": "https://archive.org/download/ccss-sprout/April%202011%20commercials%20and%20bumpers%20%28part%20one%29.ia.mp4",
       "validatedAt": "2026-10-21T19:37:34.208654+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pexels:8818510",
+      "source": "pexels",
+      "source_id": "8818510",
+      "title": "cottonbro CG studio — vídeo 8818510",
+      "description": "",
+      "creator": "cottonbro CG studio",
+      "category": "desenhos",
+      "thumbnail": "https://images.pexels.com/videos/8818510/pexels-photo-8818510.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=630",
+      "detailsUrl": "https://www.pexels.com/video/an-animated-thumb-signal-with-beige-background-8818510/",
+      "sourceUrl": "https://www.pexels.com/video/an-animated-thumb-signal-with-beige-background-8818510/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-23T18:15:24.073182+00:00",
+      "files": [
+        {
+          "name": "cottonbro CG studio — vídeo 8818510",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://videos.pexels.com/video-files/8818510/8818510-hd_720_1280_25fps.mp4"
+        }
+      ],
+      "playbackUrl": "https://videos.pexels.com/video-files/8818510/8818510-hd_720_1280_25fps.mp4",
+      "validatedAt": "2026-11-23T18:18:53.869957+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -17475,6 +17531,38 @@
       ],
       "playbackUrl": "https://archive.org/download/SantasSurprise1947ChristmasCartoonHD/Santa%27s%20Surprise%20%281947%29%20-%20Christmas%20cartoon%20%5BHD%5D.MP4",
       "validatedAt": "2026-10-20T16:20:16.905870+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "fox-kids",
+      "title": "Saturday Morning Cartoons: Fox Kids X-Men Block",
+      "description": "KPDX 49 Fox Kids X-Men Block with Jack Hanna's Zoo Life",
+      "year": "",
+      "creator": "",
+      "subject": "x-men, saturday morning cartoons, vintage cartoons, vhs, tv, xmen. commercials, kpdx, portland, marvel",
+      "collection": "vhskids, vhsvault",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/fox-kids",
+      "thumbnail": "https://archive.org/services/img/fox-kids",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "fox kids.mp4",
+          "format": "MPEG4",
+          "size": 16538092762,
+          "url": "https://archive.org/download/fox-kids/fox%20kids.mp4"
+        },
+        {
+          "name": "fox kids.ia.mp4",
+          "format": "h.264 IA",
+          "size": 495580520,
+          "url": "https://archive.org/download/fox-kids/fox%20kids.ia.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/fox-kids/fox%20kids.mp4",
+      "validatedAt": "2026-11-23T18:13:25.888808+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

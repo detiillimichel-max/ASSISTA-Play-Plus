@@ -1,8 +1,8 @@
 {
   "category": "ciencia",
   "title": "Ciência e espaço",
-  "updatedAt": "2026-11-22T14:42:03.491695+00:00",
-  "count": 462,
+  "updatedAt": "2026-11-23T18:18:53.873478+00:00",
+  "count": 464,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -864,6 +864,34 @@
       "playbackUrl": "https://archive.org/download/WorldSaf.1/World%20Saf%202.mp4",
       "validatedAt": "2026-10-21T19:43:14.334453+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:138111",
+      "source": "pixabay",
+      "source_id": "138111",
+      "title": "aliens, fog, aliens in space, space life, 3 aliens, space aliens, aliens in fog",
+      "description": "",
+      "creator": "AiVreaSaStii",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-138111/",
+      "sourceUrl": "https://pixabay.com/videos/id-138111/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-23T18:15:26.257819+00:00",
+      "files": [
+        {
+          "name": "aliens, fog, aliens in space, space life, 3 aliens, space aliens, aliens in fog",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2022/11/07/138111-768324053_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2022/11/07/138111-768324053_large.mp4",
+      "validatedAt": "2026-11-23T18:18:53.870000+00:00",
       "moderationPolicy": "paused"
     },
     {
@@ -17088,6 +17116,34 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2023/07/15/171682-845775813_large.mp4",
       "validatedAt": "2026-10-27T12:20:12.885289+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:145735",
+      "source": "pixabay",
+      "source_id": "145735",
+      "title": "spaceship, alienship, aliens, space, universe, warp drive, space travel, space ship, starship",
+      "description": "",
+      "creator": "AiVreaSaStii",
+      "category": "ciencia",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-145735/",
+      "sourceUrl": "https://pixabay.com/videos/id-145735/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-23T18:15:26.257841+00:00",
+      "files": [
+        {
+          "name": "spaceship, alienship, aliens, space, universe, warp drive, space travel, space ship, starship",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2023/01/08/145735-787427533_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2023/01/08/145735-787427533_large.mp4",
+      "validatedAt": "2026-11-23T18:18:53.870010+00:00",
       "moderationPolicy": "paused"
     },
     {

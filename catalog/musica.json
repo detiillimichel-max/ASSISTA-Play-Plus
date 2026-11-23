@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-11-22T14:42:03.491695+00:00",
-  "count": 449,
+  "updatedAt": "2026-11-23T18:18:53.873478+00:00",
+  "count": 450,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -14202,6 +14202,34 @@
       "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
       "validatedAt": "2026-10-20T16:39:04.631736+00:00",
       "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "pixabay:133932",
+      "source": "pixabay",
+      "source_id": "133932",
+      "title": "spectrum, sound, line, rhythm, music",
+      "description": "",
+      "creator": "Nova2000",
+      "category": "musica",
+      "thumbnail": "",
+      "detailsUrl": "https://pixabay.com/videos/id-133932/",
+      "sourceUrl": "https://pixabay.com/videos/id-133932/",
+      "license": "",
+      "licenseUrl": "",
+      "mediaType": "video",
+      "mimeType": "video/mp4",
+      "collectedAt": "2026-11-23T18:15:27.828002+00:00",
+      "files": [
+        {
+          "name": "spectrum, sound, line, rhythm, music",
+          "format": "video/mp4",
+          "size": 0,
+          "url": "https://cdn.pixabay.com/video/2022/10/07/133932-758336585_large.mp4"
+        }
+      ],
+      "playbackUrl": "https://cdn.pixabay.com/video/2022/10/07/133932-758336585_large.mp4",
+      "validatedAt": "2026-11-23T18:18:53.870057+00:00",
       "moderationPolicy": "paused"
     },
     {
