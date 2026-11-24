@@ -1,8 +1,8 @@
 {
   "category": "filmes",
   "title": "Filmes",
-  "updatedAt": "2026-11-23T18:18:53.873478+00:00",
-  "count": 654,
+  "updatedAt": "2026-11-24T17:52:18.442847+00:00",
+  "count": 655,
   "items": [
     {
       "identifier": "cannibal-holocaust-1980-720p",
@@ -17675,6 +17675,50 @@
       ],
       "playbackUrl": "https://archive.org/download/steel-ball-run-jojos-bizarre-adventure-official-trailer-1-korean-dubbing/PV1.mp4",
       "validatedAt": "2026-10-20T16:17:08.424097+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "sbr-anime-trailer-korean-dubbing",
+      "title": "Steel Ball Run: JoJo's Bizarre Adventure Official Trailer Korean Dubbing",
+      "description": "<div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">スティール・ボール・ラン ジョジョの奇妙な冒険 Official Trailer Korean Dubbing</div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">스틸 볼 런: 죠죠의 기묘한 모험</div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">Steel Ball Run: JoJo's Bizarre Adventure</div>",
+      "year": "",
+      "creator": "",
+      "subject": "スティール・ボール・ラン ジョジョの奇妙な冒険, スティール・ボール・ラン, ジョジョの奇妙な冒険, ジョジョ, Steel Ball Run: JoJo's Bizarre Adventure, Steel Ball Run, JoJo's Bizarre Adventure, JoJo, 스틸 볼 런: 죠죠의 기묘한 모험, 스틸 볼 런, 죠죠의 기묘한 모험, 죠죠, PV, Trailer",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/sbr-anime-trailer-korean-dubbing",
+      "thumbnail": "https://archive.org/services/img/sbr-anime-trailer-korean-dubbing",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "main2.mp4",
+          "format": "MPEG4",
+          "size": 14866441,
+          "url": "https://archive.org/download/sbr-anime-trailer-korean-dubbing/main2.mp4"
+        },
+        {
+          "name": "main1.mp4",
+          "format": "MPEG4",
+          "size": 13572323,
+          "url": "https://archive.org/download/sbr-anime-trailer-korean-dubbing/main1.mp4"
+        },
+        {
+          "name": "teaser2.mp4",
+          "format": "MPEG4",
+          "size": 6837361,
+          "url": "https://archive.org/download/sbr-anime-trailer-korean-dubbing/teaser2.mp4"
+        },
+        {
+          "name": "teaser1.mp4",
+          "format": "MPEG4",
+          "size": 6246857,
+          "url": "https://archive.org/download/sbr-anime-trailer-korean-dubbing/teaser1.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/sbr-anime-trailer-korean-dubbing/main2.mp4",
+      "validatedAt": "2026-11-24T17:49:15.552866+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
