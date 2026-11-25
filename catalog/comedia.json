@@ -1,8 +1,8 @@
 {
   "category": "comedia",
   "title": "Comédia",
-  "updatedAt": "2026-11-24T17:52:18.442847+00:00",
-  "count": 376,
+  "updatedAt": "2026-11-25T17:19:48.354059+00:00",
+  "count": 375,
   "items": [
     {
       "identifier": "2A.M.InTheSubway1905",
@@ -10771,74 +10771,6 @@
       ],
       "playbackUrl": "https://archive.org/download/youtube-RJ1Qcri1Cco/RJ1Qcri1Cco.mp4",
       "validatedAt": "2026-10-20T16:29:28.002091+00:00",
-      "source": "internet-archive",
-      "moderationPolicy": "paused"
-    },
-    {
-      "identifier": "savedbythebell_202507",
-      "title": "Saved By The Bell complete series",
-      "description": "<div>Saved by the Bell is an American television teen sitcom created by Sam Bobrick for NBC. The series premiered, in prime time, on August 20, 1989, a Sunday night. Targeted at kids and teens, Saved by the Bell was broadcast in the United States on Saturday mornings, later as the flagship series in NBC's TNBC lineup. A reboot of the Disney Channel series Good Morning, Miss Bliss, the show follows a group of high school friends and their principal at the fictional Bayside High School in Los Angeles. Primarily focusing on lighthearted comedic situations, it occasionally touches on serious social issues, such as drug use, driving under the influence, homelessness, remarriage, death, women's rights, and environmental issues. The series starred Mark-Paul Gosselaar, Dustin Diamond, Lark Voorhies, Dennis Haskins, Tiffani-Amber Thiessen, Elizabeth Berkley, and Mario Lopez. The series ran for four seasons, airing its final episode, again in prime time, on May 22, 1993, a Saturday night.</div><div><br /></div><div>The show spawned two spin-off series: Saved by the Bell: The College Years (1993–1994), a primetime series that follows several of the characters to college, and Saved by the Bell: The New Class (1993–2000), a Saturday morning series that follows a new group of students at Bayside High School. The series also spawned two TV movies, Saved by the Bell: Hawaiian Style in 1992 and Saved by the Bell: Wedding in Las Vegas in 1994.</div>",
-      "year": "1989",
-      "creator": "Sam Bobrick",
-      "subject": "savedbythebell, nbc, teens, comedy, sitcom, high school, nostalgic, classic, retro, tv, television, zack morris is trash, 80's, 90's, funny, series, miss bliss, college years, hawaiian style, wedding in las vegas, bayside, schoolscreech powers, ac slater, jessie, lisa turtle, zack morris, kelley kapowski",
-      "collection": "classic_tv_1980s, classic_tv, television",
-      "mediatype": "movies",
-      "license": "",
-      "detailsUrl": "https://archive.org/details/savedbythebell_202507",
-      "thumbnail": "https://archive.org/services/img/savedbythebell_202507",
-      "category": "comedia",
-      "files": [
-        {
-          "name": "Season 4/Saved by the Bell - 04x23 - Hawaiian Style.mp4",
-          "format": "h.264",
-          "size": 550702922,
-          "url": "https://archive.org/download/savedbythebell_202507/Season%204/Saved%20by%20the%20Bell%20-%2004x23%20-%20Hawaiian%20Style.mp4"
-        },
-        {
-          "name": "Saved By The Bell - Wedding In Las Vegas.mp4",
-          "format": "h.264",
-          "size": 512064776,
-          "url": "https://archive.org/download/savedbythebell_202507/Saved%20By%20The%20Bell%20-%20Wedding%20In%20Las%20Vegas.mp4"
-        },
-        {
-          "name": "Season 2/Saved by the Bell - 02x16 - From Nurse to Worse.mp4",
-          "format": "h.264",
-          "size": 140967684,
-          "url": "https://archive.org/download/savedbythebell_202507/Season%202/Saved%20by%20the%20Bell%20-%2002x16%20-%20From%20Nurse%20to%20Worse.mp4"
-        },
-        {
-          "name": "Season 2/Saved by the Bell - 02x01 - The Prom.mp4",
-          "format": "h.264",
-          "size": 140048912,
-          "url": "https://archive.org/download/savedbythebell_202507/Season%202/Saved%20by%20the%20Bell%20-%2002x01%20-%20The%20Prom.mp4"
-        },
-        {
-          "name": "Season 3/Saved by the Bell - 03x22 - Rockumentary.mp4",
-          "format": "h.264",
-          "size": 139617531,
-          "url": "https://archive.org/download/savedbythebell_202507/Season%203/Saved%20by%20the%20Bell%20-%2003x22%20-%20Rockumentary.mp4"
-        },
-        {
-          "name": "Season 2/Saved by the Bell - 02x03 - Save the Max.mp4",
-          "format": "h.264",
-          "size": 139219098,
-          "url": "https://archive.org/download/savedbythebell_202507/Season%202/Saved%20by%20the%20Bell%20-%2002x03%20-%20Save%20the%20Max.mp4"
-        },
-        {
-          "name": "Season 2/Saved by the Bell - 02x07 - Rent-A-Pop.mp4",
-          "format": "h.264",
-          "size": 139071882,
-          "url": "https://archive.org/download/savedbythebell_202507/Season%202/Saved%20by%20the%20Bell%20-%2002x07%20-%20Rent-A-Pop.mp4"
-        },
-        {
-          "name": "Season 3/Saved by the Bell - 03x01 - Summer Vaction - Zacks Birthday Party.mp4",
-          "format": "h.264",
-          "size": 138960814,
-          "url": "https://archive.org/download/savedbythebell_202507/Season%203/Saved%20by%20the%20Bell%20-%2003x01%20-%20Summer%20Vaction%20-%20Zacks%20Birthday%20Party.mp4"
-        }
-      ],
-      "playbackUrl": "https://archive.org/download/savedbythebell_202507/Season%204/Saved%20by%20the%20Bell%20-%2004x23%20-%20Hawaiian%20Style.mp4",
-      "validatedAt": "2026-10-21T19:39:25.971210+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

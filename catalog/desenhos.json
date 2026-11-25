@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-11-24T17:52:18.442847+00:00",
-  "count": 516,
+  "updatedAt": "2026-11-25T17:19:48.354059+00:00",
+  "count": 517,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -5651,6 +5651,74 @@
       ],
       "playbackUrl": "https://archive.org/download/torrent-C0CFA0EF4E444AE3D0C9D04FBC9AF3696AAD3505/Season%203%20-%20Secrets%20Of%20The%20Lost%20City/Chaotic%20-%20078%20-%20Elementary%20%20%20%5BDarkDream%5D.mp4",
       "validatedAt": "2026-10-20T16:19:17.284860+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "001-christmas",
+      "title": "Christmas & the Holidays",
+      "description": "Christmas &amp; holiday movies, television, cartoons, music &amp; miscellany.",
+      "year": "",
+      "creator": "",
+      "subject": "Christmas; Xmas; Thanksgiving; New Year's; movies; television; cartoons; carols; songs; Santa Claus; Kris Kringle; Rudolph; reindeer; Jack Frost; yule; holiday",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/001-christmas",
+      "thumbnail": "https://archive.org/services/img/001-christmas",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "200 Cigarettes (1999).ia.mp4",
+          "format": "h.264 IA",
+          "size": 3185066212,
+          "url": "https://archive.org/download/001-christmas/200%20Cigarettes%20%281999%29.ia.mp4"
+        },
+        {
+          "name": "200 Cigarettes (1999).mp4",
+          "format": "MPEG4",
+          "size": 3185066212,
+          "url": "https://archive.org/download/001-christmas/200%20Cigarettes%20%281999%29.mp4"
+        },
+        {
+          "name": "Klaus (2019).mp4",
+          "format": "MPEG4",
+          "size": 2826155189,
+          "url": "https://archive.org/download/001-christmas/Klaus%20%282019%29.mp4"
+        },
+        {
+          "name": "It's a Wonderful Life (1946).mp4",
+          "format": "MPEG4",
+          "size": 2445249523,
+          "url": "https://archive.org/download/001-christmas/It%27s%20a%20Wonderful%20Life%20%281946%29.mp4"
+        },
+        {
+          "name": "Scrooged (1988).ia.mp4",
+          "format": "h.264 IA",
+          "size": 2066251270,
+          "url": "https://archive.org/download/001-christmas/Scrooged%20%281988%29.ia.mp4"
+        },
+        {
+          "name": "Scrooged (1988).mp4",
+          "format": "MPEG4",
+          "size": 2066251270,
+          "url": "https://archive.org/download/001-christmas/Scrooged%20%281988%29.mp4"
+        },
+        {
+          "name": "Period of Adjustment (1962).mp4",
+          "format": "MPEG4",
+          "size": 2031725177,
+          "url": "https://archive.org/download/001-christmas/Period%20of%20Adjustment%20%281962%29.mp4"
+        },
+        {
+          "name": "White Christmas (1954).mp4",
+          "format": "MPEG4",
+          "size": 1803328941,
+          "url": "https://archive.org/download/001-christmas/White%20Christmas%20%281954%29.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/001-christmas/200%20Cigarettes%20%281999%29.ia.mp4",
+      "validatedAt": "2026-11-25T17:16:16.956080+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

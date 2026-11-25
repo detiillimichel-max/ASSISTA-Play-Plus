@@ -1,8 +1,8 @@
 {
   "category": "historia",
   "title": "História",
-  "updatedAt": "2026-11-24T17:52:18.442847+00:00",
-  "count": 419,
+  "updatedAt": "2026-11-25T17:19:48.354059+00:00",
+  "count": 421,
   "items": [
     {
       "identifier": "32892WingsToGuatemala",
@@ -2951,6 +2951,32 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "20211130_20211130_1426",
+      "title": "CIVILIZATION VI Official Game Soundtrack",
+      "description": "<div>Listen to the official Sid Meier’s Civilization VI soundtrack. This score lives as an evolving audio record of your civilization’s progress as players aim to expand their empire and conquer the world in Sid Meier’s Civilization VI. SUBSCRIBE for First Looks at other civilizations, leaders, features and tips from the developers of Civilization VI - http://2kgam.es/CivilizationYT</div><div><br /></div><div>America - The Ancient Era by Patrick McAvinue and Brad Kolodner 00:00</div><div>America - The Medieval Era by Geoff Knorr 02:53</div><div>America - The Industrial Era by Geoff Knorr 06:06</div><div>America - The Atomic Era by Geoff Knorr and Phill Boucher 10:46</div><div>Arabia - The Ancient Era by Kylie Hilali 14:35</div><div>Arabia - The Medieval Era by Geoff Knorr 17:14</div><div>Arabia - The Industrial Era by Geoff Knorr 20:41</div><div>Arabia - The Atomic Era by Geoff Knorr and Phill Boucher 24:41</div><div>Aztec - The Ancient Era by Roland Rizzo 28:32</div><div>Aztec - The Medieval Era by Roland Rizzo 29:54</div><div>Aztec - The Industrial Era by Roland Rizzo 32:38</div><div>Aztec - The Atomic Era by Roland Rizzo and Phill Boucher 36:12</div><div>Brazil - The Ancient Era by Cesar Garabini and Kahil Nayton 39:42</div><div>Brazil - The Medieval Era by Geoff Knorr 42:26</div><div>Brazil - The Industrial Era by Geoff Knorr 46:31</div><div>Brazil - The Atomic Era by Geoff Knorr and Phill Boucher 50:24</div><div>China - The Ancient Era by Bing Xia 53:58</div><div>China - The Medieval Era by Geoff Knorr 55:54</div><div>China - The Industrial Era by Geoff Knorr 59:30</div><div>China - The Atomic Era by Geoff Knorr and Phill Boucher 1:03:05</div><div>Egypt - The Ancient Era by Chakib Hilali 1:06:24</div><div>Egypt - The Medieval Era by Geoff Knorr 1:08:36</div><div>Egypt - The Industrial Era by Geoff Knorr 1:11:47</div><div>Egypt - The Atomic Era by Geoff Knorr and Phill Boucher 1:17:49</div><div>England - The Ancient Era by Geoff Knorr 1:23:26</div><div>England - The Medieval Era by Geoff Knorr 1:25:25</div><div>England - The Industrial Era by Geoff Knorr 1:29:34</div><div>England - The Atomic Era by Geoff Knorr and Phill Boucher 1:33:33</div><div>France - The Ancient Era by Roland Rizzo 1:37:15</div><div>France - The Medieval Era by Roland Rizzo 1:40:22</div><div>France - The Industrial Era by Roland Rizzo 1:43:37</div><div>France - The Atomic Era by Roland Rizzo and Phill Boucher 1:47:08</div><div>Germany - The Ancient Era by Geoff Knorr 1:50:36</div><div>Germany - The Medieval Era by Geoff Knorr 1:52:13</div><div>Germany - The Industrial Era by Geoff Knorr 1:56:00</div><div>Germany - The Atomic Era by Geoff Knorr and Phill Boucher 2:00:01</div><div>Greece - The Ancient Era by Geoff Knorr 2:04:01</div><div>Greece - The Medieval Era by Geoff Knorr 2:05:23</div><div>Greece - The Industrial Era by Geoff Knorr 2:08:36</div><div>Greece - The Atomic Era by Geoff Knorr and Phill Boucher 2:12:54</div><div>India - The Ancient Era by Deepak Ram 2:16:54</div><div>India - The Medieval Era by Geoff Knorr 2:18:59</div><div>India - The Industrial Era by Geoff Knorr 2:22:24</div><div>India - The Atomic Era by Geoff Knorr and Phill Boucher 2:27:16</div><div>Japan - The Ancient Era by Ronnie Nyogetsu Reishin Seldin and Geoff Knorr 2:31:54</div><div>Japan - The Medieval Era by Geoff Knorr 2:34:38</div><div>Japan - The Industrial Era by Geoff Knorr 2:38:43</div><div>Japan - The Atomic Era by Geoff Knorr and Phill Boucher 2:42:26</div><div>Kongo - The Ancient Era by Geoff Knorr 2:46:06</div><div>Kongo - The Medieval Era by Geoff Knorr 2:48:03</div><div>Kongo - The Industrial Era by Geoff Knorr 2:51:46</div><div>Kongo - The Atomic Era by Geoff Knorr and Phill Boucher 2:54:55</div><div>Norway - The Ancient Era by Sissel Morken Gullord 2:58:00</div><div>Norway - The Medieval Era by Roland Rizzo 2:59:21</div><div>Norway - The Industrial Era by Roland Rizzo 3:02:30</div><div>Norway - The Atomic Era by Roland Rizzo and Phill Boucher 3:06:01</div><div>Rome - The Ancient Era by Roland Rizzo 3:09:54</div><div>Rome - The Medieval Era by Roland Rizzo 3:11:55</div><div>Rome - The Industrial Era by Roland Rizzo 3:15:34</div><div>Rome - The Atomic Era by Roland Rizzo and Phill Boucher 3:21:13</div><div>Russia - The Ancient Era by Andrei Saveliev 3:25:53</div><div>Russia - The Medieval Era by Geoff Knorr 3:28:12</div><div>Russia - The Industrial Era by Geoff Knorr 3:32:09</div><div>Russia - The Atomic Era by Geoff Knorr and Phill Boucher 3:36:43</div><div>Scythia - The Ancient Era by Sandro Freidrich 3:41:01</div><div>Scythia - The Medieval Era by Geoff Knorr 3:42:31</div><div>Scythia - The Industrial Era by Geoff Knorr 3:46:27</div><div>Scythia - The Atomic Era by Geoff Knorr and Phill Boucher 3:50:50</div><div>Spain - The Ancient Era by Benjamin Beirs 3:55:01</div><div>Spain - The Medieval Era by Geoff Knorr 3:56:18</div><div>Spain - The Industrial Era by Geoff Knorr 4:00:07</div><div>Spain - The Atomic Era by Geoff Knorr and Phill Boucher 4:04:40</div><div>Sumeria - The Ancient Era by Geoff Knorr 4:08:53</div><div>Sumeria - The Medieval Era by Geoff Knorr 4:11:24</div><div>Sumeria - The Industrial Era by Geoff Knorr 4:14:51</div><div>Sumeria - The Atomic Era by Geoff Knorr and Phill Boucher 4:18:09</div><div><br /></div><div>FOLLOW US:</div><div>OFFICIAL WEBSITE ► http://www.civilization.com </div><div>TWITTER ► https://twitter.com/civgame </div><div>FACEBOOK ► https://www.facebook.com/civ</div><div>INSTAGRAM ► https://www.instagram.com/civgame</div>",
+      "year": "2021",
+      "creator": "Swapardeshi",
+      "subject": "video game music, civilization vi",
+      "collection": "opensource_movies, community",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/20211130_20211130_1426",
+      "thumbnail": "https://archive.org/services/img/20211130_20211130_1426",
+      "category": "historia",
+      "files": [
+        {
+          "name": "CIVILIZATION VI Official Game Soundtrack.mp4",
+          "format": "MPEG4",
+          "size": 790488234,
+          "url": "https://archive.org/download/20211130_20211130_1426/CIVILIZATION%20VI%20Official%20Game%20Soundtrack.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/20211130_20211130_1426/CIVILIZATION%20VI%20Official%20Game%20Soundtrack.mp4",
+      "validatedAt": "2026-11-25T17:16:41.999262+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "20211201_20211201_0818",
       "title": "Civilization VI: Rise and Fall - Original Game Soundtrack",
       "description": "<div>Listen to the official Sid Meier’s Civilization VI: Rise and Fall soundtrack. This score lives as an evolving audio record of your civilization’s progress as players guide a civilization through the ages. SUBSCRIBE for First Looks at new civilizations, leaders, features and tips from the developers of Civilization VI - http://2kgam.es/CivilizationYT</div><div><br /></div><div>Rise and Fall   0:00 </div><div>Cree - The Ancient Era (The Drums of Poundmaker) 3:20</div><div>Cree - The Medieval Era (The Drums of Poundmaker) 7:15</div><div>Cree - The Industrial Era (The Drums of Poundmaker) 12:20</div><div>Cree - The Atomic Era (The Drums of Poundmaker) 16:49</div><div>Georgia - The Ancient Era (Shen Khar Venakhi) 21:17</div><div>Georgia - The Medieval Era (Tsaiqvanes Tamar Kali; Shen Khar Venakhi) 23:50</div><div>Georgia - The Industrial Era (Tsaiqvanes Tamar Kali; Shen Khar Venakhi) 29:27</div><div>Georgia - The Atomic Era (Tsaiqvanes Tamar Kali; Shen Khar Venakhi) 35:18</div><div>Korea - The Ancient Era (Arirang) 41:12</div><div>Korea - The Medieval Era (Arirang) 43:43</div><div>Korea - The Industrial Era (Arirang) 46:35</div><div>Korea - The Atomic Era (Arirang) 51:19</div><div>Mapuche -  The Ancient Era (Traditional Mapuche) 56:01</div><div>Mapuche - The Medieval Era (Traditional Mapuche) 58:40</div><div>Mapuche - The Industrial Era (Traditional Mapuche) 1:02:02</div><div>Mapuche - The Atomic Era (Traditional Mapuche) 1:06:29</div><div>Mongolia - The Ancient Era (Pastor Song; Khoomii Improvisation) 1:10:46</div><div>Mongolia - The Medieval Era (Pastor Song; Urtin Duu) 1:13:23</div><div>Mongolia - The Industrial Era (Pastor Song; Urtin Duu) 1:17:52</div><div>Mongolia - The Atomic Era (Pastor Song; Urtin Duu) 1:22:38</div><div>Netherlands - The Ancient Era (Gaillarde L'esmerillonne) 1:27:25</div><div>Netherlands - The Medieval Era (Gaillarde L'esmerillonne) 1:29:57</div><div>Netherlands - The Industrial Era (Gaillarde L'esmerillonne) 1:33:38</div><div>Netherlands - The Atomic Era (Gaillarde L'esmerillonne) 1:37:57</div><div>Scotland - The Ancient Era (Scotland the Brave; Bonnie Dundee) 1:42:14</div><div>Scotland - The Medieval Era (Scotland the Brave; Bonnie Dundee) 1:45:18</div><div>Scotland - The Industrial Era (Scotland the Brave; Bonnie Dundee) 1:49:39</div><div>Scotland - The Atomic Era (Scotland the Brave; Bonnie Dundee) 1:53:56</div><div>Zulu - The Ancient Era (Uthe Ubhuti Asizomlanda) 1:58:12</div><div>Zulu - The Medieval Era (Shaka Mamba; Bayisa; Halala) 2:00:49</div><div>Zulu - The Industrial Era (Uthe Ubhuti Asizomlanda; Halala; Bayisa) 2:04:44</div><div>Zulu - The Atomic Era (Uthe Ubhuti Asizomlanda; Halala; Bayisa) 2:10:08</div><div>___</div><div><br /></div><div>Music composed by Geoff Knorr and Roland Rizzo</div><div><br /></div><div>Additional electronics and arranging by Phill Boucher</div><div><br /></div><div>Khoomii, Morin Khuur, and Tovshuur by Nature Ganganbaigal of Tengger Cavalry</div><div>https://www.tengger-cavalry.com</div><div><br /></div><div>Georgian Singing and Instruments by Trio Kavkasia: </div><div>Alan Gasser, Tenor</div><div>Stuart Gelzer, Bass, chunir</div><div>Carl Linich, Tenor, Panduri, Chonguri</div><div>http://kavkasia.org</div><div><br /></div><div>Zulu vocals by Legato:</div><div>Lisa Yengeni, Soprano</div><div>Luyolo Stungu, tenor</div><div>Phiwo Tyatya, tenor</div><div>Lwando Lukhukho, tenor</div><div>Milani Sixakwe, Bass</div><div>https://www.facebook.com/legatosa</div><div><br /></div><div>Mihlali Tyatya, Solo tenor</div><div><br /></div><div>Caleb Vaughn-Jones and Regulus Sound Productions, Zulu recording session producer & contractor</div><div>http://www.regulussoundintl.com</div><div><br /></div><div>Cree singing and drumming by the Poundmaker Singers</div><div>Clyde Tootoosis, leader</div><div>Cornell Tootoosis</div><div>Aaron McGilvery</div><div>Greyeagle Cardinal</div><div>Gerald Baptiste</div><div>Preston Gamble</div><div>Benji Weenie</div><div>Colin Starblanket</div><div>Chris Scribe </div><div>Don Nidel</div><div>Allan Bonaise</div><div>Corey Potts</div><div>https://www.facebook.com/Poundmaker-S...</div><div><br /></div><div>Traditional Korean drumming by the Korean Performing Arts Academy of America:</div><div>Hyung Joo Cho, Janggu and gayageum</div><div>Soon He So, Kkwaenggwari and gayageum</div><div>Chun Kehe, Jing</div><div>Dami Soh, Buk</div><div><br /></div><div>Niccolo Seligmann, Bass Viol, Vielle</div><div>http://www.niccoloseligmann.com</div><div>Sandro Friedrich, Scottish tin whistle, Fipple flute, Xiao, Pinkillo, Zampona, Quena, Recorder</div><div>http://powerflute.ch</div><div><br /></div><div>Patrick McAvinue, fiddle</div><div>http://www.patrickmcavinue.com</div><div>Kevin O'Brien, Highland Pipes</div><div>http://www.kobrien-bagpiper.com</div><div>George Hayes, Scottish snare and tenor drums</div><div><br /></div><div>Prague FILMharmonic Orchestra </div><div>Kühn Mixed Choir</div><div>___</div><div>FOLLOW US:</div><div>OFFICIAL WEBSITE ► http://www.civilization.com </div><div>TWITTER ► https://twitter.com/civgame </div><div>FACEBOOK ► https://www.facebook.com/civ</div><div>INSTAGRAM ► https://www.instagram.com/civgame</div>",
@@ -4070,6 +4096,44 @@
       ],
       "playbackUrl": "https://archive.org/download/doraemon-1983/04%201983%20DVD%20Doraemon%20Nobita%20and%20the%20Castle%20of%20the%20Undersea%20Devil3.mp4",
       "validatedAt": "2026-11-16T15:51:32.139301+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "1992_20260607",
+      "title": "Doraemon: Nobita and the Kingdom of Clouds (1992) [DVD Preservation Edition]",
+      "description": "This item contains Doraemon: Nobita and the Kingdom of Clouds (1992). After creating a floating kingdom among the clouds, Doraemon and his friends discover a hidden civilization living above Earth. Their encounter raises important questions about humanity, nature, and the future of the planet. Combining science fiction with environmental themes, the film remains one of the most thought-provoking entries in the Doraemon series.",
+      "year": "1992",
+      "creator": "Fujiko F. Fujio",
+      "subject": "Doraemon;Kingdom of Clouds;Cloud Civilization;Sky Adventure;Environmental Theme;Fantasy;Anime Film;Japanese Animation;Fujiko F. Fujio;Classic Doraemon",
+      "collection": "dvdtray_inbox, dvdtray",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/1992_20260607",
+      "thumbnail": "https://archive.org/services/img/1992_20260607",
+      "category": "historia",
+      "files": [
+        {
+          "name": "13 1992 DVD Nobita and the Kingdom of Clouds3.mp4",
+          "format": "h.264",
+          "size": 596054891,
+          "url": "https://archive.org/download/1992_20260607/13%201992%20DVD%20Nobita%20and%20the%20Kingdom%20of%20Clouds3.mp4"
+        },
+        {
+          "name": "13 1992 DVD Nobita and the Kingdom of Clouds.mp4",
+          "format": "h.264",
+          "size": 592977547,
+          "url": "https://archive.org/download/1992_20260607/13%201992%20DVD%20Nobita%20and%20the%20Kingdom%20of%20Clouds.mp4"
+        },
+        {
+          "name": "13 1992 DVD Nobita and the Kingdom of Clouds2.mp4",
+          "format": "h.264",
+          "size": 6246482,
+          "url": "https://archive.org/download/1992_20260607/13%201992%20DVD%20Nobita%20and%20the%20Kingdom%20of%20Clouds2.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/1992_20260607/13%201992%20DVD%20Nobita%20and%20the%20Kingdom%20of%20Clouds3.mp4",
+      "validatedAt": "2026-11-25T17:16:43.549011+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
