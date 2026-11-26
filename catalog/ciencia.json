@@ -1,8 +1,8 @@
 {
   "category": "ciencia",
   "title": "Ciência e espaço",
-  "updatedAt": "2026-11-25T17:19:48.354059+00:00",
-  "count": 464,
+  "updatedAt": "2026-11-26T17:00:54.610811+00:00",
+  "count": 465,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -2005,6 +2005,45 @@
       ],
       "playbackUrl": "https://cdn.pixabay.com/video/2024/08/13/226200_large.mp4",
       "validatedAt": "2026-11-13T14:44:37.142804+00:00",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "AtomicEnergyForSpace",
+      "title": "Atomic Energy For Space",
+      "description": "The Magic Of The Atom, No. 031, Atomic Energy For Space.<div>Co-producer, Handel Film Corp./Atomic Energy Commission/National Aeronautics and Space Administration<br /><div>\nNo description at National Archives but listed in AEC <a href=\"https://archive.org/details/16mmfilmcombined00usatrich\" rel=\"ugc nofollow\">16mm film combined catalog (1966)</a>: \"Produced by the Handel Film Corporation with the cooperation  of the USAEC and the National Aeronautics and Space Administration. For sale by Handel Film Corporation at $195.00 per  print, F.O.B. Los Angeles. Available for loan (free) from AEC  Headquarters and field libraries. Permission for use of AEC  library prints for public service or educational telecasting must  be obtained from the Chief, Audio- Visual Branch, Division of  Public Information, U. S. Atomic Energy Commission, Washington, D. C. 20545.\n\nThe film explains why only atomic energy can satisfy some of the future power needs for the exploration of deep space. Nuclear energy for space is being developed through two basic applications: the nuclear rocket for space propulsion, and in isotopic or reactor power plants which can produce the electricity essential for spacecraft operations.\n\nIt is explained that the nuclear rocket being developed jointly by the  AEC and NASA in the Rover program, which will be essential for manned flights to the planets of our solar system and beyond, will use a nuclear reactor, or \"atomic furnace,\" to heat, vaporize and expand liquid hydrogen, and expel it from a nozzle to produce thrust.\n\nThe efficiency of nuclear and chemical rockets is compared, and it is noted that there will be a great reduction in the weight of the nuclear propulsion system as opposed to chemical rockets. The \"fission\" process to produce nuclear heat is explained with animation, as  well as how this heat is used to produce thrust in the versatile nuclear engine. Shown also are the KIWI and NERVA nuclear reactor systems during \"nozzle-up\" ground tests. Scientists look forward to nuclear  engines of the Phoebus series that will develop about 275,000 pounds of  thrust for deep space probes.\n\nThe film then turns to the SNAP devices Systems for Nuclear Auxiliary Power: devices that supply electricity for all the various housekeeping and operational sub-systems of spacecraft and satellites (radio, TV, transmitters, computers, etc.). There are two types: isotopic generators (atomic batteries) and the nuclear power reactor. The film shows the first isotopic space generator which went into orbit in a satellite in 1961. By animation, it is illustrated how the decay of radio-isotopic materials produces heat which is converted directly to electricity by thermocouples. Also explained and illustrated is the nuclear reactor for auxiliary power, with scenes of the 1965 launch of the first reactor into orbit. This SNAP-10A reactor produced a half million watt-hours of electricity during operation. Future astronauts will  travel in spacecraft propelled by nuclear rockets. The huge array of  instruments and control devices in their spacecraft and those they will leave on the moon and planets will receive electricity from nuclear  power generators.\"\nNational Archives Identifier:<a href=\"http://research.archives.gov/description/88102\" rel=\"ugc nofollow\">88102</a></div></div>",
+      "year": "1966",
+      "creator": "United States. Department of Energy",
+      "subject": "NASA, Space, Nuclear Energy, Project SNAP, Space vehicles -- Nuclear power plants, The Magic Of The Atom",
+      "collection": "short_films, moviesandfilms",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/AtomicEnergyForSpace",
+      "thumbnail": "https://archive.org/services/img/AtomicEnergyForSpace",
+      "category": "ciencia",
+      "files": [
+        {
+          "name": "434-38 Atomic Energy For Space 1966.mp4",
+          "format": "h.264",
+          "size": 111364538,
+          "url": "https://archive.org/download/AtomicEnergyForSpace/434-38%20Atomic%20Energy%20For%20Space%201966.mp4"
+        },
+        {
+          "name": "434-38 Atomic Energy For Space 1966.mov",
+          "format": "QuickTime",
+          "size": 327975346,
+          "url": "https://archive.org/download/AtomicEnergyForSpace/434-38%20Atomic%20Energy%20For%20Space%201966.mov"
+        },
+        {
+          "name": "434-38 Atomic Energy For Space 1966.ogv",
+          "format": "Ogg Video",
+          "size": 77991928,
+          "url": "https://archive.org/download/AtomicEnergyForSpace/434-38%20Atomic%20Energy%20For%20Space%201966.ogv"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/AtomicEnergyForSpace/434-38%20Atomic%20Energy%20For%20Space%201966.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-11-26T16:58:46.349367+00:00",
+      "source": "internet-archive",
       "moderationPolicy": "paused"
     },
     {
