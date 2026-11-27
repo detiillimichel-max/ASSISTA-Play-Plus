@@ -1,8 +1,8 @@
 {
   "category": "filmes",
   "title": "Filmes",
-  "updatedAt": "2026-11-26T17:00:54.610811+00:00",
-  "count": 657,
+  "updatedAt": "2026-11-27T16:45:03.077137+00:00",
+  "count": 658,
   "items": [
     {
       "identifier": "cannibal-holocaust-1980-720p",
@@ -12750,6 +12750,39 @@
       ],
       "playbackUrl": "https://archive.org/download/bliptv-20131014-052952-Blacktreetv-MissionImpossibleGhostProtocol921/bliptv-20131014-052952-Blacktreetv-MissionImpossibleGhostProtocol921.m4v",
       "validatedAt": "2026-10-20T16:18:42.712976+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "moby-dick.-1956",
+      "title": "Moby Dick (1956)",
+      "description": "<div>The <strong>1956 adaptation of \"Moby Dick,\"</strong> directed by <strong>John Huston</strong>,\n is a cinematic interpretation of Herman Melville's classic novel. The \nfilm features a high-profile cast and was generally well-received, both \ncritically and commercially. Set in the early <strong>1840s</strong>, the film follows <strong>Ishmael</strong>, who embarks on a whaling voyage aboard the <strong>Pequod</strong>, captained by the vengeful <strong>Captain Ahab</strong>. Obsessed with hunting down the legendary <strong>Moby Dick</strong>,\n a great white whale that had previously severely injured him, Ahab \nbecomes increasingly dangerous as he leads his crew into perilous \nwaters. The film captures Ahab's descent into madness and the crew's \nstruggle against nature and fate. </div>",
+      "year": "1956",
+      "creator": "John Huston",
+      "subject": "adventure, drama, thriller, action",
+      "collection": "feature_films_unsorted, feature_films, moviesandfilms",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/moby-dick.-1956",
+      "thumbnail": "https://archive.org/services/img/moby-dick.-1956",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "Moby Dick (1956)/mp4/Moby Dick.1956.ia.mp4",
+          "format": "h.264 IA",
+          "size": 411832627,
+          "url": "https://archive.org/download/moby-dick.-1956/Moby%20Dick%20%281956%29/mp4/Moby%20Dick.1956.ia.mp4"
+        },
+        {
+          "name": "Moby Dick (1956)/mp4/Moby Dick.1956.mp4",
+          "format": "MPEG4",
+          "size": 411832627,
+          "url": "https://archive.org/download/moby-dick.-1956/Moby%20Dick%20%281956%29/mp4/Moby%20Dick.1956.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/moby-dick.-1956/Moby%20Dick%20%281956%29/mp4/Moby%20Dick.1956.ia.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "validatedAt": "2026-11-27T16:42:29.139562+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

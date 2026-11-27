@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-26T17:00:54.610811+00:00",
+  "updatedAt": "2026-11-27T16:45:03.077137+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 116,
+  "metadataChecksThisRun": 121,
   "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 4
+      "requestErrors": 3
     },
     "prelinger": {
       "requests": 1,
@@ -303,21 +303,17 @@
           },
           {
             "type": "request",
-            "error": "The read operation timed out"
+            "error": "HTTP Error 429: Too Many Requests"
           },
           {
             "type": "request",
-            "error": "The read operation timed out"
-          },
-          {
-            "type": "request",
-            "error": "The read operation timed out"
+            "error": "HTTP Error 429: Too Many Requests"
           }
         ],
         "other": [
           {
             "type": "request",
-            "error": "<urlopen error [Errno 104] Connection reset by peer>"
+            "error": "HTTP Error 502: Bad Gateway"
           }
         ]
       }
@@ -327,7 +323,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3742,
+  "count": 3750,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -16529,6 +16525,50 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "ShuttleProcessingMontage",
+      "title": "Shuttle Processing Montage",
+      "description": "2008 Videographer of the Year, 1st place, documentation category. By Glenn Benson, KSC.",
+      "year": "2008",
+      "creator": "NASA/Kennedy Space Center",
+      "subject": "NASA",
+      "collection": "nasa, videographeroftheyearwinners2008",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/ShuttleProcessingMontage",
+      "thumbnail": "https://archive.org/services/img/ShuttleProcessingMontage",
+      "category": "ciencia",
+      "files": [
+        {
+          "name": "Montage.mp4",
+          "format": "h.264",
+          "size": 18448646,
+          "url": "https://archive.org/download/ShuttleProcessingMontage/Montage.mp4"
+        },
+        {
+          "name": "Montage_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": 13282933,
+          "url": "https://archive.org/download/ShuttleProcessingMontage/Montage_512kb.mp4"
+        },
+        {
+          "name": "Montage.mov",
+          "format": "QuickTime",
+          "size": 785276273,
+          "url": "https://archive.org/download/ShuttleProcessingMontage/Montage.mov"
+        },
+        {
+          "name": "Montage.ogv",
+          "format": "Ogg Video",
+          "size": 14779475,
+          "url": "https://archive.org/download/ShuttleProcessingMontage/Montage.ogv"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/ShuttleProcessingMontage/Montage.mp4",
+      "validatedAt": "2026-11-27T16:43:40.858390+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "Skylab_TheFirst40Days",
       "title": "Skylab - The First 40 Days",
       "description": "Official NASA film about the first 40 days on board Skylab",
@@ -18601,6 +18641,75 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "Time-lapseAstronautPhotographyOfEarthfebruary32012",
+      "title": "Time-Lapse Astronaut Photography of Earth  (February 3, 2012)",
+      "description": "Various videos created from series of still images taken on-board the International Space Station.\n\nThe clips are:\n1.\tUp the East Coast of North America â a few major cities are labeled.  \n2.\tUp the East Coast of North America â clean version\n3.\tAcross Southwest Canada at Night â clean version\n4.\tMexico to New Brunswick â a few major cities are labeled. \n5.\tMexico to New Brunswick â clean version\n6.\tNorth Dakota to Central Quebec â clean version\n7.\tCentral Great Plains at Night â a few major cities are labeled. \n8.\tCentral Great Plains at Night â clean version\n9.\tAurora Borealis over the Pacific Ocean â clean version\n10.\tAurora Borealis over Northern North America and Canada â clean version\n\nUp the East Coast of North America\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 29, 2012 from 05:33:11 to 05:48:10 GMT, on a pass from just southwest of Mexico to the North Atlantic Ocean, northeast of Newfoundland. This pass begins looking over Central America towards the Gulf of Mexico and the southeastern United States. As the ISS travels northeast over the gulf, some southeastern United States cities can be distinguished, like New Orleans, Mobile, Jacksonville, and Atlanta. Continuing up the east coast, some northeastern states, like Washington, D.C., Baltimore, Philadelphia, and New York City stand out brightly along the coastline. The Aurora Borealis shines in the background as the pass finishes near Newfoundland.\n\nAcross Southwest Canada at Night\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 25, 2012 from 12:34:11 to 12:36:28 GMT, on a pass from near the border of British Columbia and Washington state, near Vancouver Island, to southern Alberta, near Calgary. The main focus of this video is the Aurora Borealis over Canada, which appears very near the ISS during this short video.\n\nMexico to New Brunswick\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 30, 2012 from 06:13:36 to 06:23:09 GMT, on a pass from northern Mexico to northwest New Brunswick. This video begins looking northeast over Texas, where cities like San Antonio, Houston, and the Dallas/Fort Worth area can be seen. Continuing northeast over the Great Plains states, cities like Oklahoma City, Kansas City, and St. Louis can be easily distinguished. The pass continues over the familiar shape of the Michigan Peninsula, with Chicago at the south edge of Lake Michigan. As the ISS continues northeast, the Aurora Borealis can be seen over Canada.\n\nNorth Dakota to Central Quebec\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 26, 2012 from 10:04:56 to 10:10:42 GMT, on a pass from North Dakota to central Quebec. This video focuses on the Aurora Borealis over Canada as the International Space Station traveled from the northern United States to eastern Canada. The aurora can be seen near the ISS, and small patches of the green light can be seen dancing around. \n\nCentral Great Plains at Night\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 30, 2012 from 06:14:22 to 06:19:03 GMT, on a pass from northern Mexico, near the Texas/Mexico border, to eastern Indiana, near Cincinnati, Ohio. This pass begins as the International Space Station travels northeast looking northwest. The brighter city lights are those of the southwestern United States, like Phoenix and El Paso. The pass continues up the Great Plains, where the city lights of Oklahoma City and Tulsa can be seen before continuing northeast towards Kansas City. The last city that is easily seen is Chicago, while the Aurora Borealis is shining to the far north.\n\nAurora Borealis over the Pacific Ocean\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 25, 2012 from 12:32:06 to 12:34:10 GMT, on a pass from the North Pacific Ocean to just southwest of Vancouver Island. In this video, the International Space Station approaches the Aurora Borealis from the Pacific Ocean, where the auroras can be seen dancing very near the Station. \n\nAurora Borealis over Northern North America and Canada\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 29, 2012 from 10:18:13 to 10:31:28 GMT, on a pass from the North Pacific Ocean, approximately 1,000 miles west of California, to western Quebec. This video begins as the ISS is passing over the dark waters of the North Pacific Ocean northeast towards Vancouver Island. The Aurora Borealis can be seen far north, where both the underside and top of the aurora are visible. The pass continues over Canada until the sun begins to come up in the east while over Quebec.\n\nPlease visit the Gateway to Astronaut Photography for more information.\nhttp://eol.jsc.nasa.gov/Videos/CrewEarthObservationsVideos/",
+      "year": "",
+      "creator": "NASA",
+      "subject": "NASA; International Space Station; ISS; Crew Earth Observations; Astronaut Photography",
+      "collection": "jsc-pao-video-collection, nasa",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/Time-lapseAstronautPhotographyOfEarthfebruary32012",
+      "thumbnail": "https://archive.org/services/img/Time-lapseAstronautPhotographyOfEarthfebruary32012",
+      "category": "ciencia",
+      "files": [
+        {
+          "name": "120210_EarthObs_01.mp4",
+          "format": "h.264",
+          "size": 4395104,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_01.mp4"
+        },
+        {
+          "name": "120210_EarthObs_04.mp4",
+          "format": "h.264",
+          "size": 3744034,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_04.mp4"
+        },
+        {
+          "name": "120210_EarthObs_02.mp4",
+          "format": "h.264",
+          "size": 2608188,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_02.mp4"
+        },
+        {
+          "name": "120210_EarthObs_07.mp4",
+          "format": "h.264",
+          "size": 2399212,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_07.mp4"
+        },
+        {
+          "name": "120210_EarthObs_10.mp4",
+          "format": "h.264",
+          "size": 2270201,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_10.mp4"
+        },
+        {
+          "name": "120210_EarthObs_05.mp4",
+          "format": "h.264",
+          "size": 1668254,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_05.mp4"
+        },
+        {
+          "name": "120210_EarthObs_06.mp4",
+          "format": "h.264",
+          "size": 1023779,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_06.mp4"
+        },
+        {
+          "name": "120210_EarthObs_08.mp4",
+          "format": "h.264",
+          "size": 846896,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_08.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_01.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-11-27T16:43:39.448958+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "Time-lapseAstronautPhotographyOfEarth-2",
       "title": "Time-Lapse Astronaut Photography of Earth - 2",
       "description": "Dynamic Motion of Earth and Stars Captured by International Space Station Crew\n\nThe videos have been created by the Crew Earth Observations team at Johnson Space Center in Houston from a series of still images taken on board the International Space Station.\n\n\nDetails about videos:\n\nHalfway Across the World\nThis video was taken by the crew of Expedition 29 aboard the International Space Station. The sequence of shots was taken on Oct. 8, 2011, from 20:53:10 to 21:24:58 GMT, during a long pass from the mid-Atlantic Ocean between South America and Africa, ascending to the Balkan Peninsula, and finishing on a descending pass southwest toward the Solomon Islands.\n\nPass over Southeastern Asia \nThis video over Southeastern Asia was taken by the crew of Expedition 29 aboard the International Space Station. This sequence of shots was taken on Oct. 7, 2011, from 12:41:10 to 12:50:46 GMT, on an ascending pass from the island of Java to the northeast of Japan. Clouds fill most of the sky until the island of Japan approaches near the end of the sequence. Tokyo is brightly visible on the eastern-most side of the island.\n\nNight views over the Mediterranean Sea \nThis video over the Mediterranean Sea was taken by the crew of Expedition 29 aboard the International Space Station. This sequence of shots was taken on Oct. 6, 2011, from 22:58:09 to 23:13:15 GMT, on an ascending pass from just west of the Strait of Gibraltar, over the Atlantic Ocean to northern Kazakhstan. The first significant landmark is the Strait of Gibraltar, separating Spain and Morocco. As the pass continues down the Mediterranean Sea, the Balearic Islands stand out in contrast to the water. Next, Corsica and Sardinia stand out before the Italian Peninsula.\n\nNight Pass over Malaysia \nThis video showing night lights over Malaysia was taken by the crew of Expedition 28 aboard the International Space Station. This sequence of shots was taken on Aug. 21, 2011, from 19:33:05 to 19:38:05 GMT, on a descending pass from western Burma to just east of Malaysia on the South China Sea. The pass continues over the northern Balkan Peninsula, with the Black Sea standing out as a dark patch among city lights.\n \nNight Pass over Central Africa and the Middle East \nThis video over Central Africa and the Middle East was taken by the crew of Expedition 29 aboard the International Space Station. This sequence of shots was taken on Oct. 1, 2011, from 21:20:24 to 21:41:24 GMT, on an ascending pass from just southwest of Cote d'Ivoire in Africa to southern Russia.\n \nEvening Pass over the Sahara Desert and the Middle East \nThis video over the Sahara Desert and the Middle East was taken by the crew of Expedition 29 aboard the International Space Station. This sequence of shots was taken on Oct. 6, 2011, from 19:46:23 to 19:58:41 GMT, on an ascending pass from the Sahara Desert to western Kazakhstan. The rust color of the Sahara Desert is the first view in this video. \n\nDay Pass through Western United States\nThis video over the Western United States was taken by the crew of Expedition 29 aboard the International Space Station. This sequence of shots was taken on Sept. 24, 2011, from 17:45:14 to 17:54:18 GMT, on a descending pass from just west of Washington state to the Gulf of Mexico, due east of Corpus Christi, Texas.\n\nDay Pass Down the Red Sea \nThis video over the southeastern Mediterranean Sea and down the coastline of the Red Sea was taken by the crew of Expedition 29 aboard the International Space Station. This sequence of shots was taken on Sept. 17, 2011, from 12:14:25 to 12:24:55 GMT, on a descending pass from southern Greece to the Horn of Africa.",
@@ -20210,6 +20319,74 @@
       ],
       "playbackUrl": "https://archive.org/download/sinema-trailer_alice-in-wonderland-an-x-rated-musi/Bill%20Osco%27s%20Alice%20in%20Wonderland%20Trailer%20%28180p_30fps_H264-96kbit_AAC%29.mp4",
       "validatedAt": "2026-10-20T16:30:35.013344+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "season-2-episode-all-that-partial-series-proper",
+      "title": "All That (partial series proper)",
+      "description": "<div><b>Disclaimer:</b> I do not own this series. <i>All That</i> belongs to Paramount Global. All songs sung in the rounds of sound (the celebrity musical performances at the end of each episode) belong to the celebrities who sang them.</div><div><br /></div><div><i>All That</i> can be considered a junior counterpart to <i>Saturday Night Live</i>. Featuring such names as Alisa Reyes, Amanda Bynes, Danny Tamberelli (of <i>The Adventures of Pete and Pete</i> fame), Kel Mitchell, Kenan Thompson, Lori Beth Denberg, Nick Cannon, and even a then-unknown Gabriel Iglesias, this sketch comedy series ran in three separate runs. The original run, covered here, ran for six seasons from 1994 to 2000, the first reboot, with an entirely new cast, ran for four seasons from 2002 to 2005, and the second reboot, also with a new cast but with return appearances from some of the cast members from the original run, aired ten episodes in 2019 (and were it not for a certain world-changing event that shall not be named, there would be more episodes of it). My concern here will be only with the original series and the \"Best Of\" clip show specials featuring clips from it.</div><div><br /></div><div>In addition to its many guest stars and giving rise to several other live-action Nickelodeon shows in the nineties and early 2000s (namely <i>Kenan and Kel</i> and <i>The Amanda Show</i>, the latter of which, whether directly or indirectly, gave rise to even more shows like <i>Drake and Josh</i>), <i>All That</i> is notable for launching the careers of several actors and musicians, with some still being successful to this day (namely Gabriel Iglesias and Kenan Thompson), and some others... not so much.<br /></div><div><br /></div><div><b>Note:</b> As with my <i>Life Is Wild</i> uploads, some episodes are in better quality than others. Also, because some of these episodes were recorded from reruns on the old TeenNick programming block NickRewind (formerly The Nineties Are All That), which cut the rounds of sound and the mini sketches leading up to them from its airings of the show, some episodes are shorter than others.<br /></div><div><br /></div><div><b>Missing Episodes:</b> Season 6 Episode 1: B*Witched; Special: The Best of Josh Server; Special: The Best of Lori Beth Denberg, Special: The Best of Tunes into TV; Special: Dates, Goats, and Romance; and Special: Music and More Backstage Pass 2.<br /></div>",
+      "year": "1994",
+      "creator": "Brian Robbins, Mike Tollin",
+      "subject": "All That, Nickelodeon, sketch comedy, music, Dan Schneider",
+      "collection": "childrenstelevision, television",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/season-2-episode-all-that-partial-series-proper",
+      "thumbnail": "https://archive.org/services/img/season-2-episode-all-that-partial-series-proper",
+      "category": "comedia",
+      "files": [
+        {
+          "name": "Season 5 Episode 9 - All That Live.mp4",
+          "format": "h.264",
+          "size": 280278730,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%205%20Episode%209%20-%20All%20That%20Live.mp4"
+        },
+        {
+          "name": "Season 3 Episode 1 - LL Cool J.mp4",
+          "format": "h.264",
+          "size": 150574425,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%203%20Episode%201%20-%20LL%20Cool%20J.mp4"
+        },
+        {
+          "name": "Season 5 Episode 1 - Blackstreet (again again) and Mya.mp4",
+          "format": "h.264",
+          "size": 148860759,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%205%20Episode%201%20-%20Blackstreet%20%28again%20again%29%20and%20Mya.mp4"
+        },
+        {
+          "name": "Season 2 Episode 13 - Coolio (again).mp4",
+          "format": "h.264",
+          "size": 148383542,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%202%20Episode%2013%20-%20Coolio%20%28again%29.mp4"
+        },
+        {
+          "name": "Special - Peas, Cheese, and a Bag of Chips.mp4",
+          "format": "h.264",
+          "size": 147211066,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Special%20-%20Peas%2C%20Cheese%2C%20and%20a%20Bag%20of%20Chips.mp4"
+        },
+        {
+          "name": "Season 2 Episode 2 - Monica.mp4",
+          "format": "h.264",
+          "size": 146491336,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%202%20Episode%202%20-%20Monica.mp4"
+        },
+        {
+          "name": "Season 6 Episode 13 - IMx (nee Immature).mp4",
+          "format": "h.264",
+          "size": 146171272,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%206%20Episode%2013%20-%20IMx%20%28nee%20Immature%29.mp4"
+        },
+        {
+          "name": "Special - The Best of Kenan Thompson.mp4",
+          "format": "h.264",
+          "size": 145935420,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Special%20-%20The%20Best%20of%20Kenan%20Thompson.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%205%20Episode%209%20-%20All%20That%20Live.mp4",
+      "validatedAt": "2026-11-27T16:42:45.287962+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -54605,6 +54782,74 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "Space_Ghost_and_Dino_Boy",
+      "title": "Space Ghost and Dino Boy (Complete)",
+      "description": "<div style=\"background-color:rgb(255,255,255);\"><div><span><span><font color=\"#202122\" face=\"sans-serif\"><span style=\"font-size:14px;\"><b>Space Ghost</b> is an American Saturday-morning superhero animated television series produced by Hanna-Barbera Productions, first broadcast on CBS from September 10, 1966, to September 16, 1967, and continued reruns until September 7, 1968. The series was composed of two unrelated segments, Space Ghost and Dino Boy in the Lost Valley. The series was created by Alex Toth and produced and directed by William Hanna and Joseph Barbera. Sometimes, it is alternatively called <b>Space Ghost &amp; Dino Boy</b> to acknowledge the presence of both shows.</span></font></span></span></div><div><span><span><font color=\"#202122\" face=\"sans-serif\"><span style=\"font-size:14px;\"><b><br /></b></span></font></span></span></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\"><br /></b></span></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\">Wikipedia:</b> </span><font color=\"#202122\" face=\"sans-serif\"><a href=\"https://en.wikipedia.org/wiki/Space_Ghost_(TV_series)\" style=\"background:transparent;color:rgb(75,100,255);text-decoration:none;\" rel=\"ugc nofollow\">https://en.wikipedia.org/wiki/Space_Ghost_(TV_series)</a></font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\">IMDB:</b> </span><font color=\"#202122\" face=\"sans-serif\"><a href=\"https://www.imdb.com/title/tt0060026\" style=\"background:transparent;color:rgb(75,100,255);text-decoration:none;\" rel=\"ugc nofollow\">https://www.imdb.com/title/tt0060026</a></font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><br /></span></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\">Codec:</b> MP4, </span><font color=\"#202122\" face=\"sans-serif\">H264 (x264), 23.976 FPS CFR</font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><font color=\"#202122\" face=\"sans-serif\"><b style=\"font-weight:bold;\">Audio: </b>MPEG AAC (mp4a), Stereo</font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\">Resolution: </b>480p NTSC SD, 640x480</span><span style=\"color:rgb(32,33,34);font-family:sans-serif;\">, 4:3, </span><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"> </span><span style=\"color:rgb(32,33,34);font-family:sans-serif;\">No AI Upscaling</span></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><br /></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\">---------------------------------------------------------</span></div></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\"><font color=\"#202122\" face=\"sans-serif\"><span><b style=\"font-weight:bold;\">JOIN OUR DISCORD!</b></span></font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\"><font color=\"#202122\" face=\"sans-serif\"><b style=\"font-weight:bold;\">✶ OASIS ARCADE ✶</b></font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\"><span><font color=\"#202122\" face=\"sans-serif\"></font></span><div>80s/90s/Retro Pop Culture!</div><div>Commercials, gaming, movies, more!</div><div>Modern Movies, Music, Gaming, User Interests!</div><div>Community Game &amp; Movie Nights!</div><div>Friendly &amp; Inclusive!</div><div>Contests, Giveaways, &amp; Events!</div><div><a href=\"https://discord.gg/23Yf3Tme\" style=\"background:transparent;color:rgb(75,100,255);text-decoration:none;\" rel=\"ugc nofollow\"><b style=\"font-weight:bold;\">https://discord.gg/23Yf3Tme</b></a></div><div><span style=\"color:rgb(32,33,34);font-family:sans-serif;\">---------------------------------------------------------</span></div></div>",
+      "year": "1967",
+      "creator": "Hanna-Barbera",
+      "subject": "cartoons, retro cartoons, Saturday Morning Cartoons, 60s cartoons, cartoons, Sword and Planet, superhero, Alex Toth, Hanna Barbera, Hanna-Barbera",
+      "collection": "opensource",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/Space_Ghost_and_Dino_Boy",
+      "thumbnail": "https://archive.org/services/img/Space_Ghost_and_Dino_Boy",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "G:/Videos/Downloads/Space Ghost and Dino Boy/Space Ghost and Dino Boy - S01E20 - The Molten Monsters of Moltar, Two Faces of Doom, The Final Encounter.mp4",
+          "format": "MPEG4",
+          "size": 122980429,
+          "url": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E20%20-%20The%20Molten%20Monsters%20of%20Moltar%2C%20Two%20Faces%20of%20Doom%2C%20The%20Final%20Encounter.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Space Ghost and Dino Boy/Space Ghost and Dino Boy - S01E02 - Creature King, The Treemen, The Sandman.mp4",
+          "format": "MPEG4",
+          "size": 122913599,
+          "url": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E02%20-%20Creature%20King%2C%20The%20Treemen%2C%20The%20Sandman.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Space Ghost and Dino Boy/Space Ghost and Dino Boy - S01E12 - The Time Machine, Danger River, Nightmare Planet.mp4",
+          "format": "MPEG4",
+          "size": 122810372,
+          "url": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E12%20-%20The%20Time%20Machine%2C%20Danger%20River%2C%20Nightmare%20Planet.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Space Ghost and Dino Boy/Space Ghost and Dino Boy - S01E34-E35-E36.mp4",
+          "format": "MPEG4",
+          "size": 122810372,
+          "url": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E34-E35-E36.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Space Ghost and Dino Boy/Space Ghost and Dino Boy - S01E02 - The Lizard Slavers, The Moss Men, The Web.mp4",
+          "format": "MPEG4",
+          "size": 122636354,
+          "url": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E02%20-%20The%20Lizard%20Slavers%2C%20The%20Moss%20Men%2C%20The%20Web.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Space Ghost and Dino Boy/Space Ghost and Dino Boy - S01E11 - Attack of the Saucer Crab, The Rock Pygmies, Space Birds.mp4",
+          "format": "MPEG4",
+          "size": 122619324,
+          "url": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E11%20-%20Attack%20of%20the%20Saucer%20Crab%2C%20The%20Rock%20Pygmies%2C%20Space%20Birds.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Space Ghost and Dino Boy/Space Ghost and Dino Boy - S01E31-E32-E33.mp4",
+          "format": "MPEG4",
+          "size": 122619324,
+          "url": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E31-E32-E33.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Space Ghost and Dino Boy/Space Ghost and Dino Boy - S01E08 - The Cyclopeds, The Ant Warriors, The Schemer.mp4",
+          "format": "MPEG4",
+          "size": 122607111,
+          "url": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E08%20-%20The%20Cyclopeds%2C%20The%20Ant%20Warriors%2C%20The%20Schemer.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/Space_Ghost_and_Dino_Boy/G%3A/Videos/Downloads/Space%20Ghost%20and%20Dino%20Boy/Space%20Ghost%20and%20Dino%20Boy%20-%20S01E20%20-%20The%20Molten%20Monsters%20of%20Moltar%2C%20Two%20Faces%20of%20Doom%2C%20The%20Final%20Encounter.mp4",
+      "validatedAt": "2026-11-27T16:42:30.072819+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "space-goofs-the-complete-series_202401",
       "title": "Space Goofs the Complete Series",
       "description": "All episodes of the Xilam cartoon Space Goofs in English.<br />",
@@ -59562,6 +59807,74 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "WackyR",
+      "title": "Wacky Races (Complete)",
+      "description": "<div style=\"background-color:rgb(255,255,255);\"><div><span><span style=\"font-size:14px;\"><font color=\"#202122\" face=\"sans-serif\"></font></span></span><div><b>Wacky Races</b> is an American animated comedy television series produced by Hanna-Barbera Productions in association with Heatter-Quigley Productions. It aired on CBS as part of its Saturday-morning schedule from September 14, 1968, to January 4, 1969, and then reruns the next season. The series features 11 different cars racing against each other in various road rallies throughout North America, with all of the drivers hoping to win the title of the \"World's Wackiest Racer\". The show was inspired by the 1965 comedy film The Great Race. This was the only non-game show produced by Heatter-Quigley; the show was intended as a game show in which children would guess the winner of each race, and those who answered correctly would win prizes, but CBS dropped these elements during development.</div><div><br /></div><div>The cartoon had many regular characters, with 23 people and animals on the 11 race cars. After its network run on CBS, Wacky Races ran in syndication from 1976 to 1982. Seventeen 20-minute episodes were produced, with each of them featuring two 10-minute segments.</div></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\"><br /></b></span></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\">Wikipedia:</b> </span><font color=\"#202122\" face=\"sans-serif\"><a href=\"https://en.wikipedia.org/wiki/Wacky_Races_(1968_TV_series)\" style=\"background:transparent;color:rgb(75,100,255);text-decoration:none;\" rel=\"ugc nofollow\">https://en.wikipedia.org/wiki/Wacky_Races_(1968_TV_series)</a></font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\">IMDB:</b> </span><font color=\"#202122\" face=\"sans-serif\"><a href=\"https://www.imdb.com/title/tt0122365\" style=\"background:transparent;color:rgb(75,100,255);text-decoration:none;\" rel=\"ugc nofollow\">https://www.imdb.com/title/tt0122365</a></font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><br /></span></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\">Codec:</b> MP4, </span><font color=\"#202122\" face=\"sans-serif\">H264 (x264), 23.976 FPS CFR</font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><font color=\"#202122\" face=\"sans-serif\"><b style=\"font-weight:bold;\">Audio: </b>MPEG AAC (mp4a), Stereo</font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"><b style=\"font-weight:bold;\">Resolution: </b>480p NTSC SD, 640x480</span><span style=\"color:rgb(32,33,34);font-family:sans-serif;\">, 4:3, </span><span style=\"color:rgb(32,33,34);font-family:sans-serif;\"> </span><span style=\"color:rgb(32,33,34);font-family:sans-serif;\">No AI Upscaling</span></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><br /></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;\"><span style=\"color:rgb(32,33,34);font-family:sans-serif;\">---------------------------------------------------------</span></div></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\"><font color=\"#202122\" face=\"sans-serif\"><span><b style=\"font-weight:bold;\">JOIN OUR DISCORD!</b></span></font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\"><font color=\"#202122\" face=\"sans-serif\"><b style=\"font-weight:bold;\">✶ OASIS ARCADE ✶</b></font></div><div style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\"><span><font color=\"#202122\" face=\"sans-serif\"></font></span><div>80s/90s/Retro Pop Culture!</div><div>Commercials, gaming, movies, more!</div><div>Modern Movies, Music, Gaming, User Interests!</div><div>Community Game &amp; Movie Nights!</div><div>Friendly &amp; Inclusive!</div><div>Contests, Giveaways, &amp; Events!</div><div><a href=\"https://discord.gg/23Yf3Tme\" style=\"background:transparent;color:rgb(75,100,255);text-decoration:none;\" rel=\"ugc nofollow\"><b style=\"font-weight:bold;\">https://discord.gg/23Yf3Tme</b></a></div><div><span style=\"color:rgb(32,33,34);font-family:sans-serif;\">---------------------------------------------------------</span></div></div>",
+      "year": "1968",
+      "creator": "Hanna-Barbera",
+      "subject": "cartoons, retro cartoons, Saturday Morning Cartoons, 60s cartoons, cartoons, Hanna-Barbera",
+      "collection": "opensource",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/WackyR",
+      "thumbnail": "https://archive.org/services/img/WackyR",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "G:/Videos/Downloads/Wacky Races/Wacky Races - S01E02 - Why Oh Why Wyoming, Beat the Clock to Yellow Rock.ia.mp4",
+          "format": "h.264 IA",
+          "size": 1201318967,
+          "url": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E02%20-%20Why%20Oh%20Why%20Wyoming%2C%20Beat%20the%20Clock%20to%20Yellow%20Rock.ia.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Wacky Races/Wacky Races - S01E02 - Why Oh Why Wyoming, Beat the Clock to Yellow Rock.mp4",
+          "format": "MPEG4",
+          "size": 1201318967,
+          "url": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E02%20-%20Why%20Oh%20Why%20Wyoming%2C%20Beat%20the%20Clock%20to%20Yellow%20Rock.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Wacky Races/Wacky Races - S01E06 - By Rollercoaster to Ups and Downs, The Speedy Arkansas Traveler.ia.mp4",
+          "format": "h.264 IA",
+          "size": 1194584551,
+          "url": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E06%20-%20By%20Rollercoaster%20to%20Ups%20and%20Downs%2C%20The%20Speedy%20Arkansas%20Traveler.ia.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Wacky Races/Wacky Races - S01E06 - By Rollercoaster to Ups and Downs, The Speedy Arkansas Traveler.mp4",
+          "format": "MPEG4",
+          "size": 1194584551,
+          "url": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E06%20-%20By%20Rollercoaster%20to%20Ups%20and%20Downs%2C%20The%20Speedy%20Arkansas%20Traveler.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Wacky Races/Wacky Races - S01E04 - The Baja-Ha-Ha Race, Real Gone Ape.ia.mp4",
+          "format": "h.264 IA",
+          "size": 1193526685,
+          "url": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E04%20-%20The%20Baja-Ha-Ha%20Race%2C%20Real%20Gone%20Ape.ia.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Wacky Races/Wacky Races - S01E04 - The Baja-Ha-Ha Race, Real Gone Ape.mp4",
+          "format": "MPEG4",
+          "size": 1193526685,
+          "url": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E04%20-%20The%20Baja-Ha-Ha%20Race%2C%20Real%20Gone%20Ape.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Wacky Races/Wacky Races - S01E01 - See-Saw to Arkansas, Creepy Trip to Lemon Twist.ia.mp4",
+          "format": "h.264 IA",
+          "size": 1192684624,
+          "url": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E01%20-%20See-Saw%20to%20Arkansas%2C%20Creepy%20Trip%20to%20Lemon%20Twist.ia.mp4"
+        },
+        {
+          "name": "G:/Videos/Downloads/Wacky Races/Wacky Races - S01E01 - See-Saw to Arkansas, Creepy Trip to Lemon Twist.mp4",
+          "format": "MPEG4",
+          "size": 1192684624,
+          "url": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E01%20-%20See-Saw%20to%20Arkansas%2C%20Creepy%20Trip%20to%20Lemon%20Twist.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/WackyR/G%3A/Videos/Downloads/Wacky%20Races/Wacky%20Races%20-%20S01E02%20-%20Why%20Oh%20Why%20Wyoming%2C%20Beat%20the%20Clock%20to%20Yellow%20Rock.ia.mp4",
+      "validatedAt": "2026-11-27T16:42:30.420879+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "walt-disneys-silly-symphonies-the-complete-collection-1929-39",
       "title": "Walt Disney's Silly Symphonies - The Complete Collection (1929-39)",
       "description": "A complete collection of over 75 animated shorts in Walt Disney's animated series of Silly Symphonies from 1929 to 1939, including the Academy award-winning shorts, \"Flowers and Trees\", \"The Three Little Pigs\", and many more.",
@@ -60071,6 +60384,33 @@
       ],
       "playbackUrl": "https://archive.org/download/wow-wow-wubbzy-complete-series/Wow%20Wow%20Wubbzy%21/Season%202/S2E03%20-%20Wubbzy%20And%20The%20Sparkle%20Stone-Meet%20The%20Wuzzles.mp4",
       "validatedAt": "2026-10-16T11:38:17.404910+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "videoplayback_20250815_1654",
+      "title": "WQED 6 hours of ￼early 2000s PBS Kids",
+      "description": "Dive into a nostalgic journey through six hours of beloved PBS Kids programming from the early 2000s, as broadcast by WQED. This compilation features classic shows that shaped a generation, including Arthur, Sesame Street, Mister Rogers' Neighborhood, and more. Experience the educational and entertaining content that made PBS Kids a staple in children's television. Perfect for fans of all ages, this collection showcases the creativity and heartwarming stories that have kept kids engaged for years.\n\nDisclaimer: All content is the property of the original copyright holders, and no copyright infringement is intended. The content in question solely exists for archival and historical purposes.\n\nOriginal YouTube upload: https://www.youtube.com/watch?v=BUa2zif4wvY",
+      "year": "2023",
+      "creator": "Nicho Loves Stadiums",
+      "subject": "PBS Kids, WQED, children's programming, nostalgia, early 2000s, classic shows, Children's Television, Educational Programming, PBS Kids, Nostalgia, Family Entertainment, Classic Cartoons, Early 2000s Media",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/videoplayback_20250815_1654",
+      "thumbnail": "https://archive.org/services/img/videoplayback_20250815_1654",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "videoplayback.mp4",
+          "format": "MPEG4",
+          "size": 1496270548,
+          "url": "https://archive.org/download/videoplayback_20250815_1654/videoplayback.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/videoplayback_20250815_1654/videoplayback.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "validatedAt": "2026-11-27T16:42:30.752188+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -62368,6 +62708,62 @@
       ],
       "playbackUrl": "https://archive.org/download/youtube-SDwxfWHtAz0/Battle_of_the_Bulge_1944_1945_Combat_Footage-SDwxfWHtAz0.mp4",
       "validatedAt": "2026-10-20T16:28:08.792861+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "bbc-dynasties-2",
+      "title": "BBC Dynasties 2 ★ Sequel to the BBC Series - with Subtitles and MKV",
+      "description": "<b>BBC Dynasties 2 ★ Sequel to the BBC Series - with Subtitles and MKV</b><br /><br /> . _ .  <br />I found the original DVD source materials here: <a href=\"https://archive.org/details/green-planet-isos\" rel=\"ugc nofollow\">https://archive.org/details/green-planet-isos</a> I am grateful to RatterFat Video for posting this! <b>Thank you for sharing - RatterFat Video!</b> <br /><br /><br /><br />These low resolution videos are uploaded under \"Fair Use\" Copyright provisions: for historical, and archival, purposes ONLY.  If you like this (or these) video(s): I encourage you to purchase the 4K high resolution re-release (if available in your region) on Blu-ray - because these blurry low-rez videos cannot be compared to the high quality of any 4K re-mastered versions. I believe you should own the Blu-ray version of this (if available): because it has a far, FAR better picture quality … than what is presented here.  <br />   <br /><br /><br /><br /><br /><i>From Wikipedia, the free encyclopedia: <a href=\"https://en.wikipedia.org/wiki/Dynasties_II\" rel=\"ugc nofollow\">https://en.wikipedia.org/wiki/Dynasties_II</a><br /></i><br />Dynasties II is a 2022 British nature documentary series commissioned by the BBC and narrated by David Attenborough. It is the sequel to Dynasties (2018) and was announced via a press release on 28 December 2020.<br />Developing on the success of the first series, Dynasties II continues to delve into the secret lives of charismatic, captivating animals as they fight for their families against the odds and get caught up in real life drama.<br /><br /><br /><br /><br /><b>If you like shows like this: you are highly encouraged to donate to your local PBS affiliate - now, more than ever, they need your help.<br /><a href=\"https://protectmypublicmedia.org/\" rel=\"ugc nofollow\">https://protectmypublicmedia.org/</a></b> <br />\"<b>Urge Congress</b>: Protect PBS Funding. The federal funding that supports Public Media has been eliminated in July of 2025 by the Republicans. Your PBS viewing experience is going away. Now is a critical time to act.\"<br /><a href=\"https://protectmypublicmedia.org/\" rel=\"ugc nofollow\">https://protectmypublicmedia.org/</a><br /><br />(<i>See, you CAN give back something ... </i><b>you can pay \"Attention\"</b><i> … now a viable currency in 2026.</i>)<br /><br /><br /><br /><br /><br /><b>Episodes:</b><br />01 Puma<br />02 Elephant <br />03 Cheetah<br />04 Hyena<br />05 Meerkat<br />06 Macaque<br /><br /><br /><br />These videos are freshly derived from DVDs and have 2 Audio Tracks, Subtitles, and Chapter Markers. Pro Usage Tip: 🔑  In order to use the different audio tracks - or the subtitles, in either the .MP4 or the .MKV videos: you must first download the videos to your device, and then play them from there - preferably using a free &amp; open source media player (<b>like VLC -  <a href=\"https://www.videolan.org/vlc/\" rel=\"ugc nofollow\">https://www.videolan.org/vlc/</a> </b>) that shows subtitles. 🔑 <br /><br /><br /><b><br />You may download the ★ entire series - as MP4 ★ all at once, HERE (4.7 GB): <a href=\"https://archive.org/compress/bbc-dynasties-2/formats=MPEG4&amp;file=/bbc-dynasties-2.zip\" rel=\"ugc nofollow\">https://archive.org/compress/bbc-dynasties-2/formats=MPEG4&amp;file=/bbc-dynasties-2.zip</a></b> <br /><br /><br /><br /><b>You may download the ★ entire series - as MKV ★ all at once, HERE (4.7 GB): <a href=\"https://archive.org/compress/bbc-dynasties-2/formats=MATROSKA&amp;file=/bbc-dynasties-2.zip\" rel=\"ugc nofollow\">https://archive.org/compress/bbc-dynasties-2/formats=MATROSKA&amp;file=/bbc-dynasties-2.zip</a></b> <br /><br /><br /><br />I strongly suggest that you get this video on Blu-ray: so you can appreciate this series in very high resolution - on your own large in-home set - it will be much nicer than what I have here.<br /><br /><b>____________________________________________________________________________________<br /><a href=\"https://archive.org/download/metadata-repo/Fair%20Use%20Notice.pdf\" rel=\"ugc nofollow\">Copyright Disclaimer</a>:</b><br />Under Section 107 of the Copyright Act 1976,<br />allowance is made for \"fair use\" for purposes such as criticism,<br />comment, news reporting, teaching, scholarship, and research. Fair use<br />is a use permitted by copyright statute that might otherwise be<br />infringing. Non-profit, educational or personal use tips the balance in<br />favor of fair use.<br /><br />These videos are all to be used only for free, personal, educational purposes. No other use is authorized.<br />___________________________________________________________________________________<br /><br /><br /><b>Episode Details:</b><br /><br />01 Puma<br />In the highlands of Patagonia, a solitary puma named Rupestre battles to raise her four cubs.<br /><br />02 Elephant <br />Since the death of their experienced matriarch, this herd of elephants have struggled. Now new leader Angelina has taken over, but how will she do?<br /><br />03 Cheetah<br />Kali the cheetah has lost 12 of her cubs to the unforgiving grasslands, but now she successfully raised 3 daughters but as they grow larger, Kali has to fight harder to feed them.<br /><br />04 Hyena<br />In Zambia's Liuwa Plain, a new queen has taken to the throne of the spotted hyena clan, but how long can she stay there?<br /><br />05 Meerkat<br />On a quest to establish her own Dynasty, young meerkat queen Maghogho must raise her pups in one of the harshest places on earth.<br /><br />06 Macaque<br />High in the Atlas Mountains of Morocco, a fight for power has just concluded. Mac has won the crown but now he must lead and protect his troop.<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />",
+      "year": "",
+      "creator": "BBC",
+      "subject": "BBC Earth, Nature, Subtitles, MKV Video, Entire Series Download Link, All Episodes, Complete Series, Educational, Adult Learners, Sir David Attenborough, Documentary, Home School, Low Resolution",
+      "collection": "lost-telecourses, culturalandacademicfilms",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/bbc-dynasties-2",
+      "thumbnail": "https://archive.org/services/img/bbc-dynasties-2",
+      "category": "documentarios",
+      "files": [
+        {
+          "name": "03 Cheetah.mp4",
+          "format": "MPEG4",
+          "size": 897569918,
+          "url": "https://archive.org/download/bbc-dynasties-2/03%20Cheetah.mp4"
+        },
+        {
+          "name": "02 Elephant.mp4",
+          "format": "MPEG4",
+          "size": 868999840,
+          "url": "https://archive.org/download/bbc-dynasties-2/02%20Elephant.mp4"
+        },
+        {
+          "name": "01 Puma.mp4",
+          "format": "MPEG4",
+          "size": 855630516,
+          "url": "https://archive.org/download/bbc-dynasties-2/01%20Puma.mp4"
+        },
+        {
+          "name": "04 Hyena.mp4",
+          "format": "MPEG4",
+          "size": 816710195,
+          "url": "https://archive.org/download/bbc-dynasties-2/04%20Hyena.mp4"
+        },
+        {
+          "name": "05 Meerkat.mp4",
+          "format": "MPEG4",
+          "size": 791335025,
+          "url": "https://archive.org/download/bbc-dynasties-2/05%20Meerkat.mp4"
+        },
+        {
+          "name": "06 Macaque.mp4",
+          "format": "MPEG4",
+          "size": 780896218,
+          "url": "https://archive.org/download/bbc-dynasties-2/06%20Macaque.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/bbc-dynasties-2/03%20Cheetah.mp4",
+      "validatedAt": "2026-11-27T16:42:44.592161+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -89110,6 +89506,39 @@
       ],
       "playbackUrl": "https://archive.org/download/bliptv-20131014-052952-Blacktreetv-MissionImpossibleGhostProtocol921/bliptv-20131014-052952-Blacktreetv-MissionImpossibleGhostProtocol921.m4v",
       "validatedAt": "2026-10-20T16:18:42.712976+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "moby-dick.-1956",
+      "title": "Moby Dick (1956)",
+      "description": "<div>The <strong>1956 adaptation of \"Moby Dick,\"</strong> directed by <strong>John Huston</strong>,\n is a cinematic interpretation of Herman Melville's classic novel. The \nfilm features a high-profile cast and was generally well-received, both \ncritically and commercially. Set in the early <strong>1840s</strong>, the film follows <strong>Ishmael</strong>, who embarks on a whaling voyage aboard the <strong>Pequod</strong>, captained by the vengeful <strong>Captain Ahab</strong>. Obsessed with hunting down the legendary <strong>Moby Dick</strong>,\n a great white whale that had previously severely injured him, Ahab \nbecomes increasingly dangerous as he leads his crew into perilous \nwaters. The film captures Ahab's descent into madness and the crew's \nstruggle against nature and fate. </div>",
+      "year": "1956",
+      "creator": "John Huston",
+      "subject": "adventure, drama, thriller, action",
+      "collection": "feature_films_unsorted, feature_films, moviesandfilms",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/moby-dick.-1956",
+      "thumbnail": "https://archive.org/services/img/moby-dick.-1956",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "Moby Dick (1956)/mp4/Moby Dick.1956.ia.mp4",
+          "format": "h.264 IA",
+          "size": 411832627,
+          "url": "https://archive.org/download/moby-dick.-1956/Moby%20Dick%20%281956%29/mp4/Moby%20Dick.1956.ia.mp4"
+        },
+        {
+          "name": "Moby Dick (1956)/mp4/Moby Dick.1956.mp4",
+          "format": "MPEG4",
+          "size": 411832627,
+          "url": "https://archive.org/download/moby-dick.-1956/Moby%20Dick%20%281956%29/mp4/Moby%20Dick.1956.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/moby-dick.-1956/Moby%20Dick%20%281956%29/mp4/Moby%20Dick.1956.ia.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "validatedAt": "2026-11-27T16:42:29.139562+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -157604,13 +158033,13 @@
     {
       "key": "filmes",
       "title": "Filmes",
-      "count": 657,
+      "count": 658,
       "path": "catalog/filmes.json"
     },
     {
       "key": "desenhos",
       "title": "Desenhos",
-      "count": 517,
+      "count": 520,
       "path": "catalog/desenhos.json"
     },
     {
@@ -157622,13 +158051,13 @@
     {
       "key": "documentarios",
       "title": "Documentários",
-      "count": 386,
+      "count": 387,
       "path": "catalog/documentarios.json"
     },
     {
       "key": "comedia",
       "title": "Comédia",
-      "count": 375,
+      "count": 376,
       "path": "catalog/comedia.json"
     },
     {
@@ -157640,7 +158069,7 @@
     {
       "key": "ciencia",
       "title": "Ciência e espaço",
-      "count": 465,
+      "count": 467,
       "path": "catalog/ciencia.json"
     },
     {

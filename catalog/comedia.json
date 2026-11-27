@@ -1,8 +1,8 @@
 {
   "category": "comedia",
   "title": "Comédia",
-  "updatedAt": "2026-11-26T17:00:54.610811+00:00",
-  "count": 375,
+  "updatedAt": "2026-11-27T16:45:03.077137+00:00",
+  "count": 376,
   "items": [
     {
       "identifier": "2A.M.InTheSubway1905",
@@ -553,6 +553,74 @@
       ],
       "playbackUrl": "https://archive.org/download/sinema-trailer_alice-in-wonderland-an-x-rated-musi/Bill%20Osco%27s%20Alice%20in%20Wonderland%20Trailer%20%28180p_30fps_H264-96kbit_AAC%29.mp4",
       "validatedAt": "2026-10-20T16:30:35.013344+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "season-2-episode-all-that-partial-series-proper",
+      "title": "All That (partial series proper)",
+      "description": "<div><b>Disclaimer:</b> I do not own this series. <i>All That</i> belongs to Paramount Global. All songs sung in the rounds of sound (the celebrity musical performances at the end of each episode) belong to the celebrities who sang them.</div><div><br /></div><div><i>All That</i> can be considered a junior counterpart to <i>Saturday Night Live</i>. Featuring such names as Alisa Reyes, Amanda Bynes, Danny Tamberelli (of <i>The Adventures of Pete and Pete</i> fame), Kel Mitchell, Kenan Thompson, Lori Beth Denberg, Nick Cannon, and even a then-unknown Gabriel Iglesias, this sketch comedy series ran in three separate runs. The original run, covered here, ran for six seasons from 1994 to 2000, the first reboot, with an entirely new cast, ran for four seasons from 2002 to 2005, and the second reboot, also with a new cast but with return appearances from some of the cast members from the original run, aired ten episodes in 2019 (and were it not for a certain world-changing event that shall not be named, there would be more episodes of it). My concern here will be only with the original series and the \"Best Of\" clip show specials featuring clips from it.</div><div><br /></div><div>In addition to its many guest stars and giving rise to several other live-action Nickelodeon shows in the nineties and early 2000s (namely <i>Kenan and Kel</i> and <i>The Amanda Show</i>, the latter of which, whether directly or indirectly, gave rise to even more shows like <i>Drake and Josh</i>), <i>All That</i> is notable for launching the careers of several actors and musicians, with some still being successful to this day (namely Gabriel Iglesias and Kenan Thompson), and some others... not so much.<br /></div><div><br /></div><div><b>Note:</b> As with my <i>Life Is Wild</i> uploads, some episodes are in better quality than others. Also, because some of these episodes were recorded from reruns on the old TeenNick programming block NickRewind (formerly The Nineties Are All That), which cut the rounds of sound and the mini sketches leading up to them from its airings of the show, some episodes are shorter than others.<br /></div><div><br /></div><div><b>Missing Episodes:</b> Season 6 Episode 1: B*Witched; Special: The Best of Josh Server; Special: The Best of Lori Beth Denberg, Special: The Best of Tunes into TV; Special: Dates, Goats, and Romance; and Special: Music and More Backstage Pass 2.<br /></div>",
+      "year": "1994",
+      "creator": "Brian Robbins, Mike Tollin",
+      "subject": "All That, Nickelodeon, sketch comedy, music, Dan Schneider",
+      "collection": "childrenstelevision, television",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/season-2-episode-all-that-partial-series-proper",
+      "thumbnail": "https://archive.org/services/img/season-2-episode-all-that-partial-series-proper",
+      "category": "comedia",
+      "files": [
+        {
+          "name": "Season 5 Episode 9 - All That Live.mp4",
+          "format": "h.264",
+          "size": 280278730,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%205%20Episode%209%20-%20All%20That%20Live.mp4"
+        },
+        {
+          "name": "Season 3 Episode 1 - LL Cool J.mp4",
+          "format": "h.264",
+          "size": 150574425,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%203%20Episode%201%20-%20LL%20Cool%20J.mp4"
+        },
+        {
+          "name": "Season 5 Episode 1 - Blackstreet (again again) and Mya.mp4",
+          "format": "h.264",
+          "size": 148860759,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%205%20Episode%201%20-%20Blackstreet%20%28again%20again%29%20and%20Mya.mp4"
+        },
+        {
+          "name": "Season 2 Episode 13 - Coolio (again).mp4",
+          "format": "h.264",
+          "size": 148383542,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%202%20Episode%2013%20-%20Coolio%20%28again%29.mp4"
+        },
+        {
+          "name": "Special - Peas, Cheese, and a Bag of Chips.mp4",
+          "format": "h.264",
+          "size": 147211066,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Special%20-%20Peas%2C%20Cheese%2C%20and%20a%20Bag%20of%20Chips.mp4"
+        },
+        {
+          "name": "Season 2 Episode 2 - Monica.mp4",
+          "format": "h.264",
+          "size": 146491336,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%202%20Episode%202%20-%20Monica.mp4"
+        },
+        {
+          "name": "Season 6 Episode 13 - IMx (nee Immature).mp4",
+          "format": "h.264",
+          "size": 146171272,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%206%20Episode%2013%20-%20IMx%20%28nee%20Immature%29.mp4"
+        },
+        {
+          "name": "Special - The Best of Kenan Thompson.mp4",
+          "format": "h.264",
+          "size": 145935420,
+          "url": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Special%20-%20The%20Best%20of%20Kenan%20Thompson.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/season-2-episode-all-that-partial-series-proper/Season%205%20Episode%209%20-%20All%20That%20Live.mp4",
+      "validatedAt": "2026-11-27T16:42:45.287962+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

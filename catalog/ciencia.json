@@ -1,8 +1,8 @@
 {
   "category": "ciencia",
   "title": "Ciência e espaço",
-  "updatedAt": "2026-11-26T17:00:54.610811+00:00",
-  "count": 465,
+  "updatedAt": "2026-11-27T16:45:03.077137+00:00",
+  "count": 467,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -16204,6 +16204,50 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "ShuttleProcessingMontage",
+      "title": "Shuttle Processing Montage",
+      "description": "2008 Videographer of the Year, 1st place, documentation category. By Glenn Benson, KSC.",
+      "year": "2008",
+      "creator": "NASA/Kennedy Space Center",
+      "subject": "NASA",
+      "collection": "nasa, videographeroftheyearwinners2008",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/ShuttleProcessingMontage",
+      "thumbnail": "https://archive.org/services/img/ShuttleProcessingMontage",
+      "category": "ciencia",
+      "files": [
+        {
+          "name": "Montage.mp4",
+          "format": "h.264",
+          "size": 18448646,
+          "url": "https://archive.org/download/ShuttleProcessingMontage/Montage.mp4"
+        },
+        {
+          "name": "Montage_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": 13282933,
+          "url": "https://archive.org/download/ShuttleProcessingMontage/Montage_512kb.mp4"
+        },
+        {
+          "name": "Montage.mov",
+          "format": "QuickTime",
+          "size": 785276273,
+          "url": "https://archive.org/download/ShuttleProcessingMontage/Montage.mov"
+        },
+        {
+          "name": "Montage.ogv",
+          "format": "Ogg Video",
+          "size": 14779475,
+          "url": "https://archive.org/download/ShuttleProcessingMontage/Montage.ogv"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/ShuttleProcessingMontage/Montage.mp4",
+      "validatedAt": "2026-11-27T16:43:40.858390+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "Skylab_TheFirst40Days",
       "title": "Skylab - The First 40 Days",
       "description": "Official NASA film about the first 40 days on board Skylab",
@@ -18272,6 +18316,75 @@
       ],
       "playbackUrl": "https://archive.org/download/dead-space-chapter-1-mp-4/TIKTOKYOUTUBE5.MP4",
       "validatedAt": "2026-10-21T19:42:47.613123+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "Time-lapseAstronautPhotographyOfEarthfebruary32012",
+      "title": "Time-Lapse Astronaut Photography of Earth  (February 3, 2012)",
+      "description": "Various videos created from series of still images taken on-board the International Space Station.\n\nThe clips are:\n1.\tUp the East Coast of North America â a few major cities are labeled.  \n2.\tUp the East Coast of North America â clean version\n3.\tAcross Southwest Canada at Night â clean version\n4.\tMexico to New Brunswick â a few major cities are labeled. \n5.\tMexico to New Brunswick â clean version\n6.\tNorth Dakota to Central Quebec â clean version\n7.\tCentral Great Plains at Night â a few major cities are labeled. \n8.\tCentral Great Plains at Night â clean version\n9.\tAurora Borealis over the Pacific Ocean â clean version\n10.\tAurora Borealis over Northern North America and Canada â clean version\n\nUp the East Coast of North America\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 29, 2012 from 05:33:11 to 05:48:10 GMT, on a pass from just southwest of Mexico to the North Atlantic Ocean, northeast of Newfoundland. This pass begins looking over Central America towards the Gulf of Mexico and the southeastern United States. As the ISS travels northeast over the gulf, some southeastern United States cities can be distinguished, like New Orleans, Mobile, Jacksonville, and Atlanta. Continuing up the east coast, some northeastern states, like Washington, D.C., Baltimore, Philadelphia, and New York City stand out brightly along the coastline. The Aurora Borealis shines in the background as the pass finishes near Newfoundland.\n\nAcross Southwest Canada at Night\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 25, 2012 from 12:34:11 to 12:36:28 GMT, on a pass from near the border of British Columbia and Washington state, near Vancouver Island, to southern Alberta, near Calgary. The main focus of this video is the Aurora Borealis over Canada, which appears very near the ISS during this short video.\n\nMexico to New Brunswick\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 30, 2012 from 06:13:36 to 06:23:09 GMT, on a pass from northern Mexico to northwest New Brunswick. This video begins looking northeast over Texas, where cities like San Antonio, Houston, and the Dallas/Fort Worth area can be seen. Continuing northeast over the Great Plains states, cities like Oklahoma City, Kansas City, and St. Louis can be easily distinguished. The pass continues over the familiar shape of the Michigan Peninsula, with Chicago at the south edge of Lake Michigan. As the ISS continues northeast, the Aurora Borealis can be seen over Canada.\n\nNorth Dakota to Central Quebec\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 26, 2012 from 10:04:56 to 10:10:42 GMT, on a pass from North Dakota to central Quebec. This video focuses on the Aurora Borealis over Canada as the International Space Station traveled from the northern United States to eastern Canada. The aurora can be seen near the ISS, and small patches of the green light can be seen dancing around. \n\nCentral Great Plains at Night\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 30, 2012 from 06:14:22 to 06:19:03 GMT, on a pass from northern Mexico, near the Texas/Mexico border, to eastern Indiana, near Cincinnati, Ohio. This pass begins as the International Space Station travels northeast looking northwest. The brighter city lights are those of the southwestern United States, like Phoenix and El Paso. The pass continues up the Great Plains, where the city lights of Oklahoma City and Tulsa can be seen before continuing northeast towards Kansas City. The last city that is easily seen is Chicago, while the Aurora Borealis is shining to the far north.\n\nAurora Borealis over the Pacific Ocean\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 25, 2012 from 12:32:06 to 12:34:10 GMT, on a pass from the North Pacific Ocean to just southwest of Vancouver Island. In this video, the International Space Station approaches the Aurora Borealis from the Pacific Ocean, where the auroras can be seen dancing very near the Station. \n\nAurora Borealis over Northern North America and Canada\nThis video was taken by the crew of Expedition 30 on board the International Space Station. The sequence of shots was taken January 29, 2012 from 10:18:13 to 10:31:28 GMT, on a pass from the North Pacific Ocean, approximately 1,000 miles west of California, to western Quebec. This video begins as the ISS is passing over the dark waters of the North Pacific Ocean northeast towards Vancouver Island. The Aurora Borealis can be seen far north, where both the underside and top of the aurora are visible. The pass continues over Canada until the sun begins to come up in the east while over Quebec.\n\nPlease visit the Gateway to Astronaut Photography for more information.\nhttp://eol.jsc.nasa.gov/Videos/CrewEarthObservationsVideos/",
+      "year": "",
+      "creator": "NASA",
+      "subject": "NASA; International Space Station; ISS; Crew Earth Observations; Astronaut Photography",
+      "collection": "jsc-pao-video-collection, nasa",
+      "mediatype": "movies",
+      "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "detailsUrl": "https://archive.org/details/Time-lapseAstronautPhotographyOfEarthfebruary32012",
+      "thumbnail": "https://archive.org/services/img/Time-lapseAstronautPhotographyOfEarthfebruary32012",
+      "category": "ciencia",
+      "files": [
+        {
+          "name": "120210_EarthObs_01.mp4",
+          "format": "h.264",
+          "size": 4395104,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_01.mp4"
+        },
+        {
+          "name": "120210_EarthObs_04.mp4",
+          "format": "h.264",
+          "size": 3744034,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_04.mp4"
+        },
+        {
+          "name": "120210_EarthObs_02.mp4",
+          "format": "h.264",
+          "size": 2608188,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_02.mp4"
+        },
+        {
+          "name": "120210_EarthObs_07.mp4",
+          "format": "h.264",
+          "size": 2399212,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_07.mp4"
+        },
+        {
+          "name": "120210_EarthObs_10.mp4",
+          "format": "h.264",
+          "size": 2270201,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_10.mp4"
+        },
+        {
+          "name": "120210_EarthObs_05.mp4",
+          "format": "h.264",
+          "size": 1668254,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_05.mp4"
+        },
+        {
+          "name": "120210_EarthObs_06.mp4",
+          "format": "h.264",
+          "size": 1023779,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_06.mp4"
+        },
+        {
+          "name": "120210_EarthObs_08.mp4",
+          "format": "h.264",
+          "size": 846896,
+          "url": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_08.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/Time-lapseAstronautPhotographyOfEarthfebruary32012/120210_EarthObs_01.mp4",
+      "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "validatedAt": "2026-11-27T16:43:39.448958+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
