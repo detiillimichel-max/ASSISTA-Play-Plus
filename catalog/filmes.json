@@ -1,8 +1,8 @@
 {
   "category": "filmes",
   "title": "Filmes",
-  "updatedAt": "2026-11-27T16:45:03.077137+00:00",
-  "count": 658,
+  "updatedAt": "2026-11-28T15:37:58.306730+00:00",
+  "count": 659,
   "items": [
     {
       "identifier": "cannibal-holocaust-1980-720p",
@@ -1543,6 +1543,74 @@
       ],
       "playbackUrl": "https://archive.org/download/batteriesnotincluded_2009/Batteries_2009_512kb.mp4",
       "validatedAt": "2026-10-17T06:15:48.223674+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "battlestar-galactica-complete-series-1978",
+      "title": "Battlestar Galactica - Complete Series 1978",
+      "description": "<p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"><i><b>Battlestar Galactica</b></i> is an American <a href=\"https://en.wikipedia.org/wiki/Science_fiction_on_television\" title=\"Science fiction on television\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">science fiction television</a> series created by <a href=\"https://en.wikipedia.org/wiki/Glen_A._Larson\" title=\"Glen A. Larson\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Glen A. Larson</a> that aired on the <a href=\"https://en.wikipedia.org/wiki/American_Broadcasting_Company\" title=\"American Broadcasting Company\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">ABC</a> network from September 17, 1978, to April 29, 1979. It stars an ensemble cast led by <a href=\"https://en.wikipedia.org/wiki/Lorne_Greene\" title=\"Lorne Greene\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Lorne Greene</a>, <a href=\"https://en.wikipedia.org/wiki/Richard_Hatch_(actor)\" title=\"Richard Hatch (actor)\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Richard Hatch</a>, and <a href=\"https://en.wikipedia.org/wiki/Dirk_Benedict\" title=\"Dirk Benedict\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Dirk Benedict</a>. The series follows a group of humans fleeing the destruction of their homeworlds aboard the <a href=\"https://en.wikipedia.org/wiki/Battlestar_Galactica_(fictional_spacecraft)\" title=\"Battlestar Galactica (fictional spacecraft)\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">titular spacecraft</a>, searching for a new home while being pursued by the <a href=\"https://en.wikipedia.org/wiki/Cylons\" title=\"Cylons\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Cylons</a>, a fearsome society of robots intent on exterminating all humans.</p><p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">Beginning production as a miniseries, ABC subsequently ordered a full season and the show was reworked as an episodic serial. However, high production costs and declining ratings led to the series' cancellation after 24 episodes. ABC attempted to revive the series as a lower-budget spinoff, <i><a href=\"https://en.wikipedia.org/wiki/Galactica_1980\" title=\"Galactica 1980\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Galactica 1980</a></i>, but it performed poorly and was cancelled after airing ten episodes. Despite initially failing to find a wide audience, <i>Battlestar Galactica</i> developed a cult following. The show spawned a <a href=\"https://en.wikipedia.org/wiki/Battlestar_Galactica\" title=\"Battlestar Galactica\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">media franchise</a> which includes <a href=\"https://en.wikipedia.org/wiki/Battlestar_Galactica_(comics)\" title=\"Battlestar Galactica (comics)\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">comics</a>, theme park attractions, games, and a <a href=\"https://en.wikipedia.org/wiki/Battlestar_Galactica_(2004_TV_series)\" title=\"Battlestar Galactica (2004 TV series)\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">re-imagined series</a> in the early 2000s.</p>",
+      "year": "1978",
+      "creator": "Glen A. Larson",
+      "subject": "Sci-Fi, Ancient Astronaut, Action, Adventure, Drama, USA TV, 1970s TV",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/battlestar-galactica-complete-series-1978",
+      "thumbnail": "https://archive.org/services/img/battlestar-galactica-complete-series-1978",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "Battlestar Galactica 1978 S01E01+E02+E03 Saga of a Star World Pt 1 + Pt 2 + Pt 3.mp4",
+          "format": "h.264",
+          "size": 802457305,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E01%2BE02%2BE03%20Saga%20of%20a%20Star%20World%20Pt%201%20%2B%20Pt%202%20%2B%20Pt%203.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E19+E20 Greetings from Earth Pt 1 + Pt 2.mp4",
+          "format": "h.264",
+          "size": 564403792,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E19%2BE20%20Greetings%20from%20Earth%20Pt%201%20%2B%20Pt%202.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E17 The Man With Nine Lives.mp4",
+          "format": "h.264",
+          "size": 285322657,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E17%20The%20Man%20With%20Nine%20Lives.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E06 The Lost Warrior.mp4",
+          "format": "h.264",
+          "size": 284011349,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E06%20The%20Lost%20Warrior.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E16 War of the Gods Pt 2.mp4",
+          "format": "h.264",
+          "size": 283658260,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E16%20War%20of%20the%20Gods%20Pt%202.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E10 The Magnificent Warriors.mp4",
+          "format": "h.264",
+          "size": 283524325,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E10%20The%20Magnificent%20Warriors.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E21 Baltar's Escape.mp4",
+          "format": "h.264",
+          "size": 282721716,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E21%20Baltar%27s%20Escape.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E18 Murder on the Rising Star.mp4",
+          "format": "h.264",
+          "size": 282718054,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E18%20Murder%20on%20the%20Rising%20Star.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E01%2BE02%2BE03%20Saga%20of%20a%20Star%20World%20Pt%201%20%2B%20Pt%202%20%2B%20Pt%203.mp4",
+      "validatedAt": "2026-11-28T15:34:11.663444+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

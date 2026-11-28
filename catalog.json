@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "Internet Archive + fontes públicas configuradas",
-  "updatedAt": "2026-11-27T16:45:03.077137+00:00",
+  "updatedAt": "2026-11-28T15:37:58.306730+00:00",
   "candidateTarget": 3000,
   "candidatesCollectedThisRun": 3000,
-  "metadataChecksThisRun": 121,
+  "metadataChecksThisRun": 117,
   "multiSourceAcceptedThisRun": 0,
   "sourceMetrics": {
     "pexels": {
@@ -93,7 +93,7 @@
       "errors": 0,
       "status": "unavailable",
       "partialResultsKept": true,
-      "requestErrors": 3
+      "requestErrors": 2
     },
     "prelinger": {
       "requests": 1,
@@ -303,11 +303,7 @@
           },
           {
             "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
-          },
-          {
-            "type": "request",
-            "error": "HTTP Error 429: Too Many Requests"
+            "error": "The read operation timed out"
           }
         ],
         "other": [
@@ -323,7 +319,7 @@
     "status": "paused",
     "textEnabled": false
   },
-  "count": 3750,
+  "count": 3754,
   "items": [
     {
       "identifier": "30482ManIntoSpacePart1",
@@ -36721,6 +36717,32 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "2023-07-24-02-25-51",
+      "title": "90s Animated kid TV shows VHS",
+      "description": "A VHS rip of various 90s animated shows, mid/bad quality but watchable",
+      "year": "",
+      "creator": "T2000X",
+      "subject": "saturday morning cartoons",
+      "collection": "vhskids, vhsvault",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/2023-07-24-02-25-51",
+      "thumbnail": "https://archive.org/services/img/2023-07-24-02-25-51",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "2023-07-24 02-25-51.mp4",
+          "format": "h.264",
+          "size": 2202696797,
+          "url": "https://archive.org/download/2023-07-24-02-25-51/2023-07-24%2002-25-51.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/2023-07-24-02-25-51/2023-07-24%2002-25-51.mp4",
+      "validatedAt": "2026-11-28T15:34:12.753752+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "a-bunch-of-2000s-kids-commercials-1080p-60",
       "title": "A BUNCH of 2000s Kids' Commercials",
       "description": "A collection of commercials aimed at children that aired throughout the 2000s, compiled by Youtube user Alanna Grace. The commercials are:<br /><br />- Spongebob Squarepants DVD Collection<br />- Toontown Online: \"Of course, have fun\"<br />- Kid Cuisine Cheese Pizza Painter: \"Grocery Store Freezer\"<br />- Nicktoons Network: Yakkity Yak promo<br />- Bratz Magic Hair Grow and Cut<br />- Kandoo Shampoo and Body Wash: \"The Little Mermaid\"<br />- Lego City: \"Jack the New Hero\"<br />- Cocoa Puffs: \"Skateboarding\"<br />- Chuck E. Cheese's: \"New Birthday Parties\"<br />- Hubba Bubba: \"Kung Fu Panda Adventure Sweepstakes\"<br />- Spider-Man 2 Web Action Gaming System<br />- Friendly's: \"I wanna go to Friendly's\"<br />- Barbie: \"Be who you wanna be\"<br />- The Best of Schoolhouse Rock<br />- Heelys: \"Live on the Edge\"<br />- Pop Tarts: \"Hole\"<br />- Toy Story 2 TV spot<br />- McDonald's: \"Teletubbies\"<br />- Pokemon Stadium Tour<br />- Juicy Fruit: \"Happyville Junction\"<br />- Nickelodeon Scene It<br />- Lunchables Extra Cheesy Pizza: \"Win a trip to Six Flags\"<br />- Hertz Fun Collection: \"Pixar Cars\"<br />- Froot Loops Darkberries: \"Scary Dark Island\"<br />- Hostess Chocolate Cupcakes: \"Rhino\"<br />- Chunky Chips Ahoy: \"Don’t You Want Me\"<br />- Flintstones Vitamins: \"Doctor's Office\"<br />- Cabbage Patch Kids Match<br />- Chuck E. Cheese's: \"New Birthday Parties\" (repeat)<br />- Quiznos: \"Spongmonkeys\"",
@@ -66778,6 +66800,44 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "inside_animal_mind",
+      "title": "Inside the Animal Mind ★ A 3 part Nature series - with MKV",
+      "description": "<b>Inside the Animal Mind ★ A 3 part Nature series - with MKV</b><br /> . _ .  <br /><br />I found the original DVD source materials here: <a href=\"https://archive.org/details/NatureISO\" rel=\"ugc nofollow\">https://archive.org/details/NatureISO</a> I am grateful to RatterFat Video for posting this! <b>Thank you for sharing - RatterFat Video! </b><br /><br /><br />NATURE explores the intriguing subjects of animal intelligence, emotions, and self-awareness. Intriguing surprises await viewers <b>Inside the Animal Mind</b> a three-part NATURE miniseries.<br /><br />We all believe that our pets are both intelligent and sensitive. After all, they understand our commands, read our moods, and know just how to manipulate us to get what they want. In some ways, they anticipate our behavior as accurately as we do theirs.<br /><br />But are these truly examples of intelligence, or simply the results of trial and error derived from millennia of contact with humans? Can animals actually apply insight to problem-solving and understand abstract concepts? Do they reflect on the past and worry about the future? Are they capable of recognizing their own mortality?<br /><br />NATURE explores the intriguing subjects of animal intelligence, emotions, and self-awareness, when it takes viewers Inside the Animal Mind.<br /><div><br /></div><div><br /></div><div><br /></div><div>Copyright © 2000 WNET / PBS   </div><div><h2><b>These videos are compatible with the \"Classic iPod\" 5G series! <br /></b></h2></div><br /><div><br /></div><div><br /></div><div><br /></div><b>If you like shows like this: you are highly encouraged to donate to your local PBS affiliate - now, more than ever, they need your help.<br /><a href=\"https://protectmypublicmedia.org/\" rel=\"ugc nofollow\">https://protectmypublicmedia.org/</a></b> <br />\"<b>Urge Congress</b>: Protect PBS Funding. The federal funding that supports Public Media has been eliminated in July of 2025 by the Republicans. Your PBS viewing experience is going away. Now is a critical time to act.\"<br /><a href=\"https://protectmypublicmedia.org/\" rel=\"ugc nofollow\">https://protectmypublicmedia.org/</a><br /><br />(<i>See, you CAN give back something ... you can pay \"Attention\" … now a viable currency in 2026.</i>)<br /><div><br /></div><div><br /></div><h3><b>Episodes:</b><br /><b>01</b> Are Animals Intelligent?<br /><b>02</b> Do Animals Have Emotions?<br /><b>03</b> Animal Consciousness<br /></h3><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div>The Companion Book \"<a href=\"https://archive.org/details/insideanimalmind00page\" rel=\"ugc nofollow\"><b>Inside the Animal Mind</b></a>\" by George H. Page can <b><a href=\"https://archive.org/details/insideanimalmind00page\" rel=\"ugc nofollow\"><i>NO LONGER Be Borrowed</i></a></b> - but <b><a href=\"https://www.betterworldbooks.com/search/results?q=Inside%20the%20Animal%20Mind\" rel=\"ugc nofollow\">could still be Bought</a>.</b><br /></div><div><br /></div><div><a href=\"https://archive.org/details/insideanimalmind00page\" rel=\"ugc nofollow\"><img src=\"https://archive.org/services/img/insideanimalmind00page\" alt=\"https://archive.org/services/img/insideanimalmind00page\" /></a><br /></div><div><br /></div><div><b><a href=\"https://archive.org/details/insideanimalmind00page\" rel=\"ugc nofollow\">https://archive.org/details/insideanimalmind00page</a></b></div><div><b><br /></b></div><div><b><a href=\"https://www.betterworldbooks.com/search/results?q=Inside%20the%20Animal%20Mind\" rel=\"ugc nofollow\">https://www.betterworldbooks.com/search/results?q=Inside%20the%20Animal%20Mind</a></b><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><b>You may download the ★ entire series - as MP4 ★ all at once, HERE (1.3 GB): <a href=\"https://archive.org/compress/inside_animal_mind/formats=MPEG4&amp;file=/inside_animal_mind.zip\" rel=\"ugc nofollow\">https://archive.org/compress/inside_animal_mind/formats=MPEG4&amp;file=/inside_animal_mind.zip</a></b> <br /><br /><br /><b>You may download the ★ entire series - as MKV ★ all at once, HERE (1.2 GB): <a href=\"https://archive.org/compress/inside_animal_mind/formats=MATROSKA&amp;file=/inside_animal_mind.zip\" rel=\"ugc nofollow\">https://archive.org/compress/inside_animal_mind/formats=MATROSKA&amp;file=/inside_animal_mind.zip</a></b> <br /><br /><br /><br /><br /><br /><b>____________________________________________________________________________________<br /><a href=\"https://archive.org/download/metadata-repo/Fair%20Use%20Notice.pdf\" rel=\"ugc nofollow\">Copyright Disclaimer</a>:</b><br />Under Section 107 of the Copyright Act 1976,<br />allowance is made for \"fair use\" for purposes such as criticism,<br />comment, news reporting, teaching, scholarship, and research. Fair use<br />is a use permitted by copyright statute that might otherwise be<br />infringing. Non-profit, educational or personal use tips the balance in<br />favor of fair use.<br /><br /><b>These videos are all to be used only for free, personal, educational purposes. No other use is authorized.<br />___________________________________________________________________________________<br /></b><br /><br /><br /><br /><br /><br /><br /><br /><br /><h6>I know for a fact that all-black Corvids (<b>I.E.</b> <u><a href=\"https://seamac.info/ravens/\" rel=\"ugc nofollow\">Crows and Ravens</a></u>) are highly intelligent: and can even display altruism towards each other - I have observed this myself.</h6>",
+      "year": "2000",
+      "creator": "WNET",
+      "subject": "Animal Intelligence, MKV, Nature, WNET, Entire Series Download Link, Entire Series, ALL Episodes, Complete Series, Educational, Documentary, Adult Learners, Home School, Version for iPod, George H. Page, Inside the Animal Mind, Book Available, Crow, Raven",
+      "collection": "lost-telecourses, culturalandacademicfilms",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/inside_animal_mind",
+      "thumbnail": "https://archive.org/services/img/inside_animal_mind",
+      "category": "documentarios",
+      "files": [
+        {
+          "name": "03 Animal Consciousness.mp4",
+          "format": "MPEG4",
+          "size": 497882604,
+          "url": "https://archive.org/download/inside_animal_mind/03%20Animal%20Consciousness.mp4"
+        },
+        {
+          "name": "02 Do Animal Have Emotions.mp4",
+          "format": "MPEG4",
+          "size": 475210649,
+          "url": "https://archive.org/download/inside_animal_mind/02%20Do%20Animal%20Have%20Emotions.mp4"
+        },
+        {
+          "name": "01 Are Animals Intelligent.mp4",
+          "format": "MPEG4",
+          "size": 473283606,
+          "url": "https://archive.org/download/inside_animal_mind/01%20Are%20Animals%20Intelligent.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/inside_animal_mind/03%20Animal%20Consciousness.mp4",
+      "validatedAt": "2026-11-28T15:34:32.171438+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "InternationalSpaceStationHoaxAirBubblesRise-SpaceWalksSimulatedInA",
       "title": "International Space Station Hoax : Air Bubbles Rise- Space Walks Simulated in A Massive Water Pool",
       "description": "International Space Station Hoax : Air Bubbles Rise- Space Walks Simulated in A Massive Water Pool.\n\nALL NASA FOOTAGE USED IN THIS VIDEO IS PUBLIC DOMAIN. THE USE OF ANY COPYRIGHTED MATERIAL IS USED UNDER THE GUIDELINES OF \"FAIR USE\" IN TITLE 17 Â§ 107 OF THE UNITED STATES CODE. SUCH MATERIAL REMAINS THE COPYRIGHT OF THE ORIGINAL HOLDER AND IS USED HERE FOR THE PURPOSES OF EDUCATION, COMPARISON, AND CRITICISM ONLY. NO INFRINGEMENT OF COPYRIGHT IS INTENDED.",
@@ -78299,6 +78359,74 @@
       ],
       "playbackUrl": "https://archive.org/download/batteriesnotincluded_2009/Batteries_2009_512kb.mp4",
       "validatedAt": "2026-10-17T06:15:48.223674+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "battlestar-galactica-complete-series-1978",
+      "title": "Battlestar Galactica - Complete Series 1978",
+      "description": "<p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\"><i><b>Battlestar Galactica</b></i> is an American <a href=\"https://en.wikipedia.org/wiki/Science_fiction_on_television\" title=\"Science fiction on television\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">science fiction television</a> series created by <a href=\"https://en.wikipedia.org/wiki/Glen_A._Larson\" title=\"Glen A. Larson\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Glen A. Larson</a> that aired on the <a href=\"https://en.wikipedia.org/wiki/American_Broadcasting_Company\" title=\"American Broadcasting Company\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">ABC</a> network from September 17, 1978, to April 29, 1979. It stars an ensemble cast led by <a href=\"https://en.wikipedia.org/wiki/Lorne_Greene\" title=\"Lorne Greene\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Lorne Greene</a>, <a href=\"https://en.wikipedia.org/wiki/Richard_Hatch_(actor)\" title=\"Richard Hatch (actor)\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Richard Hatch</a>, and <a href=\"https://en.wikipedia.org/wiki/Dirk_Benedict\" title=\"Dirk Benedict\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Dirk Benedict</a>. The series follows a group of humans fleeing the destruction of their homeworlds aboard the <a href=\"https://en.wikipedia.org/wiki/Battlestar_Galactica_(fictional_spacecraft)\" title=\"Battlestar Galactica (fictional spacecraft)\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">titular spacecraft</a>, searching for a new home while being pursued by the <a href=\"https://en.wikipedia.org/wiki/Cylons\" title=\"Cylons\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Cylons</a>, a fearsome society of robots intent on exterminating all humans.</p><p style=\"margin:0.5em 0px 1em;color:rgb(32,33,34);font-family:sans-serif;font-size:16px;background-color:rgb(255,255,255);\">Beginning production as a miniseries, ABC subsequently ordered a full season and the show was reworked as an episodic serial. However, high production costs and declining ratings led to the series' cancellation after 24 episodes. ABC attempted to revive the series as a lower-budget spinoff, <i><a href=\"https://en.wikipedia.org/wiki/Galactica_1980\" title=\"Galactica 1980\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">Galactica 1980</a></i>, but it performed poorly and was cancelled after airing ten episodes. Despite initially failing to find a wide audience, <i>Battlestar Galactica</i> developed a cult following. The show spawned a <a href=\"https://en.wikipedia.org/wiki/Battlestar_Galactica\" title=\"Battlestar Galactica\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">media franchise</a> which includes <a href=\"https://en.wikipedia.org/wiki/Battlestar_Galactica_(comics)\" title=\"Battlestar Galactica (comics)\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">comics</a>, theme park attractions, games, and a <a href=\"https://en.wikipedia.org/wiki/Battlestar_Galactica_(2004_TV_series)\" title=\"Battlestar Galactica (2004 TV series)\" style=\"color:rgb(51,102,204);background:none;\" rel=\"ugc nofollow\">re-imagined series</a> in the early 2000s.</p>",
+      "year": "1978",
+      "creator": "Glen A. Larson",
+      "subject": "Sci-Fi, Ancient Astronaut, Action, Adventure, Drama, USA TV, 1970s TV",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/battlestar-galactica-complete-series-1978",
+      "thumbnail": "https://archive.org/services/img/battlestar-galactica-complete-series-1978",
+      "category": "filmes",
+      "files": [
+        {
+          "name": "Battlestar Galactica 1978 S01E01+E02+E03 Saga of a Star World Pt 1 + Pt 2 + Pt 3.mp4",
+          "format": "h.264",
+          "size": 802457305,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E01%2BE02%2BE03%20Saga%20of%20a%20Star%20World%20Pt%201%20%2B%20Pt%202%20%2B%20Pt%203.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E19+E20 Greetings from Earth Pt 1 + Pt 2.mp4",
+          "format": "h.264",
+          "size": 564403792,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E19%2BE20%20Greetings%20from%20Earth%20Pt%201%20%2B%20Pt%202.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E17 The Man With Nine Lives.mp4",
+          "format": "h.264",
+          "size": 285322657,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E17%20The%20Man%20With%20Nine%20Lives.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E06 The Lost Warrior.mp4",
+          "format": "h.264",
+          "size": 284011349,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E06%20The%20Lost%20Warrior.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E16 War of the Gods Pt 2.mp4",
+          "format": "h.264",
+          "size": 283658260,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E16%20War%20of%20the%20Gods%20Pt%202.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E10 The Magnificent Warriors.mp4",
+          "format": "h.264",
+          "size": 283524325,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E10%20The%20Magnificent%20Warriors.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E21 Baltar's Escape.mp4",
+          "format": "h.264",
+          "size": 282721716,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E21%20Baltar%27s%20Escape.mp4"
+        },
+        {
+          "name": "Battlestar Galactica 1978 S01E18 Murder on the Rising Star.mp4",
+          "format": "h.264",
+          "size": 282718054,
+          "url": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E18%20Murder%20on%20the%20Rising%20Star.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/battlestar-galactica-complete-series-1978/Battlestar%20Galactica%201978%20S01E01%2BE02%2BE03%20Saga%20of%20a%20Star%20World%20Pt%201%20%2B%20Pt%202%20%2B%20Pt%203.mp4",
+      "validatedAt": "2026-11-28T15:34:11.663444+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
@@ -127014,6 +127142,45 @@
       "moderationPolicy": "paused"
     },
     {
+      "identifier": "kettle-cadaver-a-taste-of-blood",
+      "title": "Kettle Cadaver's A Taste of Blood (2002) and Among the Damned (2008)",
+      "description": "<span style=\"color:rgb(153,170,187);font-family:'TiemposTextWeb-Regular', Georgia, serif;font-size:16px;background-color:rgb(20,24,28);\">The brutal and bloody endeavours of Kettle Cadaver explode on to the screen once again, completely uncut and uncensored! From violent live performances to never before seen video clips, Among the Damned packs a convoy of carnage spanning almost 4 years</span>",
+      "year": "2002",
+      "creator": "Kettle Cadaver",
+      "subject": "horror documentary music videos kettle cadaver",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/kettle-cadaver-a-taste-of-blood",
+      "thumbnail": "https://archive.org/services/img/kettle-cadaver-a-taste-of-blood",
+      "category": "musica",
+      "files": [
+        {
+          "name": "Kettle Cadaver  Among The Damned.ia.mp4",
+          "format": "h.264 IA",
+          "size": 505448485,
+          "url": "https://archive.org/download/kettle-cadaver-a-taste-of-blood/Kettle%20Cadaver%20%20Among%20The%20Damned.ia.mp4"
+        },
+        {
+          "name": "Kettle Cadaver  Among The Damned.mp4",
+          "format": "MPEG4",
+          "size": 505448485,
+          "url": "https://archive.org/download/kettle-cadaver-a-taste-of-blood/Kettle%20Cadaver%20%20Among%20The%20Damned.mp4"
+        },
+        {
+          "name": "Kettle Cadaver- A Taste of Blood.mp4",
+          "format": "MPEG4",
+          "size": 40745211,
+          "url": "https://archive.org/download/kettle-cadaver-a-taste-of-blood/Kettle%20Cadaver-%20A%20Taste%20of%20Blood.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/kettle-cadaver-a-taste-of-blood/Kettle%20Cadaver%20%20Among%20The%20Damned.ia.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "validatedAt": "2026-11-28T15:35:53.518150+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
       "identifier": "europeana:-91660-SMVK_EM_video_2322460",
       "source": "europeana",
       "source_id": "/91660/SMVK_EM_video_2322460",
@@ -158033,13 +158200,13 @@
     {
       "key": "filmes",
       "title": "Filmes",
-      "count": 658,
+      "count": 659,
       "path": "catalog/filmes.json"
     },
     {
       "key": "desenhos",
       "title": "Desenhos",
-      "count": 520,
+      "count": 521,
       "path": "catalog/desenhos.json"
     },
     {
@@ -158051,7 +158218,7 @@
     {
       "key": "documentarios",
       "title": "Documentários",
-      "count": 387,
+      "count": 388,
       "path": "catalog/documentarios.json"
     },
     {
@@ -158075,7 +158242,7 @@
     {
       "key": "musica",
       "title": "Música e shows",
-      "count": 450,
+      "count": 451,
       "path": "catalog/musica.json"
     }
   ],

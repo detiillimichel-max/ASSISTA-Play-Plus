@@ -1,8 +1,8 @@
 {
   "category": "desenhos",
   "title": "Desenhos",
-  "updatedAt": "2026-11-27T16:45:03.077137+00:00",
-  "count": 520,
+  "updatedAt": "2026-11-28T15:37:58.306730+00:00",
+  "count": 521,
   "items": [
     {
       "identifier": "opening-to-blues-clues-stop-look-and-listen-2000-vhs-1080p",
@@ -656,6 +656,32 @@
       ],
       "playbackUrl": "https://archive.org/download/80s-christmas-specials-with-commercials-3/80s%20Christmas%20Specials%20with%20Commercials%203.mp4",
       "validatedAt": "2026-10-20T16:20:49.167148+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "2023-07-24-02-25-51",
+      "title": "90s Animated kid TV shows VHS",
+      "description": "A VHS rip of various 90s animated shows, mid/bad quality but watchable",
+      "year": "",
+      "creator": "T2000X",
+      "subject": "saturday morning cartoons",
+      "collection": "vhskids, vhsvault",
+      "mediatype": "movies",
+      "license": "",
+      "detailsUrl": "https://archive.org/details/2023-07-24-02-25-51",
+      "thumbnail": "https://archive.org/services/img/2023-07-24-02-25-51",
+      "category": "desenhos",
+      "files": [
+        {
+          "name": "2023-07-24 02-25-51.mp4",
+          "format": "h.264",
+          "size": 2202696797,
+          "url": "https://archive.org/download/2023-07-24-02-25-51/2023-07-24%2002-25-51.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/2023-07-24-02-25-51/2023-07-24%2002-25-51.mp4",
+      "validatedAt": "2026-11-28T15:34:12.753752+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },

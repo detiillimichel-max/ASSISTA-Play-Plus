@@ -1,8 +1,8 @@
 {
   "category": "musica",
   "title": "Música e shows",
-  "updatedAt": "2026-11-27T16:45:03.077137+00:00",
-  "count": 450,
+  "updatedAt": "2026-11-28T15:37:58.306730+00:00",
+  "count": 451,
   "items": [
     {
       "identifier": "notongue2-july1994",
@@ -8627,6 +8627,45 @@
       ],
       "playbackUrl": "https://archive.org/download/youtube-KDorKy-13ak/KDorKy-13ak.webm",
       "validatedAt": "2026-10-21T19:45:07.050474+00:00",
+      "source": "internet-archive",
+      "moderationPolicy": "paused"
+    },
+    {
+      "identifier": "kettle-cadaver-a-taste-of-blood",
+      "title": "Kettle Cadaver's A Taste of Blood (2002) and Among the Damned (2008)",
+      "description": "<span style=\"color:rgb(153,170,187);font-family:'TiemposTextWeb-Regular', Georgia, serif;font-size:16px;background-color:rgb(20,24,28);\">The brutal and bloody endeavours of Kettle Cadaver explode on to the screen once again, completely uncut and uncensored! From violent live performances to never before seen video clips, Among the Damned packs a convoy of carnage spanning almost 4 years</span>",
+      "year": "2002",
+      "creator": "Kettle Cadaver",
+      "subject": "horror documentary music videos kettle cadaver",
+      "collection": "opensource_movies",
+      "mediatype": "movies",
+      "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "detailsUrl": "https://archive.org/details/kettle-cadaver-a-taste-of-blood",
+      "thumbnail": "https://archive.org/services/img/kettle-cadaver-a-taste-of-blood",
+      "category": "musica",
+      "files": [
+        {
+          "name": "Kettle Cadaver  Among The Damned.ia.mp4",
+          "format": "h.264 IA",
+          "size": 505448485,
+          "url": "https://archive.org/download/kettle-cadaver-a-taste-of-blood/Kettle%20Cadaver%20%20Among%20The%20Damned.ia.mp4"
+        },
+        {
+          "name": "Kettle Cadaver  Among The Damned.mp4",
+          "format": "MPEG4",
+          "size": 505448485,
+          "url": "https://archive.org/download/kettle-cadaver-a-taste-of-blood/Kettle%20Cadaver%20%20Among%20The%20Damned.mp4"
+        },
+        {
+          "name": "Kettle Cadaver- A Taste of Blood.mp4",
+          "format": "MPEG4",
+          "size": 40745211,
+          "url": "https://archive.org/download/kettle-cadaver-a-taste-of-blood/Kettle%20Cadaver-%20A%20Taste%20of%20Blood.mp4"
+        }
+      ],
+      "playbackUrl": "https://archive.org/download/kettle-cadaver-a-taste-of-blood/Kettle%20Cadaver%20%20Among%20The%20Damned.ia.mp4",
+      "licenseurl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "validatedAt": "2026-11-28T15:35:53.518150+00:00",
       "source": "internet-archive",
       "moderationPolicy": "paused"
     },
